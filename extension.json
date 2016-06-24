@@ -1,0 +1,38 @@
+{
+	"name": "ParserMigration",
+	"author": "Tim Starling",
+	"version": "1.0.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:ParserMigration",
+	"descriptionmsg": "parsermigration-desc",
+	"license-name": "CC0-1.0",
+	"manifest_version": 1,
+	"AutoloadClasses": {
+		"MediaWiki\\ParserMigration\\EditAction": "includes/EditAction.php",
+		"MediaWiki\\ParserMigration\\MigrationEditPage": "includes/MigrationEditPage.php",
+		"MediaWiki\\ParserMigration\\Hooks": "includes/Hooks.php"
+	},
+	"Actions": {
+		"parsermigration-edit": "MediaWiki\\ParserMigration\\EditAction"
+	},
+	"MessagesDirs": {
+		"ParserMigration": "i18n"
+	},
+	"config": {
+		"ParserMigrationTidiers": []
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources"
+	},
+	"ResourceModules": {
+		"ext.parsermigration.edit": {
+			"styles": "ext.parsermigration.edit.css"
+		}
+	},
+	"DefaultUserOptions": {
+		"parsermigration": "0"
+	},
+	"Hooks": {
+		"GetPreferences": "MediaWiki\\ParserMigration\\Hooks::onGetPreferences",
+		"BaseTemplateToolbox": "MediaWiki\\ParserMigration\\Hooks::onBaseTemplateToolbox"
+	}
+}
