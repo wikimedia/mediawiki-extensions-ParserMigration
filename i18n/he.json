@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"parsermigration-desc": "כלי להגירת מפענח",
+	"parsermigration-edit-subtitle": "עם כלי הגירת המפענח",
+	"parsermigration-current": "נוכחי",
+	"parsermigration-new": "חדש",
+	"parsermigration-pref-label": "הפעלת כלי להגירת מפענח",
+	"parsermigration-pref-help": "אפשרות זו מוסיפה קישור בתפריט הימני של האתר ל[https://www.mediawiki.org/wiki/Extension:ParserMigration כלי] להמרת טקסט בדפים לגרסאות מפענחים חדשות של תוכנת מדיה־ויקי.",
+	"parsermigration-toolbox-label": "עריכה עם כלי ההגירה"
+}
