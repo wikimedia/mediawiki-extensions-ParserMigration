@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"parsermigration-desc": "Алатка за преселба на расчленувачот",
+	"parsermigration-edit-subtitle": "со алатката за преселба на расчленувачот",
+	"parsermigration-current": "Тековен",
+	"parsermigration-new": "Нов",
+	"parsermigration-pref-label": "Овозможи ја алатката за преселба на расчленувачот",
+	"parsermigration-pref-help": "Ова додава врска во страничникот за  [https://www.mediawiki.org/wiki/Extension:ParserMigration алатка] за преселба на текстови од статии во нови верзии на расчленувачот на МедијаВики.",
+	"parsermigration-toolbox-label": "Уреди со алатката за преселба"
+}

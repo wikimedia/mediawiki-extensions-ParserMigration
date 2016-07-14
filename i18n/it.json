@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"parsermigration-desc": "Parser strumento di migrazione",
+	"parsermigration-edit-subtitle": "con il parser dello strumento di migrazione",
+	"parsermigration-current": "Attuale",
+	"parsermigration-new": "Nuovo",
+	"parsermigration-pref-label": "Attiva parser strumento di migrazione",
+	"parsermigration-pref-help": "Questo aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uno strumento] per migrare il testo delle voci a una nuova versione del parser MediaWiki.",
+	"parsermigration-toolbox-label": "Modifica con strumento di migrazione"
+}
