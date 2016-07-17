@@ -4,6 +4,10 @@
 			"Purodha"
 		]
 	},
+	"parsermigration-desc": "Wärkzüsch för der Övverjang obb_ene neuje Paaser.",
+	"parsermigration-edit-subtitle": "mem Wärkzüsch för der Övverjang obb_ene neuje Paaser",
 	"parsermigration-current": "Aktoäll",
-	"parsermigration-new": "Neu"
+	"parsermigration-new": "Neu",
+	"parsermigration-pref-label": "Donn et Wärkzüsch för der Övverjang obb_ene neuje Paaser enschallde",
+	"parsermigration-toolbox-label": "Beärrbeijde mem Wärkzüsch för der Övverjang obb_ene neuje Paaser"
 }
