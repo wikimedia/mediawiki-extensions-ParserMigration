@@ -5,5 +5,6 @@
 		]
 	},
 	"parsermigration-current": "Actual",
-	"parsermigration-new": "Novo"
+	"parsermigration-new": "Novo",
+	"parsermigration-toolbox-label": "Editar con ferramenta de migración"
 }
