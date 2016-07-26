@@ -12,7 +12,6 @@ class EditAction extends \FormlessAction {
 	}
 
 	public function onView() {
-		$article = new \Article( $this->getTitle() );
 		$page = new MigrationEditPage( $this->getContext(), $this->getTitle() );
 		$page->edit();
 		return null;
