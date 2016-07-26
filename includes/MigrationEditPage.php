@@ -13,7 +13,7 @@ class MigrationEditPage extends \EditPage {
 	}
 
 	protected function getActionURL( \Title $title ) {
-		return $title->getLocalUrl( [ 'action' => 'parsermigration-edit' ] );
+		return $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] );
 	}
 
 	public function setHeaders() {

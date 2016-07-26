@@ -19,7 +19,7 @@ class Hooks {
 		$title = $skin->getTitle();
 		if ( $out->isArticleRelated() ) {
 			$toolbox['parsermigration'] = [
-				'href' => $title->getLocalUrl( [ 'action' => 'parsermigration-edit' ] ),
+				'href' => $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
 			];
 		}
