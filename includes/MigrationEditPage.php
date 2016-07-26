@@ -59,22 +59,7 @@ class MigrationEditPage extends \EditPage {
 	}
 
 	protected function tidyParserOutput( $parserOutput, $config ) {
-		switch ( $config['driver'] ) {
-			case 'RaggettInternalHHVM':
-				$tidier = new \MediaWiki\Tidy\RaggettInternalHHVM( $config );
-				break;
-			case 'RaggettInternalPHP':
-				$tidier = new \MediaWiki\Tidy\RaggettInternalPHP( $config );
-				break;
-			case 'RaggettExternal':
-				$tidier = new \MediaWiki\Tidy\RaggettExternal( $config );
-				break;
-			case 'Html5Depurate':
-				$tidier = new \MediaWiki\Tidy\Html5Depurate( $config );
-				break;
-			default:
-				throw new MWException( "Invalid tidy driver: \"{$config['driver']}\"" );
-		}
+		$tidier = \MWTidy::factory( $config );
 		$newOutput = clone $parserOutput;
 		$newOutput->setText( $tidier->tidy( $newOutput->getRawText() ) );
 		return $newOutput;
