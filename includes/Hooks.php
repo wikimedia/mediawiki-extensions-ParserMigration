@@ -20,7 +20,7 @@ class Hooks {
 		if ( $out->isArticleRelated() ) {
 			$toolbox['parsermigration'] = [
 				'href' => $title->getLocalUrl( [ 'action' => 'parsermigration-edit' ] ),
-				'text' => wfMessage( 'parsermigration-toolbox-label' )->text(),
+				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
 			];
 		}
 	}

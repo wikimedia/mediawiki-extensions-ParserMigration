@@ -8,7 +8,7 @@ class EditAction extends \FormlessAction {
 	}
 
 	protected function getDescription() {
-		return wfMessage( 'parsermigration-edit-subtitle' );
+		return $this->msg( 'parsermigration-edit-subtitle' );
 	}
 
 	public function onView() {
