@@ -3,6 +3,11 @@
 namespace MediaWiki\ParserMigration;
 
 class Hooks {
+	/**
+	 * @param $user
+	 * @param array $defaultPreferences
+	 * @return bool
+	 */
 	public static function onGetPreferences( $user, &$defaultPreferences ) {
 		$defaultPreferences['parsermigration'] = [
 			'type' => 'toggle',

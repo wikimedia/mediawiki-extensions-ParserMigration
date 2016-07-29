@@ -56,6 +56,11 @@ class MigrationEditPage extends \EditPage {
 			'html' => $previewHTML ];
 	}
 
+	/**
+	 * @param \ParserOutput $parserOutput
+	 * @param array $config
+	 * @return \ParserOutput
+	 */
 	protected function tidyParserOutput( $parserOutput, $config ) {
 		$tidier = \MWTidy::factory( $config );
 		$newOutput = clone $parserOutput;
