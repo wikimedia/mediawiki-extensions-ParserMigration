@@ -13,11 +13,16 @@ class Hooks {
 		return true;
 	}
 
+	/**
+	 * @param \BaseTemplate $template
+	 * @param array $toolbox
+	 */
 	public static function onBaseTemplateToolbox( &$template, &$toolbox ) {
 		$skin = $template->getSkin();
 		$out = $skin->getOutput();
 		$title = $skin->getTitle();
-		if ( $out->isArticleRelated() ) {
+		$user = $skin->getUser();
+		if ( $out->isArticleRelated() && $user->getOption( 'parsermigration' ) ) {
 			$toolbox['parsermigration'] = [
 				'href' => $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
