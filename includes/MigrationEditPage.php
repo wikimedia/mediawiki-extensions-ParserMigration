@@ -3,13 +3,11 @@
 namespace MediaWiki\ParserMigration;
 
 class MigrationEditPage extends \EditPage {
-	protected $pmContext;
 
 	public function __construct( \IContextSource $context, \Title $title ) {
-		$article = new \Article( $title );
+		$article = \Article::newFromTitle( $title, $context );
 		parent::__construct( $article );
 		$this->setContextTitle( $title );
-		$this->pmContext = $context;
 	}
 
 	protected function getActionURL( \Title $title ) {
@@ -18,7 +16,7 @@ class MigrationEditPage extends \EditPage {
 
 	public function setHeaders() {
 		parent::setHeaders();
-		$out = $this->pmContext->getOutput();
+		$out = $this->context->getOutput();
 		$out->addModules( 'ext.parsermigration.edit' );
 	}
 
@@ -27,7 +25,7 @@ class MigrationEditPage extends \EditPage {
 	}
 
 	protected function doPreviewParse( \Content $content ) {
-		$user = $this->pmContext->getUser();
+		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
 		$pstContent = $content->preSaveTransform( $this->mTitle, $user, $parserOptions );
 		$scopedCallback = $parserOptions->setupFakeRevision(
