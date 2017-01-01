@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Tim Starling",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Umherirrender"
 		]
 	},
-	"parsermigration-desc": "The Special:Version extension description",
+	"parsermigration-desc": "{{desc|name=ParserMigration}}",
 	"parsermigration-edit-subtitle": "A subtitle shown below the h1 when editing a page with the tool",
 	"parsermigration-current": "The column heading for the article HTML as shown by the current parser\n{{Identical|Current}}",
 	"parsermigration-new": "The column heading for the article HTML as shown by the \"new\" parser\n{{Identical|New}}",
