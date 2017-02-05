@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"parsermigration-desc": "Parser migratiehulpmiddel",
+	"parsermigration-current": "Huidig",
+	"parsermigration-new": "Nieuw",
+	"parsermigration-pref-label": "Parser migratiehulpmiddel inschakelen"
+}
