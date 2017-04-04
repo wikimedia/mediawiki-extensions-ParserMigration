@@ -24,6 +24,12 @@ class MigrationEditPage extends \EditPage {
 		return true;
 	}
 
+	protected function getPreviewParserOptions() {
+		$parserOptions = parent::getPreviewParserOptions();
+		$parserOptions->setTidy( false );
+		return $parserOptions;
+	}
+
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
