@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Woytecr"
 		]
 	},
+	"parsermigration-desc": "Narzędzie migracji dla parsera",
+	"parsermigration-edit-subtitle": "za pomocą narzędzia migracji",
 	"parsermigration-current": "Bieżący",
-	"parsermigration-new": "Nowy"
+	"parsermigration-new": "Nowy",
+	"parsermigration-pref-label": "Włącz narzędzie migracji parsera",
+	"parsermigration-pref-help": "Dodaje do menu bocznego link do [https://www.mediawiki.org/wiki/Extension:ParserMigration narzędzia] służącego do migracji tekstu artykułu do nowych wersji parsera MediaWiki.",
+	"parsermigration-toolbox-label": "Edytuj narzędziem migracji"
 }
