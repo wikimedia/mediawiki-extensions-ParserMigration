@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wertuose"
+		]
+	},
+	"parsermigration-edit-subtitle": "sintaktik təhlil köçürülməsi aləti ilə",
+	"parsermigration-pref-label": "Sintaktik təhlil alətinin yerdəyişməsini tətbiq et",
+	"parsermigration-pref-help": "Bu, məqalənin mətnini MediaViki sintaktik təhlilçisinin yeni versiyalarına köçürmək üçün yan panelə [https://www.mediawiki.org/wiki/Extension:ParserMigration alətin] keçidini əlavə edir.",
+	"parsermigration-toolbox-label": "Köçürmə aləti vasitəsilə redaktə et"
+}
