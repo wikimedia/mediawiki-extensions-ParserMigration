@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio"
+		]
+	},
+	"parsermigration-desc": "Ferramenta de migração do analisador",
+	"parsermigration-edit-subtitle": "com a ferramenta de migração do analisador",
+	"parsermigration-current": "Atual",
+	"parsermigration-new": "Novo",
+	"parsermigration-pref-label": "Ativar a ferramenta de migração do analisador",
+	"parsermigration-pref-help": "Isto adiciona uma ligação na barra lateral que fornece o acesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uma ferramenta] para migrar o texto de um artigo às novas versões do analisador do MediaWiki.",
+	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
+}
