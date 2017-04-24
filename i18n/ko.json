@@ -4,5 +4,7 @@
 			"Ykhwong"
 		]
 	},
-	"parsermigration-new": "새 항목"
+	"parsermigration-new": "새 항목",
+	"parsermigration-pref-label": "파서 이관 도구 사용",
+	"parsermigration-pref-help": "이 기능은 문서 텍스트를 새로운 버전의 미디어위키 파서로 이관하기 위한 [https://www.mediawiki.org/wiki/Extension:ParserMigration 도구]로의 접근을 제공하는 사이드바 링크를 추가합니다."
 }
