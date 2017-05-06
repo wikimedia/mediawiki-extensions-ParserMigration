@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"parsermigration-desc": "Parseri siirdevahend",
+	"parsermigration-edit-subtitle": "parseri siirdevahendiga",
+	"parsermigration-current": "Praegune",
+	"parsermigration-new": "Uus",
+	"parsermigration-pref-label": "Kasuta parseri siirdevahendit",
+	"parsermigration-pref-help": "Lisab külgribale lingi [https://www.mediawiki.org/wiki/Extension:ParserMigration vahendile], mis on mõeldud artikli teksti üleviimiseks MediaWiki parseri uuele versioonile.",
+	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga"
+}
