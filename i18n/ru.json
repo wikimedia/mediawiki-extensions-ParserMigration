@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm"
+		]
+	},
+	"parsermigration-desc": "Инструмент переезда на новый парсер",
+	"parsermigration-edit-subtitle": "с инструментом по переезду на новый парсер",
+	"parsermigration-current": "Текущий",
+	"parsermigration-new": "Новый",
+	"parsermigration-pref-label": "Включить инструмент переезда на новый парсер",
+	"parsermigration-pref-help": "Это добавит ссылку на [https://www.mediawiki.org/wiki/Extension:ParserMigration инструмент] для перевода текста статьи на новую версию парсера MediaWiki.",
+	"parsermigration-toolbox-label": "Редактировать с инструментом переезда на новый парсер"
+}
