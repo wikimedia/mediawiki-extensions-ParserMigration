@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Obsuser"
+		]
+	},
+	"parsermigration-pref-label": "Omogući alatku za menjanje parsera",
+	"parsermigration-pref-help": "Dodaje sajdbar vezu da bi se omogućio pristup [https://www.mediawiki.org/wiki/Extension:ParserMigration alatki] za premeštanje teksta članka u nove verzije Medijaviki raščlanjivača."
+}
