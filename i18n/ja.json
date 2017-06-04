@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirinano"
+		]
+	},
+	"parsermigration-pref-label": "ParserMigrationツールを使用可能にする",
+	"parsermigration-pref-help": "記事のテキストを新しいバージョンのMediaWikiパーサーに移行するための[https://www.mediawiki.org/wiki/Extension:ParserMigration ツール]にアクセスするためのリンクを追加します。"
+}
