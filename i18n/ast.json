@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"parsermigration-desc": "Ferramienta de migración del analizador",
+	"parsermigration-edit-subtitle": "cola ferramienta de migración del analizador",
+	"parsermigration-current": "Actual",
+	"parsermigration-new": "Nuevu",
+	"parsermigration-pref-label": "Activa la ferramienta de migración del analizador",
+	"parsermigration-pref-help": "Esto añade un enllaz na barra llateral que da accesu a [https://www.mediawiki.org/wiki/Extension:ParserMigration una ferramienta] pa migrar el testu del artículu a les nueves versiones del analizador de MediaWiki.",
+	"parsermigration-toolbox-label": "Editar cola ferramienta de migración"
+}
