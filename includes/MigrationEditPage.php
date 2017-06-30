@@ -24,53 +24,32 @@ class MigrationEditPage extends \EditPage {
 		return true;
 	}
 
-	protected function getPreviewParserOptions() {
-		$parserOptions = parent::getPreviewParserOptions();
-		$parserOptions->setTidy( false );
-		return $parserOptions;
-	}
-
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
+		$parserOptions->setTidy( false );
 		$pstContent = $content->preSaveTransform( $this->mTitle, $user, $parserOptions );
-		$scopedCallback = $parserOptions->setupFakeRevision(
-			$this->mTitle, $pstContent, $user );
-		$parserOutput = $pstContent->getParserOutput( $this->mTitle, null, $parserOptions );
-		\ScopedCallback::consume( $scopedCallback );
+		$mechanism = new Mechanism(
+			\RequestContext::getMain()->getConfig()->get( 'ParserMigrationTidiers' ) );
+		$outputs = $mechanism->parse( $pstContent, $this->mTitle, $parserOptions,
+			$user, [ 0, 1 ] );
 
-		$parserOutput->setEditSectionTokens( false ); // no section edit links
+		// no section edit links
+		$outputs[0]->setEditSectionTokens( false );
+		$outputs[1]->setEditSectionTokens( false );
 
-		$tidiers = \RequestContext::getMain()->getConfig()->get( 'ParserMigrationTidiers' );
-		if ( !is_array( $tidiers ) || !isset( $tidiers[0] ) || !isset( $tidiers[1] ) ) {
-			throw new \Exception( '$wgParserMigrationTidiers must have at least two elements' );
-		}
-		$leftOutput = $this->tidyParserOutput( $parserOutput, $tidiers[0] );
-		$rightOutput = $this->tidyParserOutput( $parserOutput, $tidiers[1] );
 		$previewHTML = "<table class=\"mw-parsermigration-sxs\"><tbody><tr>\n" .
 			"<th>" . wfMessage( 'parsermigration-current' )->parse() . "</th>\n" .
 			"<th>" . wfMessage( 'parsermigration-new' )->parse() . "</th>\n" .
 			"</tr><tr>\n" .
 			"<td class=\"mw-parsermigration-left\">\n\n" .
-			$leftOutput->getText() .
+			$outputs[0]->getText() .
 			"\n\n</td><td class=\"mw-parsermigration-right\">\n\n" .
-			$rightOutput->getText() .
+			$outputs[1]->getText() .
 			"\n\n</td></tr></tbody></table>\n";
 
 		return [
-			'parserOutput' => $rightOutput,
+			'parserOutput' => $outputs[1],
 			'html' => $previewHTML ];
-	}
-
-	/**
-	 * @param \ParserOutput $parserOutput
-	 * @param array $config
-	 * @return \ParserOutput
-	 */
-	protected function tidyParserOutput( $parserOutput, $config ) {
-		$tidier = \MWTidy::factory( $config );
-		$newOutput = clone $parserOutput;
-		$newOutput->setText( $tidier->tidy( $newOutput->getRawText() ) );
-		return $newOutput;
 	}
 }

@@ -7,6 +7,9 @@
 			"Nemo bis"
 		]
 	},
+	"apihelp-parser-migration-summary": "{{doc-apihelp-summary|parser-migration}}",
+	"apihelp-parser-migration-param-title": "{{doc-apihelp-param|parser-migration|title}}",
+	"apihelp-parser-migration-param-config": "{{doc-apihelp-param|parser-migration|config}}",
 	"parsermigration-desc": "{{desc|name=ParserMigration}}",
 	"parsermigration-edit-subtitle": "A subtitle shown below the h1 when editing a page with the tool",
 	"parsermigration-current": "Adjective. The column heading for the article HTML as shown by the current parser.\n{{Identical|Current}}",
