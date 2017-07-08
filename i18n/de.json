@@ -9,6 +9,6 @@
 	"parsermigration-current": "Aktuell",
 	"parsermigration-new": "Neu",
 	"parsermigration-pref-label": "Parser-Migrations-Werkzeug aktivieren",
-	"parsermigration-pref-help": "Dies fügt einen Seitenleistenlink hinzu, der Zugriff auf [https://www.mediawiki.org/wiki/Extension:ParserMigration ein Werkzeug] zur Migration von Artikeltext auf neue Versionen des MediaWiki-Parsers gibt.",
+	"parsermigration-pref-help": "Dies fügt einen Link in der Seitenleiste hinzu, der Zugriff auf [https://www.mediawiki.org/wiki/Extension:ParserMigration ein Werkzeug] zur Migration von Seitentext auf neue Versionen des MediaWiki-Parsers gibt.",
 	"parsermigration-toolbox-label": "Mit dem Migrationswerkzeug bearbeiten"
 }
