@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fúlvio"
+			"Fúlvio",
+			"Hamilton Abreu"
 		]
 	},
 	"parsermigration-desc": "Ferramenta de migração do analisador",
@@ -9,6 +10,6 @@
 	"parsermigration-current": "Atual",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Ativar a ferramenta de migração do analisador",
-	"parsermigration-pref-help": "Isto adiciona uma ligação na barra lateral que fornece o acesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uma ferramenta] para migrar o texto de um artigo às novas versões do analisador do MediaWiki.",
+	"parsermigration-pref-help": "Isto adiciona um link na barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uma ferramenta] para migrar o texto de uma página para novas versões do analisador sintático do MediaWiki.",
 	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
 }

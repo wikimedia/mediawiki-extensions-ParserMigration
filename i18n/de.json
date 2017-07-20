@@ -4,6 +4,9 @@
 			"Metalhead64"
 		]
 	},
+	"apihelp-parser-migration-summary": "Parst eine Seite mit zwei unterschiedlichen Tidy-Konfigurationen.",
+	"apihelp-parser-migration-param-title": "Der Titel der zu ladenden und zu parsenden Seite.",
+	"apihelp-parser-migration-param-config": "Die zu verwendende Parserkonfiguration. Kann „old“, „new“ oder „old|new“ sein.",
 	"parsermigration-desc": "Parser-Migrations-Werkzeug",
 	"parsermigration-edit-subtitle": "mit dem Parser-Migrations-Werkzeug",
 	"parsermigration-current": "Aktuell",

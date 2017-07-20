@@ -4,6 +4,9 @@
 			"Liuxinyu970226"
 		]
 	},
+	"apihelp-parser-migration-summary": "使用两种不同的整理配置解析页面。",
+	"apihelp-parser-migration-param-title": "要加载并解析的页面标题。",
+	"apihelp-parser-migration-param-config": "要使用的解析器配置。可以为“old”、“new”或“old|new”。",
 	"parsermigration-desc": "解析器迁移工具",
 	"parsermigration-edit-subtitle": "通过解析器迁移工具",
 	"parsermigration-current": "当前",

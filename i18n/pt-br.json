@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Peter Fernando"
+			"Peter Fernando",
+			"Felipe L. Ewald"
 		]
 	},
+	"parsermigration-desc": "Ferramenta de migração Parser",
 	"parsermigration-current": "Atual",
 	"parsermigration-new": "Novo"
 }

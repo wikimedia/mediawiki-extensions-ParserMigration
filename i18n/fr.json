@@ -5,6 +5,9 @@
 			"Gomoko"
 		]
 	},
+	"apihelp-parser-migration-summary": "Analyser une page avec deux configurations ordonnées différentes.",
+	"apihelp-parser-migration-param-title": "Le titre de la page à charger et analyser.",
+	"apihelp-parser-migration-param-config": "La configuration de l'analyseur à utiliser. Peut être  « old », « new » ou « old|new ».",
 	"parsermigration-desc": "Outil de migration de l'analyseur",
 	"parsermigration-edit-subtitle": "avec l'outil de migration de l'analyseur",
 	"parsermigration-current": "Actuel",
