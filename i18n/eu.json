@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba"
+		]
+	},
+	"apihelp-parser-migration-summary": "Bi konfigurazio txukun eta desberdin dituen orrialdea aztertu.",
+	"apihelp-parser-migration-param-title": "Orrialdearen izenburua kargatu eta aztertzeko."
+}

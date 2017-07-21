@@ -4,11 +4,14 @@
 			"Bjankuloski06"
 		]
 	},
+	"apihelp-parser-migration-summary": "Расчлени страници со различни уредни поставености.",
+	"apihelp-parser-migration-param-title": "Насловот на страницата што треба да се вчита и раслчени.",
+	"apihelp-parser-migration-param-config": "Поставеноста на расчленувачот што ќе се користи. Може да биде „old“, „new“ или „old|new“.",
 	"parsermigration-desc": "Алатка за преселба на расчленувачот",
 	"parsermigration-edit-subtitle": "со алатката за преселба на расчленувачот",
 	"parsermigration-current": "Тековен",
 	"parsermigration-new": "Нов",
 	"parsermigration-pref-label": "Овозможи ја алатката за преселба на расчленувачот",
-	"parsermigration-pref-help": "Ова додава врска во страничникот за  [https://www.mediawiki.org/wiki/Extension:ParserMigration алатка] за преселба на текстови од статии во нови верзии на расчленувачот на МедијаВики.",
+	"parsermigration-pref-help": "Ова додава врска во страничникот за  [https://www.mediawiki.org/wiki/Extension:ParserMigration алатка] за преселба на текстови од страници во нови верзии на расчленувачот на МедијаВики.",
 	"parsermigration-toolbox-label": "Уреди со алатката за преселба"
 }
