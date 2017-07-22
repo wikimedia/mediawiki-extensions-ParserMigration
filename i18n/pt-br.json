@@ -7,5 +7,6 @@
 	},
 	"parsermigration-desc": "Ferramenta de migração Parser",
 	"parsermigration-current": "Atual",
-	"parsermigration-new": "Novo"
+	"parsermigration-new": "Novo",
+	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
 }
