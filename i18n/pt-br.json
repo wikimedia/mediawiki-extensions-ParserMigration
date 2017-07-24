@@ -5,8 +5,11 @@
 			"Felipe L. Ewald"
 		]
 	},
+	"apihelp-parser-migration-summary": "Analisar uma página com duas configurações tidy distintas.",
 	"parsermigration-desc": "Ferramenta de migração Parser",
+	"parsermigration-edit-subtitle": "com a ferramenta de migração de analisador",
 	"parsermigration-current": "Atual",
 	"parsermigration-new": "Novo",
+	"parsermigration-pref-label": "Habilitar a ferramenta de migração de analisador",
 	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
 }
