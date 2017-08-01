@@ -5,6 +5,8 @@
 			"Elisardojm"
 		]
 	},
+	"apihelp-parser-migration-param-title": "Título da páxina a cargar e analizar.",
+	"apihelp-parser-migration-param-config": "A configuración do analizador a usar. Pode ser \"old\" (antigo), \"new\" (novo) ou \"old|new\" (antigo|novo).",
 	"parsermigration-desc": "Ferramenta de migración do analizador",
 	"parsermigration-edit-subtitle": "coa ferramenta de migración do analizador",
 	"parsermigration-current": "Actual",
