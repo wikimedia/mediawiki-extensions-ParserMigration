@@ -2,6 +2,8 @@
 
 namespace MediaWiki\ParserMigration;
 
+use Wikimedia\ScopedCallback;
+
 class Mechanism {
 	public $tidiers;
 
@@ -19,7 +21,7 @@ class Mechanism {
 		$options->setTidy( false );
 		$scopedCallback = $options->setupFakeRevision( $title, $content, $user );
 		$parserOutput = $content->getParserOutput( $title, null, $options );
-		\ScopedCallback::consume( $scopedCallback );
+		ScopedCallback::consume( $scopedCallback );
 
 		$outputs = [];
 		foreach ( $configIndexes as $i ) {
