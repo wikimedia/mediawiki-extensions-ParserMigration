@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
+	"parsermigration-pref-label": "Atibar la ferramienta de migraçon de l'analisador sintático",
+	"parsermigration-pref-help": "Esto adiciona ua lhigaçon na barra lhateral que cuncede acesso a la [https://www.mediawiki.org/wiki/Extension:ParserMigration ua ferramienta] pa migrar l testo dua páigina pa nuobas bersones de l'analisador sintático de l MediaWiki."
+}

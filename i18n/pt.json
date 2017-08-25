@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fúlvio",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"MokaAkashiyaPT"
 		]
 	},
 	"apihelp-parser-migration-summary": "Fazer a análise sintática de uma página com duas configurações diferentes.",
@@ -13,6 +14,6 @@
 	"parsermigration-current": "Atual",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Ativar a ferramenta de migração do analisador sintático",
-	"parsermigration-pref-help": "Isto adiciona um link na barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uma ferramenta] para migrar o texto de uma página para novas versões do analisador sintático do MediaWiki.",
+	"parsermigration-pref-help": "Isto adiciona uma ligação na barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uma ferramenta] para migrar o texto de uma página para novas versões do analisador sintático do MediaWiki.",
 	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
 }
