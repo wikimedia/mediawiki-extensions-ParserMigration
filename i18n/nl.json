@@ -4,8 +4,11 @@
 			"Mainframe98"
 		]
 	},
+	"apihelp-parser-migration-param-config": "De te gebruiken parserconfiguratie. Kan \"old\", \"new\" of \"old|new\"",
 	"parsermigration-desc": "Parser migratiehulpmiddel",
+	"parsermigration-edit-subtitle": "met parsermigratiehulpmiddel",
 	"parsermigration-current": "Huidig",
 	"parsermigration-new": "Nieuw",
-	"parsermigration-pref-label": "Parser migratiehulpmiddel inschakelen"
+	"parsermigration-pref-label": "Parser migratiehulpmiddel inschakelen",
+	"parsermigration-toolbox-label": "Bewerken met migratiehulpmiddel"
 }
