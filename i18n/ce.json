@@ -4,5 +4,10 @@
 			"Умар"
 		]
 	},
-	"parsermigration-new": "Керланиг"
+	"parsermigration-desc": "Дехьйоккху гӀирс керла парсер тӀе",
+	"parsermigration-edit-subtitle": "дехьйоккху гӀирсаца керла парсер тӀе",
+	"parsermigration-current": "Карара",
+	"parsermigration-new": "Керланиг",
+	"parsermigration-pref-label": "Латабе дехьйоккху гӀирс керла парсер тӀе",
+	"parsermigration-toolbox-label": "Дехьйоккху гӀирсаца керла парсер тӀе тадар дан"
 }

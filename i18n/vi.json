@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"apihelp-parser-migration-summary": "Phân tích trang theo hai cấu hình Tidy khác nhau.",
+	"parsermigration-desc": "Công cụ chuyển đổi bộ phân tích",
+	"parsermigration-edit-subtitle": "với công cụ chuyển đổi bộ phân tích",
+	"parsermigration-current": "Hiện hành",
+	"parsermigration-new": "Mới",
+	"parsermigration-pref-label": "Bật công cụ chuyển đổi bộ phân tích",
+	"parsermigration-pref-help": "Thêm liên kết vào thanh bên để truy cập [https://www.mediawiki.org/wiki/Extension:ParserMigration một công cụ] để chuyển đổi văn bản trang đến phiên bản mới của bộ phân tích MediaWiki.",
+	"parsermigration-toolbox-label": "Sửa đổi với công cụ chuyển đổi bộ phân tích"
+}
