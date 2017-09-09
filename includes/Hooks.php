@@ -4,8 +4,8 @@ namespace MediaWiki\ParserMigration;
 
 class Hooks {
 	/**
-	 * @param $user
-	 * @param array $defaultPreferences
+	 * @param User $user
+	 * @param array &$defaultPreferences
 	 * @return bool
 	 */
 	public static function onGetPreferences( $user, &$defaultPreferences ) {
@@ -19,8 +19,8 @@ class Hooks {
 	}
 
 	/**
-	 * @param \BaseTemplate $template
-	 * @param array $toolbox
+	 * @param \BaseTemplate &$template
+	 * @param array &$toolbox
 	 */
 	public static function onBaseTemplateToolbox( &$template, &$toolbox ) {
 		$skin = $template->getSkin();
