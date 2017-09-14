@@ -9,7 +9,7 @@
 	"apihelp-parser-migration-param-config": "The parser configuration to use. May be \"old\", \"new\" or \"old|new\".",
 	"parsermigration-desc": "Parser migration tool",
 	"parsermigration-edit-subtitle": "with parser migration tool",
-	"parsermigration-current": "Current",
+	"parsermigration-current": "Old",
 	"parsermigration-new": "New",
 	"parsermigration-pref-label": "Enable parser migration tool",
 	"parsermigration-pref-help": "This adds a sidebar link giving access to [https://www.mediawiki.org/wiki/Extension:ParserMigration a tool] for migrating page text to new versions of the MediaWiki parser.",
