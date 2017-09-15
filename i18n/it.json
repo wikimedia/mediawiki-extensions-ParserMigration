@@ -7,7 +7,7 @@
 	"apihelp-parser-migration-param-title": "Il titolo della pagina da caricare e analizzare.",
 	"parsermigration-desc": "Parser strumento di migrazione",
 	"parsermigration-edit-subtitle": "con il parser dello strumento di migrazione",
-	"parsermigration-current": "Attuale",
+	"parsermigration-current": "Vecchio",
 	"parsermigration-new": "Nuovo",
 	"parsermigration-pref-label": "Attiva parser strumento di migrazione",
 	"parsermigration-pref-help": "Questo aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration uno strumento] per migrare il testo delle pagine a una nuova versione del parser MediaWiki.",
