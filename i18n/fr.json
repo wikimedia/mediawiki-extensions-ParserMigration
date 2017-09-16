@@ -10,7 +10,7 @@
 	"apihelp-parser-migration-param-config": "La configuration de l'analyseur à utiliser. Peut être  « old », « new » ou « old|new ».",
 	"parsermigration-desc": "Outil de migration de l'analyseur",
 	"parsermigration-edit-subtitle": "avec l'outil de migration de l'analyseur",
-	"parsermigration-current": "Actuel",
+	"parsermigration-current": "Ancien",
 	"parsermigration-new": "Nouveau",
 	"parsermigration-pref-label": "Activer l'outil de migration de l'analyseur",
 	"parsermigration-pref-help": "Ceci ajoute une barre latérale avec un lien donnant accès à  [https://www.mediawiki.org/wiki/Extension:ParserMigration un outil] permettant la migration du texte des pages vers les nouvelles versions de l’analyseur MediaWiki.",
