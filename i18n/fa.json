@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reza1615"
+			"Reza1615",
+			"Ommmmid"
 		]
 	},
 	"apihelp-parser-migration-summary": "تجزیه صفحه با دو تظیمات متفاوت",
@@ -9,7 +10,7 @@
 	"apihelp-parser-migration-param-config": "تنظیمات تجزیه‌گر برای استفاده: ممکن است «قدیمی»، «جدید» یا «قدیمی|جدید».",
 	"parsermigration-desc": "ابزار مهاجرت تجزیه‌گر",
 	"parsermigration-edit-subtitle": "با ابزار مهاجرت تجزیه‌گر",
-	"parsermigration-current": "کنونی",
+	"parsermigration-current": "قدیمی:",
 	"parsermigration-new": "جديد",
 	"parsermigration-pref-label": "فعال‌کردن ابزار مهاجرت تجزیه‌گر",
 	"parsermigration-pref-help": "این در نوار کناری یک پیوند به [https://www.mediawiki.org/wiki/Extension:ParserMigration یک ابزار] برای مهاجرت متن صفحه به تجزیه‌گر مدیاویکی ایجاد می‌کند.",
