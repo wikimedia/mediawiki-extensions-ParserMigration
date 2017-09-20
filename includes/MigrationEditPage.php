@@ -39,8 +39,8 @@ class MigrationEditPage extends \EditPage {
 		$outputs[1]->setEditSectionTokens( false );
 
 		$previewHTML = "<table class=\"mw-parsermigration-sxs\"><tbody><tr>\n" .
-			"<th>" . wfMessage( 'parsermigration-current' )->parse() . "</th>\n" .
-			"<th>" . wfMessage( 'parsermigration-new' )->parse() . "</th>\n" .
+			"<th>" . $this->context->msg( 'parsermigration-current' )->parse() . "</th>\n" .
+			"<th>" . $this->context->msg( 'parsermigration-new' )->parse() . "</th>\n" .
 			"</tr><tr>\n" .
 			"<td class=\"mw-parsermigration-left\">\n\n" .
 			$outputs[0]->getText() .
