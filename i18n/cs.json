@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mormegil"
+			"Mormegil",
+			"Dvorapa"
 		]
 	},
 	"apihelp-parser-migration-summary": "Analyzuje stránku pomocí dvou odlišných konfigurací Tidy.",
@@ -9,7 +10,7 @@
 	"apihelp-parser-migration-param-config": "Konfigurace parseru, která se má použít. Může být „old“, „new“ nebo „old|new“.",
 	"parsermigration-desc": "Nástroj pro migraci parseru",
 	"parsermigration-edit-subtitle": "s nástrojem pro migraci parseru",
-	"parsermigration-current": "Aktuální",
+	"parsermigration-current": "Původní",
 	"parsermigration-new": "Nová",
 	"parsermigration-pref-label": "Povolit nástroj pro migraci parseru",
 	"parsermigration-pref-help": "Přidává odkaz do postranního panelu, který zpřístupňuje [https://www.mediawiki.org/wiki/Extension:ParserMigration nástroj] pro migraci textu stránky na nové verze parseru MediaWiki.",
