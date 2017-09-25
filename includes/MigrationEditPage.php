@@ -17,7 +17,7 @@ class MigrationEditPage extends \EditPage {
 	public function setHeaders() {
 		parent::setHeaders();
 		$out = $this->context->getOutput();
-		$out->addModules( 'ext.parsermigration.edit' );
+		$out->addModuleStyles( 'ext.parsermigration.edit' );
 	}
 
 	protected function previewOnOpen() {
