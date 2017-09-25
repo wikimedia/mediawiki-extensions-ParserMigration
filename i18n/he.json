@@ -7,7 +7,7 @@
 	},
 	"parsermigration-desc": "כלי להגירת מפענח",
 	"parsermigration-edit-subtitle": "עם כלי הגירת המפענח",
-	"parsermigration-current": "נוכחי",
+	"parsermigration-current": "ישן",
 	"parsermigration-new": "חדש",
 	"parsermigration-pref-label": "הפעלת כלי להגירת מפענח",
 	"parsermigration-pref-help": "הוספת קישור בתפריט הצד  ל[https://www.mediawiki.org/wiki/Extension:ParserMigration כלי] להמרת טקסט הדף לגרסאות חדשות של מפענח מדיה־ויקי.",
