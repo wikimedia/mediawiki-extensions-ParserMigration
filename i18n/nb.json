@@ -6,7 +6,7 @@
 	},
 	"parsermigration-desc": "Parsermigrasjonsverktøy",
 	"parsermigration-edit-subtitle": "med parsermigrasjonsverktøyet",
-	"parsermigration-current": "Nåværende",
+	"parsermigration-current": "Gammel",
 	"parsermigration-new": "Ny",
 	"parsermigration-pref-label": "Slå på parsermigrasjonsverktøyet",
 	"parsermigration-pref-help": "Dette legger til en lenke i sidemenyen som gir tilgang til [https://www.mediawiki.org/wiki/Extension:ParserMigration et verktøy] for å migrere artikkeltekst til nye versjoner av MediaWiki-parseren.",
