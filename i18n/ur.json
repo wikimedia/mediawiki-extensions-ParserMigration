@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib"
+		]
+	},
+	"apihelp-parser-migration-summary": "دو مختلف ترتیبات کی مدد سے صفحہ کا تجزیہ کریں۔",
+	"apihelp-parser-migration-param-title": "صفحہ کے عنوان کا تجزیہ جاری ہے۔",
+	"parsermigration-desc": "آلہ برائے منتقلی تجزیہ کار",
+	"parsermigration-edit-subtitle": "آلہ تجزیہ کار کی مدد سے",
+	"parsermigration-current": "قدیم",
+	"parsermigration-new": "جدید",
+	"parsermigration-pref-label": "آلہ منتقلی تجزیہ کار کو فعال کریں",
+	"parsermigration-pref-help": "اسے فعال کرنے پر سائڈ بار میں [https://www.mediawiki.org/wiki/Extension:ParserMigration ایک آلے] کا ربط ظاہر ہوگا جس کی مدد سے صفحے کے متن کو میڈیاویکی تجزیہ کار کے نئے نسخوں کی جانب منتقل کیا جا سکتا ہے۔",
+	"parsermigration-toolbox-label": "ترمیم بذریعہ آلہ منتقلی"
+}
