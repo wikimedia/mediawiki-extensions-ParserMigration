@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"parsermigration-current": "اوسنی",
-	"parsermigration-new": "نوی"
+	"parsermigration-new": "نوی",
+	"parsermigration-toolbox-label": "سمونه د مهاجرت د وسیلي سره سم"
 }

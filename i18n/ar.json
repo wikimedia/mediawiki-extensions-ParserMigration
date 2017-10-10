@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"علاء"
+		]
+	},
+	"apihelp-parser-migration-summary": "تحليل صفحة تتكون من تكوينين مرتبين مختلفين.",
+	"apihelp-parser-migration-param-title": "عنوان الصفحة للتحميل والتحليل.",
+	"apihelp-parser-migration-param-config": "تكوين المحلل للاستخدام. قد يكون \"قديم\" أو \"جديد\" أو \"قديم/جديد\".",
+	"parsermigration-desc": "أداة ترحيل المحلل",
+	"parsermigration-edit-subtitle": "مع أداة ترحيل المحلل",
+	"parsermigration-current": "قديم",
+	"parsermigration-new": "جديد",
+	"parsermigration-pref-label": "تفعيل أداة ترحيل المحلل",
+	"parsermigration-pref-help": "يعمل هذا على إضافة ارتباط في الشريط الجانبي للوصول إلى [https://www.mediawiki.org/wiki/Extension:ParserMigration أداة] لترحيل نص الصفحة إلى النسخ الأحدث من محلل الميدياويكي.",
+	"parsermigration-toolbox-label": "التعديل مع أداة المُرحل"
+}
