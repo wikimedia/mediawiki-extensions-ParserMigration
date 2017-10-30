@@ -7,6 +7,7 @@
 	"apihelp-parser-migration-summary": "Parse a page with two different tidy configurations.",
 	"apihelp-parser-migration-param-title": "The title of the page to load and parse.",
 	"apihelp-parser-migration-param-config": "The parser configuration to use. May be \"old\", \"new\" or \"old|new\".",
+	"apihelp-parser-migration-param-redirect": "Redirects are followed by default. Use \"no\" to not follow redirects.",
 	"parsermigration-desc": "Parser migration tool",
 	"parsermigration-edit-subtitle": "with parser migration tool",
 	"parsermigration-current": "Old",

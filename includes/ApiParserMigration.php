@@ -12,6 +12,14 @@ class ApiParserMigration extends \ApiBase {
 		$params = $this->extractRequestParams();
 
 		$title = $this->getTitleOrPageId( $params )->getTitle();
+		// Follow redirects by default. Redirect link output is not
+		// interesting for rendering diff comparisons. Provide clients
+		// the option to choose the redirect page via '&redirect=no'.
+		if ( $title->isRedirect() && (
+			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
+			) ) {
+			$title = WikiPage::factory( $title )->getRedirectTarget();
+		}
 		$revision = \Revision::newFromTitle( $title );
 		if ( !$revision ) {
 			$this->dieWithError( 'apierror-missingtitle' );
@@ -55,7 +63,11 @@ class ApiParserMigration extends \ApiBase {
 				\ApiBase::PARAM_TYPE => self::$configNames,
 				\ApiBase::PARAM_DFLT => 'old|new',
 				\ApiBase::PARAM_ISMULTI => true,
-			]
+			],
+			'redirect' => [
+				\ApiBase::PARAM_TYPE => 'string',
+				\ApiBase::PARAM_REQUIRED => false,
+			],
 		];
 	}
 }
