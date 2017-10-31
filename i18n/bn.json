@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"আজিজ"
 		]
 	},
+	"apihelp-parser-migration-param-redirect": "পুনঃনির্দেশগুলি পূর্বনির্ধারিত। সরাসরি পুনঃনির্দেশিত না হতে \"না\" ব্যবহার করুন।",
 	"parsermigration-desc": "পার্সার স্থানান্তরণ সরঞ্জাম",
 	"parsermigration-edit-subtitle": "পার্সার স্থানান্তরণ সরঞ্জামসহ",
 	"parsermigration-current": "পুরনো",
