@@ -4,7 +4,7 @@ namespace MediaWiki\ParserMigration;
 
 class Hooks {
 	/**
-	 * @param User $user
+	 * @param \User $user
 	 * @param array &$defaultPreferences
 	 * @return bool
 	 */
