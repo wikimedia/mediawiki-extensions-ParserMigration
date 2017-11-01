@@ -18,7 +18,7 @@ class ApiParserMigration extends \ApiBase {
 		if ( $title->isRedirect() && (
 			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
 			) ) {
-			$title = WikiPage::factory( $title )->getRedirectTarget();
+			$title = \WikiPage::factory( $title )->getRedirectTarget();
 		}
 		$revision = \Revision::newFromTitle( $title );
 		if ( !$revision ) {
