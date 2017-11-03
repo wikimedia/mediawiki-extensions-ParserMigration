@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
+	"apihelp-parser-migration-param-redirect": "Las redirecciones se siguen de manera predeterminada. Utiliza «no» para no seguir las redirecciones.",
 	"parsermigration-desc": "Herramienta de migración del analizador",
 	"parsermigration-edit-subtitle": "con la herramienta de migración del analizador",
 	"parsermigration-current": "Antiguo",
