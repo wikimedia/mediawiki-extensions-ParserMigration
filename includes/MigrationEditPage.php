@@ -35,17 +35,16 @@ class MigrationEditPage extends \EditPage {
 			$user, [ 0, 1 ] );
 
 		// no section edit links
-		$outputs[0]->setEditSectionTokens( false );
-		$outputs[1]->setEditSectionTokens( false );
+		$poOptions = [ 'enableSectionEditLinks' => false ];
 
 		$previewHTML = "<table class=\"mw-parsermigration-sxs\"><tbody><tr>\n" .
 			"<th>" . $this->context->msg( 'parsermigration-current' )->parse() . "</th>\n" .
 			"<th>" . $this->context->msg( 'parsermigration-new' )->parse() . "</th>\n" .
 			"</tr><tr>\n" .
 			"<td class=\"mw-parsermigration-left\">\n\n" .
-			$outputs[0]->getText() .
+			$outputs[0]->getText( $poOptions ) .
 			"\n\n</td><td class=\"mw-parsermigration-right\">\n\n" .
-			$outputs[1]->getText() .
+			$outputs[1]->getText( $poOptions ) .
 			"\n\n</td></tr></tbody></table>\n";
 
 		return [
