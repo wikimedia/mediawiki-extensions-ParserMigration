@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Manvydasz"
 		]
 	},
-	"parsermigration-current": "Dabartinis",
+	"parsermigration-current": "Senas",
 	"parsermigration-new": "Naujas",
 	"parsermigration-toolbox-label": "Redaguoti su migracijos įrankiu"
 }
