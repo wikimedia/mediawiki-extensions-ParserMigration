@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"KATRINE1992"
+			"KATRINE1992",
+			"Geraki"
 		]
 	},
-	"apihelp-parser-migration-param-redirect": "Η ανακατεύθυνση ακολουθείται από προ-επιλογή. Χρησιμοποιείστε το ''όχι'' για την μη αλλαγή κατεύθυνσης"
+	"apihelp-parser-migration-summary": "Αναλύστε μια σελίδα με δύο διαφορετικές ρυθμίσεις.",
+	"apihelp-parser-migration-param-title": "Ο τίτλος της σελίδας για φόρτωση και ανάλυση.",
+	"apihelp-parser-migration-param-redirect": "Η ανακατεύθυνση ακολουθείται από προ-επιλογή. Χρησιμοποιείστε το ''όχι'' για την μη αλλαγή κατεύθυνσης",
+	"parsermigration-desc": "Εργαλείο αλλαγής parser",
+	"parsermigration-edit-subtitle": "με το εργαλείο αλλαγής parser",
+	"parsermigration-current": "Παλιό",
+	"parsermigration-new": "Νέο",
+	"parsermigration-pref-label": "Ενεργοποίηση του εργαλείου αλλαγής parser",
+	"parsermigration-pref-help": "Αυτό προσθέτει έναν σύνδεσμο στην πλευρική στήλη που δίνει πρόσβαση σε ένα [https://www.mediawiki.org/wiki/Extension:ParserMigration εργαλείο] για τη μετάβαση κειμένου σελίδας σε νέες εκδόσεις του parser του MediaWiki.",
+	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης"
 }
