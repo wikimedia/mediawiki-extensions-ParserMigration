@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"A2093064"
+			"A2093064",
+			"Hello903hello"
 		]
 	},
-	"parsermigration-current": "目前",
+	"parsermigration-current": "舊",
 	"parsermigration-new": "新的",
 	"parsermigration-pref-label": "啟用解析器遷移工具",
 	"parsermigration-pref-help": "這會添加邊欄連結，提供對[https://www.mediawiki.org/wiki/Extension:ParserMigration 工具]的訪問，以遷移頁面文本至MediaWiki解析器的新版本。"
