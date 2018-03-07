@@ -4,6 +4,7 @@
 			"Ykhwong"
 		]
 	},
+	"apihelp-parser-migration-summary": "서로 다른 2개의 Tidy 구성을 사용하여 문서의 구문을 분석합니다.",
 	"apihelp-parser-migration-param-title": "불러온 다음 구문을 분석한 문서의 제목입니다.",
 	"apihelp-parser-migration-param-config": "사용할 파서 구성입니다. \"old\", \"new\" 또는 \"old|new\"가 올 수 있습니다.",
 	"apihelp-parser-migration-param-redirect": "넘겨주기가 기본적으로 따라옵니다. 넘겨주기를 따르지 않으려면 \"no\"를 사용하십시오.",
