@@ -4,7 +4,8 @@
 			"Facenapalm",
 			"Sunpriat",
 			"Okras",
-			"Jack who built the house"
+			"Jack who built the house",
+			"Patrick Star"
 		]
 	},
 	"parsermigration-desc": "Инструмент переезда на новый парсер",
@@ -12,6 +13,6 @@
 	"parsermigration-current": "Старый",
 	"parsermigration-new": "Новый",
 	"parsermigration-pref-label": "Включить инструмент переезда на новый парсер",
-	"parsermigration-pref-help": "Это добавит в боковую панель ссылку, предоставляющую доступ к [https://www.mediawiki.org/wiki/Extension:ParserMigration инструменту] для предпросмотра текста статьи через новую версию парсера MediaWiki.",
+	"parsermigration-pref-help": "Это добавит в боковую панель ссылку, предоставляющую доступ к [https://www.mediawiki.org/wiki/Extension:ParserMigration инструменту] для предпросмотра текста страницы через новую версию парсера MediaWiki.",
 	"parsermigration-toolbox-label": "Редактировать с инструментом переезда на новый парсер"
 }
