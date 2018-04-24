@@ -13,7 +13,7 @@ class Hooks {
 			'type' => 'toggle',
 			'label-message' => 'parsermigration-pref-label',
 			'help-message' => 'parsermigration-pref-help',
-			'section' => 'editing/advancedediting'
+			'section' => 'editing/developertools'
 		];
 		return true;
 	}
