@@ -5,6 +5,10 @@
 			"Amire80"
 		]
 	},
+	"apihelp-parser-migration-summary": "פענוח דף עם שתי תצורות שונות של tidy.",
+	"apihelp-parser-migration-param-title": "הכותרת של הדף שייטען ויפוענח.",
+	"apihelp-parser-migration-param-config": "תצורת המפענח שבה ייעשה שימוש. האפשרויות הן \"old\",&rlm; \"new\" או \"old|new\".",
+	"apihelp-parser-migration-param-redirect": "שימוש בדף היעד בהפניות מופעל כברירת מחדל. ניתן להשתמש ב־\"no\" כדי לבטל התנהגות זו.",
 	"parsermigration-desc": "כלי להגירת מפענח",
 	"parsermigration-edit-subtitle": "עם כלי הגירת המפענח",
 	"parsermigration-current": "ישן",
