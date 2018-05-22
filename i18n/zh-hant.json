@@ -7,8 +7,10 @@
 			"LNDDYL"
 		]
 	},
+	"parsermigration-edit-subtitle": "使用剖析器移轉工具",
 	"parsermigration-current": "舊",
 	"parsermigration-new": "新的",
 	"parsermigration-pref-label": "啟用剖析器移轉工具",
-	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 剖析器的新版本。"
+	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 剖析器的新版本。",
+	"parsermigration-toolbox-label": "使用移轉工具編輯"
 }
