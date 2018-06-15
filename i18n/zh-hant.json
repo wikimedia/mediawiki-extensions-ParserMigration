@@ -4,13 +4,19 @@
 			"Liuxinyu970226",
 			"A2093064",
 			"Hello903hello",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
-	"parsermigration-edit-subtitle": "使用剖析器移轉工具",
+	"apihelp-parser-migration-summary": "採用兩種不同簡明設置的解析頁面。",
+	"apihelp-parser-migration-param-title": "要載入並解析的頁面標題。",
+	"apihelp-parser-migration-param-config": "要使用的解析設置。可以是「old」、「new」、或是「old|new」。",
+	"apihelp-parser-migration-param-redirect": "依照預設會遵循重新導向。使用「no」則不遵循重新導向。",
+	"parsermigration-desc": "解析移轉工具",
+	"parsermigration-edit-subtitle": "使用解析移轉工具",
 	"parsermigration-current": "舊",
-	"parsermigration-new": "新的",
-	"parsermigration-pref-label": "啟用剖析器移轉工具",
-	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 剖析器的新版本。",
+	"parsermigration-new": "新",
+	"parsermigration-pref-label": "啟用解析移轉工具",
+	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 解析的新版本。",
 	"parsermigration-toolbox-label": "使用移轉工具編輯"
 }
