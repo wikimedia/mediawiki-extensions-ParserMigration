@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Kghbln"
 		]
 	},
 	"apihelp-parser-migration-summary": "Parst eine Seite mit zwei unterschiedlichen Tidy-Konfigurationen.",
@@ -12,7 +13,7 @@
 	"parsermigration-edit-subtitle": "mit dem Parser-Migrations-Werkzeug",
 	"parsermigration-current": "Alt",
 	"parsermigration-new": "Neu",
-	"parsermigration-pref-label": "Parser-Migrations-Werkzeug aktivieren",
+	"parsermigration-pref-label": "Parser-Migrationswerkzeug aktivieren",
 	"parsermigration-pref-help": "Dies fügt einen Link in der Seitenleiste hinzu, der Zugriff auf [https://www.mediawiki.org/wiki/Extension:ParserMigration ein Werkzeug] zur Migration von Seitentext auf neue Versionen des MediaWiki-Parsers gibt.",
 	"parsermigration-toolbox-label": "Mit dem Migrationswerkzeug bearbeiten"
 }
