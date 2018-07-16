@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"parsermigration-pref-label": "Omogoči orodje za prehajanje besedila na nov razčlenjevalnik",
+	"parsermigration-pref-help": "Na stranski meni doda povezavo na [https://www.mediawiki.org/wiki/Extension:ParserMigration orodje] za prehajanje besedil na novo različico MadiaWiki razčlenjevalnika."
+}
