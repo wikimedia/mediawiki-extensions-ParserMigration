@@ -6,7 +6,7 @@
 	},
 	"apihelp-parser-migration-summary": "Analizar una páxina con dos configuraciones de tidy distintes.",
 	"apihelp-parser-migration-param-title": "El títulu de la páxina a cargar y analizar",
-	"apihelp-parser-migration-param-config": "La configuración del analizador a usar. Pué ser «old», «new» o «old|new».",
+	"apihelp-parser-migration-param-config": "La configuración del analizador a usar. Puede ser «old», «new» o «old|new».",
 	"apihelp-parser-migration-param-redirect": "Les redireiciones síguense de manera predeterminada. Utiliza «non» pa nun siguir les redireiciones.",
 	"parsermigration-desc": "Ferramienta de migración del analizador",
 	"parsermigration-edit-subtitle": "cola ferramienta de migración del analizador",
