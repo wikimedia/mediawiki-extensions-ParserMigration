@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"parsermigration-pref-label": "पार्सर स्थानांतरण उपकरण सक्षम करा",
+	"parsermigration-pref-help": "याद्वारे, कडपट्टीत (साईडबार) एक [https://www.mediawiki.org/wiki/Extension:ParserMigration उपकरण] दुवा जोडल्या जातो, ज्याने, पानावरील मजकूर मिडियाविकी पार्सरच्या नविन आवृत्तीत स्थानांतरीत करता येतो.",
+	"parsermigration-toolbox-label": "स्थानांतरण उपकरणाद्वारे संपादन करा"
+}
