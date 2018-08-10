@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jubber"
+			"Jubber",
+			"Saederup92"
 		]
 	},
-	"parsermigration-current": "Nuværende"
+	"parsermigration-current": "Gammel",
+	"parsermigration-new": "Ny"
 }
