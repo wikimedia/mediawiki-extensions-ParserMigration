@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"TmY e12"
+		]
+	},
+	"parsermigration-pref-label": "Ayrıştırıcı geçiş aracını etkinleştir",
+	"parsermigration-pref-help": "Bu, sayfa metnini MediaWiki ayrıştırıcısının yeni sürümlerine taşımak için bir araca erişim sağlayan bir kenar çubuğu bağlantısı ekler."
+}
