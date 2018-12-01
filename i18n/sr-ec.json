@@ -15,6 +15,6 @@
 	"parsermigration-current": "Старо",
 	"parsermigration-new": "Ново",
 	"parsermigration-pref-label": "Омогући алатку за миграцију рашчлањивача",
-	"parsermigration-pref-help": "Додаје сајдбар везу која пружа приступ [https://www.mediawiki.org/wiki/Extension:ParserMigration алатки] за премештање текста странице у нове верзије Медијавики рашчлањивача.",
+	"parsermigration-pref-help": "Додаје везу у бочној траци која пружа приступ [https://www.mediawiki.org/wiki/Extension:ParserMigration алатки] за премештање текста странице у нове верзије Медијавики рашчлањивача.",
 	"parsermigration-toolbox-label": "Измена са алатком за мењање"
 }
