@@ -3,7 +3,7 @@
 namespace MediaWiki\ParserMigration;
 
 class ApiParserMigration extends \ApiBase {
-	static private $configNames = [
+	private static $configNames = [
 		0 => 'old',
 		1 => 'new',
 	];
