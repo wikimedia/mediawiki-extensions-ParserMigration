@@ -4,6 +4,15 @@
 			"Joetaras"
 		]
 	},
+	"apihelp-parser-migration-summary": "Analizze 'na pàgene cu doje configuraziune diverse.",
+	"apihelp-parser-migration-param-title": "'U titole d'a pàgene da carecà e analizzà.",
+	"apihelp-parser-migration-param-config": "'A configurazione de l'analizzatore da ausà. Pò essere \"vecchie\", \"nove\" o \"vecchie|nove\".",
+	"apihelp-parser-migration-param-redirect": "Le redirezionaminde normalmende so seguite. Ause \"no\" pe no seguì le redirezionaminde.",
+	"parsermigration-desc": "Strumende de analizzatore d'a migrazione",
+	"parsermigration-edit-subtitle": "cu 'u strumende analizzatore d'a migrazione",
 	"parsermigration-current": "Vicchie",
-	"parsermigration-new": "Nuève"
+	"parsermigration-new": "Nuève",
+	"parsermigration-pref-label": "Abbiltie 'u strumende analizzatore d'a migrazione",
+	"parsermigration-pref-help": "Quiste aggiunge 'nu collegamende 'a barre de late ca dèje l'accesse a [https://www.mediawiki.org/wiki/Extension:ParserMigration 'nu strumende] pe migrà 'u teste de le pàggene for migrating page text jndr'à revisiune nuève de l'analizzatore de MediaUicchi.",
+	"parsermigration-toolbox-label": "Cange cu 'u strumende de migrazione"
 }
