@@ -20,7 +20,10 @@
 		"parser-migration": "MediaWiki\\ParserMigration\\ApiParserMigration"
 	},
 	"MessagesDirs": {
-		"ParserMigration": "i18n"
+		"ParserMigration": [
+			"i18n",
+			"i18n/api"
+		]
 	},
 	"config": {
 		"ParserMigrationTidiers": []

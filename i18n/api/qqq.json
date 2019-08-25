@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tim Starling",
+			"Liuxinyu970226",
+			"Umherirrender",
+			"Nemo bis"
+		]
+	},
+	"apihelp-parser-migration-summary": "{{doc-apihelp-summary|parser-migration}}",
+	"apihelp-parser-migration-param-title": "{{doc-apihelp-param|parser-migration|title}}",
+	"apihelp-parser-migration-param-config": "{{doc-apihelp-param|parser-migration|config}}",
+	"apihelp-parser-migration-param-redirect": "{{doc-apihelp-param|parser-migration|redirect}}"
+}
