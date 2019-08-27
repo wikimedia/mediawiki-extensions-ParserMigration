@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"apihelp-parser-migration-summary": "تجزیه صفحه با دو تظیمات متفاوت",
+	"apihelp-parser-migration-param-title": "در حال بارگیری و تجزیه عنوان صفحه.",
+	"apihelp-parser-migration-param-config": "تنظیمات تجزیه‌گر برای استفاده: ممکن است «قدیمی»، «جدید» یا «قدیمی|جدید»."
+}

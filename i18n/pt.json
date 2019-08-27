@@ -7,10 +7,6 @@
 			"Athena in Wonderland"
 		]
 	},
-	"apihelp-parser-migration-summary": "Fazer a análise sintática de uma página com duas configurações diferentes.",
-	"apihelp-parser-migration-param-title": "O título da página para carregar e fazer a análise sintática.",
-	"apihelp-parser-migration-param-config": "A configuração do analisador sintático a usar. Pode ser \"old\" (antigo), \"new\" (novo) ou \"old|new\" (antigo|novo).",
-	"apihelp-parser-migration-param-redirect": "Por padrão, os redirecionamentos são seguidos. Usar \"no\" para não seguir redirecionamentos.",
 	"parsermigration-desc": "Ferramenta de migração do analisador sintático",
 	"parsermigration-edit-subtitle": "com a ferramenta de migração do analisador sintático",
 	"parsermigration-current": "Anterior",

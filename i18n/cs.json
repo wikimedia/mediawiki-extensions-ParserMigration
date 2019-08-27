@@ -5,9 +5,6 @@
 			"Dvorapa"
 		]
 	},
-	"apihelp-parser-migration-summary": "Analyzuje stránku pomocí dvou odlišných konfigurací Tidy.",
-	"apihelp-parser-migration-param-title": "Název stránky, která se má načíst a zpracovat.",
-	"apihelp-parser-migration-param-config": "Konfigurace parseru, která se má použít. Může být „old“, „new“ nebo „old|new“.",
 	"parsermigration-desc": "Nástroj pro migraci parseru",
 	"parsermigration-edit-subtitle": "s nástrojem pro migraci parseru",
 	"parsermigration-current": "Původní",

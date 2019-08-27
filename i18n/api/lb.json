@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apihelp-parser-migration-summary": "Analyséiert (parst) eng Säit mat zwou verschiddenen Tidy-Astellungen.",
+	"apihelp-parser-migration-param-title": "Den titel vun der Säit déi gelueden an analyséiert gi soll.",
+	"apihelp-parser-migration-param-config": "D'Astellung vum Parser déi benotzt gi soll. Kann \"al\", \"nei\" oder \"al|nei\" sinn.",
+	"apihelp-parser-migration-param-redirect": "Viruleedunge gëtt automatesch nogaangen. Benotzt \"neen\" fir Viruleedungen net nozegoen."
+}

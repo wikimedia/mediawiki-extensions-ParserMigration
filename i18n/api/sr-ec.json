@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"apihelp-parser-migration-summary": "Рашчлањује страницу са две различите уредне конфигурације.",
+	"apihelp-parser-migration-param-title": "Наслов странице за учитавање и рашчлањивање.",
+	"apihelp-parser-migration-param-config": "Конфигурација рашчлањивача за упоребу. Може да буде „старо“, „ново“ или „старо|ново“.",
+	"apihelp-parser-migration-param-redirect": "Преусмерења се прате подразумевано. Користите „не“ како не би сте пратили преусмерења."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mar(c)"
+		]
+	},
+	"apihelp-parser-migration-summary": "Een pagina parsen met twee verschillende tidy-configuraties.",
+	"apihelp-parser-migration-param-title": "De titel van de te laden en parsen pagina.",
+	"apihelp-parser-migration-param-config": "De te gebruiken parserconfiguratie. Kan \"old\", \"new\" of \"old|new\" zijn.",
+	"apihelp-parser-migration-param-redirect": "Doorverwijzingen worden standaard gevolgd. Gebruik \"no\" om doorverwijzingen niet te volgen."
+}

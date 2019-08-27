@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"apihelp-parser-migration-param-title": "Título da páxina a cargar e analizar.",
+	"apihelp-parser-migration-param-config": "A configuración do analizador a usar. Pode ser \"old\" (antigo), \"new\" (novo) ou \"old|new\" (antigo|novo).",
+	"apihelp-parser-migration-param-redirect": "As redireccións séguense de maneira predeterminada. Utilice «non» para non seguir as redireccións."
+}

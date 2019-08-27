@@ -5,9 +5,6 @@
 			"Geraki"
 		]
 	},
-	"apihelp-parser-migration-summary": "Αναλύστε μια σελίδα με δύο διαφορετικές ρυθμίσεις.",
-	"apihelp-parser-migration-param-title": "Ο τίτλος της σελίδας για φόρτωση και ανάλυση.",
-	"apihelp-parser-migration-param-redirect": "Η ανακατεύθυνση ακολουθείται από προ-επιλογή. Χρησιμοποιείστε το ''όχι'' για την μη αλλαγή κατεύθυνσης",
 	"parsermigration-desc": "Εργαλείο αλλαγής parser",
 	"parsermigration-edit-subtitle": "με το εργαλείο αλλαγής parser",
 	"parsermigration-current": "Παλιό",

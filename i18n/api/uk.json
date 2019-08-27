@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"apihelp-parser-migration-summary": "Парсити сторінку з двома різними Tidy-конфігураціями.",
+	"apihelp-parser-migration-param-title": "Назва сторінки, яку слід завантажити й парсити.",
+	"apihelp-parser-migration-param-config": "Конфігурація парсера, яку слід використати. Може бути «old», «new» або «old|new».",
+	"apihelp-parser-migration-param-redirect": "Перехід за перенаправленнями відбувається автоматично. Використовувати «no», щоб не переходити за перенаправленнями."
+}

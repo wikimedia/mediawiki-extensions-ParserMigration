@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-parser-migration-summary": "Analisar uma página com duas configurações tidy distintas.",
+	"apihelp-parser-migration-param-title": "O título da página para carregar e analisar.",
+	"apihelp-parser-migration-param-config": "A configuração do analisador para usar. Pode ser \"old\", \"new\" ou \"old|new\".",
+	"apihelp-parser-migration-param-redirect": "Por padrão, os redirecionamentos são seguidos. Usar \"no\" para não seguir redirecionamentos."
+}
