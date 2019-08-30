@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"apihelp-parser-migration-summary": "Raščlani stranice sa različitim urednim postavljenostima.",
+	"apihelp-parser-migration-param-config": "Postavljenost parsera koja će se koristi. Može da bude „old“, „new“ ili „old|new“."
+}
