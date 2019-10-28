@@ -9,6 +9,6 @@
 	"parsermigration-current": "Gammel",
 	"parsermigration-new": "Ny",
 	"parsermigration-pref-label": "Slå på parsermigrasjonsverktøyet",
-	"parsermigration-pref-help": "Dette legger til en lenke i sidemenyen som gir tilgang til [https://www.mediawiki.org/wiki/Extension:ParserMigration et verktøy] for å migrere artikkeltekst til nye versjoner av MediaWiki-parseren.",
+	"parsermigration-pref-help": "Dette legger til en lenke i sidemenyen som gir tilgang til [https://www.mediawiki.org/wiki/Extension:ParserMigration et verktøy] for å migrere sidetekst til nye versjoner av MediaWiki-parseren.",
 	"parsermigration-toolbox-label": "Rediger med migrasjonsverktøyet"
 }
