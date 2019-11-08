@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-parser-migration-summary": "Tolk en side med to forskjellige tidy-konfigurasjoner.",
+	"apihelp-parser-migration-param-title": "Tittelen på siden som skal lastes og tolkes.",
+	"apihelp-parser-migration-param-config": "Tolkekonfigurasjonen som skal brukes. Kan være «old», «new» eller «old|new».",
+	"apihelp-parser-migration-param-redirect": "Omdirigeringer tillates som standard. Bruk «no» for ikke å tillate omdirigeringer."
+}
