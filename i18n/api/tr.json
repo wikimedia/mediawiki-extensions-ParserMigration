@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"apihelp-parser-migration-summary": "İki farklı düzenli yapılandırma ile bir sayfayı ayrıştırın.",
+	"apihelp-parser-migration-param-title": "Yüklenecek ve ayrıştırılacak sayfanın başlığı.",
+	"apihelp-parser-migration-param-config": "Ayrıştırıcı yapılandırması kullanılacak. \"Eski\", \"yeni\" veya \"eski|yeni\" olabilir.",
+	"apihelp-parser-migration-param-redirect": "Yönlendirmeler varsayılan olarak izlenir. Yönlendirmeleri takip etmemek için \"hayır\" kullanın."
+}
