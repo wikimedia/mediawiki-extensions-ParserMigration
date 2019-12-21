@@ -41,6 +41,7 @@ class ApiParserMigration extends \ApiBase {
 		$mechanism = new Mechanism( $this->getConfig()->get( 'ParserMigrationTidiers' ) );
 		$user = $this->getUser();
 		$options = \ParserOptions::newCanonical();
+		// @phan-suppress-next-line PhanTypeMismatchArgumentNullable T240141
 		$outputs = $mechanism->parse( $content, $title, $options, $user, $configIndexes );
 
 		$result = $this->getResult();
