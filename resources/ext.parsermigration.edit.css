@@ -9,14 +9,16 @@
 	border-right: thin solid #ccc;
 	vertical-align: top;
 }
+
 .mw-parsermigration-right {
 	padding-left: 0.4em;
 	vertical-align: top;
 }
+
 .mw-parsermigration-sxs > tbody > tr > th {
 	border-bottom: thin solid #ccc;
 }
+
 .mw-parsermigration-sxs > tbody > tr > th:first-child {
 	border-right: thin solid #ccc;
 }
-
