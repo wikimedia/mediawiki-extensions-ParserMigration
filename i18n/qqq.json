@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tim Starling",
 			"Liuxinyu970226",
-			"Umherirrender",
-			"Nemo bis"
+			"Nemo bis",
+			"Tim Starling",
+			"Umherirrender"
 		]
 	},
 	"parsermigration-desc": "{{desc|name=ParserMigration}}",

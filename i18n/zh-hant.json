@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
 			"A2093064",
 			"Hello903hello",
+			"Kly",
 			"LNDDYL",
-			"Kly"
+			"Liuxinyu970226"
 		]
 	},
 	"parsermigration-desc": "解析移轉工具",

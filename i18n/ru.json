@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Facenapalm",
-			"Sunpriat",
-			"Okras",
 			"Jack who built the house",
-			"Patrick Star",
 			"Movses",
-			"Putnik"
+			"Okras",
+			"Patrick Star",
+			"Putnik",
+			"Sunpriat"
 		]
 	},
 	"parsermigration-desc": "Инструмент переезда на новый парсер",

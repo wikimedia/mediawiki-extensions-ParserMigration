@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Athena in Wonderland",
 			"Fúlvio",
 			"Hamilton Abreu",
-			"MokaAkashiyaPT",
-			"Athena in Wonderland"
+			"MokaAkashiyaPT"
 		]
 	},
 	"parsermigration-desc": "Ferramenta de migração do analisador sintático",

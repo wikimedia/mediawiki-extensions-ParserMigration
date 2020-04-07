@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mormegil",
-			"Dvorapa"
+			"Dvorapa",
+			"Mormegil"
 		]
 	},
 	"parsermigration-desc": "Nástroj pro migraci parseru",

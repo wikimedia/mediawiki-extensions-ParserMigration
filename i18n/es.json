@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"parsermigration-desc": "Herramienta de migración del analizador",
