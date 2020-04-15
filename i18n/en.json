@@ -9,6 +9,6 @@
 	"parsermigration-current": "Old",
 	"parsermigration-new": "New",
 	"parsermigration-pref-label": "Enable parser migration tool",
-	"parsermigration-pref-help": "This adds a sidebar link giving access to [https://www.mediawiki.org/wiki/Extension:ParserMigration a tool] for migrating page text to new versions of the MediaWiki parser.",
+	"parsermigration-pref-help": "This adds a sidebar link giving access to [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration a tool] for migrating page text to new versions of the MediaWiki parser.",
 	"parsermigration-toolbox-label": "Edit with migration tool"
 }
