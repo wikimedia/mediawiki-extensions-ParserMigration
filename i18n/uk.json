@@ -11,6 +11,6 @@
 	"parsermigration-current": "Старий",
 	"parsermigration-new": "Новий",
 	"parsermigration-pref-label": "Увімкнути інструмент міграції парсеру",
-	"parsermigration-pref-help": "Це додає посилання на бічну панель, яке дає доступ до [https://www.mediawiki.org/wiki/Extension:ParserMigration інструменту] для міграції тексту сторінки до нових версій парсера MediaWiki.",
+	"parsermigration-pref-help": "Це додає посилання на бічну панель, яке дає доступ до [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструменту] для міграції тексту сторінки до нових версій парсера MediaWiki.",
 	"parsermigration-toolbox-label": "Редагувати за допомогою інструменту міграції"
 }

@@ -6,5 +6,5 @@
 		]
 	},
 	"parsermigration-pref-label": "ParserMigrationツールを使用可能にする",
-	"parsermigration-pref-help": "ページのテキストを新しいバージョンのMediaWikiパーサーに移行するための[https://www.mediawiki.org/wiki/Extension:ParserMigration ツール]にアクセスするためのリンクを追加します。"
+	"parsermigration-pref-help": "ページのテキストを新しいバージョンのMediaWikiパーサーに移行するための[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]にアクセスするためのリンクを追加します。"
 }

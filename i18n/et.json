@@ -9,6 +9,6 @@
 	"parsermigration-current": "Vana",
 	"parsermigration-new": "Uus",
 	"parsermigration-pref-label": "Kasuta parseri siirdevahendit",
-	"parsermigration-pref-help": "Lisab külgribale lingi [https://www.mediawiki.org/wiki/Extension:ParserMigration vahendile], mis on mõeldud lehekülje teksti üleviimiseks MediaWiki parseri uuele versioonile.",
+	"parsermigration-pref-help": "Lisab külgribale lingi [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration vahendile], mis on mõeldud lehekülje teksti üleviimiseks MediaWiki parseri uuele versioonile.",
 	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga"
 }

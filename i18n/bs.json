@@ -9,6 +9,6 @@
 	"parsermigration-current": "Trenutno",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Omogući alat za prelazak na nove verzije raščlanjivača",
-	"parsermigration-pref-help": "Ovo dodaje link na bočnu traku koji pruža pristup [https://www.mediawiki.org/wiki/Extension:ParserMigration alatu] za prelazak teksta članka na nove verzije MediaWikijevog raščlanjivača.",
+	"parsermigration-pref-help": "Ovo dodaje link na bočnu traku koji pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatu] za prelazak teksta članka na nove verzije MediaWikijevog raščlanjivača.",
 	"parsermigration-toolbox-label": "Uredi s alatom za prelazak"
 }

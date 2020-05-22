@@ -10,6 +10,6 @@
 	"parsermigration-current": "Παλιό",
 	"parsermigration-new": "Νέο",
 	"parsermigration-pref-label": "Ενεργοποίηση του εργαλείου αλλαγής parser",
-	"parsermigration-pref-help": "Αυτό προσθέτει έναν σύνδεσμο στην πλευρική στήλη που δίνει πρόσβαση σε ένα [https://www.mediawiki.org/wiki/Extension:ParserMigration εργαλείο] για τη μετάβαση κειμένου σελίδας σε νέες εκδόσεις του parser του MediaWiki.",
+	"parsermigration-pref-help": "Αυτό προσθέτει έναν σύνδεσμο στην πλευρική στήλη που δίνει πρόσβαση σε ένα [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration εργαλείο] για τη μετάβαση κειμένου σελίδας σε νέες εκδόσεις του parser του MediaWiki.",
 	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης"
 }

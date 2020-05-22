@@ -9,6 +9,6 @@
 	"parsermigration-current": "قدیم",
 	"parsermigration-new": "جدید",
 	"parsermigration-pref-label": "آلہ منتقلی تجزیہ کار کو فعال کریں",
-	"parsermigration-pref-help": "اسے فعال کرنے پر سائڈ بار میں [https://www.mediawiki.org/wiki/Extension:ParserMigration ایک آلے] کا ربط ظاہر ہوگا جس کی مدد سے صفحے کے متن کو میڈیاویکی تجزیہ کار کے نئے نسخوں کی جانب منتقل کیا جا سکتا ہے۔",
+	"parsermigration-pref-help": "اسے فعال کرنے پر سائڈ بار میں [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ایک آلے] کا ربط ظاہر ہوگا جس کی مدد سے صفحے کے متن کو میڈیاویکی تجزیہ کار کے نئے نسخوں کی جانب منتقل کیا جا سکتا ہے۔",
 	"parsermigration-toolbox-label": "ترمیم بذریعہ آلہ منتقلی"
 }

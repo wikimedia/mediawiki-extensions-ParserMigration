@@ -9,5 +9,5 @@
 	"parsermigration-current": "Vanha",
 	"parsermigration-new": "Uusi",
 	"parsermigration-pref-label": "Ota käyttöön jäsentimen siirtotyökalu",
-	"parsermigration-pref-help": "Tämä lisää sivupalkkiin linkin, joka antaa pääsyn [https://www.mediawiki.org/wiki/Extension:ParserMigration työkaluun] sivutekstin siirtämiseen MediaWiki-jäsentimen uusiin versioihin."
+	"parsermigration-pref-help": "Tämä lisää sivupalkkiin linkin, joka antaa pääsyn [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration työkaluun] sivutekstin siirtämiseen MediaWiki-jäsentimen uusiin versioihin."
 }

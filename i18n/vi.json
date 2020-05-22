@@ -9,6 +9,6 @@
 	"parsermigration-current": "Cũ",
 	"parsermigration-new": "Mới",
 	"parsermigration-pref-label": "Bật công cụ chuyển đổi bộ phân tích",
-	"parsermigration-pref-help": "Thêm liên kết vào thanh bên để truy cập [https://www.mediawiki.org/wiki/Extension:ParserMigration một công cụ] để chuyển đổi văn bản trang đến phiên bản mới của bộ phân tích MediaWiki.",
+	"parsermigration-pref-help": "Thêm liên kết vào thanh bên để truy cập [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration một công cụ] để chuyển đổi văn bản trang đến phiên bản mới của bộ phân tích MediaWiki.",
 	"parsermigration-toolbox-label": "Sửa đổi với công cụ chuyển đổi bộ phân tích"
 }

@@ -9,6 +9,6 @@
 	"parsermigration-current": "Antiguu",
 	"parsermigration-new": "Nuevu",
 	"parsermigration-pref-label": "Activa la ferramienta de migración del analizador",
-	"parsermigration-pref-help": "Esto añade un enllaz na barra llateral que da accesu a [https://www.mediawiki.org/wiki/Extension:ParserMigration una ferramienta] pa migrar el testu de la páxina a les nueves versiones del analizador de MediaWiki.",
+	"parsermigration-pref-help": "Esto añade un enllaz na barra llateral que da accesu a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration una ferramienta] pa migrar el testu de la páxina a les nueves versiones del analizador de MediaWiki.",
 	"parsermigration-toolbox-label": "Editar cola ferramienta de migración"
 }

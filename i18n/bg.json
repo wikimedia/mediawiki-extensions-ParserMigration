@@ -5,5 +5,5 @@
 		]
 	},
 	"parsermigration-pref-label": "Включване на инструмента за миграция на парсъра",
-	"parsermigration-pref-help": "Това добавя връзка в страничната лента, водеща към [https://www.mediawiki.org/wiki/Extension:ParserMigration инструмент] за мигриране на текст от страница към нови версии на парсъра на МедияУики."
+	"parsermigration-pref-help": "Това добавя връзка в страничната лента, водеща към [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration инструмент] за мигриране на текст от страница към нови версии на парсъра на МедияУики."
 }

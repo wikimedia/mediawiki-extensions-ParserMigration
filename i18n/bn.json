@@ -11,6 +11,6 @@
 	"parsermigration-current": "পুরনো",
 	"parsermigration-new": "নতুন",
 	"parsermigration-pref-label": "পার্সার স্থানান্তরণ সরঞ্জাম সক্রিয় করুন",
-	"parsermigration-pref-help": "নিবন্ধের পাঠ্য স্থানান্তরের জন্য মিডিয়াউইকি পার্সারের নতুন সংস্করণে প্রবেশাধিকার প্রধানে এটি পার্শ্বদণ্ডে [https://www.mediawiki.org/wiki/Extension:ParserMigration একটি সরঞ্জামের] সংযোগ যোগ করে।",
+	"parsermigration-pref-help": "নিবন্ধের পাঠ্য স্থানান্তরের জন্য মিডিয়াউইকি পার্সারের নতুন সংস্করণে প্রবেশাধিকার প্রধানে এটি পার্শ্বদণ্ডে [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration একটি সরঞ্জামের] সংযোগ যোগ করে।",
 	"parsermigration-toolbox-label": "পার্সার স্থানান্তরণ সরঞ্জামসহ সম্পাদনা করুন"
 }

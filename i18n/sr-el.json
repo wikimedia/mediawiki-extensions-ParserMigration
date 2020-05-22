@@ -5,5 +5,5 @@
 		]
 	},
 	"parsermigration-pref-label": "Omogućavanje alatke za migraciju raščlanjivača",
-	"parsermigration-pref-help": "Dodaje sajdbar vezu da bi se omogućio pristup [https://www.mediawiki.org/wiki/Extension:ParserMigration alatki] za premeštanje teksta članka u nove verzije Medijaviki raščlanjivača."
+	"parsermigration-pref-help": "Dodaje sajdbar vezu da bi se omogućio pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za premeštanje teksta članka u nove verzije Medijaviki raščlanjivača."
 }

@@ -9,6 +9,6 @@
 	"parsermigration-current": "Ancian",
 	"parsermigration-new": "Nove",
 	"parsermigration-pref-label": "Activar le instrumento de migration syntactic",
-	"parsermigration-pref-help": "Isto adde un ligamine al barra lateral que da accesso a [https://www.mediawiki.org/wiki/Extension:ParserMigration un instrumento] pro migrar texto de paginas a nove versiones del analysator syntactic de MediaWiki.",
+	"parsermigration-pref-help": "Isto adde un ligamine al barra lateral que da accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un instrumento] pro migrar texto de paginas a nove versiones del analysator syntactic de MediaWiki.",
 	"parsermigration-toolbox-label": "Modificar con instrumento de migration"
 }

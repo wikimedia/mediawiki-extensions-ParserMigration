@@ -8,5 +8,5 @@
 	"parsermigration-current": "მიმდინარე",
 	"parsermigration-new": "ახალი",
 	"parsermigration-pref-label": "პარსერის ხელსაწყოს მიგრაციის ჩართვა",
-	"parsermigration-pref-help": "ამატებს ბმულს გვერდით ზოლზე, რომელიც იძლევა წვდომას [https://www.mediawiki.org/wiki/Extension:ParserMigration ხელსაწყოზე] სტატიის ტექსტის გადატანისათვის მედიავიკის პარსერის ახალ ვერსიებში."
+	"parsermigration-pref-help": "ამატებს ბმულს გვერდით ზოლზე, რომელიც იძლევა წვდომას [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ხელსაწყოზე] სტატიის ტექსტის გადატანისათვის მედიავიკის პარსერის ახალ ვერსიებში."
 }
