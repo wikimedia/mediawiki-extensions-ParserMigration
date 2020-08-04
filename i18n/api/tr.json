@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"apihelp-parser-migration-summary": "İki farklı düzenli yapılandırma ile bir sayfayı ayrıştırın.",
 	"apihelp-parser-migration-param-title": "Yüklenecek ve ayrıştırılacak sayfanın başlığı.",
-	"apihelp-parser-migration-param-config": "Ayrıştırıcı yapılandırması kullanılacak. \"Eski\", \"yeni\" veya \"eski|yeni\" olabilir.",
-	"apihelp-parser-migration-param-redirect": "Yönlendirmeler varsayılan olarak izlenir. Yönlendirmeleri takip etmemek için \"hayır\" kullanın."
+	"apihelp-parser-migration-param-config": "Ayrıştırıcı kullanılacak yapılandırma. \"old\", \"new\" veya \"old|new\" olabilir.",
+	"apihelp-parser-migration-param-redirect": "Yönlendirmeler varsayılan olarak izlenir. Yönlendirmeleri takip etmemek için \"no\" kullanın."
 }

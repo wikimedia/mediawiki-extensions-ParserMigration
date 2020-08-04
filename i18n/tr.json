@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"MuratTheTurkish",
 			"TmY e12",
 			"ToprakM"
 		]
@@ -11,6 +12,6 @@
 	"parsermigration-current": "Eski",
 	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Ayrıştırıcı geçiş aracını etkinleştir",
-	"parsermigration-pref-help": "Bu, sayfa metnini MediaWiki ayrıştırıcısının yeni sürümlerine geçirmek için [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration bir araç] öğesine erişim sağlayan bir kenar çubuğu bağlantısı ekler.",
+	"parsermigration-pref-help": "Bu, sayfa metnini MediaWiki ayrıştırıcısının yeni sürümlerine geçirmek için [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration bir araca] erişim sağlayan bir kenar çubuğu bağlantısı ekler.",
 	"parsermigration-toolbox-label": "Geçiş aracıyla düzenle"
 }
