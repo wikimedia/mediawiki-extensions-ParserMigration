@@ -36,9 +36,12 @@ class Mechanism {
 	 * @return \ParserOutput
 	 */
 	protected function tidyParserOutput( $parserOutput, $config ) {
-		$tidier = \MWTidy::factory( $config );
 		$newOutput = clone $parserOutput;
-		$newOutput->setText( $tidier->tidy( $newOutput->getRawText() ) );
+
+		// FIXME: MWTidy no longer exists to give a second version.
+		// $tidier = \MWTidy::factory( $config );
+		// $newOutput->setText( $tidier->tidy( $newOutput->getRawText() ) );
+
 		return $newOutput;
 	}
 }
