@@ -6,6 +6,9 @@
 	"descriptionmsg": "parsermigration-desc",
 	"license-name": "CC0-1.0",
 	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
 	"AutoloadClasses": {
 		"MediaWiki\\ParserMigration\\ApiParserMigration": "includes/ApiParserMigration.php",
 		"MediaWiki\\ParserMigration\\EditAction": "includes/EditAction.php",

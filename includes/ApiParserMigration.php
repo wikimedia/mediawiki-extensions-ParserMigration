@@ -2,6 +2,9 @@
 
 namespace MediaWiki\ParserMigration;
 
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\SlotRecord;
+
 class ApiParserMigration extends \ApiBase {
 	private static $configNames = [
 		0 => 'old',
@@ -20,13 +23,13 @@ class ApiParserMigration extends \ApiBase {
 			) ) {
 			$title = \WikiPage::factory( $title )->getRedirectTarget();
 		}
-		$revision = \Revision::newFromTitle( $title );
-		if ( !$revision ) {
+		$revisionRecord = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( $title );
+		if ( !$revisionRecord ) {
 			$this->dieWithError( 'apierror-missingtitle' );
 		}
-		$content = $revision->getContent();
+		$content = $revisionRecord->getContent( SlotRecord::MAIN );
 		if ( !$content ) {
-			$this->dieWithError( [ 'apierror-missingcontent-pageid', $revision->getPage() ] );
+			$this->dieWithError( [ 'apierror-missingcontent-pageid', $revisionRecord->getPageId() ] );
 		}
 
 		$configIndexesByName = array_flip( self::$configNames );
