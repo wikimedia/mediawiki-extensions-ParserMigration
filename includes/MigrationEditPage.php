@@ -27,7 +27,6 @@ class MigrationEditPage extends \EditPage {
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
-		$parserOptions->setTidy( false );
 		$pstContent = $content->preSaveTransform( $this->mTitle, $user, $parserOptions );
 		$mechanism = new Mechanism(
 			\RequestContext::getMain()->getConfig()->get( 'ParserMigrationTidiers' ) );

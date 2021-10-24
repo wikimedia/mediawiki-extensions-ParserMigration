@@ -18,7 +18,6 @@ class Mechanism {
 		\ParserOptions $baseOptions, \User $user, array $configIndexes
 	) {
 		$options = clone $baseOptions;
-		$options->setTidy( false );
 		$scopedCallback = $options->setupFakeRevision( $title, $content, $user );
 		$parserOutput = $content->getParserOutput( $title, null, $options );
 		ScopedCallback::consume( $scopedCallback );
