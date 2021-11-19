@@ -6,6 +6,7 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 
 class ApiParserMigration extends \ApiBase {
+	/** @var string[] */
 	private static $configNames = [
 		0 => 'old',
 		1 => 'new',
@@ -56,6 +57,7 @@ class ApiParserMigration extends \ApiBase {
 		return true;
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'title' => [

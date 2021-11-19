@@ -5,8 +5,12 @@ namespace MediaWiki\ParserMigration;
 use Wikimedia\ScopedCallback;
 
 class Mechanism {
+	/** @var array */
 	public $tidiers;
 
+	/**
+	 * @param array $tidiers
+	 */
 	public function __construct( $tidiers ) {
 		if ( !is_array( $tidiers ) || !isset( $tidiers[0] ) || !isset( $tidiers[1] ) ) {
 			throw new \Exception( '$wgParserMigrationTidiers must have at least two elements' );
@@ -14,6 +18,14 @@ class Mechanism {
 		$this->tidiers = $tidiers;
 	}
 
+	/**
+	 * @param \Content $content
+	 * @param \Title $title
+	 * @param \ParserOptions $baseOptions
+	 * @param \User $user
+	 * @param array $configIndexes
+	 * @return array
+	 */
 	public function parse( \Content $content, \Title $title,
 		\ParserOptions $baseOptions, \User $user, array $configIndexes
 	) {

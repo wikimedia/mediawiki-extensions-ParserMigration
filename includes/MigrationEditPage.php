@@ -4,12 +4,20 @@ namespace MediaWiki\ParserMigration;
 
 class MigrationEditPage extends \EditPage {
 
+	/**
+	 * @param \IContextSource $context
+	 * @param \Title $title
+	 */
 	public function __construct( \IContextSource $context, \Title $title ) {
 		$article = \Article::newFromTitle( $title, $context );
 		parent::__construct( $article );
 		$this->setContextTitle( $title );
 	}
 
+	/**
+	 * @param \Title $title
+	 * @return string
+	 */
 	protected function getActionURL( \Title $title ) {
 		return $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] );
 	}
@@ -24,6 +32,10 @@ class MigrationEditPage extends \EditPage {
 		return true;
 	}
 
+	/**
+	 * @param \Content $content
+	 * @return array
+	 */
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
