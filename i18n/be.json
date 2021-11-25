@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Artsiom91"
+			"Artsiom91",
+			"ZlyiLev"
 		]
 	},
 	"parsermigration-pref-label": "Уключыць інструмент пераезду на новы парсер",
-	"parsermigration-pref-help": "Гэта дадасць у бакавую панэль спасылку, якая прадастаўляе доступ да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмента] для перадпрагляду тэкста старонкі праз новую версію парсера MediaWiki."
+	"parsermigration-pref-help": "Гэта дадасць у бакавую панель спасылку, якая прадастаўляе доступ да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмента] для перадпрагляду тэксту старонкі праз новую версію парсера MediaWiki."
 }
