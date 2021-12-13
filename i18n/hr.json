@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"Ponor"
 		]
 	},
 	"parsermigration-desc": "Oruđe za prelazak na nove inačice raščlanjivača",
 	"parsermigration-edit-subtitle": "s oruđem za prelazak na nove inačice raščlanjivača",
-	"parsermigration-current": "Trenutačno",
-	"parsermigration-new": "Novo",
+	"parsermigration-current": "Stari",
+	"parsermigration-new": "Novi",
 	"parsermigration-pref-label": "Omogući oruđe za prelazak na nove inačice raščlanjivača",
 	"parsermigration-pref-help": "Ovo dodaje poveznicu na bočni izbornik koji pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration oruđu] za prelazak teksta članka na nove inačice MediaWikijevoga raščlanjivača (''parsera'').",
 	"parsermigration-toolbox-label": "Uredi s oruđem za prelazak"

@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"MIKHEIL",
-			"Otogi"
+			"Otogi",
+			"David1010"
 		]
 	},
-	"parsermigration-current": "მიმდინარე",
+	"parsermigration-current": "ძველი",
 	"parsermigration-new": "ახალი",
 	"parsermigration-pref-label": "პარსერის ხელსაწყოს მიგრაციის ჩართვა",
 	"parsermigration-pref-help": "ამატებს ბმულს გვერდით ზოლზე, რომელიც იძლევა წვდომას [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ხელსაწყოზე] სტატიის ტექსტის გადატანისათვის მედიავიკის პარსერის ახალ ვერსიებში."
