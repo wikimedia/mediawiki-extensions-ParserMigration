@@ -43,7 +43,7 @@ class ApiParserMigration extends \ApiBase {
 
 		$mechanism = new Mechanism( $this->getConfig()->get( 'ParserMigrationTidiers' ) );
 		$user = $this->getUser();
-		$options = \ParserOptions::newCanonical( $user );
+		$options = \ParserOptions::newFromContext( $this->getContext() );
 		$outputs = $mechanism->parse( $content, $title, $options, $user, $configIndexes );
 
 		$result = $this->getResult();
