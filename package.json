@@ -1,4 +1,5 @@
 {
+	"name": "ParserMigration",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
