@@ -2,9 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Artsiom91",
+			"Chadyka",
 			"ZlyiLev"
 		]
 	},
+	"parsermigration-desc": "Інструмент пераезду на новы парсер",
+	"parsermigration-edit-subtitle": "З інструментам пераезду на новы парсер",
+	"parsermigration-current": "Стары",
+	"parsermigration-new": "Новы",
 	"parsermigration-pref-label": "Уключыць інструмент пераезду на новы парсер",
-	"parsermigration-pref-help": "Гэта дадасць у бакавую панэль спасылку, якая прадастаўляе доступ да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмента] для перадпрагляду тэксту старонкі праз новую версію парсера MediaWiki."
+	"parsermigration-pref-help": "Гэта дадасць у бакавую панэль спасылку, якая прадастаўляе доступ да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмента] для перадпрагляду тэксту старонкі праз новую версію парсера MediaWiki.",
+	"parsermigration-toolbox-label": "Правіць з дапамогай інструменту пераезду на новы парсер"
 }
