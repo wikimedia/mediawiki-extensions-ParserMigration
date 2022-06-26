@@ -22,7 +22,13 @@ class ApiParserMigration extends \ApiBase {
 		if ( $title->isRedirect() && (
 			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
 			) ) {
-			$title = \WikiPage::factory( $title )->getRedirectTarget();
+			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+				// MW 1.36+
+				$title = MediaWikiServices::getInstance()->getWikiPageFactory()
+					->newFromTitle( $title )->getRedirectTarget();
+			} else {
+				$title = \WikiPage::factory( $title )->getRedirectTarget();
+			}
 		}
 		$revisionRecord = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( $title );
 		if ( !$revisionRecord ) {
