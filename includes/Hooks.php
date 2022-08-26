@@ -2,6 +2,8 @@
 
 namespace MediaWiki\ParserMigration;
 
+use MediaWiki\MediaWikiServices;
+
 class Hooks {
 	/**
 	 * @param \User $user
@@ -27,7 +29,8 @@ class Hooks {
 		$out = $skin->getOutput();
 		$title = $skin->getTitle();
 		$user = $skin->getUser();
-		if ( $out->isArticleRelated() && $user->getOption( 'parsermigration' ) ) {
+		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+		if ( $out->isArticleRelated() && $userOptionsManager->getOption( $user, 'parsermigration' ) ) {
 			$toolbox['parsermigration'] = [
 				'href' => $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
