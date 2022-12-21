@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-parser-migration-summary": "Raščlanjuje stranicu sa dve različite uredne konfiguracije.",
+	"apihelp-parser-migration-param-title": "Naslov stranice za učitavanje i raščlanjivanje.",
+	"apihelp-parser-migration-param-config": "Konfiguracija raščlanjivača za uporebu. Može da bude „staro“, „novo“ ili „staro|novo“.",
+	"apihelp-parser-migration-param-redirect": "Preusmerenja se prate podrazumevano. Koristite „ne“ kako ne bi ste pratili preusmerenja."
+}
