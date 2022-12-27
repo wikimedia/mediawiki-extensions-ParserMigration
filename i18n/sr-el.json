@@ -4,6 +4,11 @@
 			"Obsuser"
 		]
 	},
-	"parsermigration-pref-label": "Omogućavanje alatke za migraciju raščlanjivača",
-	"parsermigration-pref-help": "Dodaje sajdbar vezu da bi se omogućio pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za premeštanje teksta članka u nove verzije Medijaviki raščlanjivača."
+	"parsermigration-desc": "Alatka za menjanje raščlanjivača",
+	"parsermigration-edit-subtitle": "sa alatkom za menjanje raščlanjivača",
+	"parsermigration-current": "Staro",
+	"parsermigration-new": "Novo",
+	"parsermigration-pref-label": "Omogući alatku za migraciju raščlanjivača",
+	"parsermigration-pref-help": "Dodaje vezu u bočnoj traci koja pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za premeštanje teksta stranice u nove verzije Medijaviki raščlanjivača.",
+	"parsermigration-toolbox-label": "Izmena sa alatkom za menjanje"
 }
