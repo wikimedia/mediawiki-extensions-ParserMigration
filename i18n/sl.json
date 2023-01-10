@@ -5,7 +5,11 @@
 			"Eleassar"
 		]
 	},
+	"parsermigration-desc": "Orodje za prehod na novo različico razčlenjevalnika",
+	"parsermigration-edit-subtitle": "z orodjem za prehod na novo različico razčlenjevalnika",
+	"parsermigration-current": "Stari",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Omogoči orodje za prehajanje besedila na nov razčlenjevalnik",
-	"parsermigration-pref-help": "Na stranski meni doda povezavo na [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration orodje] za prehajanje besedil na novo različico MadiaWiki razčlenjevalnika."
+	"parsermigration-pref-help": "Na stranski meni doda povezavo na [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration orodje] za prehajanje besedil na novo različico MadiaWiki razčlenjevalnika.",
+	"parsermigration-toolbox-label": "Urejanje z orodjem za prehod"
 }
