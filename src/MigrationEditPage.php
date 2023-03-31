@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\ParserMigration;
+namespace MediaWiki\Extension\ParserMigration;
 
 class MigrationEditPage extends \EditPage {
 
@@ -40,8 +40,7 @@ class MigrationEditPage extends \EditPage {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
 		$pstContent = $content->preSaveTransform( $this->mTitle, $user, $parserOptions );
-		$mechanism = new Mechanism(
-			\RequestContext::getMain()->getConfig()->get( 'ParserMigrationTidiers' ) );
+		$mechanism = new Mechanism();
 		$outputs = $mechanism->parse( $pstContent, $this->mTitle, $parserOptions,
 			$user, [ 0, 1 ] );
 

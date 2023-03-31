@@ -1,35 +1,30 @@
 {
 	"name": "ParserMigration",
-	"author": "Tim Starling",
-	"version": "1.0.0",
+	"author": [ "Tim Starling", "C. Scott Ananian", "..." ],
+	"version": "2.0.0",
 	"url": "https://www.mediawiki.org/wiki/Extension:ParserMigration",
 	"descriptionmsg": "parsermigration-desc",
 	"license-name": "CC0-1.0",
 	"manifest_version": 1,
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.41.0"
 	},
-	"AutoloadClasses": {
-		"MediaWiki\\ParserMigration\\ApiParserMigration": "includes/ApiParserMigration.php",
-		"MediaWiki\\ParserMigration\\EditAction": "includes/EditAction.php",
-		"MediaWiki\\ParserMigration\\MigrationEditPage": "includes/MigrationEditPage.php",
-		"MediaWiki\\ParserMigration\\Hooks": "includes/Hooks.php",
-		"MediaWiki\\ParserMigration\\Mechanism": "includes/Mechanism.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ParserMigration\\": "src/"
 	},
 	"Actions": {
-		"parsermigration-edit": "MediaWiki\\ParserMigration\\EditAction"
+		"parsermigration-edit": "MediaWiki\\Extension\\ParserMigration\\EditAction"
 	},
 	"APIModules": {
-		"parser-migration": "MediaWiki\\ParserMigration\\ApiParserMigration"
+		"parser-migration": {
+			"class": "MediaWiki\\Extension\\ParserMigration\\ApiParserMigration"
+		}
 	},
 	"MessagesDirs": {
 		"ParserMigration": [
 			"i18n",
 			"i18n/api"
 		]
-	},
-	"config": {
-		"ParserMigrationTidiers": []
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources"
@@ -42,8 +37,13 @@
 	"DefaultUserOptions": {
 		"parsermigration": "0"
 	},
+	"HookHandlers": {
+		"ParserMigrationHooks": {
+			"class": "MediaWiki\\Extension\\ParserMigration\\Hooks"
+		}
+	},
 	"Hooks": {
-		"GetPreferences": "MediaWiki\\ParserMigration\\Hooks::onGetPreferences",
-		"BaseTemplateToolbox": "MediaWiki\\ParserMigration\\Hooks::onBaseTemplateToolbox"
+		"GetPreferences": "ParserMigrationHooks",
+		"SidebarBeforeOutput": "ParserMigrationHooks"
 	}
 }

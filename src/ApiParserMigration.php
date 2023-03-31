@@ -1,9 +1,10 @@
 <?php
 
-namespace MediaWiki\ParserMigration;
+namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use Title;
 
 class ApiParserMigration extends \ApiBase {
 	/** @var string[] */
@@ -22,13 +23,9 @@ class ApiParserMigration extends \ApiBase {
 		if ( $title->isRedirect() && (
 			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
 			) ) {
-			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-				// MW 1.36+
-				$title = MediaWikiServices::getInstance()->getWikiPageFactory()
-					->newFromTitle( $title )->getRedirectTarget();
-			} else {
-				$title = \WikiPage::factory( $title )->getRedirectTarget();
-			}
+			$redirectLookup = MediaWikiServices::getInstance()->getRedirectLookup();
+			$redirect = $redirectLookup->getRedirectTarget( $title );
+			$title = Title::castFromLinkTarget( $redirect ) ?? $title;
 		}
 		$revisionRecord = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( $title );
 		if ( !$revisionRecord ) {
@@ -48,7 +45,7 @@ class ApiParserMigration extends \ApiBase {
 			$configIndexes[] = $configIndexesByName[$configName];
 		}
 
-		$mechanism = new Mechanism( $this->getConfig()->get( 'ParserMigrationTidiers' ) );
+		$mechanism = new Mechanism();
 		$user = $this->getUser();
 		$options = \ParserOptions::newFromContext( $this->getContext() );
 		$outputs = $mechanism->parse( $content, $title, $options, $user, $configIndexes );

@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\ParserMigration;
+namespace MediaWiki\Extension\ParserMigration;
 
 class EditAction extends \FormlessAction {
 	/**
