@@ -2,11 +2,18 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use Article;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use ParserOptions;
 
-class Hooks implements GetPreferencesHook, SidebarBeforeOutputHook {
+class Hooks implements
+	GetPreferencesHook,
+	SidebarBeforeOutputHook,
+	ArticleParserOptionsHook
+{
 	/**
 	 * @param \User $user
 	 * @param array &$defaultPreferences
@@ -19,6 +26,23 @@ class Hooks implements GetPreferencesHook, SidebarBeforeOutputHook {
 			'help-message' => 'parsermigration-pref-help',
 			'section' => 'editing/developertools'
 		];
+		return true;
+	}
+
+	/**
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ArticleParserOptions
+	 * @param Article $article
+	 * @param ParserOptions $popts
+	 * @return bool|void
+	 */
+	public function onArticleParserOptions(
+		Article $article, ParserOptions $popts
+	) {
+		$request = $article->getContext()->getRequest();
+		$queryEnable = $request->getRawVal( 'useparsoid' );
+		if ( $queryEnable ) {
+			$popts->setUseParsoid();
+		}
 		return true;
 	}
 

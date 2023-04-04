@@ -43,6 +43,7 @@
 		}
 	},
 	"Hooks": {
+		"ArticleParserOptions": "ParserMigrationHooks",
 		"GetPreferences": "ParserMigrationHooks",
 		"SidebarBeforeOutput": "ParserMigrationHooks"
 	}
