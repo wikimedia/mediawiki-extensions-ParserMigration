@@ -4,5 +4,6 @@
 			"Beta16"
 		]
 	},
+	"apihelp-parser-migration-summary": "Analizza una pagina con due diverse configurazioni di parser.",
 	"apihelp-parser-migration-param-title": "Il titolo della pagina da caricare e analizzare."
 }
