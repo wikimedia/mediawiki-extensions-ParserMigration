@@ -4,7 +4,7 @@
 			"McDutchie"
 		]
 	},
-	"apihelp-parser-migration-summary": "Analysar le syntaxe de un pagina con duo configurationes 'tidy' differente.",
+	"apihelp-parser-migration-summary": "Analysar le syntaxe de un pagina con duo configurationes differente del analysator syntactic.",
 	"apihelp-parser-migration-param-title": "Le titulo del pagina a cargar e analysar.",
 	"apihelp-parser-migration-param-config": "Le configuration del analysator syntactic a usar. Pote esser \"old\" (ancian), \"new\" (nove), o \"old|new\".",
 	"apihelp-parser-migration-param-redirect": "Le redirectiones es sequite per predefinition. Usa \"no\" pro non sequer redirectiones."
