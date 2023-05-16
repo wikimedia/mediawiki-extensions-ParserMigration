@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alshamiri1",
 			"ديفيد",
 			"علاء"
 		]
 	},
-	"apihelp-parser-migration-summary": "تحليل صفحة تتكون من تكوينين مرتبين مختلفين.",
+	"apihelp-parser-migration-summary": "تحليل صفحة بتكوينين مختلفين للمحلل اللغوي.",
 	"apihelp-parser-migration-param-title": "عنوان الصفحة للتحميل والتحليل.",
 	"apihelp-parser-migration-param-config": "تكوين المحلل للاستخدام. قد يكون \"قديم\" أو \"جديد\" أو \"قديم/جديد\".",
 	"apihelp-parser-migration-param-redirect": "تتم إعادة التحويلات افتراضيا; استخدم \"لا\" لعدم اتباع التحويلات."
