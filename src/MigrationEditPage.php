@@ -2,6 +2,8 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use MediaWiki\MediaWikiServices;
+
 class MigrationEditPage extends \EditPage {
 
 	/**
@@ -39,9 +41,10 @@ class MigrationEditPage extends \EditPage {
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
 		$parserOptions = $this->getPreviewParserOptions();
-		$pstContent = $content->preSaveTransform( $this->mTitle, $user, $parserOptions );
+		$contentTransformer = MediaWikiServices::getInstance()->getService( 'ContentTransformer' );
+		$pstContent = $contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
 		$mechanism = new Mechanism();
-		$outputs = $mechanism->parse( $pstContent, $this->mTitle, $parserOptions,
+		$outputs = $mechanism->parse( $pstContent, $this->getTitle(), $parserOptions,
 			$user, [ 0, 1 ] );
 
 		// no section edit links
