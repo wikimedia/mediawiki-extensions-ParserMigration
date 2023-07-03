@@ -4,7 +4,7 @@
 			"Bjankuloski06"
 		]
 	},
-	"apihelp-parser-migration-summary": "Расчлени страници со различни уредни поставености.",
+	"apihelp-parser-migration-summary": "Расчлени страници со две различни расчленувачки поставки.",
 	"apihelp-parser-migration-param-title": "Насловот на страницата што треба да се вчита и раслчени.",
 	"apihelp-parser-migration-param-config": "Поставеноста на расчленувачот што ќе се користи. Може да биде „old“, „new“ или „old|new“.",
 	"apihelp-parser-migration-param-redirect": "Пренасочувањата се проследуваат по основно. Укажете „no“ ако сакате да не се проследуваат."
