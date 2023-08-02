@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-parser-migration-param-config": "Postavljenost parsera koja će se koristi. Može da bude „old“, „new“ ili „old|new“."
+}
