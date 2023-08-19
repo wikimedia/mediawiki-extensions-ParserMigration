@@ -1,13 +1,17 @@
 {
 	"name": "ParserMigration",
-	"author": [ "Tim Starling", "C. Scott Ananian", "..." ],
+	"author": [
+		"Tim Starling",
+		"C. Scott Ananian",
+		"..."
+	],
 	"version": "2.0.0",
 	"url": "https://www.mediawiki.org/wiki/Extension:ParserMigration",
 	"descriptionmsg": "parsermigration-desc",
 	"license-name": "CC0-1.0",
 	"manifest_version": 1,
 	"requires": {
-		"MediaWiki": ">= 1.41.0"
+		"MediaWiki": ">= 1.41"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ParserMigration\\": "src/"
