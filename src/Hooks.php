@@ -38,9 +38,15 @@ class Hooks implements
 	public function onArticleParserOptions(
 		Article $article, ParserOptions $popts
 	) {
+		// T335157: Enable Parsoid Read Views for articles as an experimental
+		// feature; this is primarily used for internal testing at this time.
 		$request = $article->getContext()->getRequest();
 		$queryEnable = $request->getRawVal( 'useparsoid' );
-		if ( $queryEnable ) {
+		if (
+			$queryEnable &&
+			// Allow disabling via config change to manage parser cache usage
+			\RequestContext::getMain()->getConfig()->get( 'ParserMigrationEnableQueryString' )
+		) {
 			$popts->setUseParsoid();
 		}
 		return true;

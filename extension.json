@@ -13,6 +13,12 @@
 	"requires": {
 		"MediaWiki": ">= 1.41"
 	},
+	"config": {
+		"ParserMigrationEnableQueryString": {
+			"value": false,
+			"description": "Whether to enable the ?useparsoid=1 query string for article views"
+		}
+	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ParserMigration\\": "src/"
 	},
