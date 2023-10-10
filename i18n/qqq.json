@@ -13,5 +13,7 @@
 	"parsermigration-new": "The column heading for the article HTML as shown by the \"new\" parser\n{{Identical|New}}",
 	"parsermigration-pref-label": "The user preference label for a checkbox which enables the feature",
 	"parsermigration-pref-help": "Help text for the user preference checkbox",
-	"parsermigration-toolbox-label": "The text of the toolbox link, which allows the user to edit the page with a special user interface."
+	"parsermigration-toolbox-label": "The text of the toolbox link, which allows the user to edit the page with a special user interface.",
+	"parsermigration-parsoid-readviews-pref-label": "The user preference label for a checkbox which enables the use parsoid parser for read views",
+	"parsermigration-parsoid-readviews-pref-help": "Help text for the user preference use parsoid checkbox"
 }

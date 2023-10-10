@@ -14,10 +14,7 @@
 		"MediaWiki": ">= 1.41"
 	},
 	"config": {
-		"ParserMigrationEnableQueryString": {
-			"value": false,
-			"description": "Whether to enable the ?useparsoid=1 query string for article views"
-		}
+		"ParserMigrationEnableQueryString": false
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ParserMigration\\": "src/"
@@ -45,7 +42,8 @@
 		}
 	},
 	"DefaultUserOptions": {
-		"parsermigration": "0"
+		"parsermigration": "0",
+		"parsermigration-parsoid-readviews": "0"
 	},
 	"HookHandlers": {
 		"ParserMigrationHooks": {
