@@ -9,12 +9,15 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ParserMigration",
 	"descriptionmsg": "parsermigration-desc",
 	"license-name": "CC0-1.0",
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"requires": {
 		"MediaWiki": ">= 1.41"
 	},
 	"config": {
-		"ParserMigrationEnableQueryString": false
+		"ParserMigrationEnableQueryString": {
+			"value": false,
+			"description": "Whether to enable the ?useparsoid=1 query string for article views"
+		}
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ParserMigration\\": "src/"
