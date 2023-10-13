@@ -40,6 +40,7 @@ class MigrationEditPage extends \EditPage {
 	 */
 	protected function doPreviewParse( \Content $content ) {
 		$user = $this->context->getUser();
+		$out = $this->context->getOutput();
 		$parserOptions = $this->getPreviewParserOptions();
 		$contentTransformer = MediaWikiServices::getInstance()->getService( 'ContentTransformer' );
 		$pstContent = $contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
@@ -47,8 +48,11 @@ class MigrationEditPage extends \EditPage {
 		$outputs = $mechanism->parse( $pstContent, $this->getTitle(), $parserOptions,
 			$user, [ 0, 1 ] );
 
-		// no section edit links
-		$poOptions = [ 'enableSectionEditLinks' => false ];
+		$skinOptions = $out->getSkin()->getOptions();
+		$poOptions = [
+			'injectTOC' => $skinOptions['toc'],
+			'enableSectionEditLinks' => false,
+		];
 
 		$previewHTML = "<table class=\"mw-parsermigration-sxs\"><tbody><tr>\n" .
 			"<th>" . $this->context->msg( 'parsermigration-current' )->parse() . "</th>\n" .
