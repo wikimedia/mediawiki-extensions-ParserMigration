@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"parsermigration-desc": "Parser Migratiouns-Tool",
@@ -10,5 +11,6 @@
 	"parsermigration-new": "Nei",
 	"parsermigration-pref-label": "Parser-MIgratiouns-Tool aschalten",
 	"parsermigration-pref-help": "Dëst setzt e Link an de Menü op der lénkser Säit dobäi deen Zougang gëtt op [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration een Tool] fir d'Migratioun vu Säitentext op nei Versioune vum MediaWiki-Parser.",
-	"parsermigration-toolbox-label": "Mam Migratiouns-Tool änneren"
+	"parsermigration-toolbox-label": "Mam Migratiouns-Tool änneren",
+	"parsermigration-parsoid-readviews-pref-label": "Standardméisseg Parsoid benotzen"
 }
