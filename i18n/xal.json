@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ukhant Erdemt"
+		]
+	},
+	"parsermigration-parsoid-readviews-pref-label": "Parsoid-ыг аңхдгчар ашглтн",
+	"parsermigration-parsoid-readviews-pref-help": "ТУРШЛТЫН КЕСГ: Эн суңһлтыг суңһхла, өгүллмүднь аңхдгчар шин Parsoid вики текст задлҗ, шинҗлгчиг ашглҗ дүрсглдх."
+}

@@ -11,5 +11,7 @@
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Omogoči orodje za prehajanje besedila na nov razčlenjevalnik",
 	"parsermigration-pref-help": "V stransko letvico doda povezavo na [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration orodje] za prilagoditev besedila strani novim različicam razčlenjevalnika MediaWiki.",
-	"parsermigration-toolbox-label": "Urejanje z orodjem za prehod"
+	"parsermigration-toolbox-label": "Urejanje z orodjem za prehod",
+	"parsermigration-parsoid-readviews-pref-label": "Privzeto uporabljaj Parsoid",
+	"parsermigration-parsoid-readviews-pref-help": "EKSPERIMENTALNO: Če boste izbrali to možnost, bodo članki privzeto upodobljeni z novim razčlenjevalnikom vikibesedila Parsoid."
 }

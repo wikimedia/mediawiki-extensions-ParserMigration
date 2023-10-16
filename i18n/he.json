@@ -11,5 +11,7 @@
 	"parsermigration-new": "חדש",
 	"parsermigration-pref-label": "הפעלת כלי להגירת מפענח",
 	"parsermigration-pref-help": "הוספת קישור בתפריט הצד  ל[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration כלי] להמרת טקסט הדף לגרסאות חדשות של מפענח מדיה־ויקי.",
-	"parsermigration-toolbox-label": "עריכה עם כלי ההגירה"
+	"parsermigration-toolbox-label": "עריכה עם כלי ההגירה",
+	"parsermigration-parsoid-readviews-pref-label": "להשתמש בפרסואיד כברירת מחדל",
+	"parsermigration-parsoid-readviews-pref-help": "ניסיוני: בחירה באפשרות הזאת תוביל לכך שערכים יעובדו באמצעות מפענח קוד הוויקי החדש פרסואיד כברירת מחדל."
 }
