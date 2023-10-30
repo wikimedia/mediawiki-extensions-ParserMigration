@@ -10,5 +10,7 @@
 	"parsermigration-new": "Uus",
 	"parsermigration-pref-label": "Kasuta parseri siirdevahendit",
 	"parsermigration-pref-help": "Lisab külgribale lingi [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration vahendile], mis on mõeldud lehekülje teksti üleviimiseks MediaWiki parseri uuele versioonile.",
-	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga"
+	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga",
+	"parsermigration-parsoid-readviews-pref-label": "Kasuta vaikimisi Parsoidi",
+	"parsermigration-parsoid-readviews-pref-help": "Katseline: selle valikuga kasutatakse artiklite viimistlemiseks vaikimisi uut Parsoidi vikiteksti parserit."
 }
