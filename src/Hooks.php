@@ -50,14 +50,14 @@ class Hooks implements
 		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 		$userOptIn = $userOptionsManager->getOption( $user, 'parsermigration-parsoid-readviews' );
 
-		// T335157: Enable Parsoid Read Views for articles as an experimental
-		// feature; this is primarily used for internal testing at this time.
-		$queryStringPresent = $article->getContext()->getRequest()->getRawVal( 'useparsoid' );
-
 		// Allow disabling via config change to manage parser cache usage
 		$queryStringEnabled = \RequestContext::getMain()->getConfig()->get( 'ParserMigrationEnableQueryString' );
 
-		if ( $userOptIn || ( $queryStringPresent && $queryStringEnabled ) ) {
+		// If user preference opts in to default Parsoid parses, and no url useparsoid parameter is defined
+		// or if parser migration is enabled, and useparsoid parameter is defined as true, use Parsoid
+		$request = $article->getContext()->getRequest();
+		if ( ( $userOptIn && $request->getFuzzyBool( 'useparsoid', true ) ) ||
+			( $queryStringEnabled && $request->getFuzzyBool( 'useparsoid', false ) ) ) {
 			$popts->setUseParsoid();
 		}
 		return true;
@@ -73,11 +73,31 @@ class Hooks implements
 		$title = $skin->getTitle();
 		$user = $skin->getUser();
 		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-		if ( $out->isArticleRelated() && $userOptionsManager->getOption( $user, 'parsermigration' ) ) {
+		$userOptIn = $userOptionsManager->getOption( $user, 'parsermigration-parsoid-readviews' );
+
+		if ( $out->isArticleRelated() &&
+			( $userOptIn || $userOptionsManager->getOption( $user, 'parsermigration' ) ) ) {
 			$sidebar['TOOLBOX']['parsermigration'] = [
 				'href' => $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
 			];
+
+			$useParsoid = $skin->getRequest()->getVal( 'useparsoid' );
+			// if the user preference is set to opt in to default parsoid parses, and the current request url
+			// has not set the useparsoid parameter,
+			// or the current request url has set the useparsoid parameter to true,
+			// set the toolbox link to legacy parser rendering, otherwise set the link to Parsoid rendering
+			if ( ( $userOptIn && $useParsoid === null ) || $useParsoid === '1' ) {
+				$sidebar[ 'TOOLBOX' ][ 'parser' ] = [
+					'href' => $title->getLocalURL( [ 'useparsoid' => '0' ] ),
+					'text' => $skin->msg( 'parsermigration-use-legacy-parser-toolbox-label' )->text(),
+				];
+			} else {
+				$sidebar[ 'TOOLBOX' ][ 'parser' ] = [
+					'href' => $title->getLocalURL( [ 'useparsoid' => '1' ] ),
+					'text' => $skin->msg( 'parsermigration-use-parsoid-toolbox-label' )->text(),
+				];
+			}
 		}
 	}
 }
