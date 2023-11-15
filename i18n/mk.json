@@ -12,5 +12,7 @@
 	"parsermigration-pref-help": "Ова додава врска во страничникот за  [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration алатка] за преселба на текстови од страници во нови верзии на расчленувачот на МедијаВики.",
 	"parsermigration-toolbox-label": "Уреди со алатката за преселба",
 	"parsermigration-parsoid-readviews-pref-label": "Користи Parsoid по основно",
-	"parsermigration-parsoid-readviews-pref-help": "ПРОБНО: Избирајќи ја оваа можност, статиите по основно ќе ви се прикажуваат користејќи го новиот расчленувач на викитекст Parsoid."
+	"parsermigration-parsoid-readviews-pref-help": "ПРОБНО: Избирајќи ја оваа можност, статиите по основно ќе ви се прикажуваат користејќи го новиот расчленувач на викитекст Parsoid.",
+	"parsermigration-use-legacy-parser-toolbox-label": "Користи стар расчленувач",
+	"parsermigration-use-parsoid-toolbox-label": "Користи го расчленувачот Parsoid"
 }

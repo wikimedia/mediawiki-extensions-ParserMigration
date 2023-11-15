@@ -12,5 +12,7 @@
 	"parsermigration-pref-help": "Isto adde un ligamine al barra lateral que da accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un instrumento] pro migrar texto de paginas a nove versiones del analysator syntactic de MediaWiki.",
 	"parsermigration-toolbox-label": "Modificar con instrumento de migration",
 	"parsermigration-parsoid-readviews-pref-label": "Usar Parsoid per predefinition",
-	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: Con iste option, articulos essera rendite con le nove analysator de wikitexto Parsoid per predefinition."
+	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: Con iste option, articulos essera rendite con le nove analysator de wikitexto Parsoid per predefinition.",
+	"parsermigration-use-legacy-parser-toolbox-label": "Usar le analysator syntactic ancian",
+	"parsermigration-use-parsoid-toolbox-label": "Usar le analysator syntactic Parsoid"
 }
