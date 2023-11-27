@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"MuratTheTurkish",
+			"Rapsar",
 			"TmY e12",
 			"ToprakM"
 		]
@@ -13,5 +14,7 @@
 	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Ayrıştırıcı geçiş aracını etkinleştir",
 	"parsermigration-pref-help": "Bu, sayfa metnini MediaWiki ayrıştırıcısının yeni sürümlerine geçirmek için [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration bir araca] erişim sağlayan bir kenar çubuğu bağlantısı ekler.",
-	"parsermigration-toolbox-label": "Geçiş aracıyla düzenle"
+	"parsermigration-toolbox-label": "Geçiş aracıyla düzenle",
+	"parsermigration-parsoid-readviews-pref-label": "Parsoid'i varsayılan olarak kullan",
+	"parsermigration-parsoid-readviews-pref-help": "DENEYSEL: Bu seçeneğin seçilmesiyle maddeler, varsayılan olarak yeni Parsoid vikimetin ayrıştırıcısı kullanılarak işlenecektir."
 }

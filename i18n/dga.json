@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joachim Yirkang"
+		]
+	},
+	"parsermigration-use-parsoid-toolbox-label": "De parsoid parser"
+}
