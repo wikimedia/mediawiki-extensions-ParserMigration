@@ -50,7 +50,11 @@
 	},
 	"HookHandlers": {
 		"ParserMigrationHooks": {
-			"class": "MediaWiki\\Extension\\ParserMigration\\Hooks"
+			"class": "MediaWiki\\Extension\\ParserMigration\\Hooks",
+			"services": [
+				"MainConfig",
+				"UserOptionsManager"
+			]
 		}
 	},
 	"Hooks": {

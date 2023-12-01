@@ -3,10 +3,13 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use Article;
+use MediaWiki\Config\Config;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\Request\WebRequest;
+use MediaWiki\User\User;
+use MediaWiki\User\UserOptionsManager;
 use ParserOptions;
 
 class Hooks implements
@@ -14,6 +17,22 @@ class Hooks implements
 	SidebarBeforeOutputHook,
 	ArticleParserOptionsHook
 {
+
+	private Config $mainConfig;
+	private UserOptionsManager $userOptionsManager;
+
+	/**
+	 * @param Config $mainConfig
+	 * @param UserOptionsManager $userOptionsManager
+	 */
+	public function __construct(
+		Config $mainConfig,
+		UserOptionsManager $userOptionsManager
+	) {
+		$this->mainConfig = $mainConfig;
+		$this->userOptionsManager = $userOptionsManager;
+	}
+
 	/**
 	 * @param \User $user
 	 * @param array &$defaultPreferences
@@ -45,19 +64,10 @@ class Hooks implements
 	public function onArticleParserOptions(
 		Article $article, ParserOptions $popts
 	) {
-		// T348257: Allow individual user to opt in to Parsoid read views as a ParserMigration option
-		$user = $article->getContext()->getUser();
-		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-		$userOptIn = $userOptionsManager->getOption( $user, 'parsermigration-parsoid-readviews' );
-
-		// Allow disabling via config change to manage parser cache usage
-		$queryStringEnabled = \RequestContext::getMain()->getConfig()->get( 'ParserMigrationEnableQueryString' );
-
-		// If user preference opts in to default Parsoid parses, and no url useparsoid parameter is defined
-		// or if parser migration is enabled, and useparsoid parameter is defined as true, use Parsoid
-		$request = $article->getContext()->getRequest();
-		if ( ( $userOptIn && $request->getFuzzyBool( 'useparsoid', true ) ) ||
-			( $queryStringEnabled && $request->getFuzzyBool( 'useparsoid', false ) ) ) {
+		// T348257: Allow individual user to opt in to Parsoid read views as a
+		// use option in the ParserMigration section.
+		$context = $article->getContext();
+		if ( $this->shouldUseParsoid( $context->getUser(), $context->getRequest() ) ) {
 			$popts->setUseParsoid();
 		}
 		return true;
@@ -70,34 +80,77 @@ class Hooks implements
 	 */
 	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		$out = $skin->getOutput();
-		$title = $skin->getTitle();
-		$user = $skin->getUser();
-		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-		$userOptIn = $userOptionsManager->getOption( $user, 'parsermigration-parsoid-readviews' );
+		if ( !$out->isArticleRelated() ) {
+			// Only add sidebar links before article-related pages
+			return;
+		}
 
-		if ( $out->isArticleRelated() &&
-			( $userOptIn || $userOptionsManager->getOption( $user, 'parsermigration' ) ) ) {
+		$user = $skin->getUser();
+		$title = $skin->getTitle();
+
+		$editToolPref = $this->userOptionsManager->getOption(
+			$user, 'parsermigration'
+		);
+		$parsoidDefaultPref = $this->userOptionsManager->getOption(
+			$user, 'parsermigration-parsoid-readviews'
+		);
+		$queryStringEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableQueryString'
+		);
+
+		if ( $editToolPref ) {
 			$sidebar['TOOLBOX']['parsermigration'] = [
-				'href' => $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] ),
+				'href' => $title->getLocalURL( [
+					'action' => 'parsermigration-edit',
+				] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
 			];
-
-			$useParsoid = $skin->getRequest()->getVal( 'useparsoid' );
-			// if the user preference is set to opt in to default parsoid parses, and the current request url
-			// has not set the useparsoid parameter,
-			// or the current request url has set the useparsoid parameter to true,
-			// set the toolbox link to legacy parser rendering, otherwise set the link to Parsoid rendering
-			if ( ( $userOptIn && $useParsoid === null ) || $useParsoid === '1' ) {
-				$sidebar[ 'TOOLBOX' ][ 'parser' ] = [
-					'href' => $title->getLocalURL( [ 'useparsoid' => '0' ] ),
-					'text' => $skin->msg( 'parsermigration-use-legacy-parser-toolbox-label' )->text(),
-				];
-			} else {
-				$sidebar[ 'TOOLBOX' ][ 'parser' ] = [
-					'href' => $title->getLocalURL( [ 'useparsoid' => '1' ] ),
-					'text' => $skin->msg( 'parsermigration-use-parsoid-toolbox-label' )->text(),
-				];
-			}
 		}
+
+		if ( $queryStringEnabled && ( $editToolPref || $parsoidDefaultPref ) ) {
+			$usingParsoid = $this->shouldUseParsoid( $user, $skin->getRequest() );
+			$sidebar[ 'TOOLBOX' ][ 'parsermigration' ] = [
+				'href' => $title->getLocalURL( [
+					// Allow toggling 'useParsoid' from the current state
+					'useparsoid' => $usingParsoid ? '0' : '1',
+				] ),
+				'text' => $skin->msg(
+					$usingParsoid ?
+					'parsermigration-use-legacy-parser-toolbox-label' :
+					'parsermigration-use-parsoid-toolbox-label'
+				)->text(),
+			];
+		}
+	}
+
+	/**
+	 * Determine whether or not to use Parsoid for read views on this request,
+	 * request, based on the user's preferences and the URL query string.
+	 *
+	 * @param User $user
+	 * @param WebRequest $request
+	 * @return bool True if Parsoid should be used for this request
+	 */
+	private function shouldUseParsoid( User $user, WebRequest $request ): bool {
+		// Find out if the user has opted in to Parsoid Read Views by default
+		$userOptIn = $this->userOptionsManager->getOption(
+			$user,
+			'parsermigration-parsoid-readviews'
+		);
+
+		// Allow disabling query string handling via config change to manage
+		// parser cache usage.
+		$queryStringEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableQueryString'
+		);
+		if ( !$queryStringEnabled ) {
+			// Ignore query string and use Parsoid read views if and only
+			// if the user has opted in.
+			return $userOptIn;
+		}
+
+		// Otherwise use the user's opt-in status to set the default for
+		// query string processing.
+		return $request->getFuzzyBool( 'useparsoid', $userOptIn );
 	}
 }
