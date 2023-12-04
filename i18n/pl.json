@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"Rail",
 			"Woytecr"
 		]
 	},
@@ -11,5 +12,6 @@
 	"parsermigration-new": "Nowy",
 	"parsermigration-pref-label": "Włącz narzędzie migracji parsera",
 	"parsermigration-pref-help": "Dodaje do menu bocznego link do [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration narzędzia] służącego do migracji tekstu strony do nowych wersji parsera MediaWiki.",
-	"parsermigration-toolbox-label": "Edytuj narzędziem migracji"
+	"parsermigration-toolbox-label": "Edytuj narzędziem migracji",
+	"parsermigration-use-parsoid-toolbox-label": "Użyj nowego parsera (Parsoid)"
 }

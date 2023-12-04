@@ -16,5 +16,5 @@
 	"parsermigration-parsoid-readviews-pref-label": "Standaard Parsoid gebruiken",
 	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTEEL: Met deze optie worden artikelen standaard weergegeven met de nieuwe wikitekst-parser Parsoid.",
 	"parsermigration-use-legacy-parser-toolbox-label": "Oude parser gebruiken",
-	"parsermigration-use-parsoid-toolbox-label": "Parsoid-parser gebruiken"
+	"parsermigration-use-parsoid-toolbox-label": "Nieuwe parser (Parsoid) gebruiken"
 }

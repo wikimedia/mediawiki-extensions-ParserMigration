@@ -15,5 +15,5 @@
 	"parsermigration-parsoid-readviews-pref-label": "להשתמש בפרסואיד כברירת מחדל",
 	"parsermigration-parsoid-readviews-pref-help": "ניסיוני: בחירה באפשרות הזאת תוביל לכך שערכים יעובדו באמצעות מפענח קוד הוויקי החדש פרסואיד כברירת מחדל.",
 	"parsermigration-use-legacy-parser-toolbox-label": "להשתמש במפענח הישן",
-	"parsermigration-use-parsoid-toolbox-label": "להשתמש במפענח פרסואיד"
+	"parsermigration-use-parsoid-toolbox-label": "להשתמש במפענח החדש (פרסואיד)"
 }
