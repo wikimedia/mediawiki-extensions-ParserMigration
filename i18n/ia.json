@@ -14,5 +14,5 @@
 	"parsermigration-parsoid-readviews-pref-label": "Usar Parsoid per predefinition",
 	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: Con iste option, articulos essera rendite con le nove analysator de wikitexto Parsoid per predefinition.",
 	"parsermigration-use-legacy-parser-toolbox-label": "Usar le analysator syntactic ancian",
-	"parsermigration-use-parsoid-toolbox-label": "Usar le analysator syntactic Parsoid"
+	"parsermigration-use-parsoid-toolbox-label": "Usar le nove analysator syntactic (Parsoid)"
 }
