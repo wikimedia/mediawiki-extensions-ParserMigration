@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Luca.favorido"
 		]
 	},
 	"parsermigration-desc": "Parser strumento di migrazione",
@@ -10,5 +11,6 @@
 	"parsermigration-new": "Nuovo",
 	"parsermigration-pref-label": "Attiva parser strumento di migrazione",
 	"parsermigration-pref-help": "Questo aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uno strumento] per migrare il testo delle pagine a una nuova versione del parser MediaWiki.",
-	"parsermigration-toolbox-label": "Modifica con strumento di migrazione"
+	"parsermigration-toolbox-label": "Modifica con strumento di migrazione",
+	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)"
 }
