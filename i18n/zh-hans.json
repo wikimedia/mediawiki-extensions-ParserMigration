@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Diskdance"
 		]
 	},
 	"parsermigration-desc": "解析器迁移工具",
-	"parsermigration-edit-subtitle": "通过解析器迁移工具",
-	"parsermigration-current": "旧",
-	"parsermigration-new": "新",
+	"parsermigration-edit-subtitle": "使用解析器迁移工具编辑",
+	"parsermigration-current": "旧版",
+	"parsermigration-new": "新版",
 	"parsermigration-pref-label": "启用解析器迁移工具",
-	"parsermigration-pref-help": "这会添加边栏链接，提供对[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 工具]的访问，以迁移页面文本至MediaWiki解析器的新版本。",
-	"parsermigration-toolbox-label": "通过迁移工具编辑"
+	"parsermigration-pref-help": "该选项会添加一个侧边栏链接，以便使用迁移页面文本至新版MediaWiki解析器的[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 工具]。",
+	"parsermigration-toolbox-label": "使用迁移工具编辑"
 }
