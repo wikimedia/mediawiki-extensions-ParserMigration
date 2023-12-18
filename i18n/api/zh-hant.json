@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"SunAfterRain"
 		]
 	},
-	"apihelp-parser-migration-summary": "採用兩種不同簡明設置的解析頁面。",
+	"apihelp-parser-migration-summary": "使用兩種不同的解析器組態解析頁面。",
 	"apihelp-parser-migration-param-title": "要載入並解析的頁面標題。",
 	"apihelp-parser-migration-param-config": "要使用的解析設置。可以是「old」、「new」、或是「old|new」。",
 	"apihelp-parser-migration-param-redirect": "依照預設會遵循重新導向。使用「no」則不遵循重新導向。"
