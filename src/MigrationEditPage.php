@@ -4,10 +4,10 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use Article;
 use Content;
-use EditPage;
 use IContextSource;
+use MediaWiki\EditPage\EditPage;
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 
 class MigrationEditPage extends EditPage {
 

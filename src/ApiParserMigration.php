@@ -6,8 +6,8 @@ use ApiBase;
 use Exception;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 use ParserOptions;
-use Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiParserMigration extends ApiBase {

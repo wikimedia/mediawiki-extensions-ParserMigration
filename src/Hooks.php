@@ -8,8 +8,8 @@ use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Request\WebRequest;
+use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
-use MediaWiki\User\UserOptionsManager;
 use ParserOptions;
 use Skin;
 

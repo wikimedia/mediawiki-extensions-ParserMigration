@@ -4,9 +4,9 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use Content;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 use ParserOptions;
-use Title;
-use User;
 
 class Mechanism {
 
