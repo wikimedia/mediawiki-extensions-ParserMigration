@@ -75,6 +75,7 @@ class ApiParserMigration extends ApiBase {
 				ParamValidator::PARAM_TYPE => self::$configNames,
 				ParamValidator::PARAM_DEFAULT => 'old|new',
 				ParamValidator::PARAM_ISMULTI => true,
+				ApiBase::PARAM_HELP_MSG_PER_VALUE => [],
 			],
 			'redirect' => [
 				ParamValidator::PARAM_TYPE => 'string',

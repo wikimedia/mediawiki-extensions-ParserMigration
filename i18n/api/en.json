@@ -7,5 +7,7 @@
 	"apihelp-parser-migration-summary": "Parse a page with two different parser configurations.",
 	"apihelp-parser-migration-param-title": "The title of the page to load and parse.",
 	"apihelp-parser-migration-param-config": "The parser configuration to use. May be \"old\", \"new\" or \"old|new\".",
-	"apihelp-parser-migration-param-redirect": "Redirects are followed by default. Use \"no\" to not follow redirects."
+	"apihelp-parser-migration-param-redirect": "Redirects are followed by default. Use \"no\" to not follow redirects.",
+	"apihelp-parser-migration-paramvalue-config-new": "Parses the page using the \"new\" configuration; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Parses the page using the \"old\" configuration; MediaWiki's legacy parser"
 }
