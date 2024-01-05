@@ -11,6 +11,7 @@ use MediaWiki\Request\WebRequest;
 use MediaWiki\User\User;
 use MediaWiki\User\UserOptionsManager;
 use ParserOptions;
+use Skin;
 
 class Hooks implements
 	GetPreferencesHook,
@@ -34,7 +35,7 @@ class Hooks implements
 	}
 
 	/**
-	 * @param \User $user
+	 * @param User $user
 	 * @param array &$defaultPreferences
 	 * @return bool
 	 */
@@ -74,7 +75,7 @@ class Hooks implements
 	}
 
 	/**
-	 * @param \Skin $skin
+	 * @param Skin $skin
 	 * @param array &$sidebar Sidebar content
 	 * @return void
 	 */
@@ -124,7 +125,7 @@ class Hooks implements
 	}
 
 	/**
-	 * Determine whether or not to use Parsoid for read views on this request,
+	 * Determine whether to use Parsoid for read views on this request,
 	 * request, based on the user's preferences and the URL query string.
 	 *
 	 * @param User $user
@@ -149,7 +150,7 @@ class Hooks implements
 			return $userOptIn;
 		}
 
-		// Otherwise use the user's opt-in status to set the default for
+		// Otherwise, use the user's opt-in status to set the default for
 		// query string processing.
 		return $request->getFuzzyBool( 'useparsoid', $userOptIn );
 	}

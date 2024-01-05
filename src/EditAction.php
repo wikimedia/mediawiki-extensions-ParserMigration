@@ -2,7 +2,9 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-class EditAction extends \FormlessAction {
+use FormlessAction;
+
+class EditAction extends FormlessAction {
 	/**
 	 * @return string
 	 */
@@ -14,7 +16,7 @@ class EditAction extends \FormlessAction {
 	 * @return string
 	 */
 	protected function getDescription() {
-		return $this->msg( 'parsermigration-edit-subtitle' );
+		return $this->msg( 'parsermigration-edit-subtitle' )->escaped();
 	}
 
 	/**

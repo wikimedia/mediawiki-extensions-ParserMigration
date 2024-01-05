@@ -2,11 +2,15 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use ApiBase;
+use Exception;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use ParserOptions;
 use Title;
+use Wikimedia\ParamValidator\ParamValidator;
 
-class ApiParserMigration extends \ApiBase {
+class ApiParserMigration extends ApiBase {
 	/** @var string[] */
 	private static $configNames = [
 		0 => 'old',
@@ -22,7 +26,7 @@ class ApiParserMigration extends \ApiBase {
 		// the option to choose the redirect page via '&redirect=no'.
 		if ( $title->isRedirect() && (
 			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
-			) ) {
+		) ) {
 			$redirectLookup = MediaWikiServices::getInstance()->getRedirectLookup();
 			$redirect = $redirectLookup->getRedirectTarget( $title );
 			$title = Title::castFromLinkTarget( $redirect ) ?? $title;
@@ -40,14 +44,14 @@ class ApiParserMigration extends \ApiBase {
 		$configIndexes = [];
 		foreach ( $params['config'] as $configName ) {
 			if ( !isset( $configIndexesByName[$configName] ) ) {
-				throw new \Exception( 'Invalid config name, should have already been validated' );
+				throw new Exception( 'Invalid config name, should have already been validated' );
 			}
 			$configIndexes[] = $configIndexesByName[$configName];
 		}
 
 		$mechanism = new Mechanism();
 		$user = $this->getUser();
-		$options = \ParserOptions::newFromContext( $this->getContext() );
+		$options = ParserOptions::newFromContext( $this->getContext() );
 		$outputs = $mechanism->parse( $content, $title, $options, $user, $configIndexes );
 
 		$result = $this->getResult();
@@ -64,17 +68,17 @@ class ApiParserMigration extends \ApiBase {
 	public function getAllowedParams() {
 		return [
 			'title' => [
-				\ApiBase::PARAM_TYPE => 'string',
-				\ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 			'config' => [
-				\ApiBase::PARAM_TYPE => self::$configNames,
-				\ApiBase::PARAM_DFLT => 'old|new',
-				\ApiBase::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => self::$configNames,
+				ParamValidator::PARAM_DEFAULT => 'old|new',
+				ParamValidator::PARAM_ISMULTI => true,
 			],
 			'redirect' => [
-				\ApiBase::PARAM_TYPE => 'string',
-				\ApiBase::PARAM_REQUIRED => false,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_REQUIRED => false,
 			],
 		];
 	}

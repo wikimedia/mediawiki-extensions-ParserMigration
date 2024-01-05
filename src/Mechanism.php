@@ -2,7 +2,11 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use Content;
 use MediaWiki\MediaWikiServices;
+use ParserOptions;
+use Title;
+use User;
 
 class Mechanism {
 
@@ -12,15 +16,15 @@ class Mechanism {
 	}
 
 	/**
-	 * @param \Content $content
-	 * @param \Title $title
-	 * @param \ParserOptions $baseOptions
-	 * @param \User $user
+	 * @param Content $content
+	 * @param Title $title
+	 * @param ParserOptions $baseOptions
+	 * @param User $user
 	 * @param array $configIndexes
 	 * @return array
 	 */
-	public function parse( \Content $content, \Title $title,
-		\ParserOptions $baseOptions, \User $user, array $configIndexes
+	public function parse( Content $content, Title $title,
+		ParserOptions $baseOptions, User $user, array $configIndexes
 	) {
 		$contentRenderer = MediaWikiServices::getInstance()->getContentRenderer();
 		if ( $baseOptions->getUseParsoid() ) {

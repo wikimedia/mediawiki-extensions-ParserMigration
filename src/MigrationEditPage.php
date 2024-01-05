@@ -2,25 +2,30 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use Article;
+use Content;
+use EditPage;
+use IContextSource;
 use MediaWiki\MediaWikiServices;
+use Title;
 
-class MigrationEditPage extends \EditPage {
+class MigrationEditPage extends EditPage {
 
 	/**
-	 * @param \IContextSource $context
-	 * @param \Title $title
+	 * @param IContextSource $context
+	 * @param Title $title
 	 */
-	public function __construct( \IContextSource $context, \Title $title ) {
-		$article = \Article::newFromTitle( $title, $context );
+	public function __construct( IContextSource $context, Title $title ) {
+		$article = Article::newFromTitle( $title, $context );
 		parent::__construct( $article );
 		$this->setContextTitle( $title );
 	}
 
 	/**
-	 * @param \Title $title
+	 * @param Title $title
 	 * @return string
 	 */
-	protected function getActionURL( \Title $title ) {
+	protected function getActionURL( Title $title ) {
 		return $title->getLocalURL( [ 'action' => 'parsermigration-edit' ] );
 	}
 
@@ -35,18 +40,23 @@ class MigrationEditPage extends \EditPage {
 	}
 
 	/**
-	 * @param \Content $content
+	 * @param Content $content
 	 * @return array
 	 */
-	protected function doPreviewParse( \Content $content ) {
+	protected function doPreviewParse( Content $content ) {
 		$user = $this->context->getUser();
 		$out = $this->context->getOutput();
 		$parserOptions = $this->getPreviewParserOptions();
 		$contentTransformer = MediaWikiServices::getInstance()->getService( 'ContentTransformer' );
 		$pstContent = $contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
 		$mechanism = new Mechanism();
-		$outputs = $mechanism->parse( $pstContent, $this->getTitle(), $parserOptions,
-			$user, [ 0, 1 ] );
+		$outputs = $mechanism->parse(
+			$pstContent,
+			$this->getTitle(),
+			$parserOptions,
+			$user,
+			[ 0, 1 ]
+		);
 
 		$skinOptions = $out->getSkin()->getOptions();
 		$poOptions = [
