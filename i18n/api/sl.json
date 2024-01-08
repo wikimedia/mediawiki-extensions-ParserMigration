@@ -7,5 +7,7 @@
 	"apihelp-parser-migration-summary": "Razčleni stran z dvegma različnima konfiguracijama razčlenjevalnika.",
 	"apihelp-parser-migration-param-title": "Naslov strani za naložitev in razčlembo.",
 	"apihelp-parser-migration-param-config": "Konfiguracija razčlenjevalnika za uporabo. Lahko je »old«, »new« ali »old|new«.",
-	"apihelp-parser-migration-param-redirect": "Preusmeritvam se privzeto sledi. Če ne želite slediti preusmeritvam, uporabite »ne«."
+	"apihelp-parser-migration-param-redirect": "Preusmeritvam se privzeto sledi. Če ne želite slediti preusmeritvam, uporabite »ne«.",
+	"apihelp-parser-migration-paramvalue-config-new": "Razčleni stran z uporabo »nove« konfiguracije; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Razčleni stran z uporabo »stare« konfiguracije; starejši razčlenjevalnik MediaWiki"
 }

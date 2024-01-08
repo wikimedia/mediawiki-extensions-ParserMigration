@@ -8,5 +8,7 @@
 	"apihelp-parser-migration-summary": "פענוח דף עם שתי תצורות שונות של המפענח.",
 	"apihelp-parser-migration-param-title": "הכותרת של הדף שייטען ויפוענח.",
 	"apihelp-parser-migration-param-config": "תצורת המפענח שבה ייעשה שימוש. האפשרויות הן \"old\",&rlm; \"new\" או \"old|new\".",
-	"apihelp-parser-migration-param-redirect": "שימוש בדף היעד בהפניות מופעל כברירת מחדל. ניתן להשתמש ב־\"no\" כדי לבטל התנהגות זו."
+	"apihelp-parser-migration-param-redirect": "שימוש בדף היעד בהפניות מופעל כברירת מחדל. ניתן להשתמש ב־\"no\" כדי לבטל התנהגות זו.",
+	"apihelp-parser-migration-paramvalue-config-new": "מפענח את הדף באמצעות התצורה \"new\"; פרסואיד",
+	"apihelp-parser-migration-paramvalue-config-old": "מפענח את הדף באמצעות התצורה \"old\"; המפענח הישן של מדיה־ויקי"
 }

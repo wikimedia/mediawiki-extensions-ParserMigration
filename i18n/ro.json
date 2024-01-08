@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"NGC 54"
+		]
+	},
+	"parsermigration-pref-label": "Activează unealta de migrație a parser-ului",
+	"parsermigration-pref-help": "Asta adaugă în bara laterală o legătură către [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration o unealtă] pentru migrarea texului paginii către noi versiuni ale parser-ului MediaWiki.",
+	"parsermigration-parsoid-readviews-pref-label": "Utilizează implicit Parsoid",
+	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: Selectând această opțiune, articolele vor fi redate utilizând implicit noul parser Parsoid de wikitext."
+}
