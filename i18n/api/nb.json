@@ -7,5 +7,7 @@
 	"apihelp-parser-migration-summary": "Tolk en side med to forskjellige parserkonfigurasjoner.",
 	"apihelp-parser-migration-param-title": "Tittelen på siden som skal lastes og tolkes.",
 	"apihelp-parser-migration-param-config": "Tolkekonfigurasjonen som skal brukes. Kan være «old», «new» eller «old|new».",
-	"apihelp-parser-migration-param-redirect": "Omdirigeringer tillates som standard. Bruk «no» for ikke å tillate omdirigeringer."
+	"apihelp-parser-migration-param-redirect": "Omdirigeringer tillates som standard. Bruk «no» for ikke å tillate omdirigeringer.",
+	"apihelp-parser-migration-paramvalue-config-new": "Parser siden med den «nye» konfigurasjonen; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Parser siden med den «gamle» konfigurasjonen; MediaWiki's gamle parser"
 }
