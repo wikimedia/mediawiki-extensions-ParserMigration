@@ -8,6 +8,7 @@ use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Request\WebRequest;
+use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
 use ParserOptions;
@@ -21,6 +22,10 @@ class Hooks implements
 
 	private Config $mainConfig;
 	private UserOptionsManager $userOptionsManager;
+
+	private const USERPREF_ALWAYS = 1;
+	private const USERPREF_DEFAULT = 0;
+	private const USERPREF_NEVER = 2;
 
 	/**
 	 * @param Config $mainConfig
@@ -40,19 +45,25 @@ class Hooks implements
 	 * @return bool
 	 */
 	public function onGetPreferences( $user, &$defaultPreferences ) {
+		$defaultPreferences['parsermigration-parsoid-readviews'] = [
+			'type' => 'select',
+			'label-message' => 'parsermigration-parsoid-readviews-selector-label',
+			'help-message' => 'parsermigration-parsoid-readviews-selector-help',
+			'section' => 'editing/developertools',
+			'options-messages' => [
+				'parsermigration-parsoid-readviews-always' => self::USERPREF_ALWAYS,
+				'parsermigration-parsoid-readviews-default' => self::USERPREF_DEFAULT,
+				'parsermigration-parsoid-readviews-never' => self::USERPREF_NEVER,
+			],
+		];
+
 		$defaultPreferences['parsermigration'] = [
 			'type' => 'toggle',
 			'label-message' => 'parsermigration-pref-label',
 			'help-message' => 'parsermigration-pref-help',
 			'section' => 'editing/developertools'
-			];
-
-		$defaultPreferences['parsermigration-parsoid-readviews'] = [
-			'type' => 'toggle',
-			'label-message' => 'parsermigration-parsoid-readviews-pref-label',
-			'help-message' => 'parsermigration-parsoid-readviews-pref-help',
-			'section' => 'editing/developertools'
 		];
+
 		return true;
 	}
 
@@ -68,7 +79,7 @@ class Hooks implements
 		// T348257: Allow individual user to opt in to Parsoid read views as a
 		// use option in the ParserMigration section.
 		$context = $article->getContext();
-		if ( $this->shouldUseParsoid( $context->getUser(), $context->getRequest() ) ) {
+		if ( $this->shouldUseParsoid( $context->getUser(), $context->getRequest(), $article->getTitle() ) ) {
 			$popts->setUseParsoid();
 		}
 		return true;
@@ -86,19 +97,26 @@ class Hooks implements
 			return;
 		}
 
+		$queryStringEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableQueryString'
+		);
+		if ( !$queryStringEnabled ) {
+			// Early exit from those wikis where we don't want the
+			// user to be able to put Parsoid pages into the parser cache.
+			return;
+		}
+
 		$user = $skin->getUser();
 		$title = $skin->getTitle();
 
 		$editToolPref = $this->userOptionsManager->getOption(
 			$user, 'parsermigration'
 		);
-		$parsoidDefaultPref = $this->userOptionsManager->getOption(
+		$userPref = intval( $this->userOptionsManager->getOption(
 			$user, 'parsermigration-parsoid-readviews'
-		);
-		$queryStringEnabled = $this->mainConfig->get(
-			'ParserMigrationEnableQueryString'
-		);
+		) );
 
+		$shouldShowToggle = false;
 		if ( $editToolPref ) {
 			$sidebar['TOOLBOX']['parsermigration'] = [
 				'href' => $title->getLocalURL( [
@@ -106,10 +124,17 @@ class Hooks implements
 				] ),
 				'text' => $skin->msg( 'parsermigration-toolbox-label' )->text(),
 			];
+			$shouldShowToggle = true;
+		}
+		if ( $this->isParsoidDefaultFor( $title ) ) {
+			$shouldShowToggle = true;
+		}
+		if ( $userPref === self::USERPREF_ALWAYS ) {
+			$shouldShowToggle = true;
 		}
 
-		if ( $queryStringEnabled && ( $editToolPref || $parsoidDefaultPref ) ) {
-			$usingParsoid = $this->shouldUseParsoid( $user, $skin->getRequest() );
+		if ( $shouldShowToggle ) {
+			$usingParsoid = $this->shouldUseParsoid( $user, $skin->getRequest(), $title );
 			$sidebar[ 'TOOLBOX' ][ 'parsermigration' ] = [
 				'href' => $title->getLocalURL( [
 					// Allow toggling 'useParsoid' from the current state
@@ -125,19 +150,47 @@ class Hooks implements
 	}
 
 	/**
+	 * Determine whether Parsoid should be used by default on this page,
+	 * based on per-wiki configuration.  User preferences and query
+	 * string parameters are not consulted.
+	 * @param Title $title
+	 * @return bool
+	 */
+	private function isParsoidDefaultFor( Title $title ): bool {
+		$talkPagesEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableParsoidDiscussionTools'
+		);
+		if ( $talkPagesEnabled && $title->isTalkPage() ) {
+			// This enables Parsoid on all talk pages, which isn't *exactly*
+			// the same as "the set of pages where DiscussionTools is enabled",
+			// but it will do for now.
+			return true;
+		}
+		return false;
+	}
+
+	/**
 	 * Determine whether to use Parsoid for read views on this request,
 	 * request, based on the user's preferences and the URL query string.
 	 *
 	 * @param User $user
 	 * @param WebRequest $request
+	 * @param Title $title
 	 * @return bool True if Parsoid should be used for this request
 	 */
-	private function shouldUseParsoid( User $user, WebRequest $request ): bool {
+	private function shouldUseParsoid( User $user, WebRequest $request, Title $title ): bool {
 		// Find out if the user has opted in to Parsoid Read Views by default
-		$userOptIn = $this->userOptionsManager->getOption(
+		$userPref = intval( $this->userOptionsManager->getOption(
 			$user,
 			'parsermigration-parsoid-readviews'
-		);
+		) );
+		$userOptIn = $this->isParsoidDefaultFor( $title );
+		if ( $userPref === self::USERPREF_ALWAYS ) {
+			$userOptIn = true;
+		}
+		if ( $userPref === self::USERPREF_NEVER ) {
+			$userOptIn = false;
+		}
 
 		// Allow disabling query string handling via config change to manage
 		// parser cache usage.

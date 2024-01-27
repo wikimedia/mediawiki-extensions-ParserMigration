@@ -17,6 +17,10 @@
 		"ParserMigrationEnableQueryString": {
 			"value": false,
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
+		},
+		"ParserMigrationEnableParsoidDiscussionTools": {
+			"value": false,
+			"description": "Whether to use Parsoid by default on discussion tools pages"
 		}
 	},
 	"AutoloadNamespaces": {

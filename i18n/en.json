@@ -11,8 +11,11 @@
 	"parsermigration-pref-label": "Enable parser migration tool",
 	"parsermigration-pref-help": "This adds a sidebar link giving access to [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration a tool] for migrating page text to new versions of the MediaWiki parser.",
 	"parsermigration-toolbox-label": "Edit with migration tool",
-	"parsermigration-parsoid-readviews-pref-label": "Use Parsoid by default",
-	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: By selecting this option, articles will be rendered using the new Parsoid wikitext parser by default.",
+	"parsermigration-parsoid-readviews-selector-label": "Use the new Parsoid wikitext parser:",
+	"parsermigration-parsoid-readviews-selector-help": "When Parsoid is used, a sidebar link will be provided to allow using the legacy parser in case of issues.",
+	"parsermigration-parsoid-readviews-always": "Always (opt-in)",
+	"parsermigration-parsoid-readviews-default": "According to wiki configuration (default)",
+	"parsermigration-parsoid-readviews-never": "Never (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Use legacy parser",
 	"parsermigration-use-parsoid-toolbox-label": "Use new parser (Parsoid)"
 }
