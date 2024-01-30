@@ -14,11 +14,8 @@
 	"parsermigration-pref-label": "The user preference label for a checkbox which enables the feature",
 	"parsermigration-pref-help": "Help text for the user preference checkbox",
 	"parsermigration-toolbox-label": "The text of the toolbox link, which allows the user to edit the page with a special user interface.",
-	"parsermigration-parsoid-readviews-selector-label": "The user preference label for drop-down selector which allows opt-in, opt-out, or the use of the wiki default setting for the use of the new Parsoid parser",
-	"parsermigration-parsoid-readviews-selector-help": "Help text for the user preference drop-down selector for the use of the new Parsoid parser",
-	"parsermigration-parsoid-readviews-always": "Selector text used when the user wants to always use the new Parsoid parser to render wikitext",
-	"parsermigration-parsoid-readviews-default": "Selector text used when the user wants to follow the wiki default preferences for the use of the Parsoid parser to render wikitext",
-	"parsermigration-parsoid-readviews-never": "Selector text used when the user wants to never use the new Parsoid parser to render wikitext",
+	"parsermigration-parsoid-readviews-pref-label": "The user preference label for a checkbox which enables the use Parsoid parser for read views",
+	"parsermigration-parsoid-readviews-pref-help": "Help text for the user preference use Parsoid checkbox",
 	"parsermigration-use-legacy-parser-toolbox-label": "The text of the toolbox link which allows the user to use the legacy parser to render this page",
 	"parsermigration-use-parsoid-toolbox-label": "The text of the toolbox link which allows the user to use the Parsoid parser to render this page"
 }
