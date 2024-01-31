@@ -14,7 +14,5 @@
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Habilitar a ferramenta de migração de analisador",
 	"parsermigration-pref-help": "Isso adiciona uma ligação à barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uma ferramenta] para migrar texto de página para novas versões do analisador de MediaWiki.",
-	"parsermigration-toolbox-label": "Editar com a ferramenta de migração",
-	"parsermigration-parsoid-readviews-pref-label": "Usar Parsoid por padrão",
-	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: Ao selecionar esta opção, os artigos serão renderizados usando o novo analisador de wikitexto Parsoid por padrão."
+	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
 }

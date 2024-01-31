@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Римма"
-		]
-	},
-	"parsermigration-parsoid-readviews-pref-label": "Вӧдитчӧ Parsoid-ӧн одзті лӧсьӧтӧм сьӧрті",
-	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTAL: эта меню юкӧн бӧрйикӧ статьяыс кутас петкӧтчыны викитестлӧн Parsoid виль синтаксическӧй анализатор одзти лӧсьӧтӧм сьӧрті пыртӧмӧн."
-}

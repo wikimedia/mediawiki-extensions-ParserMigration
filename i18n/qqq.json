@@ -14,8 +14,6 @@
 	"parsermigration-pref-label": "The user preference label for a checkbox which enables the feature",
 	"parsermigration-pref-help": "Help text for the user preference checkbox",
 	"parsermigration-toolbox-label": "The text of the toolbox link, which allows the user to edit the page with a special user interface.",
-	"parsermigration-parsoid-readviews-pref-label": "The user preference label for a checkbox which enables the use Parsoid parser for read views",
-	"parsermigration-parsoid-readviews-pref-help": "Help text for the user preference use Parsoid checkbox",
 	"parsermigration-use-legacy-parser-toolbox-label": "The text of the toolbox link which allows the user to use the legacy parser to render this page",
 	"parsermigration-use-parsoid-toolbox-label": "The text of the toolbox link which allows the user to use the Parsoid parser to render this page"
 }

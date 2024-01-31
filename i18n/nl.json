@@ -13,8 +13,6 @@
 	"parsermigration-pref-label": "Parsermigratiehulpmiddel inschakelen",
 	"parsermigration-pref-help": "Hiermee wordt een zijbalkkoppeling toegevoegd die toegang geeft tot een [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration hulpmiddel] voor het migreren van paginatekst naar nieuwe versies van de MediaWiki-parser.",
 	"parsermigration-toolbox-label": "Bewerken met migratiehulpmiddel",
-	"parsermigration-parsoid-readviews-pref-label": "Standaard Parsoid gebruiken",
-	"parsermigration-parsoid-readviews-pref-help": "EXPERIMENTEEL: Met deze optie worden artikelen standaard weergegeven met de nieuwe wikitekst-parser Parsoid.",
 	"parsermigration-use-legacy-parser-toolbox-label": "Oude parser gebruiken",
 	"parsermigration-use-parsoid-toolbox-label": "Nieuwe parser (Parsoid) gebruiken"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Butko",
 			"Facenapalm",
 			"Jack who built the house",
 			"Movses",
@@ -18,6 +19,5 @@
 	"parsermigration-pref-label": "Включить инструмент переезда на новый парсер",
 	"parsermigration-pref-help": "Это добавит в боковую панель ссылку, предоставляющую доступ к [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration инструменту] для миграции текста страницы на новую версию парсера MediaWiki.",
 	"parsermigration-toolbox-label": "Редактировать с инструментом переезда на новый парсер",
-	"parsermigration-parsoid-readviews-pref-label": "Использовать Parsoid по умолчанию",
-	"parsermigration-parsoid-readviews-pref-help": "(Экспериментально.) При выборе этой опции статьи будут по умолчанию отображаться с использованием нового парсера вики-текста Parsoid."
+	"parsermigration-parsoid-readviews-default": "Согласно конфигурации вики (по умолчанию)"
 }

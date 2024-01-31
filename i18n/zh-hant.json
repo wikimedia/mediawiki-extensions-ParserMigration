@@ -16,8 +16,6 @@
 	"parsermigration-pref-label": "啟用解析移轉工具",
 	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 解析的新版本。",
 	"parsermigration-toolbox-label": "使用移轉工具編輯",
-	"parsermigration-parsoid-readviews-pref-label": "預設使用 Parsoid",
-	"parsermigration-parsoid-readviews-pref-help": "實驗性功能：透過選擇此選項，預設將使用新的 Parsoid wikitext 解析器來呈現條目。",
 	"parsermigration-use-legacy-parser-toolbox-label": "使用舊版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "使用新版解析器（Parsoid）"
 }

@@ -11,8 +11,6 @@
 	"parsermigration-pref-label": "Slå på parsermigrasjonsverktøyet",
 	"parsermigration-pref-help": "Dette legger til en lenke i sidemenyen som gir tilgang til [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration et verktøy] for å migrere sidetekst til nye versjoner av MediaWiki-parseren.",
 	"parsermigration-toolbox-label": "Rediger med migrasjonsverktøyet",
-	"parsermigration-parsoid-readviews-pref-label": "Bruk Parsoid som standard",
-	"parsermigration-parsoid-readviews-pref-help": "EKSPERIMENTELL: Ved å velge dette alternativet blir artikler gjengitt med den nye Parsoid-wikitekstparseren som standard.",
 	"parsermigration-use-legacy-parser-toolbox-label": "Bruk den gamle parseren",
 	"parsermigration-use-parsoid-toolbox-label": "Bruk den nye parseren (Parsoid)"
 }
