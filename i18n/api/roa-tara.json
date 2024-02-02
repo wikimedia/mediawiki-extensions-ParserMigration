@@ -7,5 +7,7 @@
 	"apihelp-parser-migration-summary": "Analizze 'na pàgene cu doje configuraziune diverse.",
 	"apihelp-parser-migration-param-title": "'U titole d'a pàgene da carecà e analizzà.",
 	"apihelp-parser-migration-param-config": "'A configurazione de l'analizzatore da ausà. Pò essere \"vecchie\", \"nove\" o \"vecchie|nove\".",
-	"apihelp-parser-migration-param-redirect": "Le redirezionaminde normalmende so seguite. Ause \"no\" pe no seguì le redirezionaminde."
+	"apihelp-parser-migration-param-redirect": "Le redirezionaminde normalmende so seguite. Ause \"no\" pe no seguì le redirezionaminde.",
+	"apihelp-parser-migration-paramvalue-config-new": "Analizza 'a pàgene ausanne 'a configurazione \"nove\"; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Analizza 'a pàgene ausanne 'a configurazione \"vecchie\"; analizzatore andiche de MediaUicchi"
 }
