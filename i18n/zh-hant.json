@@ -6,7 +6,8 @@
 			"Hello903hello",
 			"Kly",
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"parsermigration-desc": "解析移轉工具",
@@ -16,6 +17,8 @@
 	"parsermigration-pref-label": "啟用解析移轉工具",
 	"parsermigration-pref-help": "這會新增側邊欄連結，提供對[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 工具]的存取，以移轉頁面文字至 MediaWiki 解析的新版本。",
 	"parsermigration-toolbox-label": "使用移轉工具編輯",
+	"parsermigration-parsoid-readviews-selector-label": "使用新的Parsoid wikitext解析器：",
+	"parsermigration-parsoid-readviews-default": "依據wiki組態設定（預設值）",
 	"parsermigration-use-legacy-parser-toolbox-label": "使用舊版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "使用新版解析器（Parsoid）"
 }

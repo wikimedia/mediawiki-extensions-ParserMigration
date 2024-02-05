@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andriy.v",
 			"Base",
 			"Piramidion",
 			"Ата"
@@ -12,5 +13,9 @@
 	"parsermigration-new": "Новий",
 	"parsermigration-pref-label": "Увімкнути інструмент міграції парсеру",
 	"parsermigration-pref-help": "Це додає посилання на бічну панель, яке дає доступ до [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструменту] для міграції тексту сторінки до нових версій парсера MediaWiki.",
-	"parsermigration-toolbox-label": "Редагувати за допомогою інструменту міграції"
+	"parsermigration-toolbox-label": "Редагувати за допомогою інструменту міграції",
+	"parsermigration-parsoid-readviews-always": "Завжди (opt-in)",
+	"parsermigration-parsoid-readviews-default": "Відповідно до налаштувань (за замовчуванням)",
+	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",
+	"parsermigration-use-parsoid-toolbox-label": "Використати новий парсер (Parsoid)"
 }
