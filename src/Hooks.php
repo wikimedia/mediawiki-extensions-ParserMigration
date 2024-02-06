@@ -4,8 +4,10 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use Article;
 use MediaWiki\Config\Config;
+use MediaWiki\Hook\ParserOutputPostCacheTransformHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
@@ -17,7 +19,8 @@ use Skin;
 class Hooks implements
 	GetPreferencesHook,
 	SidebarBeforeOutputHook,
-	ArticleParserOptionsHook
+	ArticleParserOptionsHook,
+	ParserOutputPostCacheTransformHook
 {
 
 	private Config $mainConfig;
@@ -83,6 +86,40 @@ class Hooks implements
 			$popts->setUseParsoid();
 		}
 		return true;
+	}
+
+	/**
+	 * This hook is called from ParserOutput::getText() to do
+	 * post-cache transforms.
+	 *
+	 * @since 1.35
+	 *
+	 * @param ParserOutput $parserOutput
+	 * @param string &$text Text being transformed, before core transformations are done
+	 * @param array &$options Options array being used for the transformation
+	 * @return void This hook must not abort, it must return no value
+	 */
+	public function onParserOutputPostCacheTransform( $parserOutput, &$text,
+		&$options
+	): void {
+		// Make "whether Parsoid was used" visible to client-side JS
+		if ( $options['isParsoidContent'] ?? false ) {
+			$parserOutput->setJsConfigVar( 'parsermigration-parsoid', true );
+			// Add a user notice
+			$parserOutput->setJsConfigVar(
+				'parsermigration-notice-version',
+				$this->mainConfig->get(
+					'ParserMigrationUserNoticeVersion'
+				)
+			);
+			$parserOutput->setJsConfigVar(
+				'parsermigration-notice-days',
+				$this->mainConfig->get(
+					'ParserMigrationUserNoticeDays'
+				)
+			);
+			$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
+		}
 	}
 
 	/**
@@ -157,13 +194,16 @@ class Hooks implements
 	 * @return bool
 	 */
 	private function isParsoidDefaultFor( Title $title ): bool {
+		$articlePagesEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableParsoidArticlePages'
+		);
+		// This enables Parsoid on all talk pages, which isn't *exactly*
+		// the same as "the set of pages where DiscussionTools is enabled",
+		// but it will do for now.
 		$talkPagesEnabled = $this->mainConfig->get(
 			'ParserMigrationEnableParsoidDiscussionTools'
 		);
-		if ( $talkPagesEnabled && $title->isTalkPage() ) {
-			// This enables Parsoid on all talk pages, which isn't *exactly*
-			// the same as "the set of pages where DiscussionTools is enabled",
-			// but it will do for now.
+		if ( $title->isTalkPage() ? $talkPagesEnabled : $articlePagesEnabled ) {
 			return true;
 		}
 		return false;

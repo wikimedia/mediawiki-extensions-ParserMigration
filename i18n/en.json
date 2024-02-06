@@ -17,5 +17,7 @@
 	"parsermigration-parsoid-readviews-default": "According to wiki configuration (default)",
 	"parsermigration-parsoid-readviews-never": "Never (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Use legacy parser",
-	"parsermigration-use-parsoid-toolbox-label": "Use new parser (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Use new parser (Parsoid)",
+	"parsermigration-notice-title": "Experimental feature",
+	"parsermigration-notice-body": "You are using the new Parsoid wikitext parser to display this page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Click here for more information]"
 }
