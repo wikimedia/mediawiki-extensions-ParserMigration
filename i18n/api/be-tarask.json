@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"apihelp-parser-migration-summary": "Разабраць старонку з двума рознымі наладамі аналізатара.",
+	"apihelp-parser-migration-param-title": "Назва старонкі для загрузкі і разбору.",
+	"apihelp-parser-migration-param-config": "Якой канфігурацыяй аналізатара карыстацца. Можа быць „old“, „new“ або „old|new“.",
+	"apihelp-parser-migration-param-redirect": "Дапомна адбываецца пераход па перанакіраваньнях. Каб адключыць пераход, пастаўце „no“.",
+	"apihelp-parser-migration-paramvalue-config-new": "Разьбірае старонку з „new“ канфігурацыяй; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Разьбірае старонку з „old“ канфігурацыяй; стары аналізатар МэдыяВікі"
+}

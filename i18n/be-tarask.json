@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"parsermigration-desc": "Інструмэнт міграцыі аналізатара тэксту",
+	"parsermigration-edit-subtitle": "з інструмэнтам міграцыі аналізатара",
+	"parsermigration-current": "Стары",
+	"parsermigration-new": "Новы",
+	"parsermigration-pref-label": "Уключыць інструмэнт міграцыі аналізатара тэксту",
+	"parsermigration-pref-help": "Гэта дадасьць бакавую спасылку доступу да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмэнту] пераносу тэксту старонкі на новыя вэрсіі аналізатара МэдыяВікі.",
+	"parsermigration-toolbox-label": "Рэдагаваць інструмэнтам міграцыі",
+	"parsermigration-parsoid-readviews-selector-label": "Выкарыстайце новы аналізатар тэксту Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Пры выкарыстаньні Parsoid у бакавой панэлі зьявіцца спасылка на стары аналізатар на выпадак праблемаў з новым.",
+	"parsermigration-parsoid-readviews-always": "Заўсёды (пагадзіцца)",
+	"parsermigration-parsoid-readviews-default": "Паводле наладаў вікі (дапомна)",
+	"parsermigration-parsoid-readviews-never": "Ніколі (адмовіцца)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Выкарыстоўваць стары аналізатар",
+	"parsermigration-use-parsoid-toolbox-label": "Выкарыстоўваць новы аналізатар (Parsoid)"
+}
