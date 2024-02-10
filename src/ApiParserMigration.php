@@ -3,11 +3,11 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use ApiBase;
-use Exception;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
 use ParserOptions;
+use RuntimeException;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiParserMigration extends ApiBase {
@@ -44,7 +44,7 @@ class ApiParserMigration extends ApiBase {
 		$configIndexes = [];
 		foreach ( $params['config'] as $configName ) {
 			if ( !isset( $configIndexesByName[$configName] ) ) {
-				throw new Exception( 'Invalid config name, should have already been validated' );
+				throw new RuntimeException( 'Invalid config name, should have already been validated' );
 			}
 			$configIndexes[] = $configIndexesByName[$configName];
 		}
