@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamza DK"
+			"Hamza DK",
+			"Ummabruka"
 		]
 	},
-	"parsermigration-use-parsoid-toolbox-label": "Yi amfani da sabon parser (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Yi amfani da sabon parser (Parsoid)",
+	"parsermigration-notice-title": "Fassalin gwaji",
+	"parsermigration-notice-body": "Kana amfani da sabon parsoid wikitext parser Don nuna wannan shafin"
 }

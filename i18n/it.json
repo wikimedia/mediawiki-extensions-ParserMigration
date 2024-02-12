@@ -13,5 +13,6 @@
 	"parsermigration-pref-help": "Questo aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uno strumento] per migrare il testo delle pagine a una nuova versione del parser MediaWiki.",
 	"parsermigration-toolbox-label": "Modifica con strumento di migrazione",
 	"parsermigration-parsoid-readviews-default": "Secondo la configurazione wiki (predefinita)",
-	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)",
+	"parsermigration-notice-title": "Funzionalità sperimentale"
 }

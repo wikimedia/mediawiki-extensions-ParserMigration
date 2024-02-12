@@ -14,6 +14,8 @@
 	"parsermigration-pref-label": "Увімкнути інструмент міграції парсеру",
 	"parsermigration-pref-help": "Це додає посилання на бічну панель, яке дає доступ до [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструменту] для міграції тексту сторінки до нових версій парсера MediaWiki.",
 	"parsermigration-toolbox-label": "Редагувати за допомогою інструменту міграції",
+	"parsermigration-parsoid-readviews-selector-label": "Використовувати новий парсер вікірозмітки Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Коли Parsoid використовується, з'явиться посилання у бічній панелі, яке дозволить повернутися до старого парсера",
 	"parsermigration-parsoid-readviews-always": "Завжди (opt-in)",
 	"parsermigration-parsoid-readviews-default": "Відповідно до налаштувань (за замовчуванням)",
 	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",

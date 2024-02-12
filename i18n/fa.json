@@ -12,5 +12,14 @@
 	"parsermigration-new": "جديد",
 	"parsermigration-pref-label": "فعال‌کردن ابزار مهاجرت تجزیه‌گر",
 	"parsermigration-pref-help": "این در نوار کناری یک پیوند به [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration یک ابزار] برای مهاجرت متن صفحه به تجزیه‌گر مدیاویکی ایجاد می‌کند.",
-	"parsermigration-toolbox-label": "ویرایش با ابزار مهاجرت"
+	"parsermigration-toolbox-label": "ویرایش با ابزار مهاجرت",
+	"parsermigration-parsoid-readviews-selector-label": "استفاده از تجزیه‌گیر ویکی‌متن جدید پارسوئید:",
+	"parsermigration-parsoid-readviews-selector-help": "هنگام استفاده از پارسوئید، یک پیوند در نوار کناری قرار می‌گیرد که در صورت بروز مشکل، امکان استفاده از تجزیه‌گر قدیمی را فراهم می‌کند.",
+	"parsermigration-parsoid-readviews-always": "همیشه (فعال‌سازی)",
+	"parsermigration-parsoid-readviews-default": "مطابق با پیکربندی ویکی (پیش‌فرض)",
+	"parsermigration-parsoid-readviews-never": "هرگز (غیرفعال‌سازی)",
+	"parsermigration-use-legacy-parser-toolbox-label": "استفاده از تجزیه‌گر قدیمی",
+	"parsermigration-use-parsoid-toolbox-label": "استفاده از تجزیه‌گر جدید (پارسوئید)",
+	"parsermigration-notice-title": "ویژگی آزمایشی",
+	"parsermigration-notice-body": "شما در حال استفاده از تجزیه‌گر ویکی‌متن پارسوئید جدید برای نمایش این صفحه هستید. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration برای کسب اطلاعات بیشتر اینجا کلیک کنید]"
 }

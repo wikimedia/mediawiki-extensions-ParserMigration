@@ -7,5 +7,6 @@
 	"parsermigration-parsoid-readviews-selector-label": "Zaŋmi Parsoid wikitɛxt\nparser palli ŋɔ tum:",
 	"parsermigration-parsoid-readviews-always": "Saha kam (kpɛma)",
 	"parsermigration-parsoid-readviews-default": "Lahabali din yina wiki\n\"configuration\" (default)",
-	"parsermigration-parsoid-readviews-never": "Abada (yima)"
+	"parsermigration-parsoid-readviews-never": "Abada (yima)",
+	"parsermigration-notice-title": "Niŋsim wuhibu nahingbaŋ"
 }
