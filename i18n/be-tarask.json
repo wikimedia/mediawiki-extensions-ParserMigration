@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"parsermigration-desc": "Інструмэнт міграцыі аналізатара тэксту",
+	"parsermigration-edit-subtitle": "з інструмэнтам міграцыі аналізатара",
+	"parsermigration-current": "Стары",
+	"parsermigration-new": "Новы",
+	"parsermigration-pref-label": "Уключыць інструмэнт міграцыі аналізатара тэксту",
+	"parsermigration-pref-help": "Гэта дадасьць бакавую спасылку доступу да [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструмэнту] пераносу тэксту старонкі на новыя вэрсіі аналізатара МэдыяВікі.",
+	"parsermigration-toolbox-label": "Рэдагаваць інструмэнтам міграцыі"
+}
