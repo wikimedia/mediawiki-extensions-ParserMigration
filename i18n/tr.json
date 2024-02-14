@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"MuratTheTurkish",
 			"Rapsar",
 			"TmY e12",
@@ -14,5 +15,14 @@
 	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Ayrıştırıcı geçiş aracını etkinleştir",
 	"parsermigration-pref-help": "Bu, sayfa metnini MediaWiki ayrıştırıcısının yeni sürümlerine geçirmek için [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration bir araca] erişim sağlayan bir kenar çubuğu bağlantısı ekler.",
-	"parsermigration-toolbox-label": "Geçiş aracıyla düzenle"
+	"parsermigration-toolbox-label": "Geçiş aracıyla düzenle",
+	"parsermigration-parsoid-readviews-selector-label": "Yeni Parsoid vikimetin ayrıştırıcısını kullanın:",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid kullanıldığında, sorun olduğunda eski ayrıştırıcının kullanılmasına izin vermek için bir kenar çubuğu bağlantısı sağlanacaktır.",
+	"parsermigration-parsoid-readviews-always": "Her zaman (katıl)",
+	"parsermigration-parsoid-readviews-default": "Viki yapılandırmasına göre (varsayılan)",
+	"parsermigration-parsoid-readviews-never": "Asla (katılma)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Eski ayrıştırıcıyı kullan",
+	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrıştırıcıyı kullan (Parsoid)",
+	"parsermigration-notice-title": "Deneysel özellik",
+	"parsermigration-notice-body": "Bu sayfayı görüntülemek için yeni Parsoid vikimetin ayrıştırıcısını kullanıyorsunuz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Daha fazla bilgi için buraya tıklayın]"
 }
