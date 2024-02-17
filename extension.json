@@ -53,7 +53,8 @@
 		]
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "resources"
+		"localBasePath": "resources",
+		"remoteExtPath": "ParserMigration/resources"
 	},
 	"ResourceModules": {
 		"ext.parsermigration.edit": {
@@ -66,6 +67,13 @@
 			"messages": [
 				"parsermigration-notice-body",
 				"parsermigration-notice-title"
+			]
+		},
+		"ext.parsermigration.indicator": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexStyleOnly": true,
+			"codexComponents": [
+				"CdxInfoChip"
 			]
 		}
 	},

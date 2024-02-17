@@ -6,6 +6,7 @@ use Article;
 use MediaWiki\Config\Config;
 use MediaWiki\Hook\ParserOutputPostCacheTransformHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Html\Html;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -119,6 +120,21 @@ class Hooks implements
 				)
 			);
 			$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
+			// Add an indicator using an ad-hoc Codex InfoChip
+			// Replace when T357324 blesses a CSS-only InfoChip
+			$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
+			$parserOutput->setIndicator(
+				'parsoid',
+				Html::rawElement(
+					'div',
+					[ 'class' => 'cdx-info-chip' ],
+					Html::element(
+						'span',
+						[ 'class' => 'cdx-info-chip--text' ],
+						wfMessage( 'parsermigration-parsoid-chip-label' )->text()
+					)
+				)
+			);
 		}
 	}
 
