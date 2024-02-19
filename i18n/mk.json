@@ -19,5 +19,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Користи стар расчленувач",
 	"parsermigration-use-parsoid-toolbox-label": "Користи нов расчленувач (Parsoid)",
 	"parsermigration-notice-title": "Пробна функција",
-	"parsermigration-notice-body": "Го користите новиот расчленувач на викитекст Parsoid за приказ на оваа страница. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Стиснете тука за повеќе информации]"
+	"parsermigration-notice-body": "Го користите новиот расчленувач на викитекст Parsoid за приказ на оваа страница. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Стиснете тука за повеќе информации]",
+	"parsermigration-parsoid-chip-label": "Испишано со Parsoid"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Liuxinyu970226",
 			"Nemo bis",
 			"Tim Starling",
@@ -23,5 +24,5 @@
 	"parsermigration-use-parsoid-toolbox-label": "The text of the toolbox link which allows the user to use the Parsoid parser to render this page",
 	"parsermigration-notice-title": "Title text for a notification displayed when a user views a page rendered with the Parsoid wikitext parser for the first time.",
 	"parsermigration-notice-body": "Body text for a notification displayed when a user views a page rendered with the Parsoid wikitext parser for the first time.",
-	"parsermigration-parsoid-chip-label": "Short text for an indicator at the top of an article page marking a page that has been rendered with the new Parsoid wikitext parser."
+	"parsermigration-parsoid-chip-label": "Short text for an indicator at the top of a main space page marking a page that has been rendered with the new Parsoid wikitext parser."
 }

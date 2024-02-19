@@ -20,5 +20,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Alten Parser verwenden",
 	"parsermigration-use-parsoid-toolbox-label": "Neuen Parser verwenden (Parsoid)",
 	"parsermigration-notice-title": "Experimentelle Funktion",
-	"parsermigration-notice-body": "Du verwendest den neuen Parsoid-Wikitext-Parser, um diese Seite anzuzeigen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Klicke hier für weitere Informationen]"
+	"parsermigration-notice-body": "Du verwendest den neuen Parsoid-Wikitext-Parser, um diese Seite anzuzeigen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Klicke hier für weitere Informationen]",
+	"parsermigration-parsoid-chip-label": "Mit Parsoid gerendert"
 }

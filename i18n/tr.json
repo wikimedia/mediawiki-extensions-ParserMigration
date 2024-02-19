@@ -24,5 +24,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Eski ayrıştırıcıyı kullan",
 	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrıştırıcıyı kullan (Parsoid)",
 	"parsermigration-notice-title": "Deneysel özellik",
-	"parsermigration-notice-body": "Bu sayfayı görüntülemek için yeni Parsoid vikimetin ayrıştırıcısını kullanıyorsunuz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Daha fazla bilgi için buraya tıklayın]"
+	"parsermigration-notice-body": "Bu sayfayı görüntülemek için yeni Parsoid vikimetin ayrıştırıcısını kullanıyorsunuz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Daha fazla bilgi için buraya tıklayın]",
+	"parsermigration-parsoid-chip-label": "Parsoid ile işlendi"
 }
