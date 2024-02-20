@@ -52,10 +52,10 @@ the wiki default is to use Parsoid for the particular page they are
 viewing, a notification will appear.  This notification can be
 controlled with the following configuration options:
 
-* `$wgParserMigrationNoticeVersion`: This value can be incremented
+* `$wgParserMigrationUserNoticeVersion`: This value can be incremented
 whenever the notice text has materially changed, in order to display
 it again to users who have already dismissed it once.
-* `$wgParserMigrationNoticeDays`:  After the notice has been manually
+* `$wgParserMigrationUserNoticeDays`:  After the notice has been manually
 dismissed by the user, it will not be shown again until this number
 of days have passed.  Setting it to `0` means the notice will never
 be shown again once dismissed unless the notice version increases.
