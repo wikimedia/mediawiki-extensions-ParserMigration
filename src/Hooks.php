@@ -106,20 +106,26 @@ class Hooks implements
 		// Make "whether Parsoid was used" visible to client-side JS
 		if ( $options['isParsoidContent'] ?? false ) {
 			$parserOutput->setJsConfigVar( 'parsermigration-parsoid', true );
-			// Add a user notice
-			$parserOutput->setJsConfigVar(
-				'parsermigration-notice-version',
-				$this->mainConfig->get(
-					'ParserMigrationUserNoticeVersion'
-				)
-			);
-			$parserOutput->setJsConfigVar(
-				'parsermigration-notice-days',
-				$this->mainConfig->get(
-					'ParserMigrationUserNoticeDays'
-				)
-			);
-			$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
+			// Add a user notice for named users
+			$named = false;
+			if ( $options['skin'] ) {
+				$named = $options['skin']->getUser()->isNamed();
+			}
+			if ( $named ) {
+				$parserOutput->setJsConfigVar(
+					'parsermigration-notice-version',
+					$this->mainConfig->get(
+						'ParserMigrationUserNoticeVersion'
+					)
+				);
+				$parserOutput->setJsConfigVar(
+					'parsermigration-notice-days',
+					$this->mainConfig->get(
+						'ParserMigrationUserNoticeDays'
+					)
+				);
+				$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
+			}
 			// Add an indicator using an ad-hoc Codex InfoChip
 			// Replace when T357324 blesses a CSS-only InfoChip
 			$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
