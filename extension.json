@@ -61,6 +61,12 @@
 			"styles": "ext.parsermigration.edit.css"
 		},
 		"ext.parsermigration.notice": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexStyleOnly": true,
+			"codexComponents": [
+				"CdxMessage"
+			],
+			"styles": "ext.parsermigration.notice.less",
 			"packageFiles": [
 				"ext.parsermigration.notice.js"
 			],

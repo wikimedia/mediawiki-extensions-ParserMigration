@@ -25,10 +25,31 @@
 		if ( seen === NOTICE_VERSION ) {
 			return; // Already seen this version
 		}
+		// Build the message content from scratch in order to match/use Codex
+		// styles for a "notice" Message
+		var $content = $( '<div class="cdx-message cdx-message--inline cdx-message--notice" aria-live="polite">' );
+
+		var $title = $( '<p>' ).append(
+			$( '<strong>' ).html(
+				mw.message( 'parsermigration-notice-title' ).parse()
+			)
+		);
+		var $body = $( '<p>' ).html(
+			mw.message( 'parsermigration-notice-body' ).parse()
+		);
+
+		$content.append(
+			$( '<span class="cdx-message__icon">' )
+		).append(
+			$( '<div class="cdx-message__content">' )
+				.append( $title )
+				.append( $body )
+		).append(
+			$( '<span class="cdx-button__icon parsermigration-notice-icon-close">' )
+		);
 		mw.notify(
-			mw.message( 'parsermigration-notice-body' ),
+			$content,
 			{
-				title: mw.message( 'parsermigration-notice-title' ),
 				type: 'info',
 				autoHide: false,
 				tag: 'parsermigration-notice'
