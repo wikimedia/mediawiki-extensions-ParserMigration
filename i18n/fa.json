@@ -13,7 +13,7 @@
 	"parsermigration-pref-label": "فعال‌کردن ابزار مهاجرت تجزیه‌گر",
 	"parsermigration-pref-help": "این در نوار کناری یک پیوند به [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration یک ابزار] برای مهاجرت متن صفحه به تجزیه‌گر مدیاویکی ایجاد می‌کند.",
 	"parsermigration-toolbox-label": "ویرایش با ابزار مهاجرت",
-	"parsermigration-parsoid-readviews-selector-label": "استفاده از تجزیه‌گیر ویکی‌متن جدید پارسوئید:",
+	"parsermigration-parsoid-readviews-selector-label": "استفاده از تجزیه‌گر ویکی‌متن جدید پارسوئید:",
 	"parsermigration-parsoid-readviews-selector-help": "هنگام استفاده از پارسوئید، یک پیوند در نوار کناری قرار می‌گیرد که در صورت بروز مشکل، امکان استفاده از تجزیه‌گر قدیمی را فراهم می‌کند.",
 	"parsermigration-parsoid-readviews-always": "همیشه (فعال‌سازی)",
 	"parsermigration-parsoid-readviews-default": "مطابق با پیکربندی ویکی (پیش‌فرض)",

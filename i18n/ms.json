@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"parsermigration-desc": "Alat penghijarah penghurai",
+	"parsermigration-edit-subtitle": "dengan alat penghijrahan penghurai",
+	"parsermigration-current": "Lama",
+	"parsermigration-new": "Baharu",
+	"parsermigration-pref-label": "Dayakan alat penghijrahan penghurai",
+	"parsermigration-pref-help": "Cara ini menambah pautan bar sisi yang memberikan akses kepada [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alat ini] untuk menghijrahkan teks halaman ke versi baharu penghurai MediaWiki.",
+	"parsermigration-toolbox-label": "Menyunting dengan alat penghijrahan",
+	"parsermigration-parsoid-readviews-selector-label": "Gunakan penghurai teks wiki Parsoid baharu:",
+	"parsermigration-parsoid-readviews-selector-help": "Apabila Parsoid digunakan, pautan batang sisi akan disediakan untuk membenarkan penggunaan penghurai legasi sekiranya berlaku isu.",
+	"parsermigration-parsoid-readviews-always": "Sentiasa (ikut serta)",
+	"parsermigration-parsoid-readviews-default": "Mengikut konfigurasi wiki (lalai)",
+	"parsermigration-parsoid-readviews-never": "Jangan sekali-kali (pilih keluar)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Gunakan penghurai legasi",
+	"parsermigration-use-parsoid-toolbox-label": "Gunakan penghurai baharu (Parsoid)",
+	"parsermigration-notice-title": "Ciri-ciri percubaan",
+	"parsermigration-notice-body": "Anda sedang menggunakan penghurai teks wiki Parsoid baharu untuk memaparkan halaman ini. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Klik di sini untuk maklumat lanjut]",
+	"parsermigration-parsoid-chip-label": "Dikemas dengan Parsoid"
+}
