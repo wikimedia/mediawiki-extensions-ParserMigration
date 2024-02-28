@@ -18,5 +18,6 @@
 	"parsermigration-parsoid-readviews-default": "V skladu s konfiguracijo vikija (privzeto)",
 	"parsermigration-parsoid-readviews-never": "Nikoli (izključitev)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Uporabljaj stari razčlenjevalnik",
-	"parsermigration-use-parsoid-toolbox-label": "Uporabi nov razčlenjevalnik (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Uporabi nov razčlenjevalnik (Parsoid)",
+	"parsermigration-notice-body": "Za prikaz te strani uporabljate nov razčlenjevalnik vikibesedila Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Več o tej funkciji]."
 }

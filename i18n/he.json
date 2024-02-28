@@ -20,6 +20,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "להשתמש במפענח הישן",
 	"parsermigration-use-parsoid-toolbox-label": "להשתמש במפענח החדש (פרסואיד)",
 	"parsermigration-notice-title": "אפשרות ניסיונית",
-	"parsermigration-notice-body": "מופעל אצלך מפענח קוד הוויקי החדש  פרסואיד (Parsoid) להצגת הדף הזה. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration יש ללחוץ כאן למידע נוסף]",
+	"parsermigration-notice-body": "מופעל אצלך מפענח קוד הוויקי החדש  פרסואיד (Parsoid) להצגת הדף הזה. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration מידע נוסף על האפשרות הזאת].",
 	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד"
 }
