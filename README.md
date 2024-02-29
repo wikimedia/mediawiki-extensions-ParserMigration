@@ -66,8 +66,8 @@ be locally overridden on-wiki:
 (Override at `[[MediaWiki:Parsermigration-notice-title]]`)
 sets the boldfaced title at the top of the notification; setting it
 to the empty string suppresses the title.
-* `parsermigration-notice`
-(Override at `[[MediaWiki:ParserMigration-notice]]`)
+* `parsermigration-notice-body`
+(Override at `[[MediaWiki:Parsermigration-notice-body]]`)
 sets the body content for the notification.  It is recommended that
 this notice provide a link to
 https://www.mediawiki.org/wiki/Parsoid/Parser_Unification/Migration
