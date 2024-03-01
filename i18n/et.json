@@ -9,6 +9,16 @@
 	"parsermigration-current": "Vana",
 	"parsermigration-new": "Uus",
 	"parsermigration-pref-label": "Kasuta parseri siirdevahendit",
-	"parsermigration-pref-help": "Lisab külgribale lingi [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration vahendile], mis on mõeldud lehekülje teksti üleviimiseks MediaWiki parseri uuele versioonile.",
-	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga"
+	"parsermigration-pref-help": "Lisab külgpaanile lingi [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration vahendile], mis on mõeldud lehekülje teksti üleviimiseks MediaWiki parseri uuele versioonile.",
+	"parsermigration-toolbox-label": "Redigeeri siirdevahendiga",
+	"parsermigration-parsoid-readviews-selector-label": "Kasuta uut Parsoidi vikiteksti parserit:",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoidi kasutamisel näidatakse külgpaanil linki, mis võimaldab probleemide korral kasutada vana parserit.",
+	"parsermigration-parsoid-readviews-always": "Alati (liitumispõhine)",
+	"parsermigration-parsoid-readviews-default": "Vastavalt viki häälestusele (vaikimisi)",
+	"parsermigration-parsoid-readviews-never": "Mitte kunagi (loobumispõhine)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Kasuta vana parserit",
+	"parsermigration-use-parsoid-toolbox-label": "Kasuta uut parserit (Parsoid)",
+	"parsermigration-notice-title": "Katseline funktsioon",
+	"parsermigration-notice-body": "Kasutad selle lehekülje kuvamiseks uut Parsoidi vikiteksti parserit. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Loe veel selle funktsiooni kohta].",
+	"parsermigration-parsoid-chip-label": "Viimistletud Parsoidiga"
 }

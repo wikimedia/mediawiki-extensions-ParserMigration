@@ -5,7 +5,21 @@
 			"Patsagorn Y."
 		]
 	},
+	"parsermigration-desc": "เครื่องมือเปลี่ยนผ่านตัวระบุแจงส่วน",
+	"parsermigration-edit-subtitle": "ด้วยเครื่องมือเปลี่ยนผ่านตัวระบุแจงส่วน",
+	"parsermigration-current": "แบบเก่า",
+	"parsermigration-new": "แบบใหม่",
 	"parsermigration-pref-label": "เปิดใช้งานเครื่องมือ ParserMigration",
 	"parsermigration-pref-help": "ตัวเลือกนี้จะเพิ่มลิงก์แถบด้านข้างซึ่งให้คุณเข้าถึง[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration เครื่องมือ]สำหรับย้ายข้อความในหน้าไปยังตัวแยกวิเคราะห์ MediaWiki รุ่นใหม่",
+	"parsermigration-toolbox-label": "แก้ไขด้วยเครื่องมือเปลี่ยนผ่านตัวระบุแจงส่วน",
+	"parsermigration-parsoid-readviews-selector-label": "ใช้ตัวระบุแจงส่วนข้อความวิกิใหม่:",
+	"parsermigration-parsoid-readviews-selector-help": "เมื่อใช้งาน Parsoid ที่แถบข้างจะมีลิงก์สำหรับกลับไปใช้รุ่นเดิมกรณีเกิดปัญหา",
+	"parsermigration-parsoid-readviews-always": "ใช้เสมอ (เลือกเข้าร่วม)",
+	"parsermigration-parsoid-readviews-default": "ให้เป็นตามการตั้งค่าของวิกิ (ค่าปริยาย)",
+	"parsermigration-parsoid-readviews-never": "ไม่ใช้เลย (ไม่เข้าร่วม)",
+	"parsermigration-use-legacy-parser-toolbox-label": "ใช้ตัวแจงส่วนเดิม",
+	"parsermigration-use-parsoid-toolbox-label": "ใช้ตัวแจงส่วนใหม่ (Parsoid)",
+	"parsermigration-notice-title": "คุณลักษณะระยะทดลองกำลังทำงาน",
+	"parsermigration-notice-body": "คุณกำลังใช้ตัวแจงส่วนข้อความวิกิ Parsoid ตัวใหม่เพื่อแสดงผลหน้านี้ [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration เรียนรู้เพิ่มเติมเกี่ยวกับคุณลักษณะนี้]",
 	"parsermigration-parsoid-chip-label": "แสดงผลด้วย Parsoid"
 }
