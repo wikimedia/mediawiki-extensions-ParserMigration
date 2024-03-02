@@ -6,7 +6,16 @@
                              @param-fill-color: @color-subtle );
     }
 
+    /* Force the color scheme to match Codex; there are some other random
+     * colors set for mobile notifications which we need to override.
+     * https://phabricator.wikimedia.org/T358296#9589773
+     */
+    color: @color-notice;
     background-color: @background-color-notice-subtle;
+    a { .cdx-mixin-link-base(); }
+    /* Same for text alignment: Codex specifies left-justified, mobile
+     * overrides to centered. */
+    text-align: left;
 
     /* Codex defaults inline messages to bold for some reason. */
     .cdx-message--inline { font-weight: @font-weight-normal; }
