@@ -18,5 +18,6 @@
 	"parsermigration-parsoid-readviews-default": "No der Wiki-Konfiguratioun (Standard)",
 	"parsermigration-parsoid-readviews-never": "Ni (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Ale Parser benotzen",
-	"parsermigration-use-parsoid-toolbox-label": "Neie Parser benotzen (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Neie Parser benotzen (Parsoid)",
+	"parsermigration-notice-title": "Experimentell Funktioun"
 }
