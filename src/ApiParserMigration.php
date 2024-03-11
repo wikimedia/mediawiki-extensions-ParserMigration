@@ -60,6 +60,7 @@ class ApiParserMigration extends ApiBase {
 		}
 	}
 
+	/** @inheritDoc */
 	public function isInternal() {
 		return true;
 	}
