@@ -2,16 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Luca.favorido"
+			"Luca.favorido",
+			"Sakretsu"
 		]
 	},
 	"parsermigration-desc": "Parser strumento di migrazione",
 	"parsermigration-edit-subtitle": "con il parser dello strumento di migrazione",
 	"parsermigration-current": "Vecchio",
 	"parsermigration-new": "Nuovo",
-	"parsermigration-pref-label": "Attiva parser strumento di migrazione",
-	"parsermigration-pref-help": "Questo aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uno strumento] per migrare il testo delle pagine a una nuova versione del parser MediaWiki.",
+	"parsermigration-pref-label": "Attiva lo strumento di migrazione del parser",
+	"parsermigration-pref-help": "Aggiunge un collegamento nella barra laterale che dà accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uno strumento] per migrare il testo delle pagine a una nuova versione del parser MediaWiki.",
 	"parsermigration-toolbox-label": "Modifica con strumento di migrazione",
+	"parsermigration-parsoid-readviews-selector-label": "Usa il nuovo parser del wikitesto Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Quando si usa Parsoid, si visualizza un collegamento nella barra laterale che consente di usare il parser legacy in caso di problemi.",
 	"parsermigration-parsoid-readviews-default": "Secondo la configurazione wiki (predefinita)",
 	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)",
 	"parsermigration-notice-title": "Funzionalità sperimentale"
