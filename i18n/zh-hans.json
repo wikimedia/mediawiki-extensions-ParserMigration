@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anterdc99",
 			"Diskdance",
 			"Liuxinyu970226"
 		]
@@ -20,6 +21,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "使用旧版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "使用新版解析器（Parsoid）",
 	"parsermigration-notice-title": "实验性功能",
-	"parsermigration-notice-body": "您正在使用新版Parsoid wikitext解析器显示本页面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 点此了解更多信息]",
+	"parsermigration-notice-body": "您正在使用新版Parsoid wikitext解析器显示本页面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解此功能的更多信息]。",
 	"parsermigration-parsoid-chip-label": "由Parsoid渲染"
 }
