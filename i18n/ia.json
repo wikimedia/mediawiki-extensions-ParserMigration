@@ -11,6 +11,14 @@
 	"parsermigration-pref-label": "Activar le instrumento de migration syntactic",
 	"parsermigration-pref-help": "Isto adde un ligamine al barra lateral que da accesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un instrumento] pro migrar texto de paginas a nove versiones del analysator syntactic de MediaWiki.",
 	"parsermigration-toolbox-label": "Modificar con instrumento de migration",
+	"parsermigration-parsoid-readviews-selector-label": "Usar le nove interpretator de wikitexto Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Quando Parsoid es usate, un ligamine essera fornite in le barra lateral pro permitter le uso del analysator syntactic traditional in caso de problemas.",
+	"parsermigration-parsoid-readviews-always": "Sempre (optar pro)",
+	"parsermigration-parsoid-readviews-default": "Sequer le configuration del wiki (option predefinite)",
+	"parsermigration-parsoid-readviews-never": "Nunquam (optar contra)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Usar le analysator syntactic ancian",
-	"parsermigration-use-parsoid-toolbox-label": "Usar le nove analysator syntactic (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Usar le nove analysator syntactic (Parsoid)",
+	"parsermigration-notice-title": "Function experimental",
+	"parsermigration-notice-body": "Tu usa presentemente le nove interpretator de wikitexto Parsoid pro visualisar iste pagina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Apprender plus sur iste function].",
+	"parsermigration-parsoid-chip-label": "Rendite con Parsoid"
 }

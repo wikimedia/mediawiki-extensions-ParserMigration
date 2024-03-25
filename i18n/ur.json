@@ -10,5 +10,15 @@
 	"parsermigration-new": "جدید",
 	"parsermigration-pref-label": "آلہ منتقلی تجزیہ کار کو فعال کریں",
 	"parsermigration-pref-help": "اسے فعال کرنے پر سائڈ بار میں [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ایک آلے] کا ربط ظاہر ہوگا جس کی مدد سے صفحے کے متن کو میڈیاویکی تجزیہ کار کے نئے نسخوں کی جانب منتقل کیا جا سکتا ہے۔",
-	"parsermigration-toolbox-label": "ترمیم بذریعہ آلہ منتقلی"
+	"parsermigration-toolbox-label": "ترمیم بذریعہ آلہ منتقلی",
+	"parsermigration-parsoid-readviews-selector-label": "ویکی متن کا نیا تجزیہ کار Parsoid استعمال کریں:",
+	"parsermigration-parsoid-readviews-selector-help": "جب آپ Parsoid استعمال کرتے ہیں تو مشکلات پیش آنے کی صورت میں قدیم تجزیہ کار کو استعمال کرنے کی اجازت دینے کے لیے بغلی پٹی کا ایک ربط فراہم کیا جائے گا۔",
+	"parsermigration-parsoid-readviews-always": "ہمیشہ (فعال رکھیں)",
+	"parsermigration-parsoid-readviews-default": "ویکی شخصی سازی کے مطابق (پہلے سے طے شدہ)",
+	"parsermigration-parsoid-readviews-never": "کبھی نہیں (غیر فعال رکھیں)",
+	"parsermigration-use-legacy-parser-toolbox-label": "قدیم تجزیہ کار استعمال کریں",
+	"parsermigration-use-parsoid-toolbox-label": "نیا تجزیہ کار (Parsoid) استعمال کریں",
+	"parsermigration-notice-title": "تجرباتی خصوصیت",
+	"parsermigration-notice-body": "اس صفحہ کو دکھانے کے لیے آپ ویکی متن کے نئے تجزیہ کار Parsoid کو استعمال کر رہے ہیں۔ [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration اس خصوصیت کے بارے میں مزید تفصیلات یہاں ملاحظہ کریں]۔",
+	"parsermigration-parsoid-chip-label": "Parsoid کی مدد سے پیش کردہ"
 }
