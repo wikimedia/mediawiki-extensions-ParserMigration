@@ -10,5 +10,6 @@
 	"parsermigration-new": "Керланиг",
 	"parsermigration-pref-label": "Латабе дехьйоккху гӀирс керла парсер тӀе",
 	"parsermigration-pref-help": "ХӀокху тӀетуху агӀорхьара [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration гӀирсийн] панель. оцу гойту MediaWiki парсеран керла верси.",
-	"parsermigration-toolbox-label": "Дехьйоккху гӀирсаца керла парсер тӀе тадар дан"
+	"parsermigration-toolbox-label": "Дехьйоккху гӀирсаца керла парсер тӀе тадар дан",
+	"parsermigration-parsoid-readviews-default": "Викин конфигурацица (Ӏад йитаран кепаца)"
 }
