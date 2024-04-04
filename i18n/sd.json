@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mehtab ahmed"
+		]
+	},
+	"parsermigration-pref-label": "پارسر لڏپلاڻ وارو اوزار فعال ڪريو",
+	"parsermigration-pref-help": "هي هڪ سائڊبار ڳنڍڻو شامل ڪري ٿو جيڪو رسائي ڏي ٿو [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ھڪ اوزار ڏانھن] صفحي جي متن کي ميڊياوڪي پارسر جي نئين ورزن ڏانهن منتقل ڪرڻ لاءِ.",
+	"parsermigration-parsoid-readviews-selector-label": "نئون پارسوئڊ وڪي متن پارسر استعمال ڪريو:",
+	"parsermigration-parsoid-readviews-selector-help": "جڏهن پارسوئڊ استعمال ڪيو ويندو آهي، هڪ سائڊبار ڳنڍڻو مھيا ڪيو ويندو تہ جيئن مسئلن جي صورت ۾ ليگيسي پارسر کي استعمال ڪرڻ جي اجازت ڏين.",
+	"parsermigration-parsoid-readviews-always": "سدائين (آپٽ-ان)",
+	"parsermigration-parsoid-readviews-default": "وڪي ڪنفيوگريشن جي مطابق (ڊفالٽ)",
+	"parsermigration-parsoid-readviews-never": "ڪڏهن بہ نظ (آپٽ-آئوٽ)",
+	"parsermigration-use-parsoid-toolbox-label": "نئون پارسر استعمال ڪريو (پارسوئڊ)"
+}
