@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mehtab ahmed"
+		]
+	},
+	"parsermigration-pref-label": "پارسر لڏپلاڻ وارو اوزار فعال ڪريو",
+	"parsermigration-pref-help": "هي هڪ سائڊبار ڳنڍڻو شامل ڪري ٿو جيڪو رسائي ڏي ٿو [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ھڪ اوزار ڏانھن] صفحي جي متن کي ميڊياوڪي پارسر جي نئين ورزن ڏانهن منتقل ڪرڻ لاءِ."
+}
