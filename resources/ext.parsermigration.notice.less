@@ -1,22 +1,27 @@
 @import 'mediawiki.skin.variables.less';
 
 .mw-notification.mw-notification-tag-parsermigration-notice {
-    .parsermigration-notice-icon-close {
-        .cdx-mixin-css-icon( @cdx-icon-close, @param-is-button-icon: false,
-                             @param-fill-color: @color-subtle );
-    }
+	.parsermigration-notice-icon-close {
+		.cdx-mixin-css-icon( @cdx-icon-close, @param-is-button-icon: false, @param-fill-color: @color-subtle );
+	}
 
-    /* Force the color scheme to match Codex; there are some other random
-     * colors set for mobile notifications which we need to override.
-     * https://phabricator.wikimedia.org/T358296#9589773
-     */
-    color: @color-notice;
-    background-color: @background-color-notice-subtle;
-    a { .cdx-mixin-link-base(); }
-    /* Same for text alignment: Codex specifies left-justified, mobile
-     * overrides to centered. */
-    text-align: left;
+	/* Force the color scheme to match Codex; there are some other random
+	 * colors set for mobile notifications which we need to override.
+	 * https://phabricator.wikimedia.org/T358296#9589773
+	 */
+	color: @color-notice;
+	background-color: @background-color-notice-subtle;
 
-    /* Codex defaults inline messages to bold for some reason. */
-    .cdx-message--inline { font-weight: @font-weight-normal; }
+	a {
+		.cdx-mixin-link-base();
+	}
+
+	/* Same for text alignment: Codex specifies left-justified, mobile
+	 * overrides to centered. */
+	text-align: left;
+
+	/* Codex defaults inline messages to bold for some reason. */
+	.cdx-message--inline {
+		font-weight: @font-weight-normal;
+	}
 }
