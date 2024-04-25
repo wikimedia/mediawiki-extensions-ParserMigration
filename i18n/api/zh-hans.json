@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Diskdance",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"沈澄心"
 		]
 	},
 	"apihelp-parser-migration-summary": "使用两种不同的解析器配置解析页面。",
 	"apihelp-parser-migration-param-title": "要加载并解析的页面标题。",
 	"apihelp-parser-migration-param-config": "要使用的解析器配置。可以为“old”、“new”或“old|new”。",
-	"apihelp-parser-migration-param-redirect": "重定向默认跟随。使用“no”不跟随重定向。"
+	"apihelp-parser-migration-param-redirect": "重定向默认跟随。使用“no”不跟随重定向。",
+	"apihelp-parser-migration-paramvalue-config-new": "使用“新”配置解析页面；Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "使用“旧”配置解析页面；MediaWiki的旧解析器"
 }
