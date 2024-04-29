@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"Msz2001",
 			"Rail",
 			"Woytecr"
 		]
@@ -13,5 +14,14 @@
 	"parsermigration-pref-label": "Włącz narzędzie migracji parsera",
 	"parsermigration-pref-help": "Dodaje do menu bocznego link do [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration narzędzia] służącego do migracji tekstu strony do nowych wersji parsera MediaWiki.",
 	"parsermigration-toolbox-label": "Edytuj narzędziem migracji",
-	"parsermigration-use-parsoid-toolbox-label": "Użyj nowego parsera (Parsoid)"
+	"parsermigration-parsoid-readviews-selector-label": "Użyj Parsoida – nowego parsera wikikodu:",
+	"parsermigration-parsoid-readviews-selector-help": "Kiedy Parsoid jest wykorzystywany, w pasku bocznym znajdzie się link, pozwalający na skorzystanie ze starego parsera w razie problemów.",
+	"parsermigration-parsoid-readviews-always": "Zawsze",
+	"parsermigration-parsoid-readviews-default": "Zgodnie z konfiguracją wiki (domyślnie)",
+	"parsermigration-parsoid-readviews-never": "Nigdy",
+	"parsermigration-use-legacy-parser-toolbox-label": "Użyj starszego parsera",
+	"parsermigration-use-parsoid-toolbox-label": "Użyj nowego parsera (Parsoid)",
+	"parsermigration-notice-title": "Funkcja eksperymentalna",
+	"parsermigration-notice-body": "Do wyświetlenia tej strony używasz Parsoida, nowego parsera wikikodu. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Dowiedz się więcej o tej funkcji].",
+	"parsermigration-parsoid-chip-label": "Wyrenderowane z użyciem Parsoida"
 }
