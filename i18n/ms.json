@@ -19,6 +19,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Gunakan penghurai legasi",
 	"parsermigration-use-parsoid-toolbox-label": "Gunakan penghurai baharu (Parsoid)",
 	"parsermigration-notice-title": "Ciri-ciri percubaan",
-	"parsermigration-notice-body": "Anda sedang menggunakan penghurai teks wiki Parsoid baharu untuk memaparkan halaman ini. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Klik di sini untuk maklumat lanjut]",
-	"parsermigration-parsoid-chip-label": "Dikemas dengan Parsoid"
+	"parsermigration-notice-body": "Anda sedang menggunakan penghurai teks wiki Parsoid baharu untuk memaparkan halaman ini. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Ketahui lebih lanjut tentang ciri ini].",
+	"parsermigration-parsoid-chip-label": "Dikemas menggunakan Parsoid"
 }
