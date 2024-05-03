@@ -38,6 +38,9 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ParserMigration\\": "src/"
 	},
+	"ServiceWiringFiles": [
+		"src/ServiceWiring.php"
+	],
 	"Actions": {
 		"parsermigration-edit": "MediaWiki\\Extension\\ParserMigration\\EditAction"
 	},
@@ -92,7 +95,8 @@
 			"class": "MediaWiki\\Extension\\ParserMigration\\Hooks",
 			"services": [
 				"MainConfig",
-				"UserOptionsManager"
+				"UserOptionsManager",
+				"ParserMigration.Oracle"
 			]
 		}
 	},
