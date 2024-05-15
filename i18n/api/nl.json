@@ -9,5 +9,7 @@
 	"apihelp-parser-migration-summary": "Een pagina verwerken met twee verschillende ontleedconfiguraties.",
 	"apihelp-parser-migration-param-title": "De titel van de te laden en te verwerken pagina.",
 	"apihelp-parser-migration-param-config": "De te gebruiken parserconfiguratie. Kan \"old\", \"new\" of \"old|new\" zijn.",
-	"apihelp-parser-migration-param-redirect": "Doorverwijzingen worden standaard gevolgd. Gebruik \"no\" om doorverwijzingen niet te volgen."
+	"apihelp-parser-migration-param-redirect": "Doorverwijzingen worden standaard gevolgd. Gebruik \"no\" om doorverwijzingen niet te volgen.",
+	"apihelp-parser-migration-paramvalue-config-new": "Verwerkt de pagina met behulp van de “nieuwe” configuratie; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Verwerkt de pagina met behulp van de “oude” configuratie; De oude parser van MediaWiki"
 }
