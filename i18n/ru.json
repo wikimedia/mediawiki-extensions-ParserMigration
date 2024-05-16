@@ -9,7 +9,8 @@
 			"Patrick Star",
 			"Putnik",
 			"Smigles",
-			"Sunpriat"
+			"Sunpriat",
+			"Kaganer"
 		]
 	},
 	"parsermigration-desc": "Инструмент переезда на новый парсер",
@@ -19,5 +20,14 @@
 	"parsermigration-pref-label": "Включить инструмент переезда на новый парсер",
 	"parsermigration-pref-help": "Это добавит в боковую панель ссылку, предоставляющую доступ к [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration инструменту] для миграции текста страницы на новую версию парсера MediaWiki.",
 	"parsermigration-toolbox-label": "Редактировать с инструментом переезда на новый парсер",
-	"parsermigration-parsoid-readviews-default": "Согласно конфигурации вики (по умолчанию)"
+	"parsermigration-parsoid-readviews-selector-label": "Используйте Parsoid — новый парсер викитекста:",
+	"parsermigration-parsoid-readviews-selector-help": "При использовании Parsoid на боковой панели будет предоставлена ссылка, позволяющая использовать устаревший парсер в случае возникновения проблем.",
+	"parsermigration-parsoid-readviews-always": "Всегда (согласие)",
+	"parsermigration-parsoid-readviews-default": "Согласно конфигурации вики (по умолчанию)",
+	"parsermigration-parsoid-readviews-never": "Никогда (отказ)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Использовать устаревший парсер",
+	"parsermigration-use-parsoid-toolbox-label": "Использовать новый парсер (Parsoid)",
+	"parsermigration-notice-title": "Экспериментальные возможности",
+	"parsermigration-notice-body": "Для отображения этой страницы вы используете Parsoid — новый парсер вики-текста. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Узнайте больше об этой функции].",
+	"parsermigration-parsoid-chip-label": "Рендеринг с помощью Parsoid"
 }
