@@ -25,8 +25,8 @@
 	"parsermigration-parsoid-readviews-always": "Всегда (согласие)",
 	"parsermigration-parsoid-readviews-default": "Согласно конфигурации вики (по умолчанию)",
 	"parsermigration-parsoid-readviews-never": "Никогда (отказ)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Использовать устаревший парсер",
-	"parsermigration-use-parsoid-toolbox-label": "Использовать новый парсер (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Переключиться на устаревший парсер",
+	"parsermigration-use-parsoid-toolbox-label": "Переключиться на новый парсер (Parsoid)",
 	"parsermigration-notice-title": "Экспериментальные возможности",
 	"parsermigration-notice-body": "Для отображения этой страницы вы используете Parsoid — новый парсер вики-текста. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Узнайте больше об этой функции].",
 	"parsermigration-parsoid-chip-label": "Рендеринг с помощью Parsoid"

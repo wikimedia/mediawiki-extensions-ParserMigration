@@ -17,8 +17,8 @@
 	"parsermigration-parsoid-readviews-always": "תמיד (לבחור להצטרף)",
 	"parsermigration-parsoid-readviews-default": "בהתאם להגדרות של הוויקי (ברירת מחדל)",
 	"parsermigration-parsoid-readviews-never": "לעולם לא (לבחור לא להצטרף)",
-	"parsermigration-use-legacy-parser-toolbox-label": "להשתמש במפענח הישן",
-	"parsermigration-use-parsoid-toolbox-label": "להשתמש במפענח החדש (פרסואיד)",
+	"parsermigration-use-legacy-parser-toolbox-label": "לעבור למפענח הישן",
+	"parsermigration-use-parsoid-toolbox-label": "לעבור למפענח החדש (פרסואיד)",
 	"parsermigration-notice-title": "אפשרות ניסיונית",
 	"parsermigration-notice-body": "מופעל אצלך מפענח קוד הוויקי החדש  פרסואיד (Parsoid) להצגת הדף הזה. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration מידע נוסף על האפשרות הזאת].",
 	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד"
