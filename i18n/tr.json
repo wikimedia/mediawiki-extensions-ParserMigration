@@ -21,8 +21,8 @@
 	"parsermigration-parsoid-readviews-always": "Her zaman (katıl)",
 	"parsermigration-parsoid-readviews-default": "Viki yapılandırmasına göre (varsayılan)",
 	"parsermigration-parsoid-readviews-never": "Asla (katılma)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Eski ayrıştırıcıyı kullan",
-	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrıştırıcıyı kullan (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Eski ayrıştırıcıya geç",
+	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrıştırıcıya geç (Parsoid)",
 	"parsermigration-notice-title": "Deneysel özellik",
 	"parsermigration-notice-body": "Bu sayfayı görüntülemek için yeni Parsoid vikimetin ayrıştırıcısını kullanıyorsunuz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Bu özellik hakkında daha fazla bilgi edinin].",
 	"parsermigration-parsoid-chip-label": "Parsoid ile işlendi"
