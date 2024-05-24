@@ -3,6 +3,7 @@
 		"authors": [
 			"Anterdc99",
 			"Diskdance",
+			"GuoPC",
 			"Liuxinyu970226"
 		]
 	},
@@ -18,8 +19,8 @@
 	"parsermigration-parsoid-readviews-always": "始终（选择加入）",
 	"parsermigration-parsoid-readviews-default": "根据wiki配置（默认值）",
 	"parsermigration-parsoid-readviews-never": "从不（选择退出）",
-	"parsermigration-use-legacy-parser-toolbox-label": "使用旧版解析器",
-	"parsermigration-use-parsoid-toolbox-label": "使用新版解析器（Parsoid）",
+	"parsermigration-use-legacy-parser-toolbox-label": "切换到旧版解析器",
+	"parsermigration-use-parsoid-toolbox-label": "切换到新版解析器（Parsoid）",
 	"parsermigration-notice-title": "实验性功能",
 	"parsermigration-notice-body": "您正在使用新版Parsoid wikitext解析器显示本页面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解此功能的更多信息]。",
 	"parsermigration-parsoid-chip-label": "由Parsoid渲染"
