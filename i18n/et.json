@@ -16,8 +16,8 @@
 	"parsermigration-parsoid-readviews-always": "Alati (liitumispõhine)",
 	"parsermigration-parsoid-readviews-default": "Vastavalt viki häälestusele (vaikimisi)",
 	"parsermigration-parsoid-readviews-never": "Mitte kunagi (loobumispõhine)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Kasuta vana parserit",
-	"parsermigration-use-parsoid-toolbox-label": "Kasuta uut parserit (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Lülitu vanale parserile",
+	"parsermigration-use-parsoid-toolbox-label": "Lülitu uuele parserile (Parsoid)",
 	"parsermigration-notice-title": "Katseline funktsioon",
 	"parsermigration-notice-body": "Kasutad selle lehekülje kuvamiseks uut Parsoidi vikiteksti parserit. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Loe veel selle funktsiooni kohta].",
 	"parsermigration-parsoid-chip-label": "Viimistletud Parsoidiga"
