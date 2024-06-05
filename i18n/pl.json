@@ -19,8 +19,8 @@
 	"parsermigration-parsoid-readviews-always": "Zawsze",
 	"parsermigration-parsoid-readviews-default": "Zgodnie z konfiguracją wiki (domyślnie)",
 	"parsermigration-parsoid-readviews-never": "Nigdy",
-	"parsermigration-use-legacy-parser-toolbox-label": "Użyj starszego parsera",
-	"parsermigration-use-parsoid-toolbox-label": "Użyj nowego parsera (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Przełącz na starszy parser",
+	"parsermigration-use-parsoid-toolbox-label": "Przełącz na nowy parser (Parsoid)",
 	"parsermigration-notice-title": "Funkcja eksperymentalna",
 	"parsermigration-notice-body": "Do wyświetlenia tej strony używasz Parsoida, nowego parsera wikikodu. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Dowiedz się więcej o tej funkcji].",
 	"parsermigration-parsoid-chip-label": "Wyrenderowane z użyciem Parsoida"
