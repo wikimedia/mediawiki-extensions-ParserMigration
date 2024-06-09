@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use Article;
 use Content;
-use IContextSource;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
