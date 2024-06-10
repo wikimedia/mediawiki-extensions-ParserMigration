@@ -11,10 +11,18 @@ use MediaWiki\MediaWikiServices;
 
 return [
 	'ParserMigration.Oracle' => static function ( MediaWikiServices $services ): Oracle {
-		return new Oracle(
-			$services->getMainConfig(),
-			$services->getUserOptionsManager()
-		);
+		// @phan-suppress-next-line PhanTypeInvalidCallableArraySize
+		return $services->getObjectFactory()->createObject( [
+			// @phan-suppress-next-line PhanTypeInvalidCallableArraySize
+			'class' => Oracle::class,
+			'services' => [
+				'MainConfig',
+				'UserOptionsManager',
+			],
+			'optional_services' => [
+				'MobileFrontend.Context',
+			],
+		] );
 	},
 ];
 

@@ -26,6 +26,10 @@
 			"value": false,
 			"description": "Whether to use Parsoid by default on article pages"
 		},
+		"ParserMigrationEnableParsoidMobileFrontend": {
+			"value": false,
+			"description": "Whether to use Parsoid by default on mobile domains, intersecting with the other default configs"
+		},
 		"ParserMigrationUserNoticeVersion": {
 			"value": 1,
 			"description": "Updated whenever the user notice is modified sufficient to merit redisplay"

@@ -12,21 +12,22 @@ class Oracle {
 
 	private Config $mainConfig;
 	private UserOptionsManager $userOptionsManager;
+	// @phan-suppress-next-line PhanUndeclaredTypeProperty
+	private ?\MobileContext $mobileContext;
 
 	public const USERPREF_ALWAYS = 1;
 	public const USERPREF_DEFAULT = 0;
 	public const USERPREF_NEVER = 2;
 
-	/**
-	 * @param Config $mainConfig
-	 * @param UserOptionsManager $userOptionsManager
-	 */
 	public function __construct(
 		Config $mainConfig,
-		UserOptionsManager $userOptionsManager
+		UserOptionsManager $userOptionsManager,
+		// @phan-suppress-next-line PhanUndeclaredTypeParameter
+		?\MobileContext $mobileContext
 	) {
 		$this->mainConfig = $mainConfig;
 		$this->userOptionsManager = $userOptionsManager;
+		$this->mobileContext = $mobileContext;
 	}
 
 	/**
@@ -45,6 +46,8 @@ class Oracle {
 			'parsermigration-parsoid-readviews'
 		) );
 		$userOptIn = $this->isParsoidDefaultFor( $title );
+
+		// Override the default if a preference is set
 		if ( $userPref === self::USERPREF_ALWAYS ) {
 			$userOptIn = true;
 		}
@@ -85,9 +88,22 @@ class Oracle {
 		$talkPagesEnabled = $this->mainConfig->get(
 			'ParserMigrationEnableParsoidDiscussionTools'
 		);
-		if ( $title->isTalkPage() ? $talkPagesEnabled : $articlePagesEnabled ) {
-			return true;
+
+		$isEnabled = $title->isTalkPage() ? $talkPagesEnabled : $articlePagesEnabled;
+
+		// Exclude mobile domains by default, regardless of the namespace settings
+		// above, if the config isn't on
+		$disableOnMobile =
+			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontend' );
+		if (
+			$disableOnMobile &&
+			$this->mobileContext !== null &&
+			// @phan-suppress-next-line PhanUndeclaredClassMethod
+			$this->mobileContext->usingMobileDomain()
+		) {
+			$isEnabled = false;
 		}
-		return false;
+
+		return $isEnabled;
 	}
 }
