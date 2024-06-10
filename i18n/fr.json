@@ -15,5 +15,11 @@
 	"parsermigration-pref-label": "Activer l’outil de migration de l’analyseur",
 	"parsermigration-pref-help": "Ceci ajoute une barre latérale avec un lien donnant accès à  [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un outil] permettant la migration du texte des pages vers les nouvelles versions de l’analyseur MediaWiki.",
 	"parsermigration-toolbox-label": "Modifier avec l’outil de migration",
+	"parsermigration-parsoid-readviews-selector-label": "Utiliser le nouvel analyseur syntaxique Parsoid :",
+	"parsermigration-parsoid-readviews-selector-help": "Lorsque Parsoid est utilisé, un lien dans la barre latérale sera fourni pour permettre l'utilisation de l'ancien analyseur en cas de problème.",
+	"parsermigration-parsoid-readviews-always": "Toujours (opt-in)",
+	"parsermigration-parsoid-readviews-default": "Selon la configuration du wiki (par défaut)",
+	"parsermigration-parsoid-readviews-never": "Jamais (opt-out)",
+	"parsermigration-use-parsoid-toolbox-label": "Passer au nouvel analyseur (Parsoid)",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale"
 }
