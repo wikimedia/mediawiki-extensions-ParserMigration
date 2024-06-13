@@ -16,6 +16,6 @@
 	"parsermigration-parsoid-readviews-always": "Заўсёды (пагадзіцца)",
 	"parsermigration-parsoid-readviews-default": "Паводле наладаў вікі (дапомна)",
 	"parsermigration-parsoid-readviews-never": "Ніколі (адмовіцца)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Выкарыстоўваць стары аналізатар",
-	"parsermigration-use-parsoid-toolbox-label": "Выкарыстоўваць новы аналізатар (Parsoid)"
+	"parsermigration-use-legacy-parser-toolbox-label": "Пераключыцца на стары аналізатар",
+	"parsermigration-use-parsoid-toolbox-label": "Пераключыцца на новы аналізатар (Parsoid)"
 }
