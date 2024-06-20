@@ -13,6 +13,12 @@
 	"parsermigration-pref-label": "পার্সার স্থানান্তরণ সরঞ্জাম সক্রিয় করুন",
 	"parsermigration-pref-help": "নিবন্ধের পাঠ্য স্থানান্তরের জন্য মিডিয়াউইকি পার্সারের নতুন সংস্করণে প্রবেশাধিকার প্রধানে এটি পার্শ্বদণ্ডে [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration একটি সরঞ্জামের] সংযোগ যোগ করে।",
 	"parsermigration-toolbox-label": "পার্সার স্থানান্তরণ সরঞ্জামসহ সম্পাদনা করুন",
+	"parsermigration-parsoid-readviews-selector-label": "নতুন পার্সয়েড উইকিপাঠ্য পার্সার ব্যবহার করুন:",
+	"parsermigration-parsoid-readviews-selector-help": "যখন পার্সয়েড ব্যবহার করা হয়, তখন কোনও সমস্যার ক্ষেত্রে পূর্ববর্তী পার্সার ব্যবহার করার অনুমতি দিতে একটি পাশ্ব লিঙ্ক প্রদান করা হবে।",
+	"parsermigration-parsoid-readviews-always": "সর্বদা (অপ্ট-ইন)",
+	"parsermigration-parsoid-readviews-default": "উইকি কনফিগারেশন অনুযায়ী (পূর্বনির্ধারিত)",
+	"parsermigration-parsoid-readviews-never": "কখনই না (অপ্ট-আউট)",
 	"parsermigration-notice-title": "পরীক্ষামূলক বৈশিষ্ট্য",
-	"parsermigration-notice-body": "আপনি এই পাতাটি নতুন পার্সইড উইকিটেক্সট পার্সার ব্যবহার করে দেখছেন। [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration আরও জানতে এখানে ক্লিক করুন]"
+	"parsermigration-notice-body": "আপনি এই পাতাটি নতুন পার্সইড উইকিপাঠ্য পার্সার ব্যবহার করে দেখছেন। [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration এই বৈশিষ্ট্যটি সম্পর্কে আরও জানুন]।",
+	"parsermigration-parsoid-chip-label": "পার্সয়েড দিয়ে রেন্ডার করা হয়েছে"
 }
