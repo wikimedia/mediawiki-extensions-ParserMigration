@@ -12,5 +12,11 @@
 	"parsermigration-pref-help": "ХӀокху тӀетуху агӀорхьара [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration гӀирсийн] панель. оцу гойту MediaWiki парсеран керла верси.",
 	"parsermigration-toolbox-label": "Дехьйоккху гӀирсаца керла парсер тӀе тадар дан",
 	"parsermigration-parsoid-readviews-selector-label": "Лелайе Parsoid — Викитекстан керла парсер:",
-	"parsermigration-parsoid-readviews-default": "Викин конфигурацица (Ӏад йитаран кепаца)"
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid лелош, агӀонгара панелехь хьажорг лур йу, цо аьтту бо цхьа проблемаш хилча ширйелла парсер лело.",
+	"parsermigration-parsoid-readviews-always": "Гуттара а (реза)",
+	"parsermigration-parsoid-readviews-default": "Викин конфигурацица (Ӏад йитаран кепаца)",
+	"parsermigration-parsoid-readviews-never": "Цкъа а (дуьхьал)",
+	"parsermigration-notice-title": "Экспериментан таронаш",
+	"parsermigration-notice-body": "ХӀара агӀо гайта ахьа лелайо Parsoid — керла вики-текстан парсер. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Кхин дӀа а довза оцу функцех лаьцна].",
+	"parsermigration-parsoid-chip-label": "Parsoid гӀоьнца рендеринг"
 }
