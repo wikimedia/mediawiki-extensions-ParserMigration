@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"parsermigration-desc": "Ferramenta de migración do analizador",
@@ -10,6 +11,16 @@
 	"parsermigration-current": "Vello",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Activar a ferramenta de migración do analizador",
-	"parsermigration-pref-help": "Isto engade unha ligazón na barra lateral que da acceso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration unha ferramenta] para migrar texto de páxinas ás novas versións do analizador de MediaWiki.",
-	"parsermigration-toolbox-label": "Editar con ferramenta de migración"
+	"parsermigration-pref-help": "Isto engade unha ligazón na barra lateral que dá acceso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration unha ferramenta] para migrar texto de páxinas ás novas versións do analizador de MediaWiki.",
+	"parsermigration-toolbox-label": "Editar con ferramenta de migración",
+	"parsermigration-parsoid-readviews-selector-label": "Utilizar o novo analizador de texto wiki Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Ao usares Parsoid, proporciónase unha ligazón na barra lateral para permitir utilizar o analizador antigo en caso de que haxa problemas.",
+	"parsermigration-parsoid-readviews-always": "Sempre",
+	"parsermigration-parsoid-readviews-default": "Segundo a configuración do wiki (predeterminado)",
+	"parsermigration-parsoid-readviews-never": "Nunca",
+	"parsermigration-use-legacy-parser-toolbox-label": "Cambiar ao analizador antigo",
+	"parsermigration-use-parsoid-toolbox-label": "Cambiar ao analizador novo (Parsoid)",
+	"parsermigration-notice-title": "Característica experimental",
+	"parsermigration-notice-body": "Estás utilizando o novo analizador de texto wiki Parsoid para amosar a páxina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Máis información sobre esta funcionalidade].",
+	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"
 }
