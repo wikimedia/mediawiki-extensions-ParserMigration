@@ -37,6 +37,10 @@
 		"ParserMigrationUserNoticeDays": {
 			"value": 7,
 			"description": "The number of days before the user notice is reshown after being dismissed"
+		},
+		"ParserMigrationCompactIndicator": {
+			"value": false,
+			"description": "Use a compact icon as a Parsoid Read Views indicator"
 		}
 	},
 	"AutoloadNamespaces": {
@@ -84,6 +88,7 @@
 		},
 		"ext.parsermigration.indicator": {
 			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"styles": "ext.parsermigration.indicator.css",
 			"codexStyleOnly": true,
 			"codexComponents": [
 				"CdxInfoChip"
