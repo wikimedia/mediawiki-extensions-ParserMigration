@@ -129,6 +129,14 @@ class Hooks implements
 			$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
 			$parserOutput->setIndicator(
 				'parsoid',
+				$this->mainConfig->get( 'ParserMigrationCompactIndicator' ) ?
+				Html::rawElement(
+					'div',
+					[
+						'class' => 'mw-parsoid-icon',
+						'title' => wfMessage( 'parsermigration-parsoid-chip-label' )->text(),
+					]
+				) :
 				Html::rawElement(
 					'div',
 					[ 'class' => 'cdx-info-chip' ],
