@@ -19,7 +19,9 @@
 	"parsermigration-parsoid-readviews-always": "Завжди (opt-in)",
 	"parsermigration-parsoid-readviews-default": "Відповідно до налаштувань (за замовчуванням)",
 	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Використати старий парсер",
-	"parsermigration-use-parsoid-toolbox-label": "Використати новий парсер (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Перемкнути на старий парсер",
+	"parsermigration-use-parsoid-toolbox-label": "Перемкнути на новий парсер (Parsoid)",
+	"parsermigration-notice-title": "Експериментальна функція",
+	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
 	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid"
 }

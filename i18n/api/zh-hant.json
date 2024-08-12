@@ -8,5 +8,7 @@
 	"apihelp-parser-migration-summary": "使用兩種不同的解析器組態解析頁面。",
 	"apihelp-parser-migration-param-title": "要載入並解析的頁面標題。",
 	"apihelp-parser-migration-param-config": "要使用的解析設置。可以是「old」、「new」、或是「old|new」。",
-	"apihelp-parser-migration-param-redirect": "依照預設會遵循重新導向。使用「no」則不遵循重新導向。"
+	"apihelp-parser-migration-param-redirect": "依照預設會遵循重新導向。使用「no」則不遵循重新導向。",
+	"apihelp-parser-migration-paramvalue-config-new": "使用「新」配置來解析頁面；Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "使用「舊」配置來解析頁面；MediaWiki 的舊式解析器"
 }
