@@ -5,7 +5,8 @@
 			"SleaY",
 			"Urhixidur",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Balise42"
 		]
 	},
 	"parsermigration-desc": "Outil de migration de l’analyseur",
@@ -20,5 +21,7 @@
 	"parsermigration-parsoid-readviews-always": "Toujours (opt-in)",
 	"parsermigration-parsoid-readviews-default": "Selon la configuration du wiki (par défaut)",
 	"parsermigration-parsoid-readviews-never": "Jamais (opt-out)",
-	"parsermigration-notice-title": "Fonctionnalité expérimentale"
+	"parsermigration-notice-title": "Fonctionnalité expérimentale",
+	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité]",
+	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid"
 }

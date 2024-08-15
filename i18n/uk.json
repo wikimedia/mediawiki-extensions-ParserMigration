@@ -21,5 +21,7 @@
 	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Використати старий парсер",
 	"parsermigration-use-parsoid-toolbox-label": "Використати новий парсер (Parsoid)",
+	"parsermigration-notice-title": "Експериментальна функція",
+	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
 	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid"
 }
