@@ -1,5 +1,7 @@
 .mw-parsoid-icon {
-	height: 32px;
-	width: 32px;
+	height: 15px;
+	width: 30px;
 	background: url( ./parsoid-logo.png );
+	display: inline-block;
+	vertical-align: middle;
 }
