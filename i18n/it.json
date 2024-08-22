@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Luca.favorido",
-			"Sakretsu"
+			"Sakretsu",
+			"Valepert"
 		]
 	},
 	"parsermigration-desc": "Parser strumento di migrazione",
@@ -15,7 +16,9 @@
 	"parsermigration-toolbox-label": "Modifica con strumento di migrazione",
 	"parsermigration-parsoid-readviews-selector-label": "Usa il nuovo parser del wikitesto Parsoid:",
 	"parsermigration-parsoid-readviews-selector-help": "Quando si usa Parsoid, si visualizza un collegamento nella barra laterale che consente di usare il parser legacy in caso di problemi.",
+	"parsermigration-parsoid-readviews-always": "Sempre (opt-in)",
 	"parsermigration-parsoid-readviews-default": "Secondo la configurazione wiki (predefinita)",
+	"parsermigration-parsoid-readviews-never": "Mai (opt-out)",
 	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)",
 	"parsermigration-notice-title": "Funzionalità sperimentale"
 }
