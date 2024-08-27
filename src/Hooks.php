@@ -106,8 +106,13 @@ class Hooks implements
 			$parserOutput->setJsConfigVar( 'parsermigration-parsoid', true );
 			// Add a user notice for named users
 			$named = false;
+			$userPref = Oracle::USERPREF_DEFAULT;
 			if ( $options['skin'] ) {
-				$named = $options['skin']->getUser()->isNamed();
+				$user = $options['skin']->getUser();
+				$named = $user->isNamed();
+				$userPref = intval( $this->userOptionsManager->getOption(
+					$user, 'parsermigration-parsoid-readviews'
+				) );
 			}
 			if ( $named ) {
 				$parserOutput->setJsConfigVar(
@@ -124,29 +129,31 @@ class Hooks implements
 				);
 				$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
 			}
-			// Add an indicator using an ad-hoc Codex InfoChip
-			// Replace when T357324 blesses a CSS-only InfoChip
-			$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
-			$parserOutput->setIndicator(
-				'parsoid',
-				$this->mainConfig->get( 'ParserMigrationCompactIndicator' ) ?
-				Html::rawElement(
-					'div',
-					[
-						'class' => 'mw-parsoid-icon notheme mw-no-invert',
-						'title' => wfMessage( 'parsermigration-parsoid-chip-label' )->text(),
-					]
-				) :
-				Html::rawElement(
-					'div',
-					[ 'class' => 'cdx-info-chip' ],
-					Html::element(
-						'span',
-						[ 'class' => 'cdx-info-chip--text' ],
-						wfMessage( 'parsermigration-parsoid-chip-label' )->text()
+			if ( $userPref === Oracle::USERPREF_ALWAYS ) {
+				// Add an indicator using an ad-hoc Codex InfoChip
+				// Replace when T357324 blesses a CSS-only InfoChip
+				$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
+				$parserOutput->setIndicator(
+					'parsoid',
+					$this->mainConfig->get( 'ParserMigrationCompactIndicator' ) ?
+					Html::rawElement(
+						'div',
+						[
+							'class' => 'mw-parsoid-icon notheme mw-no-invert',
+							'title' => wfMessage( 'parsermigration-parsoid-chip-label' )->text(),
+						]
+					) :
+					Html::rawElement(
+						'div',
+						[ 'class' => 'cdx-info-chip' ],
+						Html::element(
+							'span',
+							[ 'class' => 'cdx-info-chip--text' ],
+							wfMessage( 'parsermigration-parsoid-chip-label' )->text()
+						)
 					)
-				)
-			);
+				);
+			}
 		}
 	}
 
