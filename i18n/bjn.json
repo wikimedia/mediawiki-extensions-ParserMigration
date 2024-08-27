@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren"
+		]
+	},
+	"parsermigration-pref-label": "Nyalaakan pakakas migrasi parser",
+	"parsermigration-parsoid-readviews-selector-label": "Pakai parser wikiteks Parsoid nang hanyar:",
+	"parsermigration-parsoid-readviews-selector-help": "Wayah Parsoid dipakai, tautan bilah higa pacangan disadiaakan kaluku pamakaian parser lawas amun tajadi ungkara.",
+	"parsermigration-parsoid-readviews-always": "Salalu (opt-in)",
+	"parsermigration-parsoid-readviews-default": "Sasuai konfigurasi wiki (bawaan)",
+	"parsermigration-parsoid-readviews-never": "Kada suah (opt-out)"
+}
