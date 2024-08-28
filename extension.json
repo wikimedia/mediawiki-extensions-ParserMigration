@@ -54,7 +54,11 @@
 	},
 	"APIModules": {
 		"parser-migration": {
-			"class": "MediaWiki\\Extension\\ParserMigration\\ApiParserMigration"
+			"class": "MediaWiki\\Extension\\ParserMigration\\ApiParserMigration",
+			"services": [
+				"RedirectLookup",
+				"RevisionLookup"
+			]
 		}
 	},
 	"MessagesDirs": {
