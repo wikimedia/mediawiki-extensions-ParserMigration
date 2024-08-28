@@ -31,7 +31,7 @@ class MigrationEditPage extends EditPage {
 
 	public function setHeaders() {
 		parent::setHeaders();
-		$out = $this->context->getOutput();
+		$out = $this->getContext()->getOutput();
 		$out->addModuleStyles( 'ext.parsermigration.edit' );
 	}
 
@@ -44,8 +44,9 @@ class MigrationEditPage extends EditPage {
 	 * @return array
 	 */
 	protected function doPreviewParse( Content $content ) {
-		$user = $this->context->getUser();
-		$out = $this->context->getOutput();
+		$context = $this->getContext();
+		$user = $context->getUser();
+		$out = $context->getOutput();
 		$parserOptions = $this->getPreviewParserOptions();
 		$contentTransformer = MediaWikiServices::getInstance()->getService( 'ContentTransformer' );
 		$pstContent = $contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
@@ -65,8 +66,8 @@ class MigrationEditPage extends EditPage {
 		];
 
 		$previewHTML = "<table class=\"mw-parsermigration-sxs\"><tbody><tr>\n" .
-			"<th>" . $this->context->msg( 'parsermigration-current' )->parse() . "</th>\n" .
-			"<th>" . $this->context->msg( 'parsermigration-new' )->parse() . "</th>\n" .
+			"<th>" . $context->msg( 'parsermigration-current' )->parse() . "</th>\n" .
+			"<th>" . $context->msg( 'parsermigration-new' )->parse() . "</th>\n" .
 			"</tr><tr>\n" .
 			"<td class=\"mw-parsermigration-left\">\n\n" .
 			$outputs[0]->getText( $poOptions ) .
