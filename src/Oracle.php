@@ -7,13 +7,13 @@ use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
+use MobileContext;
 
 class Oracle {
 
 	private Config $mainConfig;
 	private UserOptionsManager $userOptionsManager;
-	// @phan-suppress-next-line PhanUndeclaredTypeProperty
-	private ?\MobileContext $mobileContext;
+	private ?MobileContext $mobileContext;
 
 	public const USERPREF_ALWAYS = 1;
 	public const USERPREF_DEFAULT = 0;
@@ -22,8 +22,7 @@ class Oracle {
 	public function __construct(
 		Config $mainConfig,
 		UserOptionsManager $userOptionsManager,
-		// @phan-suppress-next-line PhanUndeclaredTypeParameter
-		?\MobileContext $mobileContext
+		?MobileContext $mobileContext
 	) {
 		$this->mainConfig = $mainConfig;
 		$this->userOptionsManager = $userOptionsManager;
@@ -97,8 +96,7 @@ class Oracle {
 			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontend' );
 		if (
 			$disableOnMobile &&
-			$this->mobileContext !== null &&
-			// @phan-suppress-next-line PhanUndeclaredClassMethod
+			$this->mobileContext &&
 			$this->mobileContext->usingMobileDomain()
 		) {
 			$isEnabled = false;
