@@ -133,7 +133,7 @@ class Hooks implements
 				Html::rawElement(
 					'div',
 					[
-						'class' => 'mw-parsoid-icon',
+						'class' => 'mw-parsoid-icon notheme mw-no-invert',
 						'title' => wfMessage( 'parsermigration-parsoid-chip-label' )->text(),
 					]
 				) :

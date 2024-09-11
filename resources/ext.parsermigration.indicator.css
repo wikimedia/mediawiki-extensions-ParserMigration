@@ -5,3 +5,19 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+
+/*
+ See [[mw:Recommendations_for_night_mode_compatibility_on_Wikimedia_wikis]]
+ */
+@media screen {
+	html.skin-theme-clientpref-night .mw-parsoid-icon {
+		background: url( ./parsoid-logo-dark.png );
+	}
+}
+
+@media screen and ( prefers-color-scheme: dark ) {
+	/* automatic mode */
+	html.skin-theme-clientpref-os .mw-parsoid-icon {
+		background: url( ./parsoid-logo-dark.png );
+	}
+}
