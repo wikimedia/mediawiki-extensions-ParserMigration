@@ -2,12 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Hopea",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
 	"parsermigration-desc": "Jäsentimen siirtotyökalu",
+	"parsermigration-edit-subtitle": "jäsentimen siirtotyökalulla",
 	"parsermigration-current": "Vanha",
 	"parsermigration-new": "Uusi",
 	"parsermigration-pref-label": "Ota käyttöön jäsentimen siirtotyökalu",
-	"parsermigration-pref-help": "Tämä lisää sivupalkkiin linkin, joka antaa pääsyn [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration työkaluun] sivutekstin siirtämiseen MediaWiki-jäsentimen uusiin versioihin."
+	"parsermigration-pref-help": "Tämä lisää sivupalkkiin linkin, joka antaa pääsyn [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration työkaluun] sivutekstin siirtämiseen MediaWiki-jäsentimen uusiin versioihin.",
+	"parsermigration-toolbox-label": "Muokkaa siirtotyökalulla",
+	"parsermigration-parsoid-readviews-selector-label": "Käytä uutta Parsoid-wikitekstijäsennintä:",
+	"parsermigration-parsoid-readviews-selector-help": "Kun Parsoid on käytössä, sivupalkissa näytetään linkki, joka mahdollistaa käyttäjän siirtymisen vanhaan jäsentimeen ongelmatilanteissa.",
+	"parsermigration-parsoid-readviews-always": "Aina (ota käyttöön)",
+	"parsermigration-parsoid-readviews-default": "Wikin asetusten mukaisesti (oletus)",
+	"parsermigration-parsoid-readviews-never": "Ei koskaan (älä ota käyttöön)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Vaihda vanhaan jäsentimeen",
+	"parsermigration-use-parsoid-toolbox-label": "Vaihda uuteen jäsentimeen (Parsoid)",
+	"parsermigration-notice-title": "Kokeellinen ominaisuus",
+	"parsermigration-notice-body": "Käytät uutta Parsoid-wikitekstijäsennintä tämän sivun näyttämiseen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Lisätietoja tästä ominaisuudesta].",
+	"parsermigration-parsoid-chip-label": "Renderoitu Parsoidilla"
 }
