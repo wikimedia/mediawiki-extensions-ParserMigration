@@ -10,5 +10,15 @@
 	"parsermigration-new": "Mới",
 	"parsermigration-pref-label": "Bật công cụ chuyển đổi bộ phân tích",
 	"parsermigration-pref-help": "Thêm liên kết vào thanh bên để truy cập [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration một công cụ] để chuyển đổi văn bản trang đến phiên bản mới của bộ phân tích MediaWiki.",
-	"parsermigration-toolbox-label": "Sửa đổi với công cụ chuyển đổi bộ phân tích"
+	"parsermigration-toolbox-label": "Sửa đổi với công cụ chuyển đổi bộ phân tích",
+	"parsermigration-parsoid-readviews-selector-label": "Sử dụng bộ phân tích mã wiki Parsoid mới:",
+	"parsermigration-parsoid-readviews-selector-help": "Khi sử dụng Parsoid, một liên kết trong thanh bên sẽ cho phép quay lại bộ phân tích cũ nếu trường hợp có sự cố.",
+	"parsermigration-parsoid-readviews-always": "Luôn luôn (quyết định bật)",
+	"parsermigration-parsoid-readviews-default": "Tùy theo cấu hình wiki (mặc định)",
+	"parsermigration-parsoid-readviews-never": "Không bao giờ (quyết định tắt)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Chuyển sang bộ phân tích cũ",
+	"parsermigration-use-parsoid-toolbox-label": "Chuyển sang bộ phân tích mới (Parsoid)",
+	"parsermigration-notice-title": "Tính năng thử nghiệm",
+	"parsermigration-notice-body": "Bạn đang sử dụng bộ phân tích mã wiki Parsoid mới để hiển thị trang này. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Tìm hiểu thêm về tính năng này].",
+	"parsermigration-parsoid-chip-label": "Được kết xuất bằng Parsoid"
 }
