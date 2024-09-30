@@ -95,6 +95,12 @@ class Oracle {
 		$disableOnMobile =
 			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontend' );
 		if (
+			$title->isTalkPage() &&
+			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontendTalkPages' )
+		) {
+			$disableOnMobile = true;
+		}
+		if (
 			$disableOnMobile &&
 			$this->mobileContext &&
 			$this->mobileContext->usingMobileDomain()

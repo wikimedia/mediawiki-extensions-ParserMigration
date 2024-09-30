@@ -27,8 +27,12 @@
 			"description": "Whether to use Parsoid by default on article pages"
 		},
 		"ParserMigrationEnableParsoidMobileFrontend": {
-			"value": false,
+			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains, intersecting with the other default configs"
+		},
+		"ParserMigrationEnableParsoidMobileFrontendTalkPages": {
+			"value": false,
+			"description": "Whether to use Parsoid by default on mobile domains for talk pages, intersecting with the other default configs"
 		},
 		"ParserMigrationUserNoticeVersion": {
 			"value": 1,
