@@ -3,7 +3,9 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use ApiBase;
-use MediaWiki\MediaWikiServices;
+use ApiMain;
+use MediaWiki\Page\RedirectLookup;
+use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
 use ParserOptions;
@@ -17,6 +19,20 @@ class ApiParserMigration extends ApiBase {
 		1 => 'new',
 	];
 
+	private RedirectLookup $redirectLookup;
+	private RevisionLookup $revisionLookup;
+
+	public function __construct(
+		ApiMain $main,
+		string $action,
+		RedirectLookup $redirectLookup,
+		RevisionLookup $revisionLookup
+	) {
+		parent::__construct( $main, $action );
+		$this->redirectLookup = $redirectLookup;
+		$this->revisionLookup = $revisionLookup;
+	}
+
 	public function execute() {
 		$params = $this->extractRequestParams();
 
@@ -27,11 +43,10 @@ class ApiParserMigration extends ApiBase {
 		if ( $title->isRedirect() && (
 			!isset( $params['redirect'] ) || $params['redirect'] !== 'no'
 		) ) {
-			$redirectLookup = MediaWikiServices::getInstance()->getRedirectLookup();
-			$redirect = $redirectLookup->getRedirectTarget( $title );
+			$redirect = $this->redirectLookup->getRedirectTarget( $title );
 			$title = Title::castFromLinkTarget( $redirect ) ?? $title;
 		}
-		$revisionRecord = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( $title );
+		$revisionRecord = $this->revisionLookup->getRevisionByTitle( $title );
 		if ( !$revisionRecord ) {
 			$this->dieWithError( 'apierror-missingtitle' );
 		}
