@@ -23,5 +23,5 @@
 	"parsermigration-use-parsoid-toolbox-label": "Cambiar al analizador nuevo (Parsoid)",
 	"parsermigration-notice-title": "Funcionalidad experimental",
 	"parsermigration-notice-body": "Estás usando el nuevo analizador de wikitexto Parsoid para mostrar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aprende más sobre esta funcionalidad].",
-	"parsermigration-parsoid-chip-label": "Rendido con Parsoid"
+	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"
 }
