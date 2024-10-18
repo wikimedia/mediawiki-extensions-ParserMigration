@@ -27,8 +27,6 @@
 		}
 		// Build the message content from scratch in order to match/use Codex
 		// styles for a "notice" Message
-		var $content = $( '<div class="cdx-message cdx-message--inline cdx-message--notice" aria-live="polite">' );
-
 		var $title = $( '<p>' ).append(
 			$( '<strong>' ).html(
 				mw.message( 'parsermigration-notice-title' ).parse()
@@ -37,15 +35,14 @@
 		var $body = $( '<p>' ).html(
 			mw.message( 'parsermigration-notice-body' ).parse()
 		);
+		var msgBody = document.createElement( 'div' );
+		msgBody.appendChild( $title[ 0 ] );
+		msgBody.appendChild( $body[ 0 ] );
 
+		var $content = $( mw.util.messageBox( msgBody, 'notice', true ) );
+		// mw.util.messageBox currently does not support close button so we have to append it.
 		$content.append(
-			$( '<span class="cdx-message__icon">' )
-		).append(
-			$( '<div class="cdx-message__content">' )
-				.append( $title )
-				.append( $body )
-		).append(
-			$( '<span class="cdx-button__icon parsermigration-notice-icon-close">' )
+			$( '<span>' ).addClass( 'cdx-button__icon parsermigration-notice-icon-close' )
 		);
 		mw.notify(
 			$content,

@@ -86,6 +86,9 @@
 				"CdxMessage"
 			],
 			"styles": "ext.parsermigration.notice.less",
+			"dependencies": [
+				"mediawiki.util"
+			],
 			"packageFiles": [
 				"ext.parsermigration.notice.js"
 			],
