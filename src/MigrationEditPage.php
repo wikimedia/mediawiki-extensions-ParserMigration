@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use Article;
-use Content;
+use MediaWiki\Content\Content;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\MediaWikiServices;

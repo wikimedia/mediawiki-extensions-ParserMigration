@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use Content;
+use MediaWiki\Content\Content;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
-use ParserOptions;
 
 class Mechanism {
 

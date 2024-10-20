@@ -2,13 +2,13 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use ApiBase;
-use ApiMain;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiMain;
 use MediaWiki\Page\RedirectLookup;
+use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
-use ParserOptions;
 use RuntimeException;
 use Wikimedia\ParamValidator\ParamValidator;
 

@@ -8,11 +8,11 @@ use MediaWiki\Hook\ParserOutputPostCacheTransformHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
+use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
-use ParserOptions;
 use Skin;
 
 class Hooks implements
