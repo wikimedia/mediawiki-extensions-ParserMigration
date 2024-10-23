@@ -34,20 +34,23 @@ bottom of the 'Editing' options for a user, which allows the user
 to opt-in, opt-out, or follow the wiki defaults for the use of
 the new Parsoid wikitext parser to render article pages.
 
-"Follow the wiki default" uses Parsoid based on three configuration
+"Follow the wiki default" uses Parsoid based on four configuration
 options:
 * `$wgParserMigrationEnableParsoidDiscussionTools` if set to true will
   use Parsoid for all pages in the talk namespace, but not for other
   pages.  This is intended for use with the
   [DiscussionTools](https://www.mediawiki.org/wiki/Extension:DiscussionTools)
   extension, which is already powered by Parsoid and enabled by
-  default on some wikis.
+  default on some wikis. (Defaults to `false`.)
 * `$wgParserMigrationEnableParsoidArticlePages` if set to true will
   use Parsoid for all pages in the main article namespace, but not for other
-  pages.
-* `$wgParserMigrationEnableParsoidMobileFrontend` if set to true will
-  use Parsoid on mobile domains, for pages in the namespaces enabled
-  by the other two options.
+  pages. (Defaults to `false`.)
+* `$wgParserMigrationEnableParsoidMobileFrontend` if set to false will
+  disable Parsoid on mobile domains, for pages in the namespaces enabled
+  by the other two options. (Defaults to `true`.)
+* `$wgParserMigrationEnableParsoidMobileFrontendTalkPages` if set to
+  false will disable Parsoid on talk pages on mobile domains.
+  (Defaults to `false`.)
 
 The first time the user views a page rendered with the new Parsoid
 parser, either because they have opted-in to use it always or because
