@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wertuose"
+			"Wertuose",
+			"Nemoralis"
 		]
 	},
+	"parsermigration-desc": "Ayrışdırıcı miqrasiya aləti",
 	"parsermigration-edit-subtitle": "sintaktik təhlil köçürülməsi aləti ilə",
+	"parsermigration-current": "Köhnə",
+	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Sintaktik təhlil alətinin yerdəyişməsini tətbiq et",
 	"parsermigration-pref-help": "Bu, məqalənin mətnini MediaViki sintaktik təhlilçisinin yeni versiyalarına köçürmək üçün yan panelə [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alətin] keçidini əlavə edir.",
 	"parsermigration-toolbox-label": "Köçürmə aləti vasitəsilə redaktə et"
