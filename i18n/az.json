@@ -1,11 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wertuose"
+			"Wertuose",
+			"Nemoralis"
 		]
 	},
+	"parsermigration-desc": "Ayrışdırıcı miqrasiya aləti",
 	"parsermigration-edit-subtitle": "sintaktik təhlil köçürülməsi aləti ilə",
+	"parsermigration-current": "Köhnə",
+	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Sintaktik təhlil alətinin yerdəyişməsini tətbiq et",
 	"parsermigration-pref-help": "Bu, məqalənin mətnini MediaViki sintaktik təhlilçisinin yeni versiyalarına köçürmək üçün yan panelə [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alətin] keçidini əlavə edir.",
-	"parsermigration-toolbox-label": "Köçürmə aləti vasitəsilə redaktə et"
+	"parsermigration-toolbox-label": "Köçürmə aləti vasitəsilə redaktə et",
+	"parsermigration-parsoid-readviews-selector-label": "Yeni Parsoid vikimətn ayrışdırıcısından istifadə edin:",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid istifadə edildikdə, problem olduqda köhnə ayrışdırıcıdan istifadə etməyə imkan verən yan panel linki əlavə ediləcək.",
+	"parsermigration-parsoid-readviews-always": "Həmişə (aktivləşdir)",
+	"parsermigration-parsoid-readviews-default": "Viki konfiqurasiyasına görə (defolt)",
+	"parsermigration-parsoid-readviews-never": "Heç vaxt (aktivləşdirmə)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Köhnə ayrışdırıcıya keç",
+	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrışdıcırıya keç (Parsoid)",
+	"parsermigration-notice-title": "Eksperimental xüsusiyyət",
+	"parsermigration-notice-body": "Bu səhifəni göstərmək üçün yeni Parsoid vikimətn ayrışdırıcından istifadə edirsiniz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Bu xüsusiyyət haqqında ətraflı öyrənin].",
+	"parsermigration-parsoid-chip-label": "Parsoid ilə göstərilmişdir"
 }
