@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dvorapa",
-			"Mormegil"
+			"Mormegil",
+			"Matěj Suchánek"
 		]
 	},
 	"parsermigration-desc": "Nástroj pro migraci parseru",
@@ -15,7 +16,7 @@
 	"parsermigration-parsoid-readviews-selector-label": "Používat nový parser wikitextu Parsoid:",
 	"parsermigration-parsoid-readviews-selector-help": "Pokud se používá Parsoid, bude v postranním panelu zobrazen odkaz umožňující použití původního parseru pro případ problémů.",
 	"parsermigration-parsoid-readviews-always": "Vždy (zapojit se)",
-	"parsermigration-parsoid-readviews-default": "Podle konfiguraci wiki (výchozí)",
+	"parsermigration-parsoid-readviews-default": "Podle konfigurace wiki (výchozí)",
 	"parsermigration-parsoid-readviews-never": "Nikdy (neúčastnit se)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Použít původní parser",
 	"parsermigration-use-parsoid-toolbox-label": "Použít nový parser (Parsoid)",
