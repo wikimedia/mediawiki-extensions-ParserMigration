@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
+	"apihelp-parser-migration-summary": "Analizar unha páxina con dúas configuracións de analizador diferentes.",
 	"apihelp-parser-migration-param-title": "Título da páxina a cargar e analizar.",
 	"apihelp-parser-migration-param-config": "A configuración do analizador a usar. Pode ser \"old\" (antigo), \"new\" (novo) ou \"old|new\" (antigo|novo).",
-	"apihelp-parser-migration-param-redirect": "As redireccións séguense de maneira predeterminada. Utilice «non» para non seguir as redireccións."
+	"apihelp-parser-migration-param-redirect": "As redireccións séguense de maneira predeterminada. Utilice «non» para non seguir as redireccións.",
+	"apihelp-parser-migration-paramvalue-config-new": "Analiza a páxina usando a configuración \"new\"; Parsoide",
+	"apihelp-parser-migration-paramvalue-config-old": "Analiza a páxina usando a configuración \"old\"; analizador antigo de MediaWiki"
 }
