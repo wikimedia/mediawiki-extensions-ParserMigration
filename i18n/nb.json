@@ -16,8 +16,8 @@
 	"parsermigration-parsoid-readviews-always": "Alltid (aktiv påmelding)",
 	"parsermigration-parsoid-readviews-default": "I henhold til wikiens konfigurasjon (standard)",
 	"parsermigration-parsoid-readviews-never": "Aldri (aktiv avmelding)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Bruk den gamle parseren",
-	"parsermigration-use-parsoid-toolbox-label": "Bruk den nye parseren (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Bytt til den gamle parseren",
+	"parsermigration-use-parsoid-toolbox-label": "Bytt til den nye parseren (Parsoid)",
 	"parsermigration-notice-title": "Eksperimentell funksjon",
 	"parsermigration-notice-body": "Du bruker den nye Parsoid-wikitekstparseren for å vise denne siden. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Lær mer om denne funksjonen].",
 	"parsermigration-parsoid-chip-label": "Gjengitt med Parsoid"
