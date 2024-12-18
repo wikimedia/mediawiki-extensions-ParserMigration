@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد",
 			"علاء",
 			"محمد أحمد عبد الفتاح"
@@ -13,5 +14,14 @@
 	"parsermigration-pref-label": "تفعيل أداة ترحيل المحلل",
 	"parsermigration-pref-help": "يعمل هذا على إضافة ارتباط في الشريط الجانبي للوصول إلى [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration أداة] لترحيل نص الصفحة إلى النسخ الأحدث من محلل الميدياويكي.",
 	"parsermigration-toolbox-label": "التعديل مع أداة المُرحل",
-	"parsermigration-notice-title": "ميزة تجريبية"
+	"parsermigration-parsoid-readviews-selector-label": "استخدم محلل نصوص الويكي Parsoid الجديد:",
+	"parsermigration-parsoid-readviews-selector-help": "عند استخدام Parsoid، سيتم توفير رابط شريط جانبي للسماح باستخدام المحلل القديم في حالة حدوث مشكلات.",
+	"parsermigration-parsoid-readviews-always": "دائما (اختياري)",
+	"parsermigration-parsoid-readviews-default": "وفقا لتكوين الويكي (الافتراضي)",
+	"parsermigration-parsoid-readviews-never": "أبدا (اختيار عدم المشاركة)",
+	"parsermigration-use-legacy-parser-toolbox-label": "التبديل إلى المحلل القديم",
+	"parsermigration-use-parsoid-toolbox-label": "التبديل إلى المحلل الجديد (Parsoid)",
+	"parsermigration-notice-title": "ميزة تجريبية",
+	"parsermigration-notice-body": "أنت تستخدم محلل نصوص الويكي الجديد Parsoid لعرض هذه الصفحة. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration تعرف على المزيد حول هذه الميزة].",
+	"parsermigration-parsoid-chip-label": "تم تقديمه باستخدام Parsoid"
 }
