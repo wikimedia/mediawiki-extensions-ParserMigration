@@ -4,11 +4,19 @@
 			"Mirinano",
 			"Omotecho",
 			"Yusuke1109",
-			"ひまり"
+			"ひまり",
+			"Shirayuki"
 		]
 	},
 	"parsermigration-desc": "パーサーの移行用ツール",
-	"parsermigration-new": "新規",
+	"parsermigration-current": "旧",
+	"parsermigration-new": "新",
 	"parsermigration-pref-label": "ParserMigrationツールを使用可能にする",
-	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。"
+	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサーに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。",
+	"parsermigration-parsoid-readviews-selector-label": "新しいParsoidウィキテキストパーサーの使用:",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoidを使用している場合、問題が発生した際にレガシーパーサーを利用できるようにするためのサイドバーリンクが提供されます。",
+	"parsermigration-parsoid-readviews-default": "ウィキの構成に従う (既定)",
+	"parsermigration-use-legacy-parser-toolbox-label": "レガシーパーサーに切り替え",
+	"parsermigration-use-parsoid-toolbox-label": "新しいパーサー (Parsoid) に切り替え",
+	"parsermigration-notice-title": "実験的な機能"
 }
