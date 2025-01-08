@@ -4,11 +4,13 @@
 			"Mirinano",
 			"Omotecho",
 			"Yusuke1109",
-			"ひまり"
+			"ひまり",
+			"Shirayuki"
 		]
 	},
 	"parsermigration-desc": "パーサーの移行用ツール",
-	"parsermigration-new": "新規",
+	"parsermigration-current": "旧",
+	"parsermigration-new": "新",
 	"parsermigration-pref-label": "ParserMigrationツールを使用可能にする",
-	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。"
+	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサーに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。"
 }
