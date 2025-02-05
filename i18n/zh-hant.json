@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A2093064",
+			"Emojiwiki",
 			"H78c67c",
 			"Hello903hello",
 			"Kly",
@@ -25,6 +26,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "切換成舊版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "切換成新版解析器（Parsoid）",
 	"parsermigration-notice-title": "實驗性功能",
-	"parsermigration-notice-body": "您正在使用新的 Parsoid wikitext 解析器來顯示此頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解更多關於此功能]。",
+	"parsermigration-notice-body": "您正在使用新的 Parsoid wikitext 解析器來顯示此頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解此功能的更多信息]。",
 	"parsermigration-parsoid-chip-label": "使用 Parsoid 呈現"
 }
