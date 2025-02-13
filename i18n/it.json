@@ -20,5 +20,7 @@
 	"parsermigration-parsoid-readviews-default": "Secondo la configurazione wiki (predefinita)",
 	"parsermigration-parsoid-readviews-never": "Mai (opt-out)",
 	"parsermigration-use-parsoid-toolbox-label": "Usa il nuovo parser (Parsoid)",
-	"parsermigration-notice-title": "Funzionalità sperimentale"
+	"parsermigration-notice-title": "Funzionalità sperimentale",
+	"parsermigration-notice-body": "Stai utilizzando il nuovo parser wikitesto Parsoid per visualizzare questa pagina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Scopri di più su questa funzionalità].",
+	"parsermigration-parsoid-chip-label": "Renderizzato con Parsoid"
 }
