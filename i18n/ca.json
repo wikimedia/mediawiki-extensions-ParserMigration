@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnaugir"
+		]
+	},
+	"parsermigration-pref-label": "Activar l'eina de migració de processador",
+	"parsermigration-pref-help": "Això afegeix una barra lateral que dóna accés a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration una eina] per migrar el text a noves versions del processador MediaWiki."
+}
