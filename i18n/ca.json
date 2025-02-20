@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnaugir"
+		]
+	},
+	"parsermigration-pref-label": "Activar l'eina de migració de processador",
+	"parsermigration-pref-help": "Això afegeix una barra lateral que dóna accés a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration una eina] per migrar el text a noves versions del processador MediaWiki.",
+	"parsermigration-parsoid-readviews-selector-label": "Utilitza el nou processador de wikitext Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Quan s'utilitzi Parsoid apareixerà una barra lateral per tal de permetre seguir utilitzant el processador antic en cas que hi hagi problemes.",
+	"parsermigration-parsoid-readviews-always": "Sempre",
+	"parsermigration-parsoid-readviews-default": "Segons la configuració del wiki (per defecte)",
+	"parsermigration-parsoid-readviews-never": "Mai"
+}
