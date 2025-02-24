@@ -107,7 +107,7 @@ class Hooks implements
 			// Add a user notice for named users
 			$named = false;
 			$userPref = Oracle::USERPREF_DEFAULT;
-			if ( $options['skin'] ) {
+			if ( $options['skin'] ?? null ) {
 				$user = $options['skin']->getUser();
 				$named = $user->isNamed();
 				$userPref = intval( $this->userOptionsManager->getOption(
