@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huñvreüs"
+		]
+	},
+	"parsermigration-desc": "Benveg adlec’hiañ an dielfenner",
+	"parsermigration-edit-subtitle": "gant benveg adlec’hiañ an dielfenner",
+	"parsermigration-current": "Kozh",
+	"parsermigration-new": "Nevez",
+	"parsermigration-pref-label": "Gweredekaat benveg adlec’hiañ an dielfenner",
+	"parsermigration-pref-help": "Ouzhpennañ a ra ul liamm er varrenn gostez war-du [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ur benveg] evit adlec’hiañ testenn ar bajenn da stummoù nevez an dielfenner MediaWiki.",
+	"parsermigration-toolbox-label": "Kemm gant benveg adlec’hiañ",
+	"parsermigration-parsoid-readviews-selector-label": "Ober gant dielfenner wikitestenn nevez Parsoidː",
+	"parsermigration-parsoid-readviews-selector-help": "Pa vez implijet Parsoid e vo roet ul liamm er varrenn gostez evit ma c'halloc’h ober gant an dielfenner kozh m’ho pije kudennoù.",
+	"parsermigration-parsoid-readviews-always": "Bepred (opt-in)",
+	"parsermigration-parsoid-readviews-default": "Hervez kefluniadur ar wiki (dre ziouer)",
+	"parsermigration-parsoid-readviews-never": "Morse (opt-out)",
+	"parsermigration-notice-title": "Arc’hweladur arnodel",
+	"parsermigration-notice-body": "Emaoc’h oc’h ober gant an dielfenner wikitestenn nevez Parsoid evit diskwel ar bajenn-mañ. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Gouzout hiroc'h diwar-benn an arc’hweladur-mañ].",
+	"parsermigration-parsoid-chip-label": "Rentet gant Parsoid"
+}
