@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Marine-Blue",
 			"Mirinano",
 			"Omotecho",
 			"Shirayuki",
@@ -19,5 +20,6 @@
 	"parsermigration-parsoid-readviews-default": "ウィキの構成に従う (既定)",
 	"parsermigration-use-legacy-parser-toolbox-label": "レガシーパーサーに切り替え",
 	"parsermigration-use-parsoid-toolbox-label": "新しいパーサー (Parsoid) に切り替え",
-	"parsermigration-notice-title": "実験的な機能"
+	"parsermigration-notice-title": "実験的な機能",
+	"parsermigration-notice-body": "このページは新しいParsoidウィキテキストパーサーを使用して表示しています。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 機能の詳細に関する説明もご覧ください]。"
 }
