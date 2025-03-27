@@ -6,7 +6,8 @@
 			"Yusuke1109",
 			"ひまり",
 			"Shirayuki",
-			"かしわのはみん"
+			"かしわのはみん",
+			"Marine-Blue"
 		]
 	},
 	"parsermigration-desc": "パーサーの移行用ツール",
@@ -17,5 +18,6 @@
 	"parsermigration-parsoid-readviews-selector-label": "新しい Parsoid ウィキテキストパーサーの使用:",
 	"parsermigration-parsoid-readviews-selector-help": "Parsoid を使用している場合、問題が発生した際にレガシーパーサーを利用できるようにするためのサイドバーリンクが提供されます。",
 	"parsermigration-parsoid-readviews-default": "ウィキの構成に従う (既定)",
-	"parsermigration-notice-title": "実験的な機能"
+	"parsermigration-notice-title": "実験的な機能",
+	"parsermigration-notice-body": "このページは新しいParsoidウィキテキストパーサーを使用して表示しています。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 機能の詳細に関する説明もご覧ください]。"
 }
