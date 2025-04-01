@@ -5,19 +5,21 @@
 			"Volvox"
 		]
 	},
-	"parsermigration-desc": "Parser Migratiouns-Tool",
+	"parsermigration-desc": "Parser-Migratiouns-Tool",
 	"parsermigration-edit-subtitle": "mam Parser-Migratiouns-Tool",
 	"parsermigration-current": "Al",
 	"parsermigration-new": "Nei",
 	"parsermigration-pref-label": "Parser-MIgratiouns-Tool aschalten",
-	"parsermigration-pref-help": "Dëst setzt e Link an de Menü op der lénkser Säit dobäi deen Zougang gëtt op [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration een Tool] fir d'Migratioun vu Säitentext op nei Versioune vum MediaWiki-Parser.",
+	"parsermigration-pref-help": "Dëst setzt e Link an der Säiteläischt dobäi, deen Zougang gëtt op [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration en Tool] fir d'Migratioun vu Säitentext op nei Versioune vum MediaWiki-Parser.",
 	"parsermigration-toolbox-label": "Mam Migratiouns-Tool änneren",
 	"parsermigration-parsoid-readviews-selector-label": "Den neie Parsoid-Wikitext-Parser benotzen:",
-	"parsermigration-parsoid-readviews-selector-help": "Wa Parsoid benotzt gëtt, gëtt e Sidebar Link zur Verfügung gestallt fir den ale Parser am Fall vun Problemer benotzen uze kënnen.",
+	"parsermigration-parsoid-readviews-selector-help": "Wa Parsoid benotzt gëtt, gëtt e Link an der Säiteläischt zur Verfügung gestallt fir den ale Parser am Fall vu Problemer benotzen ze kënnen.",
 	"parsermigration-parsoid-readviews-always": "Ëmmer (opt-in)",
 	"parsermigration-parsoid-readviews-default": "No der Wiki-Konfiguratioun (Standard)",
 	"parsermigration-parsoid-readviews-never": "Ni (opt-out)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Ale Parser benotzen",
-	"parsermigration-use-parsoid-toolbox-label": "Neie Parser benotzen (Parsoid)",
-	"parsermigration-notice-title": "Experimentell Funktioun"
+	"parsermigration-use-legacy-parser-toolbox-label": "Op den ale Parser wiesselen",
+	"parsermigration-use-parsoid-toolbox-label": "Op den neie Parser wiesselen (Parsoid)",
+	"parsermigration-notice-title": "Experimentell Funktioun",
+	"parsermigration-notice-body": "Dir benotzt den neie Parsoid-Wikitext-Parser fir dës Säit unzeweisen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Gitt méi iwwer dës Funktioun gewuer].",
+	"parsermigration-parsoid-chip-label": "Mat Parsoid gerendert"
 }
