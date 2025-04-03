@@ -35,6 +35,7 @@ class MigrationEditPage extends EditPage {
 		$out->addModuleStyles( 'ext.parsermigration.edit' );
 	}
 
+	/** @inheritDoc */
 	protected function previewOnOpen() {
 		return true;
 	}
