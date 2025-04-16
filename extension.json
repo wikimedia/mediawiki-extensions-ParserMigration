@@ -15,7 +15,7 @@
 	},
 	"config": {
 		"ParserMigrationEnableQueryString": {
-			"value": false,
+			"value": true,
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
 		},
 		"ParserMigrationEnableParsoidDiscussionTools": {
@@ -31,7 +31,7 @@
 			"description": "Whether to use Parsoid by default on mobile domains, intersecting with the other default configs"
 		},
 		"ParserMigrationEnableParsoidMobileFrontendTalkPages": {
-			"value": false,
+			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains for talk pages, intersecting with the other default configs"
 		},
 		"ParserMigrationUserNoticeVersion": {
@@ -39,11 +39,11 @@
 			"description": "Updated whenever the user notice is modified sufficient to merit redisplay"
 		},
 		"ParserMigrationUserNoticeDays": {
-			"value": 7,
+			"value": 90,
 			"description": "The number of days before the user notice is reshown after being dismissed"
 		},
 		"ParserMigrationCompactIndicator": {
-			"value": false,
+			"value": true,
 			"description": "Use a compact icon as a Parsoid Read Views indicator"
 		}
 	},
