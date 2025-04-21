@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use FormlessAction;
+use MediaWiki\Actions\FormlessAction;
 
 class EditAction extends FormlessAction {
 	/**

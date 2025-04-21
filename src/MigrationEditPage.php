@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use Article;
 use MediaWiki\Content\Content;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\EditPage\EditPage;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\Article;
 use MediaWiki\Title\Title;
 
 class MigrationEditPage extends EditPage {

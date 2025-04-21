@@ -2,18 +2,18 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use Article;
 use MediaWiki\Config\Config;
 use MediaWiki\Hook\ParserOutputPostCacheTransformHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Html\Html;
+use MediaWiki\Page\Article;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\Skin\Skin;
 use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
-use Skin;
 
 class Hooks implements
 	GetPreferencesHook,
