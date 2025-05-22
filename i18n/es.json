@@ -3,6 +3,7 @@
 		"authors": [
 			"Dgstranz",
 			"Fitoschido",
+			"JaimeDes",
 			"Macofe",
 			"No se"
 		]
@@ -22,6 +23,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Cambiar al analizador antiguo",
 	"parsermigration-use-parsoid-toolbox-label": "Cambiar al analizador nuevo (Parsoid)",
 	"parsermigration-notice-title": "Funcionalidad experimental",
-	"parsermigration-notice-body": "Estás usando el nuevo analizador de wikitexto Parsoid para mostrar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aprende más sobre esta funcionalidad].",
+	"parsermigration-notice-body": "Estás usando el nuevo analizador de wikitexto Parsoid para mostrar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Más información sobre esta función].",
 	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"
 }
