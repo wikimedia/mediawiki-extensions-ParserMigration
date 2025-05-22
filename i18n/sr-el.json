@@ -10,5 +10,6 @@
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Omogući alatku za migraciju raščlanjivača",
 	"parsermigration-pref-help": "Dodaje vezu u bočnoj traci koja pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za premeštanje teksta stranice u nove verzije Medijaviki raščlanjivača.",
-	"parsermigration-toolbox-label": "Izmena sa alatkom za menjanje"
+	"parsermigration-toolbox-label": "Izmena sa alatkom za menjanje",
+	"parsermigration-notice-title": "Eksperimentalne funkcije"
 }
