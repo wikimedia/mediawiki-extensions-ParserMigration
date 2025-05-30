@@ -207,11 +207,13 @@ class Hooks implements
 
 		if ( $shouldShowToggle ) {
 			$usingParsoid = $this->oracle->shouldUseParsoid( $user, $skin->getRequest(), $title );
+			$queryParams = $out->getRequest()->getQueryValues();
+			// Allow toggling 'useParsoid' from the current state
+			$queryParams[ 'useparsoid' ] = $usingParsoid ? '0' : '1';
+			// title is handled by getLocalURL, no need to pass it twice from a index.php?title= url
+			unset( $queryParams[ 'title' ] );
 			$sidebar[ 'TOOLBOX' ][ 'parsermigration' ] = [
-				'href' => $title->getLocalURL( [
-					// Allow toggling 'useParsoid' from the current state
-					'useparsoid' => $usingParsoid ? '0' : '1',
-				] ),
+				'href' => $title->getLocalURL( $queryParams ),
 				'text' => $skin->msg(
 					$usingParsoid ?
 					'parsermigration-use-legacy-parser-toolbox-label' :
