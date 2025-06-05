@@ -88,7 +88,7 @@ class Hooks implements
 	}
 
 	/**
-	 * This hook is called from ParserOutput::getText() to do
+	 * This hook is called from ParserOutput::runOutputPipeline() to do
 	 * post-cache transforms.
 	 *
 	 * @since 1.35

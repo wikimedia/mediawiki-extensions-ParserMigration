@@ -71,7 +71,8 @@ class ApiParserMigration extends ApiBase {
 
 		$result = $this->getResult();
 		foreach ( $configIndexes as $index ) {
-			$result->addValue( null, self::$configNames[$index], $outputs[$index]->getText() );
+			$result->addValue( null, self::$configNames[$index],
+				$outputs[$index]->runOutputPipeline( $options, [] )->getContentHolderText() );
 		}
 	}
 
