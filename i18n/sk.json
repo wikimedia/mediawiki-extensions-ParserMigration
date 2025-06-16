@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Luky001",
 			"Teslaton"
 		]
 	},
@@ -10,5 +11,12 @@
 	"parsermigration-new": "Nová",
 	"parsermigration-pref-label": "Povoliť nástroj pre migráciu parseru",
 	"parsermigration-pref-help": "Pridáva odkaz do postranného panelu, sprístupňujúci [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration nástroj] pre migráciu textu stránky na nové verzie parseru MediaWiki.",
-	"parsermigration-toolbox-label": "Editovať s migračným nástrojom"
+	"parsermigration-toolbox-label": "Editovať s migračným nástrojom",
+	"parsermigration-parsoid-readviews-selector-label": "Používať nový parser wikitextu Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Ak sa používa Parsoid, v postrannom paneli sa zobrazí odkaz, ktorý umožňuje použiť pôvodný parser v prípade problémov.",
+	"parsermigration-parsoid-readviews-always": "Vždy (zapojiť sa)",
+	"parsermigration-parsoid-readviews-default": "Podľa konfigurácie wiki (predvolené)",
+	"parsermigration-parsoid-readviews-never": "Nikdy (nezapojiť sa)",
+	"parsermigration-notice-title": "Experimentálna funkcia",
+	"parsermigration-notice-body": "Na zobrazenie tejto stránky používate nový parser wikitextu Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Viac informácií o tejto funkcii]."
 }
