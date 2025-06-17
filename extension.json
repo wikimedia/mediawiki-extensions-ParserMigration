@@ -34,6 +34,14 @@
 			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains for talk pages, intersecting with the other default configs"
 		},
+		"ParserMigrationEnableIndicator": {
+			"value": true,
+			"description": "Add a Parsoid Read Views indicator"
+		},
+		"ParserMigrationEnableUserNotice": {
+			"value": true,
+			"description": "Add a user notice"
+		},
 		"ParserMigrationUserNoticeVersion": {
 			"value": 1,
 			"description": "Updated whenever the user notice is modified sufficient to merit redisplay"

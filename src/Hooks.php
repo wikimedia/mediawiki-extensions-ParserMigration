@@ -114,7 +114,11 @@ class Hooks implements
 					$user, 'parsermigration-parsoid-readviews'
 				) );
 			}
-			if ( $named ) {
+			if (
+				$this->mainConfig->get( 'ParserMigrationEnableUserNotice' ) &&
+				// Only display user notice for logged in ("named") users
+				$named
+			) {
 				$parserOutput->setJsConfigVar(
 					'parsermigration-notice-version',
 					$this->mainConfig->get(
@@ -129,7 +133,11 @@ class Hooks implements
 				);
 				$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
 			}
-			if ( $userPref === Oracle::USERPREF_ALWAYS ) {
+			if (
+				$this->mainConfig->get( 'ParserMigrationEnableIndicator' ) &&
+				// Only display indicator for "opt in always" users.
+				$userPref === Oracle::USERPREF_ALWAYS
+			) {
 				// Add an indicator using an ad-hoc Codex InfoChip
 				// Replace when T357324 blesses a CSS-only InfoChip
 				$parserOutput->addModuleStyles( [ 'ext.parsermigration.indicator' ] );
