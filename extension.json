@@ -42,6 +42,10 @@
 			"value": true,
 			"description": "Add a user notice"
 		},
+		"ParserMigrationEnableReportVisualBug": {
+			"value": false,
+			"description": "Add a 'Report visual bug' link to the sidebar"
+		},
 		"ParserMigrationUserNoticeVersion": {
 			"value": 1,
 			"description": "Updated whenever the user notice is modified sufficient to merit redisplay"

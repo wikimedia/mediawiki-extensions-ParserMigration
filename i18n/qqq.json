@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"C. Scott Ananian",
 			"Liuxinyu970226",
 			"Nemo bis",
 			"Tim Starling",
@@ -22,6 +23,8 @@
 	"parsermigration-parsoid-readviews-never": "Selector text used when the user wants to never use the new Parsoid parser to render wikitext",
 	"parsermigration-use-legacy-parser-toolbox-label": "The text of the toolbox link which allows the user to use the legacy parser to render this page",
 	"parsermigration-use-parsoid-toolbox-label": "The text of the toolbox link which allows the user to use the Parsoid parser to render this page",
+	"parsermigration-report-bug-toolbox-label": "The text of the toolbox link that allows the user to report a visual bug with the rendering of the page",
+	"parsermigration-report-bug-toolbox-title": "The tool tip for the toolbox link that allows the user to report a visual bug with the rendering of the page",
 	"parsermigration-notice-title": "Title text for a notification displayed when a user views a page rendered with the Parsoid wikitext parser for the first time.",
 	"parsermigration-notice-body": "Body text for a notification displayed when a user views a page rendered with the Parsoid wikitext parser for the first time.",
 	"parsermigration-parsoid-chip-label": "Short text for an indicator at the top of a main space page marking a page that has been rendered with the new Parsoid wikitext parser."

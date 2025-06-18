@@ -18,6 +18,8 @@
 	"parsermigration-parsoid-readviews-never": "Never (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Switch to legacy parser",
 	"parsermigration-use-parsoid-toolbox-label": "Switch to new parser (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Report visual bug",
+	"parsermigration-report-bug-toolbox-title": "If you see display errors,\nit may be due to Parsoid",
 	"parsermigration-notice-title": "Experimental feature",
 	"parsermigration-notice-body": "You are using the new Parsoid wikitext parser to display this page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Learn more about this feature].",
 	"parsermigration-parsoid-chip-label": "Rendered with Parsoid"

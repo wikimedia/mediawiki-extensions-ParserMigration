@@ -79,7 +79,7 @@ class Hooks implements
 		Article $article, ParserOptions $popts
 	) {
 		// T348257: Allow individual user to opt in to Parsoid read views as a
-		// use option in the ParserMigration section.
+		// user option in the ParserMigration section.
 		$context = $article->getContext();
 		if ( $this->oracle->shouldUseParsoid( $context->getUser(), $context->getRequest(), $article->getTitle() ) ) {
 			$popts->setUseParsoid();
@@ -177,17 +177,16 @@ class Hooks implements
 			return;
 		}
 
+		$user = $skin->getUser();
+		$title = $skin->getTitle();
+		$usingParsoid = $this->oracle->shouldUseParsoid( $user, $skin->getRequest(), $title );
+
 		$queryStringEnabled = $this->mainConfig->get(
 			'ParserMigrationEnableQueryString'
 		);
-		if ( !$queryStringEnabled ) {
-			// Early exit from those wikis where we don't want the
-			// user to be able to put Parsoid pages into the parser cache.
-			return;
-		}
-
-		$user = $skin->getUser();
-		$title = $skin->getTitle();
+		$reportVisualBugEnabled = $this->mainConfig->get(
+			'ParserMigrationEnableReportVisualBug'
+		);
 
 		$editToolPref = $this->userOptionsManager->getOption(
 			$user, 'parsermigration'
@@ -197,8 +196,8 @@ class Hooks implements
 		) );
 
 		$shouldShowToggle = false;
-		if ( $editToolPref ) {
-			$sidebar['TOOLBOX']['parsermigration'] = [
+		if ( $editToolPref && $queryStringEnabled ) {
+			$sidebar['TOOLBOX']['parsermigration-edit-tool'] = [
 				'href' => $title->getLocalURL( [
 					'action' => 'parsermigration-edit',
 				] ),
@@ -212,21 +211,41 @@ class Hooks implements
 		if ( $userPref === Oracle::USERPREF_ALWAYS ) {
 			$shouldShowToggle = true;
 		}
+		if ( !$queryStringEnabled ) {
+			// On some wikis we don't want the user to be able to put
+			// Parsoid pages into the parser cache.
+			$shouldShowToggle = false;
+		}
 
 		if ( $shouldShowToggle ) {
-			$usingParsoid = $this->oracle->shouldUseParsoid( $user, $skin->getRequest(), $title );
 			$queryParams = $out->getRequest()->getQueryValues();
 			// Allow toggling 'useParsoid' from the current state
 			$queryParams[ 'useparsoid' ] = $usingParsoid ? '0' : '1';
 			// title is handled by getLocalURL, no need to pass it twice from a index.php?title= url
 			unset( $queryParams[ 'title' ] );
-			$sidebar[ 'TOOLBOX' ][ 'parsermigration' ] = [
+			$sidebar[ 'TOOLBOX' ][ 'parsermigration-switch' ] = [
 				'href' => $title->getLocalURL( $queryParams ),
 				'text' => $skin->msg(
 					$usingParsoid ?
 					'parsermigration-use-legacy-parser-toolbox-label' :
 					'parsermigration-use-parsoid-toolbox-label'
 				)->text(),
+			];
+		}
+
+		if ( $usingParsoid && $reportVisualBugEnabled ) {
+			// Add "report visual bug" sidebar link
+			$sidebar[ 'TOOLBOX' ][ 'parsermigration-report-bug' ] = [
+				// This will be overridden in JavaScript
+				'href' => 'https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Known_Issues',
+				'text' => $skin->msg(
+					'parsermigration-report-bug-toolbox-label'
+				)->text(),
+				'title' => $skin->msg(
+					'parsermigration-report-bug-toolbox-title'
+				)->text(),
+				'id' => 'parsermigration-report-bug',
+				'icon' => 'help',
 			];
 		}
 	}
