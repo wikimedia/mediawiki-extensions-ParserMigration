@@ -2,6 +2,8 @@
 	"name": "ParserMigration",
 	"private": true,
 	"scripts": {
+		"eslint-fix": "eslint --cache --ext .js,.json --fix .",
+		"eslint": "eslint --cache --ext .js,.json .",
 		"test": "grunt test"
 	},
 	"devDependencies": {
