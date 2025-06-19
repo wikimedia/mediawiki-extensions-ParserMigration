@@ -46,6 +46,10 @@
 			"value": false,
 			"description": "Add a 'Report visual bug' link to the sidebar"
 		},
+		"ParserMigrationEnableReportVisualBugOnlyLoggedIn": {
+			"value": true,
+			"description": "Disable 'Report visual bug' for non-logged-in users"
+		},
 		"ParserMigrationUserNoticeVersion": {
 			"value": 1,
 			"description": "Updated whenever the user notice is modified sufficient to merit redisplay"
@@ -57,6 +61,18 @@
 		"ParserMigrationCompactIndicator": {
 			"value": true,
 			"description": "Use a compact icon as a Parsoid Read Views indicator"
+		},
+		"ParserMigrationFeedbackTitle": {
+			"value": false,
+			"description": "The title of the page where 'report visual bug' feedback is collected"
+		},
+		"ParserMigrationFeedbackTitleURL": {
+			"value": false,
+			"description": "The URL of the page where 'report visual bug' feedback is collected, if the ParserMigrationFeedbackTitle is on another wiki"
+		},
+		"ParserMigrationFeedbackAPIURL": {
+			"value": false,
+			"description": "URL of api.php, if the ParserMigrationFeedbackTitle is on another wiki"
 		}
 	},
 	"AutoloadNamespaces": {
@@ -116,6 +132,58 @@
 			"codexComponents": [
 				"CdxInfoChip"
 			]
+		},
+		"ext.parsermigration.reportbug.init": {
+			"styles": "ext.parsermigration.reportbug/init.less",
+			"packageFiles": [
+				"ext.parsermigration.reportbug/init.js"
+			]
+		},
+		"ext.parsermigration.reportbug.dialog": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"dependencies": [
+				"mediawiki.messagePoster",
+				"mediawiki.user",
+				"vue"
+			],
+			"packageFiles": [
+				"ext.parsermigration.reportbug/reportVisualBug.js",
+				{
+					"name": "ext.parsermigration.reportbug/icons.json",
+					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
+					"callbackParam": [
+						"cdxIconClose"
+					]
+				},
+				"ext.parsermigration.reportbug/ReportVisualBug.vue"
+			],
+			"codexComponents": [
+				"CdxButton",
+				"CdxDialog",
+				"CdxField",
+				"CdxIcon",
+				"CdxMessage",
+				"CdxProgressIndicator",
+				"CdxTextArea"
+			],
+			"messages": [
+				"parsermigration-feedback-error1",
+				"parsermigration-feedback-error4",
+				"parsermigration-reportbug-dialog-cancel-button-label",
+				"parsermigration-reportbug-dialog-complete-message",
+				"parsermigration-reportbug-dialog-complete-title",
+				"parsermigration-reportbug-dialog-desc",
+				"parsermigration-reportbug-dialog-destination",
+				"parsermigration-reportbug-dialog-done-button-label",
+				"parsermigration-reportbug-dialog-error-label",
+				"parsermigration-reportbug-dialog-message-label",
+				"parsermigration-reportbug-dialog-placeholder",
+				"parsermigration-reportbug-dialog-progress",
+				"parsermigration-reportbug-dialog-retry-button-label",
+				"parsermigration-reportbug-dialog-submit-button-label",
+				"parsermigration-reportbug-dialog-title",
+				"parsermigration-reportbug-feedback-title"
+			]
 		}
 	},
 	"DefaultUserOptions": {
@@ -135,7 +203,12 @@
 	"Hooks": {
 		"ArticleParserOptions": "ParserMigrationHooks",
 		"GetPreferences": "ParserMigrationHooks",
+		"ParserOutputPostCacheTransform": "ParserMigrationHooks",
+		"ResourceLoaderGetConfigVars": "ParserMigrationHooks",
 		"SidebarBeforeOutput": "ParserMigrationHooks",
-		"ParserOutputPostCacheTransform": "ParserMigrationHooks"
+		"ListDefinedTags": "ParserMigrationHooks",
+		"ChangeTagsListActive": "ParserMigrationHooks",
+		"ChangeTagsAllowedAdd": "ParserMigrationHooks",
+		"ConfirmEditTriggersCaptcha": "MediaWiki\\Extension\\ParserMigration\\Hooks::onConfirmEditTriggersCaptcha"
 	}
 }

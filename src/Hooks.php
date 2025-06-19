@@ -2,24 +2,37 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
+use MediaWiki\ChangeTags\Hook\ChangeTagsAllowedAddHook;
+use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
+use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\Config;
 use MediaWiki\Hook\ParserOutputPostCacheTransformHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Html\Html;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\Article;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
+use MediaWiki\Page\PageIdentity;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
 use MediaWiki\Skin\Skin;
+use MediaWiki\Title\Title;
+use MediaWiki\Title\TitleValue;
 use MediaWiki\User\Options\UserOptionsManager;
 use MediaWiki\User\User;
+use MediaWiki\WikiMap\WikiMap;
 
 class Hooks implements
-	GetPreferencesHook,
-	SidebarBeforeOutputHook,
 	ArticleParserOptionsHook,
-	ParserOutputPostCacheTransformHook
+	GetPreferencesHook,
+	ParserOutputPostCacheTransformHook,
+	ResourceLoaderGetConfigVarsHook,
+	SidebarBeforeOutputHook,
+	ListDefinedTagsHook,
+	ChangeTagsListActiveHook,
+	ChangeTagsAllowedAddHook
 {
 
 	private Config $mainConfig;
@@ -133,6 +146,7 @@ class Hooks implements
 				);
 				$parserOutput->addModules( [ 'ext.parsermigration.notice' ] );
 			}
+
 			if (
 				$this->mainConfig->get( 'ParserMigrationEnableIndicator' ) &&
 				// Only display indicator for "opt in always" users.
@@ -162,6 +176,13 @@ class Hooks implements
 					)
 				);
 			}
+
+			if (
+				$this->mainConfig->get( 'ParserMigrationEnableReportVisualBug' )
+			) {
+				$parserOutput->addModules( [ 'ext.parsermigration.reportbug.init' ] );
+			}
+
 		}
 	}
 
@@ -235,18 +256,132 @@ class Hooks implements
 
 		if ( $usingParsoid && $reportVisualBugEnabled ) {
 			// Add "report visual bug" sidebar link
+			$href = $this->getFeedbackTitleUrl();
 			$sidebar[ 'TOOLBOX' ][ 'parsermigration-report-bug' ] = [
-				// This will be overridden in JavaScript
-				'href' => 'https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Known_Issues',
-				'text' => $skin->msg(
-					'parsermigration-report-bug-toolbox-label'
-				)->text(),
-				'title' => $skin->msg(
-					'parsermigration-report-bug-toolbox-title'
-				)->text(),
+				'html' => Html::rawElement( 'a', [
+					// This will be overridden in JavaScript, but is a useful
+					// fallback for no-javascript browsers and unnamed users
+					'href' => $href,
+					'title' => $skin->msg(
+						'parsermigration-report-bug-toolbox-title'
+					)->text(),
+				], $skin->msg(
+						'parsermigration-report-bug-toolbox-label'
+				)->parse() . '&nbsp;' . Html::rawElement( 'span', [
+					'class' => "parsermigration-report-bug-icon",
+				] ) ),
 				'id' => 'parsermigration-report-bug',
-				'icon' => 'help',
+				// These properties are for the mobile skins
+				'text' => $skin->msg( 'parsermigration-report-bug-toolbox-label' ),
+				'href' => $href,
+				'icon' => 'info',
 			];
 		}
+	}
+
+	/**
+	 * Adds extra variables to the global config
+	 *
+	 * @param array &$vars Global variables object
+	 * @param string $skin
+	 * @param Config $config
+	 */
+	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
+		if ( $this->mainConfig->get( 'ParserMigrationEnableReportVisualBug' ) ) {
+			$vars['wgParserMigrationConfig'] = [
+				'onlyLoggedIn' => $this->mainConfig->get( 'ParserMigrationEnableReportVisualBugOnlyLoggedIn' ),
+				'feedbackApiUrl' => $this->mainConfig->get( 'ParserMigrationFeedbackAPIURL' ),
+				'feedbackTitle' => $this->mainConfig->get( 'ParserMigrationFeedbackTitle' ),
+				'iwp' => WikiMap::getCurrentWikiId(),
+			];
+		}
+	}
+
+	/**
+	 * A change tag for "report visual bug" reports.
+	 * @inheritDoc
+	 */
+	public function onListDefinedTags( &$tags ) {
+		$tags[] = 'parsermigration-visual-bug';
+		return true;
+	}
+
+	/**
+	 * All tags are still active.
+	 * @inheritDoc
+	 */
+	public function onChangeTagsListActive( &$tags ) {
+		return $this->onListDefinedTags( $tags );
+	}
+
+	/**
+	 * MessagePoster acts on behalf of the user, so the
+	 * user (any user) needs to be allowed to add this tag.
+	 * @inheritDoc
+	 */
+	public function onChangeTagsAllowedAdd( &$allowedTags, $addTags, $user ) {
+		return $this->onListDefinedTags( $allowedTags );
+	}
+
+	/**
+	 * Suppress captcha when posting to the "Report Visual Bug" feedback
+	 * page.
+	 * @param string $action Action user is performing, one of sendmail,
+	 *  createaccount, badlogin, edit, create, addurl.
+	 * @param PageIdentity|null $page
+	 * @param bool &$result
+	 * @return bool|void True or no return value to continue or false to abort
+	 */
+	public static function onConfirmEditTriggersCaptcha(
+		string $action,
+		?PageIdentity $page,
+		bool &$result
+	) {
+		// If we don't have a target page, bail.
+		if ( $page === null ) {
+			return true;
+		}
+		// We're only going to intervene if this is an edit or create
+		// ('create' since this could be the first report posted)
+		// 'addurl' because our subject lines link to the page which is
+		// the subject of the report.
+		if ( !( $action === 'edit' || $action === 'create' || $action === 'addurl' ) ) {
+			return true;
+		}
+		$services = MediaWikiServices::getInstance();
+		$mainConfig = $services->getMainConfig();
+		// If the Report Visual Bug tool is not enabled, bail.
+		if ( !$mainConfig->get( 'ParserMigrationEnableReportVisualBug' ) ) {
+			return true;
+		}
+		$apiUrl = $mainConfig->get( 'ParserMigrationFeedbackAPIURL' );
+		// If a foreign API URL is set, we can't do anything to help.
+		if ( $apiUrl ) {
+			return true;
+		}
+		$title = $mainConfig->get( 'ParserMigrationFeedbackTitle' ) ?:
+			wfMessage( 'parsermigration-reportbug-feedback-title' )->plain();
+		$titleValue = $services->getTitleParser()->parseTitle( $title );
+		// If the page doesn't match our feedback page, do nothing.
+		// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
+		if ( !$titleValue->isSameLinkAs( TitleValue::castPageToLinkTarget( $page ) ) ) {
+			return true;
+		}
+		// Ok, this is our page!  Suppress the captcha.
+		$result = false;
+		return false;
+	}
+
+	private function getFeedbackTitleUrl(): string {
+		$apiURL = $this->mainConfig->get( 'ParserMigrationFeedbackAPIURL' );
+		$url = $this->mainConfig->get( 'ParserMigrationFeedbackTitleURL' );
+		if ( $apiURL && $url ) {
+			return $url;
+		}
+		$title = Title::newFromText(
+			$this->mainConfig->get( 'ParserMigrationFeedbackTitle' ) ?:
+			wfMessage( 'parsermigration-reportbug-feedback-title' )->plain()
+		);
+		return $title->getLinkURL();
 	}
 }
