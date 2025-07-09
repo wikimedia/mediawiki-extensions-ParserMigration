@@ -8,7 +8,17 @@
 			"شاه زمان پټان"
 		]
 	},
+	"parsermigration-desc": "تجزيه‌گر کډوال توکی",
+	"parsermigration-edit-subtitle": "تجزيه‌گر کډوال توکي سره",
 	"parsermigration-current": "پخوانی",
 	"parsermigration-new": "نوی",
-	"parsermigration-toolbox-label": "سمونه د مهاجرت د وسیلي سره سم"
+	"parsermigration-pref-label": "تجزيه‌گر کډوال توکی چارنول",
+	"parsermigration-toolbox-label": "کډوال توکي سره سمول",
+	"parsermigration-parsoid-readviews-selector-label": "نوی پارسايډ تجزيه کوونکی کارول:",
+	"parsermigration-parsoid-readviews-always": "تل (د گډون ټاکنه)",
+	"parsermigration-parsoid-readviews-default": "د ويکي ترتيب له مخې (تلواليز)",
+	"parsermigration-parsoid-readviews-never": "هېڅکله (د نه گډون ټاکنه)",
+	"parsermigration-use-legacy-parser-toolbox-label": "پخواني تجزيه‌گر ته ورتلل",
+	"parsermigration-use-parsoid-toolbox-label": "نوي تجزيه‌گر (پارسويډ) ته ورتلل",
+	"parsermigration-notice-title": "ازمېښتي ځانگړنه"
 }
