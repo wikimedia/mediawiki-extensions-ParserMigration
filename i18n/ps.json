@@ -8,7 +8,10 @@
 			"شاه زمان پټان"
 		]
 	},
+	"parsermigration-desc": "تجزيه‌گر کډوال توکی",
+	"parsermigration-edit-subtitle": "تجزيه‌گر کډوال توکي سره",
 	"parsermigration-current": "پخوانی",
 	"parsermigration-new": "نوی",
-	"parsermigration-toolbox-label": "سمونه د مهاجرت د وسیلي سره سم"
+	"parsermigration-pref-label": "تجزيه‌گر کډوال توکی چارنول",
+	"parsermigration-toolbox-label": "کډوال توکي سره سمول"
 }
