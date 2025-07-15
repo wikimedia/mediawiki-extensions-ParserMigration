@@ -39,6 +39,11 @@ class Oracle {
 	 * @return bool True if Parsoid should be used for this request
 	 */
 	public function shouldUseParsoid( User $user, WebRequest $request, Title $title ): bool {
+		// Use Parsoid only for wikitext pages
+		if ( !$title->hasContentModel( CONTENT_MODEL_WIKITEXT ) ) {
+			return false;
+		}
+
 		// Find out if the user has opted in to Parsoid Read Views by default
 		$userPref = intval( $this->userOptionsManager->getOption(
 			$user,
