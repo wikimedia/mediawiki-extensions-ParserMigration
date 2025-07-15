@@ -11,5 +11,15 @@
 	"parsermigration-new": "Novi",
 	"parsermigration-pref-label": "Omogući oruđe za prelazak na nove inačice raščlanjivača",
 	"parsermigration-pref-help": "Ovo dodaje poveznicu na bočni izbornik koji pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration oruđu] za prelazak teksta članka na nove inačice MediaWikijevoga raščlanjivača (''parsera'').",
-	"parsermigration-toolbox-label": "Uredi s oruđem za prelazak"
+	"parsermigration-toolbox-label": "Uredi s oruđem za prelazak",
+	"parsermigration-parsoid-readviews-selector-label": "Rabi Parsoid, novi raščlanjivač wikikoda:",
+	"parsermigration-parsoid-readviews-selector-help": "Pri upotrebi Parsoida prikazat će se bočna traka s poveznicom koja u slučaju problema omogućuje prelazak na stari raščlanjivač.",
+	"parsermigration-parsoid-readviews-always": "Uvijek",
+	"parsermigration-parsoid-readviews-default": "U skladu s postavkama wikija (zadano)",
+	"parsermigration-parsoid-readviews-never": "Nikada",
+	"parsermigration-use-legacy-parser-toolbox-label": "Vrati stari raščlanjivač",
+	"parsermigration-use-parsoid-toolbox-label": "Uključi raščlanjivač Parsoid",
+	"parsermigration-notice-title": "Pokusna značajka",
+	"parsermigration-notice-body": "Za prikaz ove stranice koristite novi raščlanjivač wikikoda imena Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Saznajte više o ovoj značajki].",
+	"parsermigration-parsoid-chip-label": "Složeno upotrebom Parsoida"
 }
