@@ -5,11 +5,17 @@
 			"Paloi Sciurala"
 		]
 	},
+	"parsermigration-current": "Vechi",
+	"parsermigration-new": "Nou",
 	"parsermigration-pref-label": "Activează unealta de migrație a parser-ului",
 	"parsermigration-pref-help": "Asta adaugă în bara laterală o legătură către [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration o unealtă] pentru migrarea texului paginii către noi versiuni ale parser-ului MediaWiki.",
 	"parsermigration-parsoid-readviews-selector-label": "Utilizează noul parser Parsoid de wikitext:",
 	"parsermigration-parsoid-readviews-selector-help": "Atunci când este utilizat Parsoid, va fi furnizată o legătură în bara laterală pentru a permite parser-ul moștenire în caz de probleme.",
 	"parsermigration-parsoid-readviews-always": "Întotdeauna (înscris)",
 	"parsermigration-parsoid-readviews-default": "În concordanță cu configurația wiki-ului (implicit)",
-	"parsermigration-parsoid-readviews-never": "Niciodată (oprit)"
+	"parsermigration-parsoid-readviews-never": "Niciodată (oprit)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Comută la parser-ul moștenire",
+	"parsermigration-use-parsoid-toolbox-label": "Comută la noul parser (Parsoid)",
+	"parsermigration-notice-title": "Funcție experimentală",
+	"parsermigration-notice-body": "Utilizați noul parser de wikitext Parsoid pentru a afișa această pagină. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aflați mai multe despre această funcție]."
 }
