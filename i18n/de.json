@@ -19,6 +19,8 @@
 	"parsermigration-parsoid-readviews-never": "Niemals (Opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Zum Legacy-Parser wechseln",
 	"parsermigration-use-parsoid-toolbox-label": "Zum neuen Parser (Parsoid) wechseln",
+	"parsermigration-report-bug-toolbox-label": "Visuellen Fehler melden",
+	"parsermigration-report-bug-toolbox-title": "Wenn du einen Anzeigefehler siehst, kann es auf Parsoid zurückzuführen sein.",
 	"parsermigration-notice-title": "Experimentelle Funktion",
 	"parsermigration-notice-body": "Du verwendest den neuen Parsoid-Wikitext-Parser, um diese Seite anzuzeigen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Erfahre mehr über diese Funktion].",
 	"parsermigration-parsoid-chip-label": "Mit Parsoid gerendert"
