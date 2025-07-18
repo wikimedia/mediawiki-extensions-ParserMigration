@@ -4,6 +4,7 @@
 			"Dgstranz",
 			"Fitoschido",
 			"JaimeDes",
+			"JorgeElias2302",
 			"Macofe",
 			"No se"
 		]
@@ -22,6 +23,8 @@
 	"parsermigration-parsoid-readviews-never": "Nunca (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Cambiar al analizador antiguo",
 	"parsermigration-use-parsoid-toolbox-label": "Cambiar al analizador nuevo (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Informar de un error visual",
+	"parsermigration-report-bug-toolbox-title": "Si ves errores de visualización, puede deberse a Parsoid.",
 	"parsermigration-notice-title": "Funcionalidad experimental",
 	"parsermigration-notice-body": "Estás usando el nuevo analizador de wikitexto Parsoid para mostrar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Más información sobre esta función].",
 	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"

@@ -18,6 +18,8 @@
 	"parsermigration-parsoid-readviews-never": "Nunquam (optar contra)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Cambiar al analysator syntactic ancian",
 	"parsermigration-use-parsoid-toolbox-label": "Cambiar al nove analysator syntactic (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Signalar problema de visualisation",
+	"parsermigration-report-bug-toolbox-title": "Si tu vide un rendition graphic incorrecte, isto pote esser debite a Parsoid",
 	"parsermigration-notice-title": "Function experimental",
 	"parsermigration-notice-body": "Tu usa presentemente le nove interpretator de wikitexto Parsoid pro visualisar iste pagina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Apprender plus sur iste function].",
 	"parsermigration-parsoid-chip-label": "Rendite con Parsoid"

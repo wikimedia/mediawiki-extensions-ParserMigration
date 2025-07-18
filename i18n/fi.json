@@ -20,6 +20,8 @@
 	"parsermigration-parsoid-readviews-never": "Ei koskaan (älä ota käyttöön)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Vaihda vanhaan jäsentimeen",
 	"parsermigration-use-parsoid-toolbox-label": "Vaihda uuteen jäsentimeen (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Ilmoita visuaalisesta virheestä",
+	"parsermigration-report-bug-toolbox-title": "Jos näet visuaalisia virheitä, se voi johtua Parsoidista",
 	"parsermigration-notice-title": "Kokeellinen ominaisuus",
 	"parsermigration-notice-body": "Käytät uutta Parsoid-wikitekstijäsennintä tämän sivun näyttämiseen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Lisätietoja tästä ominaisuudesta].",
 	"parsermigration-parsoid-chip-label": "Renderoitu Parsoidilla"

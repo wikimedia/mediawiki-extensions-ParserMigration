@@ -20,6 +20,8 @@
 	"parsermigration-parsoid-readviews-never": "Nunca",
 	"parsermigration-use-legacy-parser-toolbox-label": "Cambiar ao analizador antigo",
 	"parsermigration-use-parsoid-toolbox-label": "Cambiar ao analizador novo (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Informar dun erro visual",
+	"parsermigration-report-bug-toolbox-title": "Se atopas erros de visualización,\nse cadra é debido a Parsoid",
 	"parsermigration-notice-title": "Característica experimental",
 	"parsermigration-notice-body": "Estás utilizando o novo analizador de texto wiki Parsoid para amosar a páxina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Máis información sobre esta funcionalidade].",
 	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"

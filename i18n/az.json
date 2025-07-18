@@ -19,6 +19,8 @@
 	"parsermigration-parsoid-readviews-never": "Heç vaxt (aktivləşdirmə)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Köhnə ayrışdırıcıya keç",
 	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrışdıcırıya keç (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Vizual xətanı bildir",
+	"parsermigration-report-bug-toolbox-title": "Əgər vizual xətalar görürsünüzsə,\nbu Parsoid ilə bağlı ola bilər",
 	"parsermigration-notice-title": "Eksperimental xüsusiyyət",
 	"parsermigration-notice-body": "Bu səhifəni göstərmək üçün yeni Parsoid vikimətn ayrışdırıcından istifadə edirsiniz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Bu xüsusiyyət haqqında ətraflı öyrənin].",
 	"parsermigration-parsoid-chip-label": "Parsoid ilə göstərilmişdir"

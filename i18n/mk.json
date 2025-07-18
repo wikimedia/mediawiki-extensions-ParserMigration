@@ -18,6 +18,8 @@
 	"parsermigration-parsoid-readviews-never": "Никогаш (оневозможи)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Префлри се на стар расчленувач",
 	"parsermigration-use-parsoid-toolbox-label": "Префрли се на нов расчленувач (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Пријави визуелна грешка",
+	"parsermigration-report-bug-toolbox-title": "Ако забележите грешки во приказот,\nтоа може да се должи на Parsoid",
 	"parsermigration-notice-title": "Пробна функција",
 	"parsermigration-notice-body": "Го користите новиот расчленувач на викитекст Parsoid за приказ на оваа страница. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Дознајте повеќе за оваа функција]",
 	"parsermigration-parsoid-chip-label": "Испишано со Parsoid"

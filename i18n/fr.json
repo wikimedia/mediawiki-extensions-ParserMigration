@@ -3,6 +3,7 @@
 		"authors": [
 			"Balise42",
 			"Gomoko",
+			"JLTRY",
 			"SleaY",
 			"Urhixidur",
 			"Verdy p",
@@ -23,6 +24,8 @@
 	"parsermigration-parsoid-readviews-never": "Jamais (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Utiliser l'ancien analyseur",
 	"parsermigration-use-parsoid-toolbox-label": "Passer au nouvel analyseur (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Signaler un bug visuel",
+	"parsermigration-report-bug-toolbox-title": "Si vous voyez des erreurs d'affichage, cela peut être dû à Parsoid",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale",
 	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité]",
 	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid"
