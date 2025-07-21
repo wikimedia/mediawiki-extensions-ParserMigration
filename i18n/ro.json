@@ -5,6 +5,8 @@
 			"Paloi Sciurala"
 		]
 	},
+	"parsermigration-current": "Vechi",
+	"parsermigration-new": "Nou",
 	"parsermigration-pref-label": "Activează unealta de migrație a parser-ului",
 	"parsermigration-pref-help": "Asta adaugă în bara laterală o legătură către [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration o unealtă] pentru migrarea texului paginii către noi versiuni ale parser-ului MediaWiki."
 }
