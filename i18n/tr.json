@@ -23,6 +23,8 @@
 	"parsermigration-parsoid-readviews-never": "Asla (katılma)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Eski ayrıştırıcıya geç",
 	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrıştırıcıya geç (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Görsel hatayı bildirin",
+	"parsermigration-report-bug-toolbox-title": "Eğer görüntüleme hataları görüyorsanız,\nbunun nedeni Parsoid olabilir.",
 	"parsermigration-notice-title": "Deneysel özellik",
 	"parsermigration-notice-body": "Bu sayfayı görüntülemek için yeni Parsoid vikimetin ayrıştırıcısını kullanıyorsunuz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Bu özellik hakkında daha fazla bilgi edinin].",
 	"parsermigration-parsoid-chip-label": "Parsoid ile işlendi"

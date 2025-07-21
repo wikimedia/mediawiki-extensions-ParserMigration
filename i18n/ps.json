@@ -13,12 +13,18 @@
 	"parsermigration-current": "پخوانی",
 	"parsermigration-new": "نوی",
 	"parsermigration-pref-label": "تجزيه‌گر کډوال توکی چارنول",
+	"parsermigration-pref-help": "دا د څنگپټې يو تړونی ورگډوي چې [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration يو توکي] ته لاسرسی ورکوي؛ ترڅو د مخ ليک د مېډیاويکي تجزيه‌گر نوو بلبڼو ته ولېږدوي.",
 	"parsermigration-toolbox-label": "کډوال توکي سره سمول",
 	"parsermigration-parsoid-readviews-selector-label": "نوی پارسايډ تجزيه کوونکی کارول:",
+	"parsermigration-parsoid-readviews-selector-help": "کله چې پارسايډ کارول‌کېږي، د څنگپټې يو تړونی به چمتو شي؛ ترڅو د ستونزو په صورت کې ورېشون تجزيه‌گر کارولو ته اجازه ورکړي.",
 	"parsermigration-parsoid-readviews-always": "تل (د گډون ټاکنه)",
 	"parsermigration-parsoid-readviews-default": "د ويکي ترتيب له مخې (تلواليز)",
 	"parsermigration-parsoid-readviews-never": "هېڅکله (د نه گډون ټاکنه)",
 	"parsermigration-use-legacy-parser-toolbox-label": "پخواني تجزيه‌گر ته ورتلل",
 	"parsermigration-use-parsoid-toolbox-label": "نوي تجزيه‌گر (پارسويډ) ته ورتلل",
-	"parsermigration-notice-title": "ازمېښتي ځانگړنه"
+	"parsermigration-report-bug-toolbox-label": "ليدنيزې تېروتنې خبر ورکول",
+	"parsermigration-report-bug-toolbox-title": "که تاسو د ښکارېدلو تېروتنه وگورئ،\nدا شايد د پارسايډ له کبله وي",
+	"parsermigration-notice-title": "ازمېښتي ځانگړنه",
+	"parsermigration-notice-body": "تاسو د دې مخ ښکارېدلو لپاره نوی پارسايډ ويکي‌ليک تجزيه‌گر کاروئ.  [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration د دې ځانگړنې اړوند نور زده کړئ].",
+	"parsermigration-parsoid-chip-label": "پارسايډ په مرسته وړاندې‌شوی"
 }
