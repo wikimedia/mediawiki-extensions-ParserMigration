@@ -21,5 +21,7 @@
 	"parsermigration-use-parsoid-toolbox-label": "Op den neie Parser wiesselen (Parsoid)",
 	"parsermigration-notice-title": "Experimentell Funktioun",
 	"parsermigration-notice-body": "Dir benotzt den neie Parsoid-Wikitext-Parser fir dës Säit unzeweisen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Gitt méi iwwer dës Funktioun gewuer].",
-	"parsermigration-parsoid-chip-label": "Mat Parsoid gerendert"
+	"parsermigration-parsoid-chip-label": "Mat Parsoid gerendert",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Ofbriechen",
+	"parsermigration-reportbug-dialog-complete-title": "Merci"
 }

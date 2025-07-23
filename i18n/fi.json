@@ -24,5 +24,22 @@
 	"parsermigration-report-bug-toolbox-title": "Jos näet visuaalisia virheitä, se voi johtua Parsoidista",
 	"parsermigration-notice-title": "Kokeellinen ominaisuus",
 	"parsermigration-notice-body": "Käytät uutta Parsoid-wikitekstijäsennintä tämän sivun näyttämiseen. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Lisätietoja tästä ominaisuudesta].",
-	"parsermigration-parsoid-chip-label": "Renderoitu Parsoidilla"
+	"parsermigration-parsoid-chip-label": "Renderoitu Parsoidilla",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Peruuta",
+	"parsermigration-reportbug-dialog-complete-message": "Palautteesi julkaistiin sivulla [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-title": "Kiitos",
+	"parsermigration-reportbug-dialog-desc": "Tämä sivu renderöitiin [[mw:Special:MyLanguage/Parsoid|Parsoidilla]], mikä saattaa aiheuttaa joitakin näyttövirheitä.",
+	"parsermigration-reportbug-dialog-destination": "Palautteesi lisätään sivulle [$2 $1] käyttäjätunnuksesi kera.",
+	"parsermigration-reportbug-dialog-done-button-label": "Valmis",
+	"parsermigration-reportbug-dialog-error-label": "Ilmoitustasi ei voitu lähettää.",
+	"parsermigration-reportbug-dialog-message-label": "Ongelma sivulla $1 (versio $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Kuvaile näkemääsi visuaalista ongelmaa",
+	"parsermigration-reportbug-dialog-progress": "Lähetetään ilmoitustasi",
+	"parsermigration-reportbug-dialog-retry-button-label": "Yritä uudelleen",
+	"parsermigration-reportbug-dialog-submit-button-label": "Lähetä",
+	"parsermigration-reportbug-dialog-title": "Ilmoita visuaalisesta virheestä",
+	"parsermigration-feedback-error1": "Virhe: Ohjelmointirajapinnan vastausta ei tunnistettu",
+	"parsermigration-feedback-error4": "Virhe: Annetun palautteen otsikkoa ei voida lähettää",
+	"tag-parsermigration-visual-bug": "Ilmoita visuaalisesta virheestä",
+	"tag-parsermigration-visual-bug-description": "Ilmoitus visuaalisesta virheestä [[mw:Extension:ParserMigration|ParserMigration-laajennuksen]] avulla"
 }
