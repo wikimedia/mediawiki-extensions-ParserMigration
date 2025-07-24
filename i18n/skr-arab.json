@@ -5,5 +5,8 @@
 		]
 	},
 	"parsermigration-edit-subtitle": "تجزیہ کرݨ آلے اوزار دی مدد نال",
-	"parsermigration-toolbox-label": "منتقلی آلے آوزاراں نال تبدیلی کرو"
+	"parsermigration-toolbox-label": "منتقلی آلے آوزاراں نال تبدیلی کرو",
+	"parsermigration-reportbug-dialog-cancel-button-label": "منسوخ",
+	"parsermigration-reportbug-dialog-complete-title": "شکریہ",
+	"parsermigration-reportbug-dialog-done-button-label": "تھی ڳیا"
 }

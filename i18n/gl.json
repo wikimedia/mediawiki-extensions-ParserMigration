@@ -24,5 +24,22 @@
 	"parsermigration-report-bug-toolbox-title": "Se atopas erros de visualización,\nse cadra é debido a Parsoid",
 	"parsermigration-notice-title": "Característica experimental",
 	"parsermigration-notice-body": "Estás utilizando o novo analizador de texto wiki Parsoid para amosar a páxina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Máis información sobre esta funcionalidade].",
-	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid"
+	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Cancelar",
+	"parsermigration-reportbug-dialog-complete-message": "Os teus comentarios publicáronse na páxina «[$2 $1]».",
+	"parsermigration-reportbug-dialog-complete-title": "Grazas",
+	"parsermigration-reportbug-dialog-desc": "Esta páxina foi renderizada con [[mw:Special:MyLanguage/Parsoid|Parsoid]]; se cadra é o motivo dalgúns erros de visualización.",
+	"parsermigration-reportbug-dialog-destination": "Os teus comentarios engadiranse á páxina «[$2 $1]», xunto ao teu nome de usuario.",
+	"parsermigration-reportbug-dialog-done-button-label": "Feito",
+	"parsermigration-reportbug-dialog-error-label": "Non se puido enviar o informe.",
+	"parsermigration-reportbug-dialog-message-label": "Problema en: $1 (revisión $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Describe o erro visual que estás a ver",
+	"parsermigration-reportbug-dialog-progress": "Enviando o teu informe",
+	"parsermigration-reportbug-dialog-retry-button-label": "Reintentar",
+	"parsermigration-reportbug-dialog-submit-button-label": "Enviar",
+	"parsermigration-reportbug-dialog-title": "Informar dun erro visual",
+	"parsermigration-feedback-error1": "Erro: Resultado da API non recoñecido",
+	"parsermigration-feedback-error4": "Erro: Non foi posible enviar o teu comentario sobre o título indicado",
+	"tag-parsermigration-visual-bug": "Informar dun erro visual",
+	"tag-parsermigration-visual-bug-description": "Un informe dun erro visual creado coa [[mw:Extension:ParserMigration|extensión ParserMigration]]"
 }
