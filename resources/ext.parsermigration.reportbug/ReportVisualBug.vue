@@ -178,7 +178,6 @@ module.exports = defineComponent( {
 			} else {
 				return {
 					label: mw.msg( 'parsermigration-reportbug-dialog-done-button-label' ),
-					actionType: 'progressive',
 					weight: 'primary'
 				};
 			}
@@ -188,6 +187,7 @@ module.exports = defineComponent( {
 		const revisionId = ref( 0 );
 		const feedbackTitle = ref( '' );
 		const feedbackUrl = ref( '//' );
+		const isMobile = ref( false );
 
 		// Reactive variable tracking window width
 		const windowWidth = ref( window.innerWidth );
@@ -197,7 +197,7 @@ module.exports = defineComponent( {
 		onMounted( () => window.addEventListener( 'resize', onWindowResize ) );
 		onUnmounted( () => window.removeEventListener( 'resize', onWindowResize ) );
 
-		const stackedActions = computed( () => windowWidth.value <= 400 );
+		const stackedActions = computed( () => isMobile.value || windowWidth.value <= 512 );
 
 		const onSubmit = () => {
 			currentStep.value = 1;
@@ -230,6 +230,7 @@ module.exports = defineComponent( {
 		expose( {
 			feedbackTitle,
 			feedbackUrl,
+			isMobile,
 			start,
 			reportSuccess,
 			reportFailure

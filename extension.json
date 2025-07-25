@@ -43,7 +43,7 @@
 			"description": "Add a user notice"
 		},
 		"ParserMigrationEnableReportVisualBug": {
-			"value": false,
+			"value": true,
 			"description": "Add a 'Report visual bug' link to the sidebar"
 		},
 		"ParserMigrationEnableReportVisualBugOnlyLoggedIn": {

@@ -115,6 +115,7 @@ class Hooks implements
 		&$options
 	): void {
 		// Make "whether Parsoid was used" visible to client-side JS
+		$user = null;
 		if ( $options['isParsoidContent'] ?? false ) {
 			$parserOutput->setJsConfigVar( 'parsermigration-parsoid', true );
 			// Add a user notice for named users
@@ -177,9 +178,8 @@ class Hooks implements
 				);
 			}
 
-			if (
-				$this->mainConfig->get( 'ParserMigrationEnableReportVisualBug' )
-			) {
+			if ( $user === null || $this->shouldShowReportVisualBug( $user ) ) {
+				// Harmless to add this module if we don't know user.
 				$parserOutput->addModules( [ 'ext.parsermigration.reportbug.init' ] );
 			}
 
@@ -254,7 +254,7 @@ class Hooks implements
 			];
 		}
 
-		if ( $usingParsoid && $reportVisualBugEnabled ) {
+		if ( $usingParsoid && $this->shouldShowReportVisualBug( $user ) ) {
 			// Add "report visual bug" sidebar link
 			$href = $this->getFeedbackTitleUrl();
 			$sidebar[ 'TOOLBOX' ][ 'parsermigration-report-bug' ] = [
@@ -274,7 +274,7 @@ class Hooks implements
 				// These properties are for the mobile skins
 				'text' => $skin->msg( 'parsermigration-report-bug-toolbox-label' ),
 				'href' => $href,
-				'icon' => 'info',
+				'icon' => 'feedback',
 			];
 		}
 	}
@@ -290,6 +290,7 @@ class Hooks implements
 		if ( $this->mainConfig->get( 'ParserMigrationEnableReportVisualBug' ) ) {
 			$vars['wgParserMigrationConfig'] = [
 				'onlyLoggedIn' => $this->mainConfig->get( 'ParserMigrationEnableReportVisualBugOnlyLoggedIn' ),
+				'isMobile' => $this->oracle->showingMobileView(),
 				'feedbackApiUrl' => $this->mainConfig->get( 'ParserMigrationFeedbackAPIURL' ),
 				'feedbackTitle' => $this->mainConfig->get( 'ParserMigrationFeedbackTitle' ),
 				'iwp' => WikiMap::getCurrentWikiId(),
@@ -383,5 +384,15 @@ class Hooks implements
 			wfMessage( 'parsermigration-reportbug-feedback-title' )->plain()
 		);
 		return $title->getLinkURL();
+	}
+
+	protected function shouldShowReportVisualBug( User $user ): bool {
+		if ( !$this->mainConfig->get( 'ParserMigrationEnableReportVisualBug' ) ) {
+			return false;
+		}
+		if ( $user->isNamed() ) {
+			return true;
+		}
+		return !$this->mainConfig->get( 'ParserMigrationEnableReportVisualBugOnlyLoggedIn' );
 	}
 }

@@ -15,7 +15,7 @@ function init() {
 	const config = mw.config.get( 'wgParserMigrationConfig' );
 	// Unnamed users get pointed to the feedback page but w/o launching the
 	// 'report visual bug' tool.
-	if ( config.onlyLoggedIn && !mw.user.isNamed() ) {
+	if ( config.onlyLoggedIn && !( mw.user && mw.user.isNamed() ) ) {
 		return;
 	}
 

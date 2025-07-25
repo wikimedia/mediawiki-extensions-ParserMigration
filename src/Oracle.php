@@ -106,13 +106,17 @@ class Oracle {
 			$disableOnMobile = true;
 		}
 		if (
-			$disableOnMobile &&
-			$this->mobileContext &&
-			$this->mobileContext->usingMobileDomain()
+			$disableOnMobile && $this->showingMobileView()
 		) {
 			$isEnabled = false;
 		}
 
 		return $isEnabled;
+	}
+
+	/** Proxy MobileContext::shouldDisplayMobileView() */
+	public function showingMobileView(): bool {
+		return $this->mobileContext &&
+			$this->mobileContext->shouldDisplayMobileView();
 	}
 }

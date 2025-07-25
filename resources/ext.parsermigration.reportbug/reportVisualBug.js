@@ -9,6 +9,8 @@ module.exports = {
 			// URL to use for the given feedback title
 			const config = mw.config.get( 'wgParserMigrationConfig' );
 
+			this.isMobile = config.isMobile;
+
 			this.foreignApi = config.feedbackApiUrl ?
 				new mw.ForeignApi( config.feedbackApiUrl, { anonymous: true } ) : null;
 			this.feedbackTitle = new mw.Title(
@@ -60,6 +62,7 @@ module.exports = {
 			this.setup();
 		}
 		this.dialog.feedbackTitle = this.feedbackTitle.getPrefixedText();
+		this.dialog.isMobile = this.isMobile;
 		// Set the link URL, which may be on a foreign wiki.
 		this.feedbackUrlPromise.then( ( url ) => {
 			this.dialog.feedbackUrl = url;
