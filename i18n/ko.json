@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"YeBoy371",
 			"Ykhwong"
 		]
 	},
@@ -16,6 +17,19 @@
 	"parsermigration-parsoid-readviews-always": "항상 (사전 동의)",
 	"parsermigration-parsoid-readviews-default": "위키 구성에 따라 (기본값)",
 	"parsermigration-parsoid-readviews-never": "사용 안함 (거부)",
+	"parsermigration-report-bug-toolbox-label": "시각적 버그 보고",
+	"parsermigration-report-bug-toolbox-title": "디스플레이 오류가 나타나면,\nParsoid 때문일 수도 있습니다",
 	"parsermigration-notice-title": "실험 기능",
-	"parsermigration-notice-body": "이 문서를 표시하기 위해 새로운 파소이드 위키텍스트 파서를 사용하고 있습니다. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 이 기능에 관해 더 알아봅니다]."
+	"parsermigration-notice-body": "이 문서를 표시하기 위해 새로운 파소이드 위키텍스트 파서를 사용하고 있습니다. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 이 기능에 관해 더 알아봅니다].",
+	"parsermigration-reportbug-dialog-cancel-button-label": "취소",
+	"parsermigration-reportbug-dialog-complete-title": "감사합니다",
+	"parsermigration-reportbug-dialog-done-button-label": "완료",
+	"parsermigration-reportbug-dialog-error-label": "보고서를 제출하지 못했습니다.",
+	"parsermigration-reportbug-dialog-message-label": "문제 발생: $1 ($2 판)",
+	"parsermigration-reportbug-dialog-placeholder": "당신이 보고 있는 시각적 버그를 설명해 주세요",
+	"parsermigration-reportbug-dialog-progress": "보고서 제출 중",
+	"parsermigration-reportbug-dialog-retry-button-label": "다시 시도",
+	"parsermigration-reportbug-dialog-submit-button-label": "제출",
+	"parsermigration-reportbug-dialog-title": "시각적 버그 보고",
+	"tag-parsermigration-visual-bug": "시각적 버그 보고"
 }

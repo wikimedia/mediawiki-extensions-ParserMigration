@@ -22,5 +22,19 @@
 	"parsermigration-report-bug-toolbox-title": "Si tu vide un rendition graphic incorrecte, isto pote esser debite a Parsoid",
 	"parsermigration-notice-title": "Function experimental",
 	"parsermigration-notice-body": "Tu usa presentemente le nove interpretator de wikitexto Parsoid pro visualisar iste pagina. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Apprender plus sur iste function].",
-	"parsermigration-parsoid-chip-label": "Rendite con Parsoid"
+	"parsermigration-parsoid-chip-label": "Rendite con Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Cancellar",
+	"parsermigration-reportbug-dialog-complete-message": "Tu commentario ha essite publicate sur le pagina [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-title": "Gratias",
+	"parsermigration-reportbug-dialog-desc": "Iste pagina ha essite rendite con [[mw:Special:MyLanguage/Parsoid|Parsoid]], lo que pote esser le causa de alcun errores de visualisation",
+	"parsermigration-reportbug-dialog-destination": "Tu commentario essera addite al pagina [$2 $1], accompaniate de tu nomine de usator.",
+	"parsermigration-reportbug-dialog-done-button-label": "Facite",
+	"parsermigration-reportbug-dialog-error-label": "Non poteva inviar tu reporto.",
+	"parsermigration-reportbug-dialog-message-label": "Problema sur: $1 (version $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Describe le error de visualisation que tu vide",
+	"parsermigration-reportbug-dialog-progress": "Invio de tu reporto",
+	"parsermigration-reportbug-dialog-retry-button-label": "Reprobar",
+	"parsermigration-reportbug-dialog-submit-button-label": "Submitter",
+	"parsermigration-reportbug-dialog-title": "Signalar problema de visualisation",
+	"parsermigration-reportbug-feedback-title": "Projecto:Parsoid/Evalutation"
 }

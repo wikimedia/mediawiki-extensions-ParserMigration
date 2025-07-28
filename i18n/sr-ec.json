@@ -17,5 +17,10 @@
 	"parsermigration-toolbox-label": "Измена са алатком за мењање",
 	"parsermigration-use-legacy-parser-toolbox-label": "Пребаци на стари прасер",
 	"parsermigration-use-parsoid-toolbox-label": "Пребаци на Parsoid",
-	"parsermigration-notice-title": "Експерименталне функције"
+	"parsermigration-notice-title": "Експерименталне функције",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Откажи",
+	"parsermigration-reportbug-dialog-complete-title": "Хвала вам",
+	"parsermigration-reportbug-dialog-done-button-label": "Готово",
+	"parsermigration-reportbug-dialog-retry-button-label": "Покушај поново",
+	"parsermigration-reportbug-dialog-submit-button-label": "Пошаљи"
 }
