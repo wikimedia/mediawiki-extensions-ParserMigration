@@ -13,5 +13,6 @@
 	"parsermigration-current": "پخوانی",
 	"parsermigration-new": "نوی",
 	"parsermigration-pref-label": "تجزيه‌گر کډوال توکی چارنول",
+	"parsermigration-pref-help": "دا د څنگپټې يو تړونی ورگډوي چې [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration يو توکي] ته لاسرسی ورکوي؛ ترڅو د مخ ليک د مېډیاويکي تجزيه‌گر نوو بلبڼو ته ولېږدوي.",
 	"parsermigration-toolbox-label": "کډوال توکي سره سمول"
 }
