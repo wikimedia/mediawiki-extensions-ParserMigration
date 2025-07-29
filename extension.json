@@ -135,6 +135,9 @@
 		},
 		"ext.parsermigration.reportbug.init": {
 			"styles": "ext.parsermigration.reportbug/init.less",
+			"dependencies": [
+				"mediawiki.user"
+			],
 			"packageFiles": [
 				"ext.parsermigration.reportbug/init.js"
 			]
