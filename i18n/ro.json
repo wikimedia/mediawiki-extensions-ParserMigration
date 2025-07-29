@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"NGC 54",
-			"Paloi Sciurala"
+			"Paloi Sciurala",
+			"SalinaTheTranslator"
 		]
 	},
 	"parsermigration-current": "Vechi",
@@ -14,8 +15,8 @@
 	"parsermigration-parsoid-readviews-always": "Întotdeauna (înscris)",
 	"parsermigration-parsoid-readviews-default": "În concordanță cu configurația wiki-ului (implicit)",
 	"parsermigration-parsoid-readviews-never": "Niciodată (oprit)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Comută la parser-ul moștenire",
+	"parsermigration-use-legacy-parser-toolbox-label": "Comută la vechiul parser",
 	"parsermigration-use-parsoid-toolbox-label": "Comută la noul parser (Parsoid)",
 	"parsermigration-notice-title": "Funcție experimentală",
-	"parsermigration-notice-body": "Utilizați noul parser de wikitext Parsoid pentru a afișa această pagină. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aflați mai multe despre această funcție]."
+	"parsermigration-notice-body": "Utilizați noul parser Parsoid wikitext pentru a afișa această pagină. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aflați mai multe despre această funcție]."
 }
