@@ -36,5 +36,9 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "Reprobar",
 	"parsermigration-reportbug-dialog-submit-button-label": "Submitter",
 	"parsermigration-reportbug-dialog-title": "Signalar problema de visualisation",
-	"parsermigration-reportbug-feedback-title": "Projecto:Parsoid/Evalutation"
+	"parsermigration-reportbug-feedback-title": "Projecto:Parsoid/Evalutation",
+	"parsermigration-feedback-error1": "Error: Resultato del API non recognoscite",
+	"parsermigration-feedback-error4": "Error: Impossibile adjunger le commentario sub le titulo specificate",
+	"tag-parsermigration-visual-bug": "Signalar problema de visualisation",
+	"tag-parsermigration-visual-bug-description": "Un reporto de un problema de visualisation create con le [[mw:Extension:ParserMigration|extension ParserMigration]]"
 }

@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Դավիթ Սարոյան"
 		]
 	},
-	"parsermigration-toolbox-label": "Խմբագրել տեղափոխման գործիքով"
+	"parsermigration-toolbox-label": "Խմբագրել տեղափոխման գործիքով",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Չեղարկել",
+	"parsermigration-reportbug-dialog-complete-title": "Շնորհակալություն",
+	"parsermigration-reportbug-dialog-done-button-label": "Արված է"
 }

@@ -7,6 +7,7 @@
 			"SleaY",
 			"Urhixidur",
 			"Verdy p",
+			"WillyM",
 			"Wladek92"
 		]
 	},
@@ -28,5 +29,22 @@
 	"parsermigration-report-bug-toolbox-title": "Si vous voyez des erreurs d'affichage, cela peut être dû à Parsoid",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale",
 	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité]",
-	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid"
+	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Annuler",
+	"parsermigration-reportbug-dialog-complete-message": "Vos commentaires ont été publiés sur la page [ $2 $1 ].",
+	"parsermigration-reportbug-dialog-complete-title": "Merci",
+	"parsermigration-reportbug-dialog-desc": "Cette page a été rendue avec [[mw:Special:MyLanguage/Parsoid|Parsoid]], ce qui peut expliquer certaines erreurs d'affichage",
+	"parsermigration-reportbug-dialog-destination": "Vos commentaires seront ajoutés à la page [ $2 $1 ], avec votre nom d'utilisateur.",
+	"parsermigration-reportbug-dialog-done-button-label": "Terminé",
+	"parsermigration-reportbug-dialog-error-label": "Impossible de soumettre votre rapport.",
+	"parsermigration-reportbug-dialog-message-label": "Publié le : $1 (révision $2 )",
+	"parsermigration-reportbug-dialog-placeholder": "Décrivez le bug visuel que vous voyez",
+	"parsermigration-reportbug-dialog-progress": "soumission de votre rapport en cours",
+	"parsermigration-reportbug-dialog-retry-button-label": "Réessayer",
+	"parsermigration-reportbug-dialog-submit-button-label": "Soumettre",
+	"parsermigration-reportbug-dialog-title": "Signaler un bug visuel",
+	"parsermigration-reportbug-feedback-title": "Projet : Parsoid/Feedback",
+	"parsermigration-feedback-error1": "Erreur : résultat de l‘API non reconnu",
+	"parsermigration-feedback-error4": "Erreur : Impossible de publier dans ce titre de commentaire",
+	"tag-parsermigration-visual-bug": "Signaler un bug visuel"
 }
