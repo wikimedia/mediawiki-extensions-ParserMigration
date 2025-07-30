@@ -38,6 +38,7 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "Reintentar",
 	"parsermigration-reportbug-dialog-submit-button-label": "Enviar",
 	"parsermigration-reportbug-dialog-title": "Informar dun erro visual",
+	"parsermigration-reportbug-feedback-title": "Proxecto:Parsoid/Comentarios",
 	"parsermigration-feedback-error1": "Erro: Resultado da API non recoñecido",
 	"parsermigration-feedback-error4": "Erro: Non foi posible enviar o teu comentario sobre o título indicado",
 	"tag-parsermigration-visual-bug": "Informar dun erro visual",
