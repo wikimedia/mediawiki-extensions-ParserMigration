@@ -14,8 +14,8 @@
 		],
 		"fix": [
 			"minus-x fix .",
-			"phpcbf",
-			"fresh-node -- npm run eslint-fix"
+			"fresh-node -- npm run eslint-fix",
+			"phpcbf"
 		],
 		"phan": "phan -d . --long-progress-bar",
 		"phpcs": "phpcs -sp --cache"
