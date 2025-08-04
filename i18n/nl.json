@@ -3,7 +3,8 @@
 		"authors": [
 			"Mainframe98",
 			"Mar(c)",
-			"McDutchie"
+			"McDutchie",
+			"YeBoy371"
 		]
 	},
 	"parsermigration-desc": "Parsermigratiehulpmiddel",
@@ -21,7 +22,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Naar de oude parser overschakelen",
 	"parsermigration-use-parsoid-toolbox-label": "Naar de nieuwe parser (Parsoid) overschakelen",
 	"parsermigration-report-bug-toolbox-label": "Visuele weergavefout melden",
-	"parsermigration-report-bug-toolbox-title": "Als u weergavefouten ziet, kan dit te wijten zijn aan Parsoid",
+	"parsermigration-report-bug-toolbox-title": "Als u weergavefouten ziet,\nkan dit te wijten zijn aan Parsoid",
 	"parsermigration-notice-title": "Experimentele functie",
 	"parsermigration-notice-body": "Deze pagina wordt nu weergegeven middels de nieuwe wikitekst-parser Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Meer informatie over deze functie].",
 	"parsermigration-parsoid-chip-label": "Weergegeven met Parsoid",

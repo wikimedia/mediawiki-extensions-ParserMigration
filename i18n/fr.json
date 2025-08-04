@@ -9,7 +9,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"WillyM",
-			"Wladek92"
+			"Wladek92",
+			"YeBoy371"
 		]
 	},
 	"parsermigration-desc": "Outil de migration de l’analyseur",
@@ -27,7 +28,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Utiliser l'ancien analyseur",
 	"parsermigration-use-parsoid-toolbox-label": "Utiliser le nouvel analyseur (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Signaler un bug visuel",
-	"parsermigration-report-bug-toolbox-title": "Si vous voyez des erreurs d'affichage, cela peut être dû à Parsoid",
+	"parsermigration-report-bug-toolbox-title": "Si vous voyez des erreurs d'affichage,\ncela peut être dû à Parsoid",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale",
 	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité].",
 	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid",

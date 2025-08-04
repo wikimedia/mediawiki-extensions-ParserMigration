@@ -22,5 +22,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "استفاده از تجزیه‌گر قدیمی",
 	"parsermigration-use-parsoid-toolbox-label": "استفاده از تجزیه‌گر جدید (پارسوئید)",
 	"parsermigration-notice-title": "ویژگی آزمایشی",
-	"parsermigration-notice-body": "شما در حال استفاده از تجزیه‌گر ویکی‌متن پارسوئید جدید برای نمایش این صفحه هستید. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration برای کسب اطلاعات بیشتر اینجا کلیک کنید]"
+	"parsermigration-notice-body": "شما در حال استفاده از تجزیه‌گر ویکی‌متن پارسوئید جدید برای نمایش این صفحه هستید. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration برای کسب اطلاعات بیشتر اینجا کلیک کنید]",
+	"parsermigration-reportbug-dialog-cancel-button-label": "لغو"
 }

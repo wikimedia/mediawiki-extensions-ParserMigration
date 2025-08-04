@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
+			"YeBoy371",
 			"ديفيد",
 			"علاء",
 			"محمد أحمد عبد الفتاح"
@@ -22,7 +23,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "التبديل إلى المحلل القديم",
 	"parsermigration-use-parsoid-toolbox-label": "التبديل إلى المحلل الجديد (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "الإبلاغ عن خطأ مرئي",
-	"parsermigration-report-bug-toolbox-title": "إذا رأيت أخطاء في العرض، فقد يكون ذلك بسبب Parsoid",
+	"parsermigration-report-bug-toolbox-title": "إذا رأيت أخطاء في العرض،\nفقد يكون ذلك بسبب Parsoid",
 	"parsermigration-notice-title": "ميزة تجريبية",
 	"parsermigration-notice-body": "أنت تستخدم محلل نصوص الويكي الجديد Parsoid لعرض هذه الصفحة. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration تعرف على المزيد حول هذه الميزة].",
 	"parsermigration-parsoid-chip-label": "تم تقديمه باستخدام Parsoid",
