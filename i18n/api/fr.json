@@ -4,11 +4,13 @@
 			"Urhixidur",
 			"Wladek92",
 			"Gomoko",
-			"Verdy p"
+			"Verdy p",
+			"Derugon",
+			"Mahabarata"
 		]
 	},
 	"apihelp-parser-migration-summary": "Analyser une page avec deux configurations ordonnées différentes.",
 	"apihelp-parser-migration-param-title": "Le titre de la page à charger et analyser.",
-	"apihelp-parser-migration-param-config": "La configuration de l'analyseur à utiliser. Peut être « old » (l’ancienne), « new » (la nouvelle) ou « old|new » (l’une ou l’autre).",
+	"apihelp-parser-migration-param-config": "La configuration de l’analyseur à utiliser. Peut être « old » (l’ancienne), « new » (la nouvelle) ou « old|new » (l’une ou l’autre).",
 	"apihelp-parser-migration-param-redirect": "Les redirections sont suivies par défaut. Indiquer « no » pour ne pas suivre les redirections."
 }
