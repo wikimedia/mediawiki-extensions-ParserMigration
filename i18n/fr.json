@@ -6,7 +6,11 @@
 			"SleaY",
 			"Urhixidur",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Derugon",
+			"JLTRY",
+			"WillyM",
+			"YeBoy371"
 		]
 	},
 	"parsermigration-desc": "Outil de migration de l’analyseur",
@@ -14,7 +18,7 @@
 	"parsermigration-current": "Ancien",
 	"parsermigration-new": "Nouveau",
 	"parsermigration-pref-label": "Activer l’outil de migration de l’analyseur",
-	"parsermigration-pref-help": "Ceci ajoute une barre latérale avec un lien donnant accès à  [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un outil] permettant la migration du texte des pages vers les nouvelles versions de l’analyseur MediaWiki.",
+	"parsermigration-pref-help": "Ceci ajoute une barre latérale avec un lien donnant accès à [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration un outil] permettant la migration du texte des pages vers les nouvelles versions de l’analyseur de MédiaWiki.",
 	"parsermigration-toolbox-label": "Modifier avec l’outil de migration",
 	"parsermigration-parsoid-readviews-selector-label": "Utiliser le nouvel analyseur syntaxique Parsoid :",
 	"parsermigration-parsoid-readviews-selector-help": "Lorsque Parsoid est utilisé, un lien dans la barre latérale sera fourni pour permettre l'utilisation de l'ancien analyseur en cas de problème.",
@@ -22,8 +26,8 @@
 	"parsermigration-parsoid-readviews-default": "Selon la configuration du wiki (par défaut)",
 	"parsermigration-parsoid-readviews-never": "Jamais (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Utiliser l'ancien analyseur",
-	"parsermigration-use-parsoid-toolbox-label": "Passer au nouvel analyseur (Parsoid)",
+	"parsermigration-use-parsoid-toolbox-label": "Utiliser le nouvel analyseur (Parsoid)",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale",
-	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité]",
+	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité].",
 	"parsermigration-parsoid-chip-label": "Rendu avec Parsoid"
 }
