@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Guycn2"
+			"Guycn2",
+			"Neriah"
 		]
 	},
 	"parsermigration-desc": "כלי להגירת מפענח",
@@ -21,5 +22,7 @@
 	"parsermigration-use-parsoid-toolbox-label": "לעבור למפענח החדש (פרסואיד)",
 	"parsermigration-notice-title": "אפשרות ניסיונית",
 	"parsermigration-notice-body": "מופעל אצלך מפענח קוד הוויקי החדש  פרסואיד (Parsoid) להצגת הדף הזה. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration מידע נוסף על האפשרות הזאת].",
-	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד"
+	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד",
+	"parsermigration-reportbug-dialog-cancel-button-label": "ביטול",
+	"parsermigration-reportbug-dialog-done-button-label": "סיום"
 }
