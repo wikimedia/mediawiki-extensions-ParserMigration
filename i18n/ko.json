@@ -17,6 +17,8 @@
 	"parsermigration-parsoid-readviews-always": "항상 (사전 동의)",
 	"parsermigration-parsoid-readviews-default": "위키 구성에 따라 (기본값)",
 	"parsermigration-parsoid-readviews-never": "사용 안함 (거부)",
+	"parsermigration-use-legacy-parser-toolbox-label": "기존 파서로 전환",
+	"parsermigration-use-parsoid-toolbox-label": "새 파서 (Parsoid)로 전환",
 	"parsermigration-report-bug-toolbox-label": "시각적 버그 보고",
 	"parsermigration-report-bug-toolbox-title": "디스플레이 오류가 나타나면,\nParsoid 때문일 수도 있습니다",
 	"parsermigration-notice-title": "실험 기능",
@@ -31,5 +33,8 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "다시 시도",
 	"parsermigration-reportbug-dialog-submit-button-label": "제출",
 	"parsermigration-reportbug-dialog-title": "시각적 버그 보고",
+	"parsermigration-reportbug-feedback-title": "Project:Parsoid/피드백",
+	"parsermigration-feedback-error1": "오류: API 실행 결과를 인식할 수 없음",
+	"parsermigration-feedback-error4": "오류: 주어진 피드백 제목으로 게시할 수 없음",
 	"tag-parsermigration-visual-bug": "시각적 버그 보고"
 }
