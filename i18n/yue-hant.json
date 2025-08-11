@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt"
+		]
+	},
+	"parsermigration-current": "舊",
+	"parsermigration-new": "新",
+	"parsermigration-pref-label": "開着解析轉移架撐",
+	"parsermigration-pref-help": "呢個會加個側邊欄連結去[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 一個架撐]，用嚟轉移版面文字去新版MediaWiki解析器。"
+}
