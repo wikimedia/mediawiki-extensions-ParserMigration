@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Guycn2",
-			"Neriah"
+			"Neriah",
+			"YaronSh"
 		]
 	},
 	"parsermigration-desc": "כלי להגירת מפענח",
@@ -24,5 +25,10 @@
 	"parsermigration-notice-body": "מופעל אצלך מפענח קוד הוויקי החדש  פרסואיד (Parsoid) להצגת הדף הזה. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration מידע נוסף על האפשרות הזאת].",
 	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד",
 	"parsermigration-reportbug-dialog-cancel-button-label": "ביטול",
-	"parsermigration-reportbug-dialog-done-button-label": "סיום"
+	"parsermigration-reportbug-dialog-done-button-label": "סיום",
+	"parsermigration-reportbug-dialog-error-label": "לא ניתן להגיש את הדוח שלך.",
+	"parsermigration-reportbug-dialog-progress": "הדוח שלך מוגש",
+	"parsermigration-reportbug-dialog-retry-button-label": "לנסות שוב",
+	"parsermigration-reportbug-dialog-submit-button-label": "שליחה",
+	"parsermigration-reportbug-dialog-title": "דיווח על תקלה חזותית"
 }
