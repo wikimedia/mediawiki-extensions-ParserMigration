@@ -26,8 +26,8 @@
 	"parsermigration-parsoid-chip-label": "מתוצג באמצעות פרסואיד",
 	"parsermigration-reportbug-dialog-cancel-button-label": "ביטול",
 	"parsermigration-reportbug-dialog-done-button-label": "סיום",
-	"parsermigration-reportbug-dialog-error-label": "לא ניתן להגיש את הדוח שלך.",
-	"parsermigration-reportbug-dialog-progress": "הדוח שלך מוגש",
+	"parsermigration-reportbug-dialog-error-label": "לא ניתן לשלוח את הדו\"ח שלך.",
+	"parsermigration-reportbug-dialog-progress": "הדו\"ח שלך בתהליך שליחה",
 	"parsermigration-reportbug-dialog-retry-button-label": "לנסות שוב",
 	"parsermigration-reportbug-dialog-submit-button-label": "שליחה",
 	"parsermigration-reportbug-dialog-title": "דיווח על תקלה חזותית"
