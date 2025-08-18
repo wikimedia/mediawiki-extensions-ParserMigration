@@ -4,6 +4,7 @@
 			"Anterdc99",
 			"Diskdance",
 			"GuoPC",
+			"Lakejason0",
 			"Liuxinyu970226"
 		]
 	},
@@ -21,7 +22,26 @@
 	"parsermigration-parsoid-readviews-never": "从不（选择退出）",
 	"parsermigration-use-legacy-parser-toolbox-label": "切换到旧版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "切换到新版解析器（Parsoid）",
+	"parsermigration-report-bug-toolbox-label": "报告可见的错误",
+	"parsermigration-report-bug-toolbox-title": "如果您看到显示上有问题，\n可能是因为Parsoid",
 	"parsermigration-notice-title": "实验性功能",
 	"parsermigration-notice-body": "您正在使用新版Parsoid wikitext解析器显示本页面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解此功能的更多信息]。",
-	"parsermigration-parsoid-chip-label": "由Parsoid渲染"
+	"parsermigration-parsoid-chip-label": "使用Parsoid渲染",
+	"parsermigration-reportbug-dialog-cancel-button-label": "取消",
+	"parsermigration-reportbug-dialog-complete-message": "您的反馈已发布于[$2 $1]页面。",
+	"parsermigration-reportbug-dialog-complete-title": "感谢您",
+	"parsermigration-reportbug-dialog-desc": "此页面使用[[mw:Special:MyLanguage/Parsoid|Parsoid]]渲染，可能存在显示错误",
+	"parsermigration-reportbug-dialog-destination": "您的反馈将与您的用户名一起添加到[$2 $1]页面。",
+	"parsermigration-reportbug-dialog-done-button-label": "完成",
+	"parsermigration-reportbug-dialog-error-label": "无法提交您的报告。",
+	"parsermigration-reportbug-dialog-message-label": "问题页面：$1（修订版本$2）",
+	"parsermigration-reportbug-dialog-placeholder": "描述你所看到的错误",
+	"parsermigration-reportbug-dialog-progress": "正在提交报告",
+	"parsermigration-reportbug-dialog-retry-button-label": "重试",
+	"parsermigration-reportbug-dialog-submit-button-label": "提交",
+	"parsermigration-reportbug-dialog-title": "报告可见的错误",
+	"parsermigration-feedback-error1": "错误：从API返回无法识别的结果",
+	"parsermigration-feedback-error4": "错误：无法发布至指定的反馈标题",
+	"tag-parsermigration-visual-bug": "报告可见的错误",
+	"tag-parsermigration-visual-bug-description": "使用[[mw:Extension:ParserMigration|ParserMigration扩展]]创建的视觉错误报告"
 }

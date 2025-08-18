@@ -5,8 +5,10 @@
 			"Volvox"
 		]
 	},
-	"apihelp-parser-migration-summary": "Analyséiert (parst) eng Säit mat zwou verschiddenen Tidy-Astellungen.",
-	"apihelp-parser-migration-param-title": "Den titel vun der Säit déi gelueden an analyséiert gi soll.",
-	"apihelp-parser-migration-param-config": "D'Astellung vum Parser déi benotzt gi soll. Kann \"al\", \"nei\" oder \"al|nei\" sinn.",
-	"apihelp-parser-migration-param-redirect": "Viruleedunge gëtt automatesch nogaangen. Benotzt „nee“ fir Viruleedungen net nozegoen."
+	"apihelp-parser-migration-summary": "Eng Säit mat zwou verschiddene Parser-Konfiguratioune parsen.",
+	"apihelp-parser-migration-param-title": "Den Titel vun der Säit, déi gelueden a geparst gi soll.",
+	"apihelp-parser-migration-param-config": "D'Parser-Konfiguratioun, déi benotzt gi soll. Kann „old“, „new“ oder „old|new“ sinn.",
+	"apihelp-parser-migration-param-redirect": "Enger Viruleedung gëtt automatesch nogaangen. Benotzt „no“ fir Viruleedungen net nozegoen.",
+	"apihelp-parser-migration-paramvalue-config-new": "Parst d'Säit mat der Konfiguratioun „new“; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Parst d'Säit mat der Konfiguratioun „old“; Legacy-Parser vu MediaWiki"
 }

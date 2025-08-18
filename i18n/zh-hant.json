@@ -8,6 +8,7 @@
 			"Hello903hello",
 			"Kly",
 			"LNDDYL",
+			"Lakejason0",
 			"Liuxinyu970226",
 			"Winston Sung"
 		]
@@ -26,7 +27,26 @@
 	"parsermigration-parsoid-readviews-never": "從不（選擇排除）",
 	"parsermigration-use-legacy-parser-toolbox-label": "切換成舊版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "切換成新版解析器（Parsoid）",
+	"parsermigration-report-bug-toolbox-label": "回報視覺錯誤",
+	"parsermigration-report-bug-toolbox-title": "如果您看到顯示錯誤，\n可能是因為Parsoid",
 	"parsermigration-notice-title": "實驗性功能",
 	"parsermigration-notice-body": "您正在使用新的 Parsoid wikitext 解析器來顯示此頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解此功能的更多信息]。",
-	"parsermigration-parsoid-chip-label": "使用 Parsoid 呈現"
+	"parsermigration-parsoid-chip-label": "使用 Parsoid 呈現",
+	"parsermigration-reportbug-dialog-cancel-button-label": "取消",
+	"parsermigration-reportbug-dialog-complete-message": "您的意見回饋已發布於[$2 $1]頁面。",
+	"parsermigration-reportbug-dialog-complete-title": "感謝您",
+	"parsermigration-reportbug-dialog-desc": "此頁面使用[[mw:Special:MyLanguage/Parsoid|Parsoid]]呈現，可能存在顯示錯誤",
+	"parsermigration-reportbug-dialog-destination": "您的意見回饋將與您的使用者名稱一起新增至[$2 $1]頁面。",
+	"parsermigration-reportbug-dialog-done-button-label": "完成",
+	"parsermigration-reportbug-dialog-error-label": "無法提交您的意見回饋。",
+	"parsermigration-reportbug-dialog-message-label": "問題頁面：$1（修訂版本$2）",
+	"parsermigration-reportbug-dialog-placeholder": "描述你所看到的視覺錯誤",
+	"parsermigration-reportbug-dialog-progress": "正在提交意見回饋",
+	"parsermigration-reportbug-dialog-retry-button-label": "重試",
+	"parsermigration-reportbug-dialog-submit-button-label": "提交",
+	"parsermigration-reportbug-dialog-title": "回報視覺錯誤",
+	"parsermigration-feedback-error1": "錯誤：無法識別 API 回傳的結果",
+	"parsermigration-feedback-error4": "錯誤：無法發佈至指定的意見回饋標題",
+	"tag-parsermigration-visual-bug": "回報視覺錯誤",
+	"tag-parsermigration-visual-bug-description": "使用[[mw:Extension:ParserMigration|ParserMigration擴充功能]]建立的視覺錯誤報告"
 }
