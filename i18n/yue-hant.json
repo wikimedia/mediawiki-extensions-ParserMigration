@@ -9,7 +9,7 @@
 	"parsermigration-pref-label": "開着解析轉移架撐",
 	"parsermigration-pref-help": "呢個會加個側邊欄連結去[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 一個架撐]，用嚟轉移版面文字去新版MediaWiki解析器。",
 	"parsermigration-parsoid-readviews-selector-label": "用新版Parsoid wikitext解析器：",
-	"parsermigration-parsoid-readviews-selector-help": "用緊Parsoid嗰陣，會提供一個側邊欄連結，當有問題嗰陣可以用返舊版解析器。",
+	"parsermigration-parsoid-readviews-selector-help": "用緊Parsoid嗰陣，會畀一個側邊欄連結，當有問題嗰陣可以用返舊版解析器。",
 	"parsermigration-parsoid-readviews-always": "永遠用（選擇加入）",
 	"parsermigration-parsoid-readviews-default": "跟wiki設置（預設）",
 	"parsermigration-parsoid-readviews-never": "永遠唔用（選擇退出）"
