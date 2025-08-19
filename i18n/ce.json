@@ -32,5 +32,6 @@
 	"parsermigration-reportbug-dialog-submit-button-label": "ДӀадахьийта",
 	"parsermigration-reportbug-dialog-title": "Гуш долчу гӀалатах лаьцна хаам бар",
 	"parsermigration-feedback-error1": "ГӀалат. Ца девза API жамӀ",
-	"parsermigration-feedback-error4": "ГӀалат: Аьтту ца болу дӀайаздар хӀотто йуханехьа зӀен коьртан"
+	"parsermigration-feedback-error4": "ГӀалат: Аьтту ца болу дӀайаздар хӀотто йуханехьа зӀен коьртан",
+	"tag-parsermigration-visual-bug": "Гуш йолу галморзахаллаш йовзийта"
 }
