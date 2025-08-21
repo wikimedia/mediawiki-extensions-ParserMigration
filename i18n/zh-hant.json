@@ -45,6 +45,7 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "重試",
 	"parsermigration-reportbug-dialog-submit-button-label": "提交",
 	"parsermigration-reportbug-dialog-title": "回報視覺錯誤",
+	"parsermigration-reportbug-feedback-title": "Project:Parsoid/Feedback",
 	"parsermigration-feedback-error1": "錯誤：無法識別 API 回傳的結果",
 	"parsermigration-feedback-error4": "錯誤：無法發佈至指定的意見回饋標題",
 	"tag-parsermigration-visual-bug": "回報視覺錯誤",
