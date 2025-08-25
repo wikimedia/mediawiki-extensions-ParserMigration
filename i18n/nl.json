@@ -39,7 +39,6 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "Opnieuw proberen",
 	"parsermigration-reportbug-dialog-submit-button-label": "Verzenden",
 	"parsermigration-reportbug-dialog-title": "Visuele weergavefout melden",
-	"parsermigration-reportbug-feedback-title": "Project:Parsoid/Feedback",
 	"parsermigration-feedback-error1": "Fout: onbekend resultaat uit de API",
 	"parsermigration-feedback-error4": "Fout: het was niet mogelijk het bericht te plaatsen onder de opgegeven feedbacktitel",
 	"tag-parsermigration-visual-bug": "Melding visuele weergavefout",

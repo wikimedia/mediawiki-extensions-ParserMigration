@@ -37,7 +37,6 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "Thử lại",
 	"parsermigration-reportbug-dialog-submit-button-label": "Gửi",
 	"parsermigration-reportbug-dialog-title": "Báo cáo lỗi hiển thị",
-	"parsermigration-reportbug-feedback-title": "Project:Parsoid/Feedback",
 	"parsermigration-feedback-error1": "Lỗi: Kết quả không được nhận dạng từ API",
 	"parsermigration-feedback-error4": "Lỗi: Không thể gửi đến trang phản hồi đã cho",
 	"tag-parsermigration-visual-bug": "Báo cáo lỗi hiển thị",
