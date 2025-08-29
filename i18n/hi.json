@@ -1,8 +1,44 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abijeet Patro"
+			"Abijeet Patro",
+			"Saurmandal"
 		]
 	},
-	"parsermigration-reportbug-dialog-cancel-button-label": "रद्द करें"
+	"parsermigration-desc": "पार्सर माइग्रेशन उपकरण",
+	"parsermigration-edit-subtitle": "पार्सर माइग्रेशन उपकरण से",
+	"parsermigration-current": "पुराना",
+	"parsermigration-new": "नया",
+	"parsermigration-pref-label": "पार्सर माइग्रेशन उपकरण सक्षम करें",
+	"parsermigration-pref-help": "यह साइडबार पर पृष्ठ के टेक्स्ट को मीडियाविकि के पार्सर के नए संस्करणों पर अपग्रेड करने के लिए [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration एक उपकरण] की कड़ी जोड़ देता है।",
+	"parsermigration-toolbox-label": "माइग्रेशन उपकरण से सम्पादित करें",
+	"parsermigration-parsoid-readviews-selector-label": "नए Parsoid विकिटेक्स्ट पार्सर का उपयोग करें:",
+	"parsermigration-parsoid-readviews-selector-help": "जब Parsoid का उपयोग किया जाता है, तब समस्याओं के मामले में विरासती पार्सर का उपयोग करने का एक साधन प्रदान करने के लिए साइडबार पर एक कड़ी प्रदान की जाएगी।",
+	"parsermigration-parsoid-readviews-always": "हमेशा (ऑप्ट-इन करें)",
+	"parsermigration-parsoid-readviews-default": "विकि कॉन्फ़िगरेशन के अनुसार (डिफ़ॉल्ट)",
+	"parsermigration-parsoid-readviews-never": "कभी नहीं (ऑप्ट-आउट करें)",
+	"parsermigration-use-legacy-parser-toolbox-label": "विरासती पार्सर में बदलें",
+	"parsermigration-use-parsoid-toolbox-label": "नए पार्सर (Parsoid) में बदलें",
+	"parsermigration-report-bug-toolbox-label": "दृश्यमान बग रिपोर्ट करें",
+	"parsermigration-report-bug-toolbox-title": "अगर आपको डिस्प्ले में त्रुटि आती हैं तो\nयह Parsoid के कारण हो सकता है",
+	"parsermigration-notice-title": "प्रयोगात्मक सुविधा",
+	"parsermigration-notice-body": "आप इस पृष्ठ को देखने के लिए नए Parsoid विकिटेक्स्ट पार्सर का उपयोग कर रहे हैं। [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration इस सुविधा के बारे में अधिक जानें]।",
+	"parsermigration-parsoid-chip-label": "Parsoid से रेंडर किया गया",
+	"parsermigration-reportbug-dialog-cancel-button-label": "रद्द करें",
+	"parsermigration-reportbug-dialog-complete-message": "आपकी प्रतिक्रिया [$2 $1] पृष्ठ पर पोस्ट कर दी गई है।",
+	"parsermigration-reportbug-dialog-complete-title": "धन्यवाद",
+	"parsermigration-reportbug-dialog-desc": "यह पृष्ठ [[mw:Special:MyLanguage/Parsoid|Parsoid]] से रेंडर किया गया था, जो कि डिस्प्ले में कुछ त्रुटियों का कारण हो सकता है",
+	"parsermigration-reportbug-dialog-destination": "आपकी प्रतिक्रिया आपके सदस्यनाम के साथ [$2 $1] पृष्ठ पर जोड़ दी जाएगी।",
+	"parsermigration-reportbug-dialog-done-button-label": "हो गया",
+	"parsermigration-reportbug-dialog-error-label": "आपकी रिपोर्ट प्रस्तुत न की जा सकी।",
+	"parsermigration-reportbug-dialog-message-label": "$1 (अवतरण $2) पर समस्या",
+	"parsermigration-reportbug-dialog-placeholder": "जो दृश्यमान बग आपको दिख रहा है उसका वर्णन करें",
+	"parsermigration-reportbug-dialog-progress": "आपकी रिपोर्ट प्रस्तुत की जा रही है",
+	"parsermigration-reportbug-dialog-retry-button-label": "पुनः प्रयास करें",
+	"parsermigration-reportbug-dialog-submit-button-label": "जमा करें",
+	"parsermigration-reportbug-dialog-title": "दृश्यमान बग रिपोर्ट करें",
+	"parsermigration-feedback-error1": "त्रुटि: API से अपरिचित परिणाम",
+	"parsermigration-feedback-error4": "त्रुटि: दी गई प्रतिक्रिया का शीर्षक पोस्ट न किया जा सका",
+	"tag-parsermigration-visual-bug": "दृश्यमान बग का रिपोर्ट",
+	"tag-parsermigration-visual-bug-description": "[[mw:Extension:ParserMigration|ParserMigration एक्सटेंशन]] की मदद से किसी दृश्यमान बग की बनाई गई एक रिपोर्ट"
 }
