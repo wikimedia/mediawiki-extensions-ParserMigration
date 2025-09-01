@@ -1,7 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abijeet Patro"
+			"Abijeet Patro",
+			"Saurmandal"
 		]
-	}
+	},
+	"parsermigration-desc": "पार्सर माइग्रेशन उपकरण",
+	"parsermigration-edit-subtitle": "पार्सर माइग्रेशन उपकरण से",
+	"parsermigration-current": "पुराना",
+	"parsermigration-new": "नया",
+	"parsermigration-pref-label": "पार्सर माइग्रेशन उपकरण सक्षम करें",
+	"parsermigration-pref-help": "यह साइडबार पर पृष्ठ के टेक्स्ट को मीडियाविकि के पार्सर के नए संस्करणों पर अपग्रेड करने के लिए [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration एक उपकरण] की कड़ी जोड़ देता है।",
+	"parsermigration-toolbox-label": "माइग्रेशन उपकरण से सम्पादित करें"
 }
