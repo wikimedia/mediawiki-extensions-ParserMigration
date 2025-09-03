@@ -1,7 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abijeet Patro"
+			"Abijeet Patro",
+			"Saurmandal"
 		]
-	}
+	},
+	"parsermigration-desc": "पार्सर माइग्रेशन उपकरण",
+	"parsermigration-edit-subtitle": "पार्सर माइग्रेशन उपकरण से",
+	"parsermigration-current": "पुराना",
+	"parsermigration-new": "नया",
+	"parsermigration-pref-label": "पार्सर माइग्रेशन उपकरण सक्षम करें",
+	"parsermigration-pref-help": "यह साइडबार पर पृष्ठ के टेक्स्ट को मीडियाविकि के पार्सर के नए संस्करणों पर अपग्रेड करने के लिए [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration एक उपकरण] की कड़ी जोड़ देता है।",
+	"parsermigration-toolbox-label": "माइग्रेशन उपकरण से सम्पादित करें",
+	"parsermigration-parsoid-readviews-selector-label": "नए Parsoid विकिटेक्स्ट पार्सर का उपयोग करें:",
+	"parsermigration-parsoid-readviews-selector-help": "जब Parsoid का उपयोग किया जाता है, तब समस्याओं के मामले में विरासती पार्सर का उपयोग करने का एक साधन प्रदान करने के लिए साइडबार पर एक कड़ी प्रदान की जाएगी।",
+	"parsermigration-parsoid-readviews-always": "हमेशा (ऑप्ट-इन करें)",
+	"parsermigration-parsoid-readviews-default": "विकि कॉन्फ़िगरेशन के अनुसार (डिफ़ॉल्ट)",
+	"parsermigration-parsoid-readviews-never": "कभी नहीं (ऑप्ट-आउट करें)",
+	"parsermigration-use-legacy-parser-toolbox-label": "विरासती पार्सर में बदलें",
+	"parsermigration-use-parsoid-toolbox-label": "नए पार्सर (Parsoid) में बदलें",
+	"parsermigration-notice-title": "प्रयोगात्मक सुविधा",
+	"parsermigration-notice-body": "आप इस पृष्ठ को देखने के लिए नए Parsoid विकिटेक्स्ट पार्सर का उपयोग कर रहे हैं। [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration इस सुविधा के बारे में अधिक जानें]।",
+	"parsermigration-parsoid-chip-label": "Parsoid से रेंडर किया गया"
 }
