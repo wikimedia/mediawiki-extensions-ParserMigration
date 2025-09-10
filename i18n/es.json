@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Camachevaz",
 			"Dgstranz",
 			"Fitoschido",
 			"JaimeDes",
@@ -30,20 +31,20 @@
 	"parsermigration-notice-body": "Estás usando el nuevo analizador de wikitexto Parsoid para mostrar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Más información sobre esta función].",
 	"parsermigration-parsoid-chip-label": "Renderizado con Parsoid",
 	"parsermigration-reportbug-dialog-cancel-button-label": "Cancelar",
-	"parsermigration-reportbug-dialog-complete-message": "Se ha publicado tu comentario en la página [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-message": "Su retroalimentación ha sido publicada en la página [$2 $1].",
 	"parsermigration-reportbug-dialog-complete-title": "Gracias",
-	"parsermigration-reportbug-dialog-desc": "Esta página está generada mediante [[mw:Special:MyLanguage/Parsoid|Parsoid]], que puede ser la causa de algunos errores de visualización",
-	"parsermigration-reportbug-dialog-destination": "Tu comentario se publicará en la página [$2 $1], junto con tu nombre de usuario.",
+	"parsermigration-reportbug-dialog-desc": "Esta página fue generada mediante [[mw:Special:MyLanguage/Parsoid|Parsoid]], que puede ser la causa de algunos errores de visualización",
+	"parsermigration-reportbug-dialog-destination": "Su retroalimentación se añadirá a la página [$2 $1], junto con su nombre de usuario.",
 	"parsermigration-reportbug-dialog-done-button-label": "Hecho",
-	"parsermigration-reportbug-dialog-error-label": "No se pudo enviar tu informe.",
+	"parsermigration-reportbug-dialog-error-label": "No se pudo enviar su reporte.",
 	"parsermigration-reportbug-dialog-message-label": "Problema sobre: $1 (revisión $2)",
 	"parsermigration-reportbug-dialog-placeholder": "Describe el error visual que estás viendo",
-	"parsermigration-reportbug-dialog-progress": "Enviando tu informe",
+	"parsermigration-reportbug-dialog-progress": "Enviando su reporte",
 	"parsermigration-reportbug-dialog-retry-button-label": "Reintentar",
 	"parsermigration-reportbug-dialog-submit-button-label": "Enviar",
-	"parsermigration-reportbug-dialog-title": "Informar de un error visual",
+	"parsermigration-reportbug-dialog-title": "Reportar un error visual",
 	"parsermigration-feedback-error1": "Error: Resultado de la API no reconocido",
-	"parsermigration-feedback-error4": "Error: No se pudo publicar con el título de comentario dado",
-	"tag-parsermigration-visual-bug": "Informar de un error visual",
-	"tag-parsermigration-visual-bug-description": "Un informe de un error visual creado mediante la [[mw:Extension:ParserMigration|extensión ParserMigration]]"
+	"parsermigration-feedback-error4": "Error: No se pudo publicar con el título de retroalimentación dado",
+	"tag-parsermigration-visual-bug": "Reportar un error visual",
+	"tag-parsermigration-visual-bug-description": "Un reporte de un error visual creado mediante la [[mw:Extension:ParserMigration|extensión ParserMigration]]"
 }

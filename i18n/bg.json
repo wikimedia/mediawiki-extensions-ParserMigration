@@ -19,7 +19,10 @@
 	"parsermigration-parsoid-readviews-never": "Никога (отказ)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Превключване към стария анализатор",
 	"parsermigration-use-parsoid-toolbox-label": "Превключване към новия анализатор (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Докладване на визуален бъг",
 	"parsermigration-notice-title": "Експериментална възможност",
 	"parsermigration-notice-body": "Използвате новия анализатор на уикитекст Parsoid, за да визуализирате тази страница. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Научете повече за тази възможност].",
-	"parsermigration-parsoid-chip-label": "Рендерирано с Parsoid"
+	"parsermigration-parsoid-chip-label": "Рендерирано с Parsoid",
+	"parsermigration-reportbug-dialog-title": "Докладване на визуален бъг",
+	"tag-parsermigration-visual-bug": "Докладване на визуален бъг"
 }
