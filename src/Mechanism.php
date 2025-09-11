@@ -10,8 +10,6 @@ use MediaWiki\User\User;
 
 class Mechanism {
 
-	/**
-	 */
 	public function __construct() {
 	}
 
