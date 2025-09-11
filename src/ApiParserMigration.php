@@ -19,18 +19,13 @@ class ApiParserMigration extends ApiBase {
 		1 => 'new',
 	];
 
-	private RedirectLookup $redirectLookup;
-	private RevisionLookup $revisionLookup;
-
 	public function __construct(
 		ApiMain $main,
 		string $action,
-		RedirectLookup $redirectLookup,
-		RevisionLookup $revisionLookup
+		private readonly RedirectLookup $redirectLookup,
+		private readonly RevisionLookup $revisionLookup,
 	) {
 		parent::__construct( $main, $action );
-		$this->redirectLookup = $redirectLookup;
-		$this->revisionLookup = $revisionLookup;
 	}
 
 	public function execute() {

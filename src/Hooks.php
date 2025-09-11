@@ -35,23 +35,11 @@ class Hooks implements
 	ChangeTagsAllowedAddHook
 {
 
-	private Config $mainConfig;
-	private UserOptionsManager $userOptionsManager;
-	private Oracle $oracle;
-
-	/**
-	 * @param Config $mainConfig
-	 * @param UserOptionsManager $userOptionsManager
-	 * @param Oracle $oracle
-	 */
 	public function __construct(
-		Config $mainConfig,
-		UserOptionsManager $userOptionsManager,
-		Oracle $oracle
+		private readonly Config $mainConfig,
+		private readonly UserOptionsManager $userOptionsManager,
+		private readonly Oracle $oracle,
 	) {
-		$this->mainConfig = $mainConfig;
-		$this->userOptionsManager = $userOptionsManager;
-		$this->oracle = $oracle;
 	}
 
 	/**

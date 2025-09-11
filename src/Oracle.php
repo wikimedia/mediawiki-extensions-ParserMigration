@@ -11,22 +11,15 @@ use MobileContext;
 
 class Oracle {
 
-	private Config $mainConfig;
-	private UserOptionsManager $userOptionsManager;
-	private ?MobileContext $mobileContext;
-
 	public const USERPREF_ALWAYS = 1;
 	public const USERPREF_DEFAULT = 0;
 	public const USERPREF_NEVER = 2;
 
 	public function __construct(
-		Config $mainConfig,
-		UserOptionsManager $userOptionsManager,
-		?MobileContext $mobileContext
+		private readonly Config $mainConfig,
+		private readonly UserOptionsManager $userOptionsManager,
+		private readonly ?MobileContext $mobileContext,
 	) {
-		$this->mainConfig = $mainConfig;
-		$this->userOptionsManager = $userOptionsManager;
-		$this->mobileContext = $mobileContext;
 	}
 
 	/**
