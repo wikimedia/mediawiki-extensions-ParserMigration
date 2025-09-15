@@ -19,6 +19,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Bytt til den gamle parseren",
 	"parsermigration-use-parsoid-toolbox-label": "Bytt til den nye parseren (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Rapporter visuell feil",
+	"parsermigration-report-bug-toolbox-title": "Hvis du ser visningsfeil kan det skyldes Parsoid.",
 	"parsermigration-notice-title": "Eksperimentell funksjon",
 	"parsermigration-notice-body": "Du bruker den nye Parsoid-wikitekstparseren for å vise denne siden. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Lær mer om denne funksjonen].",
 	"parsermigration-parsoid-chip-label": "Gjengitt med Parsoid",
@@ -29,11 +30,14 @@
 	"parsermigration-reportbug-dialog-destination": "Tilbakemeldingen din blir lagt ut på siden [$2 $1], sammen med brukernavnet ditt.",
 	"parsermigration-reportbug-dialog-done-button-label": "Ferdig",
 	"parsermigration-reportbug-dialog-error-label": "Kunne ikke sende inn rapporten.",
+	"parsermigration-reportbug-dialog-message-label": "Feil på: $1 (sideversjon $2)",
 	"parsermigration-reportbug-dialog-placeholder": "Beskriv den visuelle feilen du ser",
 	"parsermigration-reportbug-dialog-progress": "Sender inn rapporten",
 	"parsermigration-reportbug-dialog-retry-button-label": "Prøv igjen",
 	"parsermigration-reportbug-dialog-submit-button-label": "Send inn",
 	"parsermigration-reportbug-dialog-title": "Rapporter visuell feil",
 	"parsermigration-feedback-error1": "Feil: Ukjent resultat fra API-et",
-	"tag-parsermigration-visual-bug": "Rapportering av visuell feil"
+	"parsermigration-feedback-error4": "Feil: Kunne ikke poste til den gitte tilbakemeldingstittelen",
+	"tag-parsermigration-visual-bug": "Rapportering av visuell feil",
+	"tag-parsermigration-visual-bug-description": "En rapport om en visuell feil opprettet med [[mw:Extension:ParserMigration|ParserMigration-utvidelsen]]"
 }
