@@ -17,5 +17,9 @@
 	"parsermigration-parsoid-readviews-default": "Паводле наладаў вікі (дапомна)",
 	"parsermigration-parsoid-readviews-never": "Ніколі (адмовіцца)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Пераключыцца на стары аналізатар",
-	"parsermigration-use-parsoid-toolbox-label": "Пераключыцца на новы аналізатар (Parsoid)"
+	"parsermigration-use-parsoid-toolbox-label": "Пераключыцца на новы аналізатар (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Паведаміць пра памылку рэндэрынгу",
+	"parsermigration-reportbug-dialog-desc": "Старонка была створаная з дапамогай [[mw:Special:MyLanguage/Parsoid|Parsoid]], што можа быць прычынай некаторых памылак вываду",
+	"parsermigration-reportbug-dialog-destination": "Ваш водгук будзе дададзены на старонку [$2 $1] разам зь імем карыстальніка.",
+	"parsermigration-reportbug-dialog-placeholder": "Апішыце памылку рэндэрынгу, якую вы бачыце"
 }
