@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nemoralis",
-			"Wertuose"
+			"Wertuose",
+			"Əkrəm"
 		]
 	},
 	"parsermigration-desc": "Ayrışdırıcı miqrasiya aləti",
@@ -19,7 +20,7 @@
 	"parsermigration-parsoid-readviews-never": "Heç vaxt (aktivləşdirmə)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Köhnə ayrışdırıcıya keç",
 	"parsermigration-use-parsoid-toolbox-label": "Yeni ayrışdıcırıya keç (Parsoid)",
-	"parsermigration-report-bug-toolbox-label": "Vizual xətanı bildir",
+	"parsermigration-report-bug-toolbox-label": "Vizual xəta bildir",
 	"parsermigration-report-bug-toolbox-title": "Əgər vizual xətalar görürsünüzsə,\nbu Parsoid ilə bağlı ola bilər",
 	"parsermigration-notice-title": "Eksperimental xüsusiyyət",
 	"parsermigration-notice-body": "Bu səhifəni göstərmək üçün yeni Parsoid vikimətn ayrışdırıcından istifadə edirsiniz. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Bu xüsusiyyət haqqında ətraflı öyrənin].",
@@ -36,7 +37,7 @@
 	"parsermigration-reportbug-dialog-progress": "Bildiriş göndərilir",
 	"parsermigration-reportbug-dialog-retry-button-label": "Yenidən cəhd et",
 	"parsermigration-reportbug-dialog-submit-button-label": "Göndər",
-	"parsermigration-reportbug-dialog-title": "Vizual xətanı bildir",
+	"parsermigration-reportbug-dialog-title": "Vizual xəta bildirin",
 	"parsermigration-reportbug-feedback-title": "Project:Parsoid/Rəy",
 	"parsermigration-feedback-error1": "Xəta: API-dən bilinməyən nəticə",
 	"parsermigration-feedback-error4": "Xəta: Verilmiş rəy başlığına göndərmək mümkün deyil",
