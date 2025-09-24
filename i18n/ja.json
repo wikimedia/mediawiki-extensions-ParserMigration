@@ -8,7 +8,8 @@
 			"Yusuke1109",
 			"かしわのはみん",
 			"ひまり",
-			"Shulmj"
+			"Shulmj",
+			"Kokage si"
 		]
 	},
 	"parsermigration-desc": "パーサーの移行用ツール",
@@ -18,7 +19,9 @@
 	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサーに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。",
 	"parsermigration-parsoid-readviews-selector-label": "新しい Parsoid ウィキテキストパーサーの使用:",
 	"parsermigration-parsoid-readviews-selector-help": "Parsoid を使用している場合、問題が発生した際にレガシーパーサーを利用できるようにするためのサイドバーリンクが提供されます。",
+	"parsermigration-parsoid-readviews-always": "常に（オプトイン）",
 	"parsermigration-parsoid-readviews-default": "ウィキの構成に従う (既定)",
+	"parsermigration-parsoid-readviews-never": "しない（オプトアウト）",
 	"parsermigration-use-legacy-parser-toolbox-label": "レガシーパーサーに切り替え",
 	"parsermigration-use-parsoid-toolbox-label": "新しいパーサー (Parsoid) に切り替え",
 	"parsermigration-notice-title": "実験的な機能",
