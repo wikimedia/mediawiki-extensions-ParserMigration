@@ -104,7 +104,7 @@ class Hooks implements
 	): void {
 		// Make "whether Parsoid was used" visible to client-side JS
 		$user = null;
-		if ( $options['isParsoidContent'] ?? false ) {
+		if ( $parserOutput->getContentHolder()->isParsoidContent() ) {
 			$parserOutput->setJsConfigVar( 'parsermigration-parsoid', true );
 			// Add a user notice for named users
 			$named = false;
