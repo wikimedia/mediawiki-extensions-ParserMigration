@@ -18,7 +18,20 @@
 	"parsermigration-parsoid-readviews-never": "Mitte kunagi (loobumispõhine)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Lülitu vanale parserile",
 	"parsermigration-use-parsoid-toolbox-label": "Lülitu uuele parserile (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Teata kuvamisveast",
+	"parsermigration-report-bug-toolbox-title": "Kui näed valesti kuvatud elemente, võib see olla Parsoidi tõttu",
 	"parsermigration-notice-title": "Katseline funktsioon",
 	"parsermigration-notice-body": "Kasutad selle lehekülje kuvamiseks uut Parsoidi vikiteksti parserit. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Loe veel selle funktsiooni kohta].",
-	"parsermigration-parsoid-chip-label": "Viimistletud Parsoidiga"
+	"parsermigration-parsoid-chip-label": "Viimistletud Parsoidiga",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Loobu",
+	"parsermigration-reportbug-dialog-complete-message": "Sinu tagasiside on leheküljele [$2 $1] postitatud.",
+	"parsermigration-reportbug-dialog-complete-title": "Aitäh",
+	"parsermigration-reportbug-dialog-desc": "See lehekülg viimistleti [[mw:Special:MyLanguage/Parsoid|Parsoidiga]], mis võib põhjustada kuvamisvigu.",
+	"parsermigration-reportbug-dialog-destination": "Sinu tagasiside lisatakse leheküljele [$2 $1] koos sinu kasutajanimega.",
+	"parsermigration-reportbug-dialog-done-button-label": "Valmis",
+	"parsermigration-reportbug-dialog-message-label": "Probleem leheküljel \"$1\" (redaktsioon $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Kirjelda kuvamisviga, mida näed",
+	"parsermigration-reportbug-dialog-progress": "Sinu teate saatmine",
+	"parsermigration-reportbug-dialog-submit-button-label": "Saada",
+	"parsermigration-reportbug-dialog-title": "Kuvamisveast teatamine"
 }
