@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
+			"MaGa",
 			"Ponor"
 		]
 	},
@@ -19,7 +20,27 @@
 	"parsermigration-parsoid-readviews-never": "Nikada",
 	"parsermigration-use-legacy-parser-toolbox-label": "Vrati stari raščlanjivač",
 	"parsermigration-use-parsoid-toolbox-label": "Uključi raščlanjivač Parsoid",
+	"parsermigration-report-bug-toolbox-label": "Prijavi grešku u prikazu",
+	"parsermigration-report-bug-toolbox-title": "Ako vidite greške u prikazu, moguće je problem s Parsoidom.",
 	"parsermigration-notice-title": "Pokusna značajka",
 	"parsermigration-notice-body": "Za prikaz ove stranice koristite novi raščlanjivač wikikoda imena Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Saznajte više o ovoj značajki].",
-	"parsermigration-parsoid-chip-label": "Složeno upotrebom Parsoida"
+	"parsermigration-parsoid-chip-label": "Složeno upotrebom Parsoida",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Odustani",
+	"parsermigration-reportbug-dialog-complete-message": "Vaše povratne informacije objavljene su na stranici [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-title": "Hvala Vam",
+	"parsermigration-reportbug-dialog-desc": "Ova je stranica prikazana [[mw:Special:MyLanguage/Parsoid|Parsoidom]], što je mogući razlog grešaka u prikazu",
+	"parsermigration-reportbug-dialog-destination": "Vaše povratne informacije biti će dodane na stranicu [$2 $1], zajedno s vašim suradničkim imenom.",
+	"parsermigration-reportbug-dialog-done-button-label": "Gotovo",
+	"parsermigration-reportbug-dialog-error-label": "Nije moguće zaprimiti Vašu prijavu.",
+	"parsermigration-reportbug-dialog-message-label": "Problem na: $1 (izmjena $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Opišite grešku prikaza koju vidite",
+	"parsermigration-reportbug-dialog-progress": "Zaprimamo Vašu prijavu",
+	"parsermigration-reportbug-dialog-retry-button-label": "Pokušaj ponovo",
+	"parsermigration-reportbug-dialog-submit-button-label": "Pošalji",
+	"parsermigration-reportbug-dialog-title": "Prijavi grešku u prikazu",
+	"parsermigration-reportbug-feedback-title": "Projekt:Parsoid/Povratne informacije",
+	"parsermigration-feedback-error1": "Greška: neprepoznati rezultat API-ja",
+	"parsermigration-feedback-error4": "Greška: nije moguće objaviti povratnu informaciju",
+	"tag-parsermigration-visual-bug": "Prijavi grešku u prikazu",
+	"tag-parsermigration-visual-bug-description": "Izvješće o grešci u prikazu stvorenoj pomoću [[mw:Extension:ParserMigration|proširenja ParserMigration]]"
 }
