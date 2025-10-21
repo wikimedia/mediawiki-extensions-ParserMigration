@@ -17,6 +17,8 @@
 	"parsermigration-parsoid-readviews-always": "Vždy (zapojiť sa)",
 	"parsermigration-parsoid-readviews-default": "Podľa konfigurácie wiki (predvolené)",
 	"parsermigration-parsoid-readviews-never": "Nikdy (nezapojiť sa)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Použiť starší parser",
+	"parsermigration-use-parsoid-toolbox-label": "Použiť nový parser (Parsoid)",
 	"parsermigration-notice-title": "Experimentálna funkcia",
 	"parsermigration-notice-body": "Na zobrazenie tejto stránky používate nový parser wikitextu Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Viac informácií o tejto funkcii]."
 }
