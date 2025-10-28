@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Byt til den gamle parseren",
+	"parsermigration-use-parsoid-toolbox-label": "Byt til den nye parseren (Parsoid)"
+}
