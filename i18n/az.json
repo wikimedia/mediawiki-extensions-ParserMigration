@@ -3,7 +3,8 @@
 		"authors": [
 			"Nemoralis",
 			"Wertuose",
-			"Əkrəm"
+			"Əkrəm",
+			"Gadir"
 		]
 	},
 	"parsermigration-desc": "Ayrışdırıcı miqrasiya aləti",
@@ -11,7 +12,7 @@
 	"parsermigration-current": "Köhnə",
 	"parsermigration-new": "Yeni",
 	"parsermigration-pref-label": "Sintaktik təhlil alətinin yerdəyişməsini tətbiq et",
-	"parsermigration-pref-help": "Bu, məqalənin mətnini MediaViki sintaktik təhlilçisinin yeni versiyalarına köçürmək üçün yan panelə [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alətin] keçidini əlavə edir.",
+	"parsermigration-pref-help": "Bu, məqalənin mətnini MediaWiki sintaktik təhlilçisinin yeni versiyalarına köçürmək üçün yan panelə [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alətin] keçidini əlavə edir.",
 	"parsermigration-toolbox-label": "Köçürmə aləti vasitəsilə redaktə et",
 	"parsermigration-parsoid-readviews-selector-label": "Yeni Parsoid vikimətn ayrışdırıcısından istifadə edin:",
 	"parsermigration-parsoid-readviews-selector-help": "Parsoid istifadə edildikdə, problem olduqda köhnə ayrışdırıcıdan istifadə etməyə imkan verən yan panel linki əlavə ediləcək.",
