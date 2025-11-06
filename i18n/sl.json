@@ -19,5 +19,14 @@
 	"parsermigration-parsoid-readviews-never": "Nikoli (izključitev)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Uporabljaj stari razčlenjevalnik",
 	"parsermigration-use-parsoid-toolbox-label": "Uporabi nov razčlenjevalnik (Parsoid)",
-	"parsermigration-notice-body": "Za prikaz te strani uporabljate nov razčlenjevalnik vikibesedila Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Več o tej funkciji]."
+	"parsermigration-report-bug-toolbox-label": "Prijavi vizualno napako",
+	"parsermigration-notice-body": "Za prikaz te strani uporabljate nov razčlenjevalnik vikibesedila Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Več o tej funkciji].",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Prekliči",
+	"parsermigration-reportbug-dialog-desc": "Ta stran je bila upodobljena s [[mw:Special:MyLanguage/Parsoid|Parsoidom]], kar je lahko vzrok za nekatere napake v prikazu",
+	"parsermigration-reportbug-dialog-destination": "Vaše povratne informacije bodo dodane na stran [$2 $1] skupaj z vašim uporabniškim imenom.",
+	"parsermigration-reportbug-dialog-error-label": "Vašega poročila ni bilo mogoče poslati.",
+	"parsermigration-reportbug-dialog-message-label": "Napaka na: $1 (redakcija $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Opišite vizualno napako, ki jo vidite",
+	"parsermigration-reportbug-dialog-progress": "Pošiljam vaše poročilo",
+	"parsermigration-reportbug-dialog-submit-button-label": "Pošlji"
 }
