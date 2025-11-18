@@ -12,5 +12,5 @@
 	"parsermigration-pref-label": "Alatka za prelazak na nove verzije raščlanjivača",
 	"parsermigration-pref-help": "Ovo dodaje poveznicu na bočni izbornik za   [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration oruđu] za prelazak tekstova od članaka u nove inačice raščlanjivača (''parsera'') MediaWikija.",
 	"parsermigration-toolbox-label": "Uredi s alatom za prelazak",
-	"parsermigration-parsoid-readviews-selector-label": "Koristi Parsoid, novi raščlanjivač wikiteksta:"
+	"parsermigration-parsoid-readviews-selector-label": "Koristi Parsoid, novi raščlanjivač wikiteksta"
 }
