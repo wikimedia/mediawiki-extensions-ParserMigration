@@ -27,7 +27,7 @@
 	"parsermigration-parsoid-readviews-never": "Jamais (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Utiliser l'ancien analyseur",
 	"parsermigration-use-parsoid-toolbox-label": "Utiliser le nouvel analyseur (Parsoid)",
-	"parsermigration-report-bug-toolbox-label": "Signaler un bug visuel",
+	"parsermigration-report-bug-toolbox-label": "Signaler un bogue visuel",
 	"parsermigration-report-bug-toolbox-title": "Si vous voyez des erreurs d'affichage,\ncela peut être dû à Parsoid",
 	"parsermigration-notice-title": "Fonctionnalité expérimentale",
 	"parsermigration-notice-body": "Vous utilisez Parsoid, le nouvel analyseur de wikicode, pour afficher cette page. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration En savoir plus sur cette fonctionnalité].",
@@ -44,10 +44,10 @@
 	"parsermigration-reportbug-dialog-progress": "Soumission de votre rapport en cours",
 	"parsermigration-reportbug-dialog-retry-button-label": "Réessayer",
 	"parsermigration-reportbug-dialog-submit-button-label": "Soumettre",
-	"parsermigration-reportbug-dialog-title": "Signaler un bug visuel",
+	"parsermigration-reportbug-dialog-title": "Signaler un bogue visuel",
 	"parsermigration-reportbug-feedback-title": "Projet:Parsoid/Commentaires",
 	"parsermigration-feedback-error1": "Erreur : Résultat de l’API non reconnu",
 	"parsermigration-feedback-error4": "Erreur : impossible de publier sous le titre de commentaire donné",
-	"tag-parsermigration-visual-bug": "Signaler un bug visuel",
+	"tag-parsermigration-visual-bug": "Signaler un bogue visuel",
 	"tag-parsermigration-visual-bug-description": "Un rapport de bug visuel créé en utilisant l’[[mw:Extension:ParserMigration|extension ParserMigration]]"
 }

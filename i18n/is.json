@@ -5,5 +5,12 @@
 		]
 	},
 	"parsermigration-current": "Gamalt",
-	"parsermigration-new": "Nýtt"
+	"parsermigration-new": "Nýtt",
+	"parsermigration-parsoid-readviews-selector-help": "Þegar Parsoid er notað verður útbúinn tengill á hliðarspjaldi svo hægt sé að nota eldri túlkarann ef vandamál koma upp.",
+	"parsermigration-use-legacy-parser-toolbox-label": "Skipta yfir í eldri túlkara",
+	"parsermigration-report-bug-toolbox-label": "Tilkynna sýnilegan galla",
+	"parsermigration-reportbug-dialog-placeholder": "Lýstu þeim sjónrænu göllum sem þú sérð",
+	"parsermigration-reportbug-dialog-title": "Tilkynna sýnilegan galla",
+	"tag-parsermigration-visual-bug": "Tilkynna sýnilegan galla",
+	"tag-parsermigration-visual-bug-description": "Tilkynning um sýnilegan galla sem útbúin var í [[mw:Extension:ParserMigration|ParserMigration viðbótinni]]"
 }
