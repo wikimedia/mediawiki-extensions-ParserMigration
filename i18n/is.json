@@ -5,5 +5,7 @@
 		]
 	},
 	"parsermigration-current": "Gamalt",
-	"parsermigration-new": "Nýtt"
+	"parsermigration-new": "Nýtt",
+	"parsermigration-parsoid-readviews-selector-help": "Þegar Parsoid er notað verður útbúinn tengill á hliðarspjaldi svo hægt sé að nota eldri túlkarann ef vandamál koma upp.",
+	"parsermigration-use-legacy-parser-toolbox-label": "Skipta yfir í eldri túlkara"
 }
