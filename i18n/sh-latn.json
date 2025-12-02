@@ -1,14 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"parsermigration-desc": "Alat za prelazak na nove verzije raščlanjivača",
 	"parsermigration-edit-subtitle": "s alatom za prelazak na nove verzije raščlanjivača",
 	"parsermigration-current": "Stari",
 	"parsermigration-new": "Novi",
-	"parsermigration-pref-label": "Omogući alat za prelazak na nove verzije raščlanjivača",
-	"parsermigration-pref-help": "Ovo dodaje poveznicu na bočni izbornik za   [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration oruđu] za prelazak tekstova od članaka u nove inačice raščlanjivača (''parsera'') MediaWikija.",
-	"parsermigration-toolbox-label": "Uredi s alatom za prelazak"
+	"parsermigration-pref-label": "Alatka za prelazak na nove verzije raščlanjivača",
+	"parsermigration-pref-help": "Dodaje vezu na bočnu traku koja pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za prelazak teksta stranice na nove verzije MediaWikijevog raščlanjivača.",
+	"parsermigration-toolbox-label": "Uredi s alatom za prelazak",
+	"parsermigration-parsoid-readviews-selector-label": "Koristi raščlanjivač wikiteksta Parsoid"
 }
