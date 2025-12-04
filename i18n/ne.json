@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"parsermigration-current": "पुरानो",
+	"parsermigration-new": "नयाँ",
+	"parsermigration-parsoid-readviews-always": "सधैँ (अप्ट-इन)",
+	"parsermigration-parsoid-readviews-never": "कहिल्यै होइन (अप्ट-आउट)",
+	"parsermigration-notice-title": "प्रयोगात्मक विशेषता",
+	"parsermigration-reportbug-dialog-cancel-button-label": "रद्द गर्नुहोस्",
+	"parsermigration-reportbug-dialog-complete-title": "धन्यवाद",
+	"parsermigration-reportbug-dialog-done-button-label": "सम्पन्न भयो",
+	"parsermigration-reportbug-dialog-error-label": "तपाईंको प्रतिवेदन पेस गर्न सकिएन।",
+	"parsermigration-reportbug-dialog-progress": "आफ्नो प्रतिवेदन पेस गर्दै",
+	"parsermigration-reportbug-dialog-retry-button-label": "पुनः प्रयास गर्नुहोस्",
+	"parsermigration-reportbug-dialog-submit-button-label": "पेस गर्नुहोस्"
+}

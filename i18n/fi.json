@@ -29,7 +29,7 @@
 	"parsermigration-reportbug-dialog-cancel-button-label": "Peruuta",
 	"parsermigration-reportbug-dialog-complete-message": "Palautteesi julkaistiin sivulla [$2 $1].",
 	"parsermigration-reportbug-dialog-complete-title": "Kiitos",
-	"parsermigration-reportbug-dialog-desc": "Tämä sivu renderöitiin [[mw:Special:MyLanguage/Parsoid|Parsoidilla]], mikä saattaa aiheuttaa joitakin näyttövirheitä.",
+	"parsermigration-reportbug-dialog-desc": "Tämä sivu renderöitiin [[mw:Special:MyLanguage/Parsoid|Parsoidilla]], mikä saattaa aiheuttaa näyttövirheitä.",
 	"parsermigration-reportbug-dialog-destination": "Palautteesi lisätään sivulle [$2 $1] käyttäjätunnuksesi kera.",
 	"parsermigration-reportbug-dialog-done-button-label": "Valmis",
 	"parsermigration-reportbug-dialog-error-label": "Ilmoitustasi ei voitu lähettää.",
