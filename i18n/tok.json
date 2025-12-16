@@ -3,5 +3,7 @@
 		"authors": [
 			"Ne"
 		]
-	}
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "o kepeken ilo nasin pini pi toki ilo",
+	"parsermigration-use-parsoid-toolbox-label": "o kepeken ilo nasin sin Paso pi toki ilo"
 }
