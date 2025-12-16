@@ -22,6 +22,10 @@
 			"value": false,
 			"description": "Whether to use Parsoid by default on discussion tools pages"
 		},
+		"ParserMigrationEnableParsoidPercentage": {
+			"value": 100,
+			"description": "Allows incremental migration to Parsoid by default when this percentage is less than 100."
+		},
 		"ParserMigrationEnableParsoidArticlePages": {
 			"value": false,
 			"description": "Whether to use Parsoid by default on article pages"

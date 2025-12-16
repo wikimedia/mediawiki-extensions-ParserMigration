@@ -105,6 +105,17 @@ class Oracle {
 			$isEnabled = false;
 		}
 
+		// Incremental deploys (T391881)
+		// (avoid md5 hash unless needed for incremental deploy)
+		$percentage = $this->mainConfig->get( 'ParserMigrationEnableParsoidPercentage' );
+		if ( $isEnabled && ( $percentage < 100 ) ) {
+			$key = $title->getNamespace() . ':' . $title->getDBkey();
+			$hash = hexdec( substr( md5( $key ), 0, 8 ) ) & 0x7fffffff;
+			if ( ( $hash % 100 ) >= $percentage ) {
+				$isEnabled = false;
+			}
+		}
+
 		return $isEnabled;
 	}
 
