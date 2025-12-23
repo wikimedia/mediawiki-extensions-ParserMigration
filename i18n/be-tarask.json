@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Red Winged Duck",
 			"Renessaince"
 		]
 	},
@@ -14,7 +15,7 @@
 	"parsermigration-parsoid-readviews-selector-label": "Выкарыстайце новы аналізатар тэксту Parsoid:",
 	"parsermigration-parsoid-readviews-selector-help": "Пры выкарыстаньні Parsoid у бакавой панэлі зьявіцца спасылка на стары аналізатар на выпадак праблемаў з новым.",
 	"parsermigration-parsoid-readviews-always": "Заўсёды (пагадзіцца)",
-	"parsermigration-parsoid-readviews-default": "Паводле наладаў вікі (дапомна)",
+	"parsermigration-parsoid-readviews-default": "Паводле наладаў вікі (перадвызначана)",
 	"parsermigration-parsoid-readviews-never": "Ніколі (адмовіцца)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Пераключыцца на стары аналізатар",
 	"parsermigration-use-parsoid-toolbox-label": "Пераключыцца на новы аналізатар (Parsoid)",
