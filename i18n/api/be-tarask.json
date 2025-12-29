@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Renessaince"
+			"Renessaince",
+			"Red Winged Duck"
 		]
 	},
 	"apihelp-parser-migration-param-title": "Назва старонкі для загрузкі і разбору.",
 	"apihelp-parser-migration-param-config": "Якой канфігурацыяй аналізатара карыстацца. Можа быць „old“, „new“ або „old|new“.",
-	"apihelp-parser-migration-param-redirect": "Дапомна адбываецца пераход па перанакіраваньнях. Каб адключыць пераход, пастаўце „no“."
+	"apihelp-parser-migration-param-redirect": "Перадвызначана адбываецца пераход па перанакіраваньнях. Каб адключыць пераход, пастаўце «no»."
 }
