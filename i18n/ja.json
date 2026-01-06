@@ -17,6 +17,7 @@
 	"parsermigration-new": "新",
 	"parsermigration-pref-label": "パーサーの移行用ツールを有効にする",
 	"parsermigration-pref-help": "サイドバーにリンクを追加し、ページの文字列を新バージョンのMediaWikiパーサーに移行する[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ツール]を利用可能にします。",
+	"parsermigration-toolbox-label": "移行ツールで編集",
 	"parsermigration-parsoid-readviews-selector-label": "新しい Parsoid ウィキテキストパーサーの使用:",
 	"parsermigration-parsoid-readviews-selector-help": "Parsoid を使用している場合、問題が発生した際にレガシーパーサーを利用できるようにするためのサイドバーリンクが提供されます。",
 	"parsermigration-parsoid-readviews-always": "常に（オプトイン）",
