@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"MR973"
+		]
+	},
+	"parsermigration-desc": "Парсер күсереү ҡоралы",
+	"parsermigration-edit-subtitle": "Парсер күсереү ҡоралы менән",
+	"parsermigration-current": "Иҫке",
+	"parsermigration-new": "Яңы",
+	"parsermigration-pref-label": "Парсер күсереү ҡоралын ҡабыҙыу",
+	"parsermigration-pref-help": "Был бит тексын MediaWiki парсерының яңы версияларына күсереү өсөн [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ҡоралға] алып барыусы һылтанманы ҡабырға панеленә өҫтәй.",
+	"parsermigration-toolbox-label": "Күсереү ҡоралы менән төҙәтеү",
+	"parsermigration-parsoid-readviews-selector-label": "Яңы Parsoid вики-текст парсерын ҡулланығыҙ:",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid ҡулланылғанда, хаталар булһа, иҫке парсерға күсеү өсөн ҡабырға панелендә һылтанма күрһәтеләсәк.",
+	"parsermigration-parsoid-readviews-always": "Һәр ваҡыт (һайлау буйынса)",
+	"parsermigration-parsoid-readviews-default": "Вики көйләүҙәренә ярашлы (килешеү буйынса)",
+	"parsermigration-parsoid-readviews-never": "Бер ҡасан да (баш тартыу)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Иҫке парсерға күсеү",
+	"parsermigration-use-parsoid-toolbox-label": "Яңы парсерға күсеү (Parsoid)",
+	"parsermigration-notice-title": "Эксперименталь мөмкинлек",
+	"parsermigration-notice-body": "Һеҙ был битте күрһәтеү өсөн яңы Parsoid вики-текст парсерын ҡулланаһығыҙ. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Был мөмкинлек тураһында тулыраҡ].",
+	"parsermigration-parsoid-chip-label": "Parsoid ярҙамында рендеринг"
+}
