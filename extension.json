@@ -19,7 +19,7 @@
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
 		},
 		"ParserMigrationEnableParsoidDiscussionTools": {
-			"value": false,
+			"value": true,
 			"description": "Whether to use Parsoid by default on discussion tools pages"
 		},
 		"ParserMigrationEnableParsoidPercentage": {
@@ -27,7 +27,7 @@
 			"description": "Allows incremental migration to Parsoid by default when this percentage is less than 100."
 		},
 		"ParserMigrationEnableParsoidArticlePages": {
-			"value": false,
+			"value": true,
 			"description": "Whether to use Parsoid by default on article pages"
 		},
 		"ParserMigrationEnableParsoidMobileFrontend": {
