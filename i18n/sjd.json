@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Merrahtar"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Оаннӭ вуамма па̄рсэр",
+	"parsermigration-use-parsoid-toolbox-label": "Оаннӭ о̄дт па̄рсэр (Parsoid)"
+}
