@@ -9,12 +9,12 @@
 	"parsermigration-edit-subtitle": "s alatom za prelazak na nove verzije raščlanjivača",
 	"parsermigration-current": "Stari",
 	"parsermigration-new": "Novi",
-	"parsermigration-pref-label": "Alatka za prelazak na nove verzije raščlanjivača",
-	"parsermigration-pref-help": "Dodaje vezu na bočnu traku koja pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatki] za prelazak teksta stranice na nove verzije MediaWikijevog raščlanjivača.",
+	"parsermigration-pref-label": "Alat za prelazak na nove verzije raščlanjivača",
+	"parsermigration-pref-help": "Dodaje vezu na bočnu traku koja pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatu] za prelazak teksta stranice na nove verzije MediaWikijevog raščlanjivača.",
 	"parsermigration-toolbox-label": "Uredi s alatom za prelazak",
 	"parsermigration-parsoid-readviews-selector-label": "Koristi raščlanjivač wikiteksta Parsoid",
 	"parsermigration-parsoid-readviews-selector-help": "Pri upotrebi Parsoida bit će prikazana veza na bočnoj traci koja omogućava prelazak na stari raščlanjivač u slučaju problema.",
-	"parsermigration-parsoid-readviews-always": "uvijek",
-	"parsermigration-parsoid-readviews-default": "prema postavkama projekta (standardno)",
-	"parsermigration-parsoid-readviews-never": "nikad"
+	"parsermigration-parsoid-readviews-always": "Uvijek (uključeno)",
+	"parsermigration-parsoid-readviews-default": "Prema postavkama projekta (standardno)",
+	"parsermigration-parsoid-readviews-never": "Nikad (isključeno)"
 }

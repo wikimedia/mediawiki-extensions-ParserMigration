@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Merrahtar"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Оаннӭ вуамма па̄рсэр",
+	"parsermigration-use-parsoid-toolbox-label": "Оаннӭ о̄дт па̄рсэр (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Це̄ӆӆькэ вуэзхэллмужэсьт ся̄гкнэг баяс",
+	"parsermigration-reportbug-dialog-title": "Це̄ӆӆькэ̄ вуэзхэллмужэсьт ся̄гкнэг баяс",
+	"tag-parsermigration-visual-bug": "Це̄ӆӆькэ̄ вуэзхэллмужэсьт ся̄гкнэг баяс"
+}
