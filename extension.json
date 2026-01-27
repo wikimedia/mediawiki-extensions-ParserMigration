@@ -14,6 +14,10 @@
 		"MediaWiki": ">= 1.46"
 	},
 	"config": {
+		"ParserMigrationEnableQuickSurvey": {
+			"value": false,
+			"description": "Whether to enable the quick survey about Parsoid migration"
+		},
 		"ParserMigrationEnableQueryString": {
 			"value": true,
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
@@ -137,6 +141,17 @@
 				"CdxInfoChip"
 			]
 		},
+		"ext.parsermigration.survey": {
+			"dependencies": [
+				"mediawiki.user"
+			],
+			"styles": [
+				"ext.parsermigration.survey.less"
+			],
+			"packageFiles": [
+				"ext.parsermigration.survey.js"
+			]
+		},
 		"ext.parsermigration.reportbug.init": {
 			"styles": "ext.parsermigration.reportbug/init.less",
 			"dependencies": [
@@ -216,6 +231,7 @@
 		"ListDefinedTags": "ParserMigrationHooks",
 		"ChangeTagsListActive": "ParserMigrationHooks",
 		"ChangeTagsAllowedAdd": "ParserMigrationHooks",
-		"ConfirmEditTriggersCaptcha": "MediaWiki\\Extension\\ParserMigration\\Hooks::onConfirmEditTriggersCaptcha"
+		"ConfirmEditTriggersCaptcha": "MediaWiki\\Extension\\ParserMigration\\Hooks::onConfirmEditTriggersCaptcha",
+		"QuickSurveysEnabled": "MediaWiki\\Extension\\ParserMigration\\Hooks::onQuickSurveysEnabled"
 	}
 }

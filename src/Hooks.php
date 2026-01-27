@@ -171,6 +171,10 @@ class Hooks implements
 				$parserOutput->addModules( [ 'ext.parsermigration.reportbug.init' ] );
 			}
 
+		} else {
+			if ( $this->mainConfig->get( 'ParserMigrationEnableQuickSurvey' ) ) {
+				$parserOutput->addModules( [ 'ext.parsermigration.survey' ] );
+			}
 		}
 	}
 
@@ -382,5 +386,113 @@ class Hooks implements
 			return true;
 		}
 		return !$this->mainConfig->get( 'ParserMigrationEnableReportVisualBugOnlyLoggedIn' );
+	}
+
+	/**
+	 * Registers the parser migration survey
+	 *
+	 * @param array &$surveys
+	 */
+	public static function onQuickSurveysEnabled( &$surveys ) {
+		$enabled = MediaWikiServices::getInstance()->getMainConfig()->get( 'ParserMigrationEnableQuickSurvey' );
+		$surveys[] = [
+			"name" => "parsoid-migration-survey-2026",
+			"type" => "internal",
+			"enabled" => $enabled,
+			"coverage" => 1,
+			"submitButtonLabel" => "parsermigration-survey-submit-button",
+			"confirmMsg" => "parsermigration-survey-confirm-msg",
+			"privacyPolicy" => "parsermigration-survey-privacy-policy",
+			"platforms" => [ "desktop", "mobile" ],
+			"audience" => [],
+			"embedElementId" => "-",
+			"questions" => [
+				[
+					"name" => "q1",
+					"layout" => "single-answer",
+					"question" => "parsermigration-survey-description",
+					"description" => "parsermigration-survey-question-1",
+					"answers" => [
+						[
+							"label" => "parsermigration-survey-question-1-answer-1",
+						],
+						[
+							"label" => "parsermigration-survey-question-1-answer-2",
+						],
+						[
+							"label" => "parsermigration-survey-question-1-answer-3",
+						],
+						[
+							"label" => "parsermigration-survey-question-1-answer-4",
+						],
+						[
+							"label" => "parsermigration-survey-question-1-answer-5",
+						],
+					]
+				],
+				[
+					"name" => "q2",
+					"layout" => "single-answer",
+					"question" => "parsermigration-survey-question-2",
+					"answers" => [
+						[
+							"label" => "parsermigration-survey-question-2-answer-1",
+						],
+						[
+							"label" => "parsermigration-survey-question-2-answer-2",
+						],
+						[
+							"label" => "parsermigration-survey-question-2-answer-3",
+						],
+						[
+							"label" => "parsermigration-survey-question-2-answer-4",
+						],
+						[
+							"label" => "parsermigration-survey-question-2-answer-5",
+						],
+						[
+							"label" => "parsermigration-survey-question-2-answer-6",
+							"freeformTextLabel" => "parsermigration-survey-question-2-freeformtext",
+						],
+					]
+				],
+				[
+					"name" => "q3",
+					"layout" => "multiple-answer",
+					"question" => "parsermigration-survey-question-3",
+					"answers" => [
+						[
+							"label" => "parsermigration-survey-question-3-answer-1",
+						],
+						[
+							"label" => "parsermigration-survey-question-3-answer-2",
+						],
+						[
+							"label" => "parsermigration-survey-question-3-answer-3",
+						],
+						[
+							"label" => "parsermigration-survey-question-3-answer-4",
+						],
+						[
+							"label" => "parsermigration-survey-question-3-answer-5",
+						],
+					]
+				],
+				[
+					"name" => "q4",
+					"layout" => "single-answer",
+					"question" => "parsermigration-survey-question-4",
+					"answers" => [
+						[
+							"label" => "parsermigration-survey-question-4-answer-1",
+							"freeformTextLabel" => "parsermigration-survey-question-4-freeformtext",
+						],
+						[
+							"label" => "parsermigration-survey-question-4-answer-2",
+						],
+					],
+				],
+			]
+		];
 	}
 }
