@@ -5,6 +5,7 @@
 		]
 	},
 	"parsermigration-use-legacy-parser-toolbox-label": "Uzar anciena analizilo",
+	"parsermigration-use-parsoid-toolbox-label": "Swichar a nova vort-analizilo (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Informar vidala eroro",
 	"parsermigration-report-bug-toolbox-title": "Se vu vidos erori vidala,\nto povas eventar pro Parsoid",
 	"parsermigration-notice-title": "Experimentala resurso",
