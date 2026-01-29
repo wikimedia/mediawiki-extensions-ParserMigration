@@ -40,6 +40,7 @@
 	"parsermigration-reportbug-dialog-submit-button-label": "Prześlij",
 	"parsermigration-reportbug-dialog-title": "Zgłoś błąd renderowania",
 	"parsermigration-feedback-error1": "Błąd: nierozpoznana odpowiedź API",
+	"parsermigration-feedback-error4": "Błąd: Nie udało się wysłać wiadomości pod podany tytuł strony z sugestiami",
 	"tag-parsermigration-visual-bug": "Zgłoszenie błędu renderowania",
 	"tag-parsermigration-visual-bug-description": "Zgłoszenie o błędzie wizualnym utworzone przy użyciu [[mw:Extension:ParserMigration|rozszerzenia ParserMigration]]"
 }
