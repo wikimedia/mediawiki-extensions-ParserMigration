@@ -4,6 +4,10 @@
 			"Mehtab ahmed"
 		]
 	},
+	"parsermigration-desc": "پارسر مائیگریشن اوزار",
+	"parsermigration-edit-subtitle": "پارسر مائیگریشن اوزار سان",
+	"parsermigration-current": "پراڻو",
+	"parsermigration-new": "نئون",
 	"parsermigration-pref-label": "پارسر لڏپلاڻ وارو اوزار فعال ڪريو",
 	"parsermigration-pref-help": "هي هڪ سائڊبار ڳنڍڻو شامل ڪري ٿو جيڪو رسائي ڏي ٿو [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ھڪ اوزار ڏانھن] صفحي جي متن کي ميڊياوڪي پارسر جي نئين ورزن ڏانهن منتقل ڪرڻ لاءِ.",
 	"parsermigration-parsoid-readviews-selector-label": "نئون پارسوئڊ وڪي متن پارسر استعمال ڪريو:",
@@ -11,5 +15,6 @@
 	"parsermigration-parsoid-readviews-always": "سدائين (آپٽ-ان)",
 	"parsermigration-parsoid-readviews-default": "وڪي ڪنفيوگريشن جي مطابق (ڊفالٽ)",
 	"parsermigration-parsoid-readviews-never": "ڪڏهن بہ نظ (آپٽ-آئوٽ)",
+	"parsermigration-use-legacy-parser-toolbox-label": "ليگيسي پارسر ڏانھن سوئچ ڪريو",
 	"parsermigration-use-parsoid-toolbox-label": "نئين پارسر (پارسوئڊ) ڏانھن وڃو"
 }
