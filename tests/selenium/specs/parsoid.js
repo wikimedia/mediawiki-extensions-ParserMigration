@@ -1,12 +1,12 @@
 import { ParsoidPage } from '../pageobjects/parsoid.page.js';
-import { mwbot } from 'wdio-mediawiki/Api';
+import { createApiClient } from 'wdio-mediawiki/Api';
 
 describe( 'ParserMigration', () => {
-	let bot, pageName;
+	let pageName;
 	before( async () => {
-		bot = await mwbot();
+		const apiClient = await createApiClient();
 		pageName = Math.random().toString();
-		await bot.edit( pageName, 'Link to [[Main_Page]]' );
+		await apiClient.edit( pageName, 'Link to [[Main_Page]]' );
 	} );
 
 	it( 'should use parsoid with useparsoid=1 param', async () => {
