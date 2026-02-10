@@ -18,8 +18,8 @@
 	"parsermigration-parsoid-readviews-always": "Vždy (zapojit se)",
 	"parsermigration-parsoid-readviews-default": "Podle konfigurace wiki (výchozí)",
 	"parsermigration-parsoid-readviews-never": "Nikdy (neúčastnit se)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Použít původní parser",
-	"parsermigration-use-parsoid-toolbox-label": "Použít nový parser (Parsoid)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Přepnout na původní parser",
+	"parsermigration-use-parsoid-toolbox-label": "Přepnout na nový parser (Parsoid)",
 	"parsermigration-notice-title": "Experimentální funkce",
 	"parsermigration-notice-body": "Pro zobrazení této stránky používáte nový parser wikitextu Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Další informace o této funkci].",
 	"parsermigration-parsoid-chip-label": "Vykresleno Parsoidem"
