@@ -32,6 +32,7 @@ class OracleTest extends MediaWikiIntegrationTestCase {
 		$oracle = new Oracle(
 			$services->getMainConfig(),
 			$services->getUserOptionsManager(),
+			$services->getHookContainer(),
 			/* no mobile context */
 			null
 		);

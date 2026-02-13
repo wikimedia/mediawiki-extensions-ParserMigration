@@ -17,6 +17,7 @@ return [
 			'services' => [
 				'MainConfig',
 				'UserOptionsManager',
+				'HookContainer',
 			],
 			'optional_services' => [
 				'MobileFrontend.Context',

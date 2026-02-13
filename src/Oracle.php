@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use ExtensionRegistry;
 use MediaWiki\Config\Config;
+use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
@@ -16,11 +17,15 @@ class Oracle {
 	public const USERPREF_DEFAULT = 0;
 	public const USERPREF_NEVER = 2;
 
+	private Hook\HookRunner $hookRunner;
+
 	public function __construct(
 		private readonly Config $mainConfig,
 		private readonly UserOptionsManager $userOptionsManager,
+		private HookContainer $hookContainer,
 		private readonly ?MobileContext $mobileContext,
 	) {
+		$this->hookRunner = new Hook\HookRunner( $hookContainer );
 	}
 
 	/**
@@ -53,6 +58,15 @@ class Oracle {
 			$userOptIn = false;
 		}
 
+		// Allow a hook to opt-in a user (for example, as part of an
+		// experimental intervention).
+		$this->hookRunner->onShouldUseParsoid(
+			$user,
+			$request,
+			$title,
+			$userOptIn
+		);
+
 		// Allow disabling query string handling via config change to manage
 		// parser cache usage.
 		$queryStringEnabled = $this->mainConfig->get(
@@ -60,12 +74,15 @@ class Oracle {
 		);
 		if ( !$queryStringEnabled ) {
 			// Ignore query string and use Parsoid read views if and only
-			// if the user has opted in.
+			// if the user has opted in / the hook indicates we should.
 			return $userOptIn;
 		}
 
 		// Otherwise, use the user's opt-in status to set the default for
 		// query string processing.
+		// (Query string needs to be able to override $userOptIn in order to
+		// allow the "switch to legacy"/"switch to Parsoid" options in the
+		// sidebar to work.)
 		return $request->getFuzzyBool( 'useparsoid', $userOptIn );
 	}
 
