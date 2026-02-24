@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ильгиз",
 			"Ильнар"
 		]
 	},
-	"parsermigration-pref-label": "Парсер күчү коралын ачу"
+	"parsermigration-pref-label": "Парсер күчү коралын ачу",
+	"parsermigration-use-legacy-parser-toolbox-label": "Искергән parser компонентына күчү",
+	"parsermigration-report-bug-toolbox-label": "Күрсәтелеш хатасы турында хәбәр итү",
+	"parsermigration-reportbug-dialog-title": "Күрсәтелеш хатасы турында хәбәр итү"
 }

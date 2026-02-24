@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Molso puáris parserin",
+	"parsermigration-use-parsoid-toolbox-label": "Molso uđđâ parserin (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Almoot visuaallâš čuolmâst",
+	"parsermigration-reportbug-dialog-title": "Almoot visuaallâš čuolmâst",
+	"tag-parsermigration-visual-bug": "Almoot visuaallâš čuolmâst"
+}

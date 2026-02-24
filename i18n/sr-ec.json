@@ -22,5 +22,10 @@
 	"parsermigration-reportbug-dialog-complete-title": "Хвала вам",
 	"parsermigration-reportbug-dialog-done-button-label": "Готово",
 	"parsermigration-reportbug-dialog-retry-button-label": "Покушај поново",
-	"parsermigration-reportbug-dialog-submit-button-label": "Пошаљи"
+	"parsermigration-reportbug-dialog-submit-button-label": "Пошаљи",
+	"parsermigration-survey-question-2-answer-6": "Друго",
+	"parsermigration-survey-question-2-freeformtext": "Молимо прецизирајте",
+	"parsermigration-survey-question-4-answer-1": "Да",
+	"parsermigration-survey-question-4-answer-2": "Не",
+	"parsermigration-survey-question-4-freeformtext": "Молимо прецизирајте"
 }

@@ -40,6 +40,13 @@
 	"parsermigration-reportbug-feedback-title": "Project:Parsoid/피드백",
 	"parsermigration-feedback-error1": "오류: API 실행 결과를 인식할 수 없음",
 	"parsermigration-feedback-error4": "오류: 주어진 피드백 제목으로 게시할 수 없음",
+	"parsermigration-survey-question-1-answer-1": "파소이드란 무엇인가요?",
+	"parsermigration-survey-question-2-answer-6": "기타",
+	"parsermigration-survey-question-2-freeformtext": "지정해 주십시오",
+	"parsermigration-survey-question-4": "파소이드에 대해 추가적으로 생각하시는 사항이나 우려되는 점이 있으신가요?",
+	"parsermigration-survey-question-4-answer-1": "예",
+	"parsermigration-survey-question-4-answer-2": "아니요",
+	"parsermigration-survey-question-4-freeformtext": "지정해 주십시오",
 	"tag-parsermigration-visual-bug": "시각적 버그 보고",
 	"tag-parsermigration-visual-bug-description": "[[mw:Extension:ParserMigration|ParserMigration 확장 기능]]을 사용하여 생성된 시각적 버그 보고"
 }

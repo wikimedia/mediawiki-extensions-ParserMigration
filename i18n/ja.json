@@ -7,6 +7,7 @@
 			"Omotecho",
 			"Shirayuki",
 			"Shulmj",
+			"YeBoy371",
 			"Yusuke1109",
 			"かしわのはみん",
 			"ひまり"
@@ -31,5 +32,8 @@
 	"parsermigration-reportbug-dialog-complete-title": "ありがとうございます",
 	"parsermigration-reportbug-dialog-done-button-label": "完了",
 	"parsermigration-reportbug-dialog-retry-button-label": "再試行",
-	"parsermigration-reportbug-dialog-submit-button-label": "送信"
+	"parsermigration-reportbug-dialog-submit-button-label": "送信",
+	"parsermigration-reportbug-feedback-title": "Project:Parsoid/フィードバック",
+	"parsermigration-feedback-error1": "エラー: 認識できない結果を API が返しました",
+	"parsermigration-feedback-error4": "エラー: 指定されたフィードバックに投稿できません"
 }
