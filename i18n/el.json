@@ -11,5 +11,12 @@
 	"parsermigration-new": "Νέο",
 	"parsermigration-pref-label": "Ενεργοποίηση του εργαλείου αλλαγής parser",
 	"parsermigration-pref-help": "Αυτό προσθέτει έναν σύνδεσμο στην πλευρική στήλη που δίνει πρόσβαση σε ένα [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration εργαλείο] για τη μετάβαση κειμένου σελίδας σε νέες εκδόσεις του parser του MediaWiki.",
-	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης"
+	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης",
+	"parsermigration-survey-question-1": "Τι περιγράφει καλύτερα την τρέχουσα σχέση σας με τον Parsoid; (επιλέξτε ένα)",
+	"parsermigration-survey-question-1-answer-2": "Το γνωρίζω και μου αρέσει",
+	"parsermigration-survey-question-1-answer-5": "Θα ήθελα να χρησιμοποιώ τον παλαιότερο parser για όσο το δυνατόν περισσότερο",
+	"parsermigration-survey-question-3": "Τι θα σας βοηθούσε να υιοθετήσετε το Parsoid; (επιλέξτε όλα όσα ισχύουν)",
+	"parsermigration-survey-question-3-answer-2": "Εργαλεία δοκιμής συμβατότητας",
+	"parsermigration-survey-question-3-answer-4": "Μια συγκεκριμένη διόρθωση σφάλματος",
+	"parsermigration-survey-question-3-answer-5": "Τίποτα — Σκοπεύω να περιμένω για την αυτόματη μετεγκατάσταση"
 }

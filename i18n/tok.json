@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ne"
+			"Ne",
+			"Palinasin"
 		]
 	},
 	"parsermigration-use-legacy-parser-toolbox-label": "o kepeken ilo nasin pini pi toki ilo",
@@ -9,5 +10,6 @@
 	"parsermigration-report-bug-toolbox-label": "o toki e pakala lukin",
 	"parsermigration-report-bug-toolbox-title": "pakala li lon la ona li ken tan ilo nasin sin Paso.",
 	"parsermigration-reportbug-dialog-title": "o toki e pakala lukin",
+	"parsermigration-survey-question-4-answer-2": "ala",
 	"tag-parsermigration-visual-bug": "o toki e pakala lukin"
 }
