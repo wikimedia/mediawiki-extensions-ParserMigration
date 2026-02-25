@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ильгиз"
 		]
 	},
-	"parsermigration-pref-label": "Парсер күчү коралын ачу"
+	"parsermigration-pref-label": "Парсер күчү коралын ачу",
+	"parsermigration-use-legacy-parser-toolbox-label": "Искергән parser компонентына күчү"
 }

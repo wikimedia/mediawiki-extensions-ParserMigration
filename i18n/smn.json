@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Molso puáris parserin",
+	"parsermigration-use-parsoid-toolbox-label": "Molso uđđâ parserin (Parsoid)"
+}
