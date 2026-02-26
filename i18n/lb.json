@@ -41,5 +41,5 @@
 	"parsermigration-feedback-error1": "Feeler: Resultat vun der API net erkannt",
 	"parsermigration-feedback-error4": "Feeler: Konnt net ënnert dem Réckmeldungstitel, deen ugi gouf, gespäichert ginn",
 	"tag-parsermigration-visual-bug": "Visuelle Feeler mellen",
-	"tag-parsermigration-visual-bug-description": "Eng Meldung vun engem visuelle Feeler, déi iwwer d'Erweiderung [[mw:Extension:ParserMigration|ParserMigration-Erweiderung]] gemaach gouf"
+	"tag-parsermigration-visual-bug-description": "Eng Meldung vun engem visuelle Feeler, déi iwwer d'Erweiderung [[mw:Extension:ParserMigration|ParserMigration]] gemaach gouf"
 }
