@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"JeffreyKim",
 			"Ktchankt"
 		]
 	},
@@ -13,9 +14,18 @@
 	"parsermigration-parsoid-readviews-always": "永遠用（選擇加入）",
 	"parsermigration-parsoid-readviews-default": "跟wiki設置（預設）",
 	"parsermigration-parsoid-readviews-never": "永遠唔用（選擇退出）",
+	"parsermigration-use-legacy-parser-toolbox-label": "切換到舊版解析器",
+	"parsermigration-report-bug-toolbox-label": "報告視覺錯誤",
 	"parsermigration-reportbug-dialog-cancel-button-label": "取消",
 	"parsermigration-reportbug-dialog-complete-title": "多謝",
+	"parsermigration-reportbug-dialog-desc": "呢個頁面係用 [[mw:Special:MyLanguage/Parsoid|Parsoid]] 渲染，可能係導致部分顯示錯誤嘅原因。",
+	"parsermigration-reportbug-dialog-destination": "你嘅意見會同你嘅用戶名一齊加到[$2 $1]頁面。",
 	"parsermigration-reportbug-dialog-done-button-label": "搞掂",
+	"parsermigration-reportbug-dialog-message-label": "問題喺：$1（修訂 $2）",
+	"parsermigration-reportbug-dialog-placeholder": "請描述你見到嘅視覺錯誤",
 	"parsermigration-reportbug-dialog-retry-button-label": "重試",
-	"parsermigration-reportbug-dialog-submit-button-label": "遞交"
+	"parsermigration-reportbug-dialog-submit-button-label": "遞交",
+	"parsermigration-reportbug-dialog-title": "報告視覺錯誤",
+	"parsermigration-survey-question-1": "以下邊個最能描述你而家同Parsoid嘅關係？（請揀一個）",
+	"tag-parsermigration-visual-bug": "報告視覺錯誤"
 }
