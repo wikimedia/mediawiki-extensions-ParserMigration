@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim"
+		]
+	},
+	"apihelp-parser-migration-summary": "用兩種唔同嘅解析器設定解析頁面。",
+	"apihelp-parser-migration-param-title": "要載入同解析嘅頁面標題。",
+	"apihelp-parser-migration-param-config": "要用嘅解析器設定。可以係 \"old\"、\"new\" 或者 \"old|new\"。",
+	"apihelp-parser-migration-param-redirect": "預設會跟隨跳轉。輸入 \"no\" 就唔跟隨跳轉。",
+	"apihelp-parser-migration-paramvalue-config-new": "用 \"new\" 設定解析頁面；Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "用 \"old\" 設定解析頁面；MediaWiki舊版解析器"
+}

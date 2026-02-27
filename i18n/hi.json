@@ -39,6 +39,14 @@
 	"parsermigration-reportbug-dialog-title": "दृश्यमान बग रिपोर्ट करें",
 	"parsermigration-feedback-error1": "त्रुटि: API से अपरिचित परिणाम",
 	"parsermigration-feedback-error4": "त्रुटि: दी गई प्रतिक्रिया का शीर्षक पोस्ट न किया जा सका",
+	"parsermigration-survey-privacy-policy": "विकिमीडिया संस्थान द्वारा प्रदान किया गया सर्वेक्षण। कृपया हमारी [//foundation.wikimedia.org/wiki/Legal:Parsoid_Opt-Out_Survey_Privacy_Statement गोपनीयता अभिव्यक्ति] पढ़ें।",
+	"parsermigration-survey-question-1": "Parsoid के साथ आपके वर्तमान संबंध का सबसे सटीक वर्णन क्या है? (एक विकल्प चुनें)",
+	"parsermigration-survey-question-1-answer-1": "Parsoid क्या है?",
+	"parsermigration-survey-question-1-answer-2": "मुझे इसकी जानकारी है और मुझे यह पसंद है",
+	"parsermigration-survey-question-1-answer-3": "मैंने इसके बारे में सुना तो है लेकिन इसे आज़माया नहीं है",
+	"parsermigration-survey-question-1-answer-4": "मैंने इसे आज़माया लेकिन फिर इसका इस्तेमाल बंद कर दिया",
+	"parsermigration-survey-question-1-answer-5": "मैं यथासंभव लंबे समय तक पुराने पार्सर का उपयोग करना चाहूँगा/चाहूँगी",
+	"parsermigration-survey-question-2": "अगर आप वर्तमान में Parsoid का उपयोग नहीं कर रहे हैं तो इसके मुख्य कारण क्या हैं? (सभी लागू विकल्प चुनें)",
 	"tag-parsermigration-visual-bug": "दृश्यमान बग का रिपोर्ट",
 	"tag-parsermigration-visual-bug-description": "[[mw:Extension:ParserMigration|ParserMigration एक्सटेंशन]] की मदद से किसी दृश्यमान बग की बनाई गई एक रिपोर्ट"
 }

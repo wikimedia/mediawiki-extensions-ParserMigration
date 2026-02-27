@@ -41,6 +41,7 @@
 	"parsermigration-reportbug-dialog-title": "Zgłoś błąd renderowania",
 	"parsermigration-feedback-error1": "Błąd: nierozpoznana odpowiedź API",
 	"parsermigration-feedback-error4": "Błąd: Nie udało się wysłać wiadomości pod podany tytuł strony z sugestiami",
+	"parsermigration-survey-privacy-policy": "Ankieta dostarczona przez Fundację Wikimedia. Prosimy o zapoznanie się z naszą [//foundation.wikimedia.org/wiki/Legal:Parsoid_Opt-Out_Survey_Privacy_Statement polityką prywatności].",
 	"tag-parsermigration-visual-bug": "Zgłoszenie błędu renderowania",
 	"tag-parsermigration-visual-bug-description": "Zgłoszenie o błędzie wizualnym utworzone przy użyciu [[mw:Extension:ParserMigration|rozszerzenia ParserMigration]]"
 }
