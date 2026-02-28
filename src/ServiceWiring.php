@@ -11,7 +11,6 @@ use MediaWiki\MediaWikiServices;
 
 return [
 	'ParserMigration.Oracle' => static function ( MediaWikiServices $services ): Oracle {
-		// @phan-suppress-next-line PhanTypeInvalidCallableArraySize
 		return $services->getObjectFactory()->createObject( [
 			'class' => Oracle::class,
 			'services' => [
