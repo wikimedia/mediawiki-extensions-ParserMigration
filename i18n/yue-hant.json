@@ -1,16 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ktchankt"
+			"Ktchankt",
+			"JeffreyKim"
 		]
 	},
+	"parsermigration-desc": "解析器遷移工具",
+	"parsermigration-edit-subtitle": "使用解析器轉移架撐",
 	"parsermigration-current": "舊",
 	"parsermigration-new": "新",
 	"parsermigration-pref-label": "開着解析轉移架撐",
 	"parsermigration-pref-help": "呢個會加個側邊欄連結去[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 一個架撐]，用嚟轉移版面文字去新版MediaWiki解析器。",
+	"parsermigration-toolbox-label": "用轉移架撐嚟編輯",
 	"parsermigration-parsoid-readviews-selector-label": "用新版Parsoid wikitext解析器：",
 	"parsermigration-parsoid-readviews-selector-help": "用緊Parsoid嗰陣，會畀一個側邊欄連結，當有問題嗰陣可以用返舊版解析器。",
 	"parsermigration-parsoid-readviews-always": "永遠用（選擇加入）",
 	"parsermigration-parsoid-readviews-default": "跟wiki設置（預設）",
-	"parsermigration-parsoid-readviews-never": "永遠唔用（選擇退出）"
+	"parsermigration-parsoid-readviews-never": "永遠唔用（選擇退出）",
+	"parsermigration-use-legacy-parser-toolbox-label": "切換到舊版解析器",
+	"parsermigration-use-parsoid-toolbox-label": "切換到新解析器（Parsoid）",
+	"parsermigration-notice-title": "實驗性功能",
+	"parsermigration-notice-body": "你而家用緊新版Parsoid wikitext解析器嚟顯示呢個頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解更多關於呢個功能]。",
+	"parsermigration-parsoid-chip-label": "用Parsoid渲染"
 }
