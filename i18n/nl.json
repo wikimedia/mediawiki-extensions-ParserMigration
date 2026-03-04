@@ -4,6 +4,7 @@
 			"Mainframe98",
 			"Mar(c)",
 			"McDutchie",
+			"Siebrand",
 			"YeBoy371"
 		]
 	},
@@ -41,6 +42,11 @@
 	"parsermigration-reportbug-dialog-title": "Visuele weergavefout melden",
 	"parsermigration-feedback-error1": "Fout: onbekend resultaat uit de API",
 	"parsermigration-feedback-error4": "Fout: het was niet mogelijk het bericht te plaatsen onder de opgegeven feedbacktitel",
+	"parsermigration-survey-privacy-policy": "Vragenlijst aangeboden door de Wikimedia Foundation. Lees onze [//foundation.wikimedia.org/wiki/Legal:Parsoid_Opt-Out_Survey_Privacy_Statement privacyverklaring].",
+	"parsermigration-survey-confirm-msg": "Bedankt voor uw terugkoppeling over Parsoid! We stellen uw tijd erg op prijs!",
+	"parsermigration-survey-question-4-answer-1": "Ja",
+	"parsermigration-survey-question-4-answer-2": "Nee",
+	"parsermigration-survey-question-4-freeformtext": "Vertel ons meer",
 	"tag-parsermigration-visual-bug": "Melding visuele weergavefout",
 	"tag-parsermigration-visual-bug-description": "Een melding van een visuele weergavefout die is opgesteld met behulp van de [[mw:Extension:ParserMigration|uitbreiding ParserMigration]]"
 }
