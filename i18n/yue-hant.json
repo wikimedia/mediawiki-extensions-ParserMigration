@@ -1,21 +1,44 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ktchankt"
+			"Ktchankt",
+			"JeffreyKim"
 		]
 	},
+	"parsermigration-desc": "解析器遷移工具",
+	"parsermigration-edit-subtitle": "使用解析器轉移架撐",
 	"parsermigration-current": "舊",
 	"parsermigration-new": "新",
 	"parsermigration-pref-label": "開着解析轉移架撐",
 	"parsermigration-pref-help": "呢個會加個側邊欄連結去[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration 一個架撐]，用嚟轉移版面文字去新版MediaWiki解析器。",
+	"parsermigration-toolbox-label": "用轉移架撐嚟編輯",
 	"parsermigration-parsoid-readviews-selector-label": "用新版Parsoid wikitext解析器：",
 	"parsermigration-parsoid-readviews-selector-help": "用緊Parsoid嗰陣，會畀一個側邊欄連結，當有問題嗰陣可以用返舊版解析器。",
 	"parsermigration-parsoid-readviews-always": "永遠用（選擇加入）",
 	"parsermigration-parsoid-readviews-default": "跟wiki設置（預設）",
 	"parsermigration-parsoid-readviews-never": "永遠唔用（選擇退出）",
+	"parsermigration-use-legacy-parser-toolbox-label": "切換到舊版解析器",
+	"parsermigration-use-parsoid-toolbox-label": "切換到新解析器（Parsoid）",
+	"parsermigration-report-bug-toolbox-label": "報告視覺錯誤",
+	"parsermigration-report-bug-toolbox-title": "如果你見到顯示錯誤，\n可能係因為Parsoid",
+	"parsermigration-notice-title": "實驗性功能",
+	"parsermigration-notice-body": "你而家用緊新版Parsoid wikitext解析器嚟顯示呢個頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解更多關於呢個功能]。",
+	"parsermigration-parsoid-chip-label": "用Parsoid渲染",
 	"parsermigration-reportbug-dialog-cancel-button-label": "取消",
+	"parsermigration-reportbug-dialog-complete-message": "你嘅意見已經發佈到 [$2 $1] 頁面。",
 	"parsermigration-reportbug-dialog-complete-title": "多謝",
+	"parsermigration-reportbug-dialog-desc": "呢個頁面係用 [[mw:Special:MyLanguage/Parsoid|Parsoid]] 渲染，可能係導致部分顯示錯誤嘅原因。",
+	"parsermigration-reportbug-dialog-destination": "你嘅意見會同你嘅用戶名一齊加到[$2 $1]頁面。",
 	"parsermigration-reportbug-dialog-done-button-label": "搞掂",
+	"parsermigration-reportbug-dialog-error-label": "唔能夠提交你嘅報告。",
+	"parsermigration-reportbug-dialog-message-label": "問題喺：$1（修訂 $2）",
+	"parsermigration-reportbug-dialog-placeholder": "請描述你見到嘅視覺錯誤",
+	"parsermigration-reportbug-dialog-progress": "提交緊你嘅報告",
 	"parsermigration-reportbug-dialog-retry-button-label": "重試",
-	"parsermigration-reportbug-dialog-submit-button-label": "遞交"
+	"parsermigration-reportbug-dialog-submit-button-label": "遞交",
+	"parsermigration-reportbug-dialog-title": "報告視覺錯誤",
+	"parsermigration-feedback-error1": "錯誤：API嘅未識別結果",
+	"parsermigration-feedback-error4": "錯誤：發佈唔到畀咗嘅反饋標題",
+	"tag-parsermigration-visual-bug": "報告視覺錯誤",
+	"tag-parsermigration-visual-bug-description": "使用[[mw:Extension:ParserMigration|ParserMigration 擴充功能]]建立嘅視覺錯誤報告"
 }
