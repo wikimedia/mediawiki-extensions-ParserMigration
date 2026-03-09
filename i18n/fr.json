@@ -41,7 +41,7 @@
 	"parsermigration-reportbug-dialog-done-button-label": "Terminé",
 	"parsermigration-reportbug-dialog-error-label": "Impossible de soumettre votre rapport.",
 	"parsermigration-reportbug-dialog-message-label": "Problème sur : $1 (version $2)",
-	"parsermigration-reportbug-dialog-placeholder": "Décrivez le bug visuel que vous voyez",
+	"parsermigration-reportbug-dialog-placeholder": "Décrivez le bogue visuel que vous constatez",
 	"parsermigration-reportbug-dialog-progress": "Soumission de votre rapport en cours",
 	"parsermigration-reportbug-dialog-retry-button-label": "Réessayer",
 	"parsermigration-reportbug-dialog-submit-button-label": "Soumettre",
@@ -70,12 +70,12 @@
 	"parsermigration-survey-question-3-answer-1": "Guides et outils de migration",
 	"parsermigration-survey-question-3-answer-2": "Outils de test de compabtibilité",
 	"parsermigration-survey-question-3-answer-3": "Assistance de la communauté / exemples",
-	"parsermigration-survey-question-3-answer-4": "Correction d'un bug spécifique",
+	"parsermigration-survey-question-3-answer-4": "Correction d’un bogue spécifique",
 	"parsermigration-survey-question-3-answer-5": "Rien — je compte attendre la migration automatique",
 	"parsermigration-survey-question-4": "Avez-vous d'autres réflexions ou inquiétudes à propos de Parsoid ?",
 	"parsermigration-survey-question-4-answer-1": "Oui",
 	"parsermigration-survey-question-4-answer-2": "Non",
 	"parsermigration-survey-question-4-freeformtext": "Veuillez préciser",
 	"tag-parsermigration-visual-bug": "Signaler un bogue visuel",
-	"tag-parsermigration-visual-bug-description": "Un rapport de bug visuel créé en utilisant l’[[mw:Extension:ParserMigration|extension ParserMigration]]"
+	"tag-parsermigration-visual-bug-description": "Un rapport de bogue visuel créé en utilisant l’[[mw:Extension:ParserMigration|extension ParserMigration]]"
 }
