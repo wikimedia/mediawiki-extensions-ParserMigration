@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-parser-migration-summary": "يو مخ په دوه بېلابېلو تجزيه‌گرو ترتيباتو وېشل.",
+	"apihelp-parser-migration-param-title": "د بارېدونکي او تجزيه کېدونکي مخ سرليک.",
+	"apihelp-parser-migration-param-config": "کارېدونکی تجزيه‌‌گر ترتيب ښايي، \"زوړ\"، \"نوی\" يا \"زوړ|نوی\" وي.",
+	"apihelp-parser-migration-param-redirect": "مخگرځي په تلواليزه ډول څارل کېږي. د مخگرځو نه څارولو لپاره \"نه\" وکاروئ.",
+	"apihelp-parser-migration-paramvalue-config-new": "د \"نوي\" ترتيب کارولو سره مخ تجزيه کوي؛ پارسايډ",
+	"apihelp-parser-migration-paramvalue-config-old": "د \"زوړ\" ترتيب کارولو سره يو مخ تجزيه کوي: مېډياويکي ورېشون تجزيه‌‌گر"
+}

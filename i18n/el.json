@@ -11,5 +11,15 @@
 	"parsermigration-new": "Νέο",
 	"parsermigration-pref-label": "Ενεργοποίηση του εργαλείου αλλαγής parser",
 	"parsermigration-pref-help": "Αυτό προσθέτει έναν σύνδεσμο στην πλευρική στήλη που δίνει πρόσβαση σε ένα [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration εργαλείο] για τη μετάβαση κειμένου σελίδας σε νέες εκδόσεις του parser του MediaWiki.",
-	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης"
+	"parsermigration-toolbox-label": "Επεξεργασία με το εργαλείο μετάβασης",
+	"parsermigration-parsoid-readviews-selector-label": "Χρησιμοποιήστε τον νέο αναλυτή wikitext Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Όταν χρησιμοποιείται το Parsoid, θα παρέχεται ένας σύνδεσμος στην πλαϊνή μπάρα που θα επιτρέπει τη χρήση του παλαιού αναλυτή σε περίπτωση προβλημάτων.",
+	"parsermigration-parsoid-readviews-always": "Πάντα (επιλογή συμμετοχής)",
+	"parsermigration-parsoid-readviews-default": "Σύμφωνα με τη διαμόρφωση wiki (προεπιλογή)",
+	"parsermigration-parsoid-readviews-never": "Ποτέ (εξαίρεση)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Μετάβαση σε παλαιότερο αναλυτή",
+	"parsermigration-use-parsoid-toolbox-label": "Μετάβαση σε νέο αναλυτή (Parsoid)",
+	"parsermigration-notice-title": "Πειραματική λειτουργία",
+	"parsermigration-notice-body": "Χρησιμοποιείτε τον νέο αναλυτή wikitext Parsoid για να εμφανίσετε αυτήν τη σελίδα. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Μάθετε περισσότερα σχετικά με αυτήν τη λειτουργία].",
+	"parsermigration-parsoid-chip-label": "Αποδόθηκε με Parsoid"
 }
