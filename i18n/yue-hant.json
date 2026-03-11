@@ -20,6 +20,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "切換到舊版解析器",
 	"parsermigration-use-parsoid-toolbox-label": "切換到新解析器（Parsoid）",
 	"parsermigration-notice-title": "實驗性功能",
-	"parsermigration-notice-body": "你而家用緊新版Parsoid wikitext解析器嚟顯示呢個頁面。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解更多關於呢個功能]。",
+	"parsermigration-notice-body": "你而家用緊新版Parsoid wikitext解析器嚟顯示呢個版。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 了解更多關於呢個功能]。",
 	"parsermigration-parsoid-chip-label": "用Parsoid渲染"
 }

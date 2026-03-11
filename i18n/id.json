@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"NikolasKHF"
+		]
+	},
+	"parsermigration-desc": "Alat migrasi parser",
+	"parsermigration-edit-subtitle": "dengan alat migrasi parser",
+	"parsermigration-current": "Lama",
+	"parsermigration-new": "Baru",
+	"parsermigration-pref-label": "Aktifkan alat migrasi parser",
+	"parsermigration-pref-help": "Ini akan menambahkan pranala bilah sisi yang memberikan akses pada [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration sebuah alat] untuk memigrasikan teks halaman ke versi baru dari parser MediaWiki.",
+	"parsermigration-toolbox-label": "Sunting dengan alat migrasi",
+	"parsermigration-parsoid-readviews-selector-label": "Gunakan parser wikitext Parsoid baru:",
+	"parsermigration-parsoid-readviews-selector-help": "Ketika Parsoid digunakan, pranala bilah sisi akan disediakan untuk memungkinkan penggunaan parser lama jika terjadi masalah.",
+	"parsermigration-parsoid-readviews-always": "Selalu (ikut serta)",
+	"parsermigration-parsoid-readviews-default": "Sesuai dengan konfigurasi wiki (bawaan)",
+	"parsermigration-parsoid-readviews-never": "Jangan pernah (menolak)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Beralih ke parser lama",
+	"parsermigration-use-parsoid-toolbox-label": "Beralih ke parser baru (Parsoid)",
+	"parsermigration-notice-title": "Fitur uji coba",
+	"parsermigration-notice-body": "Anda menggunakan parser wikitext Parsoid yang baru untuk menampilkan halaman ini. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Pelajari lebih lanjut tentang fitur ini].",
+	"parsermigration-parsoid-chip-label": "Dirender dengan Parsoid"
+}

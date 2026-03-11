@@ -4,7 +4,8 @@
 			"Athena in Wonderland",
 			"Fúlvio",
 			"Hamilton Abreu",
-			"MokaAkashiyaPT"
+			"MokaAkashiyaPT",
+			"SLopes-WMF"
 		]
 	},
 	"parsermigration-desc": "Ferramenta de migração do analisador sintático",
@@ -12,15 +13,16 @@
 	"parsermigration-current": "Anterior",
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Ativar a ferramenta de migração do analisador sintático",
-	"parsermigration-pref-help": "Isto adiciona uma hiperligação na barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uma ferramenta] para migrar o texto de uma página para novas versões do analisador sintático do MediaWiki.",
+	"parsermigration-pref-help": "Isto adiciona uma ligação na barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uma ferramenta] para migrar o texto de uma página para novas versões do analisador sintático do MediaWiki.",
 	"parsermigration-toolbox-label": "Editar com a ferramenta de migração",
-	"parsermigration-parsoid-readviews-selector-label": "Usar o novo analisador sintático de texto wiki, o Parsoid:",
-	"parsermigration-parsoid-readviews-selector-help": "Quando o Parsoid é usado, será fornecida uma hiperligação na barra lateral para permitir o uso do analisador anterior em caso de problemas.",
-	"parsermigration-parsoid-readviews-always": "Sempre (opção de inclusão)",
+	"parsermigration-parsoid-readviews-selector-label": "Usar o novo analisador sintático de wikitexto, o Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Quando o Parsoid é usado, será fornecida uma hiperligação na barra lateral para permitir o uso do analisador antigo em caso de problemas.",
+	"parsermigration-parsoid-readviews-always": "Sempre",
 	"parsermigration-parsoid-readviews-default": "De acordo com a configuração da wiki (padrão)",
-	"parsermigration-parsoid-readviews-never": "Nunca (opção de exclusão)",
-	"parsermigration-use-legacy-parser-toolbox-label": "Usar analisador antigo",
-	"parsermigration-use-parsoid-toolbox-label": "Usar o analisador sintático novo (Parsoid)",
+	"parsermigration-parsoid-readviews-never": "Nunca",
+	"parsermigration-use-legacy-parser-toolbox-label": "Mudar para o analisador sintático antigo",
+	"parsermigration-use-parsoid-toolbox-label": "Mudar para o novo analisador sintático (Parsoid)",
 	"parsermigration-notice-title": "Funcionalidade experimental",
-	"parsermigration-notice-body": "Está a usar o novo analisador sintático de texto wiki, Parsoid, para apresentar esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Clique aqui para mais informações]"
+	"parsermigration-notice-body": "Está a utilizar o novo analisador sintático de wikitexto, o Parsoid, para exibir esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Clique aqui para obter para mais informações sobre esta funcionalidade]",
+	"parsermigration-parsoid-chip-label": "Renderizado com Parsoid"
 }
