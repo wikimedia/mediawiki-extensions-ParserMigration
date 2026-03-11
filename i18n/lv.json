@@ -1,8 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
+			"Papuass",
 			"Silraks"
 		]
 	},
-	"tag-parsermigration-visual-bug": "Paziņot par vizuālu kļūdu"
+	"parsermigration-desc": "Parsētāja migrācijas rīks",
+	"parsermigration-edit-subtitle": "ar parsētāja migrācijas rīku",
+	"parsermigration-current": "Vecais",
+	"parsermigration-new": "Jaunais",
+	"parsermigration-toolbox-label": "Labot ar migrācijas rīku",
+	"parsermigration-report-bug-toolbox-label": "Ziņot par vizuālu kļūdu",
+	"parsermigration-report-bug-toolbox-title": "Ja redzi attēlošanas kļūdas,\ntās var būt saistītas ar Parsoid.",
+	"parsermigration-notice-title": "Eksperimentāla funkcija",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Atcelt",
+	"parsermigration-reportbug-dialog-complete-title": "Paldies",
+	"parsermigration-reportbug-dialog-desc": "Šī lapa tika renderēta ar [[mw:Special:MyLanguage/Parsoid|Parsoid]], kas varētu būt dažu attēlošanas kļūdu iemesls",
+	"parsermigration-reportbug-dialog-destination": "Tava atsauksme līdz ar lietotājvārdu tiks pievienota lapai [$2 $1].",
+	"parsermigration-reportbug-dialog-done-button-label": "Gatavs",
+	"parsermigration-reportbug-dialog-message-label": "Problēma: $1 (versija $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Apraksti vizuālo kļūdu, ko redzi",
+	"parsermigration-reportbug-dialog-retry-button-label": "Mēģināt vēlreiz",
+	"parsermigration-reportbug-dialog-submit-button-label": "Iesniegt",
+	"parsermigration-reportbug-dialog-title": "Ziņot par vizuālu kļūdu",
+	"parsermigration-survey-question-1-answer-1": "Kas ir Parsoid?",
+	"parsermigration-survey-question-2-answer-3": "Migrācija šķiet pārāk sarežģīta",
+	"parsermigration-survey-question-2-answer-6": "Cits",
+	"parsermigration-survey-question-3-answer-1": "Migrācijas ceļveži / rīki",
+	"parsermigration-survey-question-3-answer-3": "Kopienas atbalsts / piemēri",
+	"parsermigration-survey-question-4-answer-1": "Jā",
+	"parsermigration-survey-question-4-answer-2": "Nē",
+	"tag-parsermigration-visual-bug": "Ziņot par vizuālu kļūdu"
 }
