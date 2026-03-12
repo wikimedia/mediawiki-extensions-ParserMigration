@@ -28,11 +28,18 @@
 	"parsermigration-notice-body": "تاسو د دې مخ ښکارېدلو لپاره نوی پارسايډ ويکي‌ليک تجزيه‌گر کاروئ.  [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration د دې ځانگړنې اړوند نور زده کړئ].",
 	"parsermigration-parsoid-chip-label": "پارسايډ په مرسته وړاندې‌شوی",
 	"parsermigration-reportbug-dialog-cancel-button-label": "ناگارل",
+	"parsermigration-reportbug-dialog-complete-message": "ستاسو غبرگون په [$2 $1] مخ کې خپور شوی دی.",
+	"parsermigration-reportbug-dialog-complete-title": "مننه",
+	"parsermigration-reportbug-dialog-done-button-label": "وشو",
 	"parsermigration-reportbug-dialog-error-label": "ستاسو راپور نشي سپارل کېدای.",
 	"parsermigration-reportbug-dialog-message-label": "خپرېدو نېټه: $1 ($2 بیاکتنه)",
+	"parsermigration-reportbug-dialog-placeholder": "هغه ليدنيزه تېروتنه څرگنده کړئ چې تاسو يې گورئ",
 	"parsermigration-reportbug-dialog-progress": "خپل راپور سپارل",
 	"parsermigration-reportbug-dialog-retry-button-label": "بيا هڅه‌کول",
 	"parsermigration-reportbug-dialog-submit-button-label": "سپارل",
 	"parsermigration-reportbug-dialog-title": "ليدنيزې تېروتنې خبر ورکول",
-	"parsermigration-reportbug-feedback-title": "پروژه:پارسايډ/غبرگون"
+	"parsermigration-reportbug-feedback-title": "پروژه:پارسايډ/غبرگون",
+	"parsermigration-feedback-error1": "تېروتنه: له ای‌پي‌آی څخه ناپېژندل شوې پايله",
+	"parsermigration-feedback-error4": "تېروتنه: ورکړل شوي غبرگون سرليک نشو خپرولی",
+	"tag-parsermigration-visual-bug": "ليدنيزې تېروتنې خبر ورکول"
 }
