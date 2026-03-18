@@ -1,7 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silraks"
+			"Silraks",
+			"Papuass"
 		]
-	}
+	},
+	"parsermigration-desc": "Parsētāja migrācijas rīks",
+	"parsermigration-edit-subtitle": "ar parsētāja migrācijas rīku",
+	"parsermigration-current": "Vecais",
+	"parsermigration-new": "Jaunais",
+	"parsermigration-toolbox-label": "Labot ar migrācijas rīku",
+	"parsermigration-notice-title": "Eksperimentāla funkcija"
 }
