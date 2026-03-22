@@ -11,10 +11,6 @@ use MediaWikiIntegrationTestCase;
  */
 class OracleTest extends MediaWikiIntegrationTestCase {
 
-	protected function setUp(): void {
-		parent::setUp();
-	}
-
 	/**
 	 * @dataProvider provideParsoidTitles
 	 * @covers \MediaWiki\Extension\ParserMigration\Oracle::isParsoidDefaultFor()
@@ -40,7 +36,7 @@ class OracleTest extends MediaWikiIntegrationTestCase {
 		$this->assertSame( $useParsoid, $oracle->isParsoidDefaultFor( $title ) );
 	}
 
-	public function provideParsoidTitles() {
+	public static function provideParsoidTitles() {
 		// 100% Parsoid percentage, all should return true
 		yield 'Main Page' => [ 'Main Page', true ];
 		yield 'Page 1' => [ 'Page 1', true ];
