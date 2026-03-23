@@ -28,7 +28,7 @@
 	"parsermigration-reportbug-dialog-cancel-button-label": "Odustani",
 	"parsermigration-reportbug-dialog-complete-message": "Vaše povratne informacije objavljene su na stranici [$2 $1].",
 	"parsermigration-reportbug-dialog-complete-title": "Hvala Vam",
-	"parsermigration-reportbug-dialog-desc": "Ova je stranica prikazana [[mw:Special:MyLanguage/Parsoid|Parsoidom]], što je mogući razlog grešaka u prikazu",
+	"parsermigration-reportbug-dialog-desc": "Ova je stranica prikazana [[mw:Special:MyLanguage/Parsoid|Parsoidom]], što je mogući razlog grešaka u prikazu.",
 	"parsermigration-reportbug-dialog-destination": "Vaše povratne informacije biti će dodane na stranicu [$2 $1], zajedno s vašim suradničkim imenom.",
 	"parsermigration-reportbug-dialog-done-button-label": "Gotovo",
 	"parsermigration-reportbug-dialog-error-label": "Nije moguće zaprimiti Vašu prijavu.",
