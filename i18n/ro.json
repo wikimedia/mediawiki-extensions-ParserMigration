@@ -4,13 +4,17 @@
 			"NGC 54",
 			"Paloi Sciurala",
 			"SalinaTheTranslator",
-			"Strainu"
+			"Strainu",
+			"Valentin JJ."
 		]
 	},
+	"parsermigration-desc": "Unealtă de migrare a parserului",
+	"parsermigration-edit-subtitle": "Activează unealta de migrare a parser-ului",
 	"parsermigration-current": "Vechi",
 	"parsermigration-new": "Nou",
-	"parsermigration-pref-label": "Activează unealta de migrație a parser-ului",
+	"parsermigration-pref-label": "Activează unealta de migrare a parser-ului",
 	"parsermigration-pref-help": "Asta adaugă în bara laterală o legătură către [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration o unealtă] pentru migrarea texului paginii către noi versiuni ale parser-ului MediaWiki.",
+	"parsermigration-toolbox-label": "Modifică cu unealta de migrare",
 	"parsermigration-parsoid-readviews-selector-label": "Utilizează noul parser Parsoid de wikitext:",
 	"parsermigration-parsoid-readviews-selector-help": "Atunci când este utilizat Parsoid, va fi furnizată o legătură în bara laterală pentru a permite folosirea parserului vechi în caz de probleme.",
 	"parsermigration-parsoid-readviews-always": "Întotdeauna (înscris)",
@@ -19,5 +23,6 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Comută la vechiul parser",
 	"parsermigration-use-parsoid-toolbox-label": "Comută la noul parser (Parsoid)",
 	"parsermigration-notice-title": "Funcție experimentală",
-	"parsermigration-notice-body": "Utilizați noul parser Parsoid wikitext pentru a afișa această pagină. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aflați mai multe despre această funcție]."
+	"parsermigration-notice-body": "Utilizați noul parser Parsoid wikitext pentru a afișa această pagină. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Aflați mai multe despre această funcție].",
+	"parsermigration-parsoid-chip-label": "Generat cu Parsoid"
 }
