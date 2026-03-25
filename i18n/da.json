@@ -2,9 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Jubber",
-			"Saederup92"
+			"Saederup92",
+			"Steenth"
 		]
 	},
+	"parsermigration-desc": "Parser-migreringsværktøj",
+	"parsermigration-edit-subtitle": "med parser-migreringsværktøj",
 	"parsermigration-current": "Gammel",
-	"parsermigration-new": "Ny"
+	"parsermigration-new": "Ny",
+	"parsermigration-pref-label": "Aktivér værktøj til parsermigrering",
+	"parsermigration-pref-help": "Dette tilføjer et sidebjælkelink, der giver adgang til [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration, et værktøj] til at migrere sidetekst til nye versioner af MediaWiki-parseren.",
+	"parsermigration-toolbox-label": "Rediger med migreringsværktøj",
+	"parsermigration-parsoid-readviews-selector-label": "Brug den nye Parsoid wikitext parser:",
+	"parsermigration-parsoid-readviews-selector-help": "Når Parsoid bruges, vil der blive vist et link i sidebjælken, der tillader brug af den ældre parser i tilfælde af problemer.",
+	"parsermigration-parsoid-readviews-always": "Altid (aktiv tilmelding)",
+	"parsermigration-parsoid-readviews-default": "Ifølge wiki-konfiguration (standard)",
+	"parsermigration-parsoid-readviews-never": "Aldrig (aktiv fravalg)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Skift til ældre parser",
+	"parsermigration-use-parsoid-toolbox-label": "Skift til ny parser (Parsoid)",
+	"parsermigration-notice-title": "Eksperimentel funktion",
+	"parsermigration-notice-body": "Du bruger den nye Parsoid wikitekstparser til at vise denne side. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Få mere at vide om denne funktion].",
+	"parsermigration-parsoid-chip-label": "Gengivet med Parsoid"
 }
