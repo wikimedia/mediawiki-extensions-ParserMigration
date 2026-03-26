@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"apihelp-parser-migration-summary": "Raščlani stranice sa različitim urednim postavljenostima.",
-	"apihelp-parser-migration-param-config": "Postavljenost parsera koja će se koristi. Može da bude „old“, „new“ ili „old|new“."
+	"apihelp-parser-migration-param-config": "Postavljenost parsera koja će se koristi. Može biti \"old\", \"new\" ili \"old|new\"."
 }

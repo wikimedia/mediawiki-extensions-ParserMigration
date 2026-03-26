@@ -18,7 +18,7 @@
 	"parsermigration-parsoid-readviews-never": "Цкъа а (дуьхьал)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Ширйелла парсер",
 	"parsermigration-use-parsoid-toolbox-label": "Керла парсер (Parsoid)",
-	"parsermigration-report-bug-toolbox-label": "Гуш долчу гӀалатах лаьцна хаам бар",
+	"parsermigration-report-bug-toolbox-label": "Гайтаран гӀалатах хаамбар",
 	"parsermigration-report-bug-toolbox-title": "Нагахь санна хьуна гайтаран гӀалат гича, иза Parsoid бахьанехь хила тарло",
 	"parsermigration-notice-title": "Экспериментан таронаш",
 	"parsermigration-notice-body": "ХӀара агӀо гайта ахьа лелайо Parsoid — керла вики-текстан парсер. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Кхин дӀа а довза оцу функцех лаьцна].",

@@ -2,9 +2,44 @@
 	"@metadata": {
 		"authors": [
 			"Jubber",
-			"Saederup92"
+			"Saederup92",
+			"Steenth"
 		]
 	},
+	"parsermigration-desc": "Parser-migreringsværktøj",
+	"parsermigration-edit-subtitle": "med parser-migreringsværktøj",
 	"parsermigration-current": "Gammel",
-	"parsermigration-new": "Ny"
+	"parsermigration-new": "Ny",
+	"parsermigration-pref-label": "Aktivér værktøj til parsermigrering",
+	"parsermigration-pref-help": "Dette tilføjer et sidebjælkelink, der giver adgang til [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration, et værktøj] til at migrere sidetekst til nye versioner af MediaWiki-parseren.",
+	"parsermigration-toolbox-label": "Rediger med migreringsværktøj",
+	"parsermigration-parsoid-readviews-selector-label": "Brug den nye Parsoid wikitext parser:",
+	"parsermigration-parsoid-readviews-selector-help": "Når Parsoid bruges, vil der blive vist et link i sidebjælken, der tillader brug af den ældre parser i tilfælde af problemer.",
+	"parsermigration-parsoid-readviews-always": "Altid (aktiv tilmelding)",
+	"parsermigration-parsoid-readviews-default": "Ifølge wiki-konfiguration (standard)",
+	"parsermigration-parsoid-readviews-never": "Aldrig (aktiv fravalg)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Skift til ældre parser",
+	"parsermigration-use-parsoid-toolbox-label": "Skift til ny parser (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Rapportér visuel fejl",
+	"parsermigration-report-bug-toolbox-title": "Hvis du ser visningsfejl, kan det skyldes Parsoid.",
+	"parsermigration-notice-title": "Eksperimentel funktion",
+	"parsermigration-notice-body": "Du bruger den nye Parsoid wikitekstparser til at vise denne side. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Få mere at vide om denne funktion].",
+	"parsermigration-parsoid-chip-label": "Gengivet med Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Annullér",
+	"parsermigration-reportbug-dialog-complete-message": "Din feedback er blevet offentliggjort på siden [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-title": "Mange tak",
+	"parsermigration-reportbug-dialog-desc": "Denne side blev gengivet med [[mw:Special:MyLanguage/Parsoid|Parsoid]], hvilket kan være årsagen til nogle visningsfejl.",
+	"parsermigration-reportbug-dialog-destination": "Din tilbagemelding vil blive tilføjet til siden [$2 $1] sammen med dit brugernavn.",
+	"parsermigration-reportbug-dialog-done-button-label": "Udført",
+	"parsermigration-reportbug-dialog-error-label": "Din rapport kunne ikke indsendes.",
+	"parsermigration-reportbug-dialog-message-label": "Fejl på: $1 (sideversion $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Beskriv den visuelle fejl, du ser",
+	"parsermigration-reportbug-dialog-progress": "Indsendelse af din rapport",
+	"parsermigration-reportbug-dialog-retry-button-label": "Prøv igen",
+	"parsermigration-reportbug-dialog-submit-button-label": "Indsend",
+	"parsermigration-reportbug-dialog-title": "Rapportér visuel fejl",
+	"parsermigration-feedback-error1": "Fejl: Ukendt resultat fra API",
+	"parsermigration-feedback-error4": "Fejl: Ud af stand til at sende til givet tilbagemeldingstitel",
+	"tag-parsermigration-visual-bug": "Rapportér visuel fejl",
+	"tag-parsermigration-visual-bug-description": "En rapport om en visuel fejl oprettet ved hjælp af [[mw:Extension:ParserMigration|ParserMigration-udvidelsen]]"
 }
