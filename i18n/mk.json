@@ -39,6 +39,9 @@
 	"parsermigration-reportbug-feedback-title": "Проект:Parsoid/Мислења",
 	"parsermigration-feedback-error1": "Грешка: Непрепознаен исход од приложникот",
 	"parsermigration-feedback-error4": "Грешка: Не можам да објавам под дадениот наслов",
+	"parsermigration-survey-question-4-answer-1": "Да",
+	"parsermigration-survey-question-4-answer-2": "Не",
+	"parsermigration-survey-question-4-freeformtext": "Укажете",
 	"tag-parsermigration-visual-bug": "Пријави визуелна грешка",
 	"tag-parsermigration-visual-bug-description": "Создадена пријава за визуелна грешка користејќи го [[mw:Extension:ParserMigration|додатокот ParserMigration]]"
 }
