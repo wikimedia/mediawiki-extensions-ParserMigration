@@ -22,7 +22,7 @@
 			"value": true,
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
 		},
-		"ParserMigrationEnableParsoidDiscussionTools": {
+		"ParserMigrationEnableParsoidTalkPages": {
 			"value": true,
 			"description": "Whether to use Parsoid by default on discussion tools pages"
 		},
@@ -34,11 +34,11 @@
 			"value": true,
 			"description": "Whether to use Parsoid by default on article pages"
 		},
-		"ParserMigrationEnableParsoidMobileFrontend": {
+		"ParserMigrationEnableParsoidMobileArticlePages": {
 			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains, intersecting with the other default configs"
 		},
-		"ParserMigrationEnableParsoidMobileFrontendTalkPages": {
+		"ParserMigrationEnableParsoidMobileTalkPages": {
 			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains for talk pages, intersecting with the other default configs"
 		},

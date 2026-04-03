@@ -95,32 +95,20 @@ class Oracle {
 	 */
 	public function isParsoidDefaultFor( Title $title ): bool {
 		$articlePagesEnabled = $this->mainConfig->get(
+			$this->showingMobileView() ?
+			'ParserMigrationEnableParsoidMobileArticlePages' :
 			'ParserMigrationEnableParsoidArticlePages'
 		);
 		// This enables Parsoid on all talk pages, which isn't *exactly*
 		// the same as "the set of pages where DiscussionTools is enabled",
 		// but it will do for now.
 		$talkPagesEnabled = $this->mainConfig->get(
-			'ParserMigrationEnableParsoidDiscussionTools'
+			$this->showingMobileView() ?
+			'ParserMigrationEnableParsoidMobileTalkPages' :
+			'ParserMigrationEnableParsoidTalkPages'
 		);
 
 		$isEnabled = $title->isTalkPage() ? $talkPagesEnabled : $articlePagesEnabled;
-
-		// Exclude mobile domains by default, regardless of the namespace settings
-		// above, if the config isn't on
-		$disableOnMobile =
-			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontend' );
-		if (
-			$title->isTalkPage() &&
-			!$this->mainConfig->get( 'ParserMigrationEnableParsoidMobileFrontendTalkPages' )
-		) {
-			$disableOnMobile = true;
-		}
-		if (
-			$disableOnMobile && $this->showingMobileView()
-		) {
-			$isEnabled = false;
-		}
 
 		// Incremental deploys (T391881)
 		// (avoid md5 hash unless needed for incremental deploy)
