@@ -21,7 +21,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Vrati stari raščlanjivač",
 	"parsermigration-use-parsoid-toolbox-label": "Uključi raščlanjivač Parsoid",
 	"parsermigration-report-bug-toolbox-label": "Prijavi grešku u prikazu",
-	"parsermigration-report-bug-toolbox-title": "Ako vidite greške u prikazu, moguće je problem s Parsoidom.",
+	"parsermigration-report-bug-toolbox-title": "Ako vidite greške u prikazu, mogući je problem s Parsoidom.",
 	"parsermigration-notice-title": "Pokusna značajka",
 	"parsermigration-notice-body": "Za prikaz ove stranice koristite novi raščlanjivač wikikoda imena Parsoid. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Saznajte više o ovoj značajki].",
 	"parsermigration-parsoid-chip-label": "Složeno upotrebom Parsoida",
