@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ant176",
+			"Cookie4782",
 			"Kokage si",
 			"Marine-Blue",
 			"Mirinano",
@@ -16,6 +17,7 @@
 		]
 	},
 	"parsermigration-desc": "パーサーの移行用ツール",
+	"parsermigration-edit-subtitle": "パーサーの移行用ツールを使用",
 	"parsermigration-current": "旧",
 	"parsermigration-new": "新",
 	"parsermigration-pref-label": "パーサーの移行用ツールを有効にする",
@@ -32,14 +34,25 @@
 	"parsermigration-report-bug-toolbox-title": "表示上の不具合が発生している場合は、\nParsoidが原因である可能性があります。",
 	"parsermigration-notice-title": "実験的な機能",
 	"parsermigration-notice-body": "このページは新しいParsoidウィキテキストパーサーを使用して表示しています。[https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration 機能の詳細に関する説明もご覧ください]。",
+	"parsermigration-parsoid-chip-label": "Parsoidでレンダリングされたページ",
 	"parsermigration-reportbug-dialog-cancel-button-label": "キャンセル",
+	"parsermigration-reportbug-dialog-complete-message": "フィードバックは[$2 $1]ページに掲載されました。",
 	"parsermigration-reportbug-dialog-complete-title": "ありがとうございます",
+	"parsermigration-reportbug-dialog-desc": "このページは[[mw:Special:MyLanguage/Parsoid|Parsoid]]によってレンダリングされたため、表示エラーが発生する場合があります。",
+	"parsermigration-reportbug-dialog-destination": "フィードバックは、あなたの利用者名とともに[$2 $1]ページに追加されます。",
 	"parsermigration-reportbug-dialog-done-button-label": "完了",
+	"parsermigration-reportbug-dialog-error-label": "レポートを送信できませんでした。",
+	"parsermigration-reportbug-dialog-message-label": "問題が発生しているページ: $1（ID:$2 の版）",
+	"parsermigration-reportbug-dialog-placeholder": "発生している視覚的なバグについて説明してください",
+	"parsermigration-reportbug-dialog-progress": "レポートを送信中",
 	"parsermigration-reportbug-dialog-retry-button-label": "再試行",
 	"parsermigration-reportbug-dialog-submit-button-label": "送信",
+	"parsermigration-reportbug-dialog-title": "視覚的なバグの報告",
 	"parsermigration-reportbug-feedback-title": "Project:Parsoid/フィードバック",
 	"parsermigration-feedback-error1": "エラー: 認識できない結果を API が返しました",
 	"parsermigration-feedback-error4": "エラー: 指定されたフィードバックに投稿できません",
+	"parsermigration-survey-privacy-policy": "このアンケートはウィキメディア財団が提供しています。当財団の[//foundation.wikimedia.org/wiki/Legal:Parsoid_Opt-Out_Survey_Privacy_Statement プライバシー方針]をお読みください。",
+	"parsermigration-survey-confirm-msg": "Parsoidに関するフィードバックをお寄せくださり、ありがとうございます！ 貴重なお時間を割いていただき、感謝申し上げます。",
 	"parsermigration-survey-question-4-answer-1": "はい",
 	"parsermigration-survey-question-4-answer-2": "いいえ"
 }
