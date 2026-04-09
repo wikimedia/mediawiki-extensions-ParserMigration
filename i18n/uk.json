@@ -4,6 +4,7 @@
 			"Andriy.v",
 			"Base",
 			"Piramidion",
+			"Repakr",
 			"Ата"
 		]
 	},
@@ -23,5 +24,12 @@
 	"parsermigration-use-parsoid-toolbox-label": "Перемкнути на новий парсер (Parsoid)",
 	"parsermigration-notice-title": "Експериментальна функція",
 	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
-	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid"
+	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Скасувати",
+	"parsermigration-reportbug-dialog-complete-title": "Дякуємо",
+	"parsermigration-reportbug-dialog-done-button-label": "Готово",
+	"parsermigration-reportbug-dialog-retry-button-label": "Повторити",
+	"parsermigration-reportbug-dialog-submit-button-label": "Надіслати",
+	"parsermigration-survey-question-4-answer-1": "Так",
+	"parsermigration-survey-question-4-answer-2": "Ні"
 }
