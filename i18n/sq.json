@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"INNERLMNT"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Kthehu tek analizuesi i vjetër",
+	"parsermigration-reportbug-dialog-desc": "Kjo faqe u paraqit me [[mw:Special:MyLanguage/Parsoid|Parsoid]],  që mund të jetë arsyeja për disa defekte në paraqitje",
+	"parsermigration-reportbug-dialog-destination": "Raporti yt do të shtohet tek faqja [$2 $1], bashkë me nofkën tënde të përdoruesit.",
+	"parsermigration-reportbug-dialog-title": "Raporto defekt pamor",
+	"tag-parsermigration-visual-bug": "Raporto Defekt Pamor"
+}
