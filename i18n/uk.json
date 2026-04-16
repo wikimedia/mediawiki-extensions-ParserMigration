@@ -4,7 +4,8 @@
 			"Andriy.v",
 			"Base",
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"Repakr"
 		]
 	},
 	"parsermigration-desc": "Інструмент міграції парсеру",
@@ -21,7 +22,16 @@
 	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Перемкнути на старий парсер",
 	"parsermigration-use-parsoid-toolbox-label": "Перемкнути на новий парсер (Parsoid)",
+	"parsermigration-report-bug-toolbox-title": "Якщо Ви бачите повилки відображенн,\nто це може бути через Parsoid",
 	"parsermigration-notice-title": "Експериментальна функція",
 	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
-	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid"
+	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Скасувати",
+	"parsermigration-reportbug-dialog-complete-message": "Ваш відгук опубліковано на сторінці [$2 $1].",
+	"parsermigration-reportbug-dialog-complete-title": "Дякуємо",
+	"parsermigration-reportbug-dialog-done-button-label": "Готово",
+	"parsermigration-reportbug-dialog-retry-button-label": "Повторити",
+	"parsermigration-reportbug-dialog-submit-button-label": "Надіслати",
+	"parsermigration-feedback-error1": "Помилка: Невідомий результат від API",
+	"parsermigration-feedback-error4": "Помилка: Не вдалось написати до вказаного заголовку відгуку"
 }
