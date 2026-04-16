@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\ParserMigration;
 
-use ExtensionRegistry;
 use MediaWiki\Config\Config;
 use MediaWiki\HookContainer\HookContainer;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
