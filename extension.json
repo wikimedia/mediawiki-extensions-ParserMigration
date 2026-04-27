@@ -42,6 +42,10 @@
 			"value": true,
 			"description": "Whether to use Parsoid by default on mobile domains for talk pages, intersecting with the other default configs"
 		},
+		"ParserMigrationExcludePageProps": {
+			"value": [],
+			"description": "Whether to exclude use of Parsoid Read Views by default on pages which have the given page properties set, intersecting with the other default configs"
+		},
 		"ParserMigrationEnableIndicator": {
 			"value": false,
 			"description": "Add a Parsoid Read Views indicator"

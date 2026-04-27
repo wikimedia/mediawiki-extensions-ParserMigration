@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Config\Config;
 use MediaWiki\HookContainer\HookContainer;
+use MediaWiki\Page\PageProps;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
@@ -23,6 +24,7 @@ class Oracle {
 		private readonly Config $mainConfig,
 		private readonly UserOptionsManager $userOptionsManager,
 		private HookContainer $hookContainer,
+		private PageProps $pageProps,
 		private readonly ?MobileContext $mobileContext,
 	) {
 		$this->hookRunner = new Hook\HookRunner( $hookContainer );
@@ -117,6 +119,12 @@ class Oracle {
 			$key = $title->getNamespace() . ':' . $title->getDBkey();
 			$hash = hexdec( substr( md5( $key ), 0, 8 ) ) & 0x7fffffff;
 			if ( ( $hash % 100 ) >= $percentage ) {
+				$isEnabled = false;
+			}
+		}
+		$excludeProps = $this->mainConfig->get( 'ParserMigrationExcludePageProps' );
+		if ( $isEnabled && $excludeProps ) {
+			if ( $this->pageProps->getProperties( $title, $excludeProps ) !== [] ) {
 				$isEnabled = false;
 			}
 		}
