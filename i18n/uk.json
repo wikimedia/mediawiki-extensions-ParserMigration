@@ -22,6 +22,7 @@
 	"parsermigration-parsoid-readviews-never": "Ніколи (opt-out)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Перемкнути на старий парсер",
 	"parsermigration-use-parsoid-toolbox-label": "Перемкнути на новий парсер (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Повідомити про візуальну помилку",
 	"parsermigration-report-bug-toolbox-title": "Якщо Ви бачите повилки відображенн,\nто це може бути через Parsoid",
 	"parsermigration-notice-title": "Експериментальна функція",
 	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
@@ -29,9 +30,18 @@
 	"parsermigration-reportbug-dialog-cancel-button-label": "Скасувати",
 	"parsermigration-reportbug-dialog-complete-message": "Ваш відгук опубліковано на сторінці [$2 $1].",
 	"parsermigration-reportbug-dialog-complete-title": "Дякуємо",
+	"parsermigration-reportbug-dialog-desc": "Цю сторінку відбражено за допомогою [[mw:Special:MyLanguage/Parsoid|Parsoid]], що може бути причиною для деяких помилок відображення",
+	"parsermigration-reportbug-dialog-destination": "Ваш відгук буде додано до сторінки [$2 $1] разом із Вашим ім'ям користувача.",
 	"parsermigration-reportbug-dialog-done-button-label": "Готово",
+	"parsermigration-reportbug-dialog-error-label": "Не вдалося відправити Ваше повідомлення.",
+	"parsermigration-reportbug-dialog-message-label": "Проблема на: $1 (версія $2)",
+	"parsermigration-reportbug-dialog-placeholder": "Опишіть візуальну помилку, яку Ви бачите",
+	"parsermigration-reportbug-dialog-progress": "Відправляємо Ваше повідомлення",
 	"parsermigration-reportbug-dialog-retry-button-label": "Повторити",
 	"parsermigration-reportbug-dialog-submit-button-label": "Надіслати",
+	"parsermigration-reportbug-dialog-title": "Повідомити про візуальну помилку",
 	"parsermigration-feedback-error1": "Помилка: Невідомий результат від API",
-	"parsermigration-feedback-error4": "Помилка: Не вдалось написати до вказаного заголовку відгуку"
+	"parsermigration-feedback-error4": "Помилка: Не вдалось написати до вказаного заголовку відгуку",
+	"tag-parsermigration-visual-bug": "Повідомити про візуальну помилку",
+	"tag-parsermigration-visual-bug-description": "Повідомлення про візуальну помилку створено за допомогою [[mw:Extension:ParserMigration|розширення ParserMigration]]"
 }
