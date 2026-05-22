@@ -61,5 +61,6 @@
 	"parsermigration-survey-question-4-answer-1": "هو",
 	"parsermigration-survey-question-4-answer-2": "نه",
 	"parsermigration-survey-question-4-freeformtext": "مهرباني وکړئ مشخص يې کړئ",
-	"tag-parsermigration-visual-bug": "ليدنيزې تېروتنې خبر ورکول"
+	"tag-parsermigration-visual-bug": "ليدنيزې تېروتنې خبر ورکول",
+	"tag-parsermigration-visual-bug-description": "د [[mw:Extension:ParserMigration|ټوټه‌کوونکي‌لېږد شاتاړي]] په کارولو سره د يوې ليدنيزې ستونزې راپور رامنځته شوی."
 }
