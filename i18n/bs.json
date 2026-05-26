@@ -12,6 +12,11 @@
 	"parsermigration-pref-label": "Omogući alat za prelazak na nove verzije raščlanjivača",
 	"parsermigration-pref-help": "Ovo dodaje link na bočnu traku koji pruža pristup [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration alatu] za prelazak teksta članka na nove verzije MediaWikijevog raščlanjivača.",
 	"parsermigration-toolbox-label": "Uredi s alatom za prelazak",
+	"parsermigration-parsoid-readviews-selector-label": "Upotrijebi Parsoid, novi raščlanjivač wikiteksta:",
+	"parsermigration-parsoid-readviews-selector-help": "Kad je Parsoid u upotrebi, prikazat će se link u bočnoj traci koji se može koristiti za prebacivanje na stari raščlanjivač u slučaju problema.",
+	"parsermigration-parsoid-readviews-always": "Uvijek",
+	"parsermigration-parsoid-readviews-default": "U skladu s konfiguracijom projekta (predodređeno)",
+	"parsermigration-parsoid-readviews-never": "Nikad",
 	"parsermigration-use-legacy-parser-toolbox-label": "Prebaci na stari raščlanjivač",
 	"parsermigration-use-parsoid-toolbox-label": "Prebaci na novi raščlanjivač (Parsoid)"
 }

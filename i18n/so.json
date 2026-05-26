@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"parsermigration-desc": "Qalabka guurinta falanqeeyaha",
+	"parsermigration-edit-subtitle": "iyadoo la adeegsanayo qalabka guurinta falanqeeyaha",
+	"parsermigration-current": "Duug",
+	"parsermigration-new": "Cusub",
+	"parsermigration-pref-label": "Daar qalabka guurinta falanqeeyaha",
+	"parsermigration-pref-help": "Tani waxay ku dartaa xiriir dhinaca ah oo siinaya marin loo maro [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration qalab] lagu guuriyo qoraalka bogagga si loogu wareejiyo noocyada cusub ee falanqeeyaha MediaWiki.",
+	"parsermigration-toolbox-label": "Ku tafatir qalabka guurinta",
+	"parsermigration-parsoid-readviews-selector-label": "Isticmaal falanqeeyaha Parsoid ee cusub ee wikitext-ka:",
+	"parsermigration-parsoid-readviews-selector-help": "Marka Parsoid la isticmaalo, xiriir dhinaca ayaa la siin doonaa si loo isticmaalo falanqeeye hore haddii ay dhibaato dhacdo.",
+	"parsermigration-parsoid-readviews-always": "Had iyo jeer (ikhtiyaar lagu soo biirayo)",
+	"parsermigration-parsoid-readviews-default": "Sida ku xusan qaabeynta wiki-ga (caadi ahaan)",
+	"parsermigration-parsoid-readviews-never": "Marna (ka bixid ikhtiyaar ah)",
+	"parsermigration-use-legacy-parser-toolbox-label": "U beddel falanqeeyaha hore",
+	"parsermigration-use-parsoid-toolbox-label": "U beddel falanqeeyaha cusub (Parsoid)",
+	"parsermigration-notice-title": "Astaamo tijaabo ah",
+	"parsermigration-notice-body": "Waxaad isticmaalaysaa falanqeeyaha cusub ee Parsoid si aad u muujiso boggan. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Wax badan ka baro astaantan].",
+	"parsermigration-parsoid-chip-label": "Waxaa lagu soo bandhigay Parsoid"
+}
