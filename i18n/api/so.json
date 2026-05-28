@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-parser-migration-summary": "Fasiri bog leh laba qaabeyn oo falanqeeye oo kala duwan.",
+	"apihelp-parser-migration-param-title": "Cinwaanka bogga la soo rarayo lana fasirayo.",
+	"apihelp-parser-migration-param-config": "Qaab dhismeedka falanqeeyaha ee la adeegsanayo. Waxa uu noqon karaa \"duug\", \"cusub\" ama \"duug|cusub\".",
+	"apihelp-parser-migration-param-redirect": "Dib u jiheenta si caadi ah ayaa loo raacaa. Isticmaal \"maya\" si aan dib u jiheenta loo raacin.",
+	"apihelp-parser-migration-paramvalue-config-new": "Waxa uu bogga ku falanqeeyaa qaab dhismeedka \"cusub\"; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Waxa uu bogga ku falanqeeyaa qaab dhismeedka \"duugga ah\"; falanqeeyihii hore ee MediaWiki"
+}

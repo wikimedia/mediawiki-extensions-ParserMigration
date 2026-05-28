@@ -41,5 +41,6 @@
 	"parsermigration-reportbug-feedback-title": "پروژه:پارسايډ/غبرگون",
 	"parsermigration-feedback-error1": "تېروتنه: له ای‌پي‌آی څخه ناپېژندل شوې پايله",
 	"parsermigration-feedback-error4": "تېروتنه: ورکړل شوي غبرگون سرليک نشو خپرولی",
-	"tag-parsermigration-visual-bug": "ليدنيزې تېروتنې خبر ورکول"
+	"tag-parsermigration-visual-bug": "ليدنيزې تېروتنې خبر ورکول",
+	"tag-parsermigration-visual-bug-description": "د [[mw:Extension:ParserMigration|ټوټه‌کوونکي‌لېږد شاتاړي]] په کارولو سره د يوې ليدنيزې ستونزې راپور رامنځته شوی."
 }
