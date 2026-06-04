@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fader",
+			"Sabelöga",
 			"Stefan2255",
 			"WikiPhoenix"
 		]
@@ -40,6 +41,9 @@
 	"parsermigration-reportbug-dialog-title": "Rapportera visuellt fel",
 	"parsermigration-feedback-error1": "Fel: Okänt resultat från API",
 	"parsermigration-feedback-error4": "Fel: Det gick inte att skicka till angiven återkopplingstitel",
+	"parsermigration-survey-question-4-answer-1": "Ja",
+	"parsermigration-survey-question-4-answer-2": "Nej",
+	"parsermigration-survey-question-4-freeformtext": "Vänligen specificera",
 	"tag-parsermigration-visual-bug": "Rapportera visuellt fel",
 	"tag-parsermigration-visual-bug-description": "En rapport om ett visuellt fel skapat med hjälp av [[mw:Extension:ParserMigration|ParserMigration-tillägget]]"
 }
