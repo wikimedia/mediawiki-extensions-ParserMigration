@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Joseph",
 			"MuratTheTurkish",
 			"Rapsar",
@@ -44,6 +45,9 @@
 	"parsermigration-reportbug-feedback-title": "Proje:Parsoid/Geri Bildirim",
 	"parsermigration-feedback-error1": "Hata: Bilinmeyen API sonucu",
 	"parsermigration-feedback-error4": "Hata: Belirtilen geri bildirim başlığına gönderi yapılamıyor",
+	"parsermigration-survey-question-2-answer-6": "Diğer",
+	"parsermigration-survey-question-4-answer-1": "Evet",
+	"parsermigration-survey-question-4-answer-2": "Hayır",
 	"tag-parsermigration-visual-bug": "Görsel Hatayı Bildirin",
 	"tag-parsermigration-visual-bug-description": "[[mw:Extension:ParserMigration|ParserMigration uzantısı]] kullanılarak oluşturulan görsel bir hatanın bildirimi"
 }
