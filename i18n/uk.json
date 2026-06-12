@@ -23,7 +23,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Перемкнути на старий парсер",
 	"parsermigration-use-parsoid-toolbox-label": "Перемкнути на новий парсер (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Повідомити про візуальну помилку",
-	"parsermigration-report-bug-toolbox-title": "Якщо Ви бачите повилки відображенн,\nто це може бути через Parsoid",
+	"parsermigration-report-bug-toolbox-title": "Якщо Ви бачите помилки відображення,\nто це може бути через Parsoid",
 	"parsermigration-notice-title": "Експериментальна функція",
 	"parsermigration-notice-body": "Ви використовуєте новий аналізатор вікітексту Parsoid для відображення цієї сторінки. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Докладніше про цю функцію].",
 	"parsermigration-parsoid-chip-label": "Візуалізовано за допомоги Parsoid",
