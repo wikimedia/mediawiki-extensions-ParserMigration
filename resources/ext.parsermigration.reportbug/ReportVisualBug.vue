@@ -261,7 +261,6 @@ module.exports = defineComponent( {
 @import 'mediawiki.skin.variables.less';
 
 .parsermigration-reportbug-dialog {
-
 	header {
 		display: flex;
 		align-items: baseline;
@@ -272,7 +271,7 @@ module.exports = defineComponent( {
 
 	&-step0 footer,
 	&-step1 footer {
-		padding-top: 0px;
+		padding-top: 0;
 	}
 
 	&-progress {
@@ -287,13 +286,15 @@ module.exports = defineComponent( {
 		margin-top: 8px;
 	}
 
-	&-destination, &-progress {
+	&-destination,
+	&-progress {
 		color: @color-subtle;
 	}
 }
 
 @media screen and ( max-width: 270px ) {
 	/* Hide progress message when the screen is very narrow. */
-	.parsermigration-reportbug-dialog-progress .cdx-label { display: none; }
+	.parsermigration-reportbug-dialog-progress .cdx-label {
+ display: none; }
 }
 </style>
