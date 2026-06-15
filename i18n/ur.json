@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BukhariSaeed",
 			"Muhammad Shuaib"
 		]
 	},
@@ -18,7 +19,9 @@
 	"parsermigration-parsoid-readviews-never": "کبھی نہیں (غیر فعال رکھیں)",
 	"parsermigration-use-legacy-parser-toolbox-label": "قدیم تجزیہ کار استعمال کریں",
 	"parsermigration-use-parsoid-toolbox-label": "نیا تجزیہ کار (Parsoid) استعمال کریں",
+	"parsermigration-report-bug-toolbox-label": "بصری بگ کی شکایت درج کریں",
 	"parsermigration-notice-title": "تجرباتی خصوصیت",
 	"parsermigration-notice-body": "اس صفحہ کو دکھانے کے لیے آپ ویکی متن کے نئے تجزیہ کار Parsoid کو استعمال کر رہے ہیں۔ [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration اس خصوصیت کے بارے میں مزید تفصیلات یہاں ملاحظہ کریں]۔",
-	"parsermigration-parsoid-chip-label": "Parsoid کی مدد سے پیش کردہ"
+	"parsermigration-parsoid-chip-label": "Parsoid کی مدد سے پیش کردہ",
+	"parsermigration-reportbug-dialog-title": "بصری بگ کی شکایت درج کریں"
 }

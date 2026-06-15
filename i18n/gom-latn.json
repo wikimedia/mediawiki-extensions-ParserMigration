@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"The Discoverer"
+		]
+	},
+	"parsermigration-current": "Adlo",
+	"parsermigration-new": "Novo",
+	"parsermigration-parsoid-readviews-selector-label": "Novea Parsoid wikimozkur vixlexokar voch",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid vaportana, chuki ghoddlear, deg-pottiecher adlo vixlexok vaprunk ek duvo melltolo.",
+	"parsermigration-parsoid-readviews-always": "Sod'dam (vaprunk vinch)",
+	"parsermigration-parsoid-readviews-default": "Wiki manddavolla pormonnem (default)",
+	"parsermigration-parsoid-readviews-never": "Kednach na (naka-mhunn vinch)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Adlo vixlexok vapor",
+	"parsermigration-use-parsoid-toolbox-label": "Novo vixlexok (Parsoid) vapor",
+	"parsermigration-report-bug-toolbox-label": "Disnnechem chuk kolloi",
+	"parsermigration-report-bug-toolbox-title": "Tuka disnnecheo chuki disot zalear, teo Parsoidak lagon zaunk xoktat",
+	"parsermigration-parsoid-chip-label": "Parsoida vorvim toiar kela",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Rod'd kor",
+	"parsermigration-reportbug-dialog-complete-title": "Dev borem korum",
+	"parsermigration-reportbug-dialog-desc": "Hem pan [[mw:Special:MyLanguage/Parsoid|Parsoida]] vorvim toiar kela, haka lagon disnnecheo chuki ghoddunk xoktat",
+	"parsermigration-reportbug-dialog-done-button-label": "Zalem",
+	"parsermigration-reportbug-dialog-placeholder": "Tuka dista ti disnnechi chukicho vornnon kor",
+	"parsermigration-reportbug-dialog-submit-button-label": "Zoma kor",
+	"parsermigration-reportbug-dialog-title": "Disnnechem chuk kolloi",
+	"parsermigration-survey-question-1-answer-1": "Parsoid kitem?",
+	"parsermigration-survey-question-1-answer-2": "Mhaka hachi khobor asa ani hem mhaka avoddta",
+	"parsermigration-survey-question-1-answer-3": "Hanven hache-vixim aikola, pun vaprun polleunk na",
+	"parsermigration-survey-question-1-answer-4": "Hem vaprun polloilem pun vaporpachem bond kelem",
+	"parsermigration-survey-question-1-answer-5": "Zata titlea vellak mhaka adlo vixlexok vaprunk zai",
+	"parsermigration-survey-question-2-answer-5": "Tem default zaupak rauta",
+	"parsermigration-survey-question-2-answer-6": "Her",
+	"parsermigration-survey-question-4-answer-1": "Hoi",
+	"parsermigration-survey-question-4-answer-2": "Na",
+	"tag-parsermigration-visual-bug": "Disnnechem Chuk Kolloi"
+}
