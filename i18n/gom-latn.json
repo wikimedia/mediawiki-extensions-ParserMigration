@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"The Discoverer"
+		]
+	},
+	"parsermigration-current": "Adlo",
+	"parsermigration-new": "Novo",
+	"parsermigration-parsoid-readviews-selector-label": "Novea Parsoid wikimozkur vixlexokar voch",
+	"parsermigration-parsoid-readviews-selector-help": "Parsoid vaportana, chuki ghoddlear, deg-pottiecher adlo vixlexok vaprunk ek duvo melltolo.",
+	"parsermigration-parsoid-readviews-always": "Sod'dam (vaprunk vinch)",
+	"parsermigration-parsoid-readviews-default": "Wiki manddavolla pormonnem (default)",
+	"parsermigration-parsoid-readviews-never": "Kednach na (naka-mhunn vinch)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Adlo vixlexok vapor",
+	"parsermigration-use-parsoid-toolbox-label": "Novo vixlexok (Parsoid) vapor",
+	"parsermigration-parsoid-chip-label": "Parsoida vorvim toiar kela"
+}
