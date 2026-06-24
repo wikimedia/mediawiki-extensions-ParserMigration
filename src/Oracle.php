@@ -115,6 +115,37 @@ class Oracle {
 		// Incremental deploys (T391881)
 		// (avoid md5 hash unless needed for incremental deploy)
 		$percentage = $this->mainConfig->get( 'ParserMigrationEnableParsoidPercentage' );
+
+		// Let's allow overriding all this confusing configuration with
+		// a single map from namespace to percentage.
+		$unifiedConfig = $this->mainConfig->get(
+			'ParserMigrationEnableParsoid'
+		);
+		// first key: "mobile", "desktop" or "default" (for both)
+		// second key: namespace number, or "talk" or "default" (for all)
+		// value should be a boolean or a numeric percentage.
+		// eg: [
+		//   'mobile' => true,
+		//   'default' => [ NS_MAIN => 5, 'talk' => true, 'default' => 0 ],
+		// ]
+		$unifiedConfig =
+			$unifiedConfig[$this->showingMobileView() ? "mobile" : "desktop"] ??
+			$unifiedConfig['default'] ?? null;
+		if ( is_array( $unifiedConfig ) ) {
+			$unifiedConfig = $unifiedConfig[$title->getNamespace()] ??
+				( !$title->isTalkPage() ? null : $unifiedConfig['talk'] ?? null ) ??
+				$unifiedConfig['default'] ?? null;
+		}
+		if ( is_bool( $unifiedConfig ) ) {
+			$isEnabled = $unifiedConfig;
+			$percentage = 100;
+		} elseif ( is_int( $unifiedConfig ) ) {
+			$isEnabled = true;
+			$percentage = $unifiedConfig;
+		} else {
+			// Don't override, use the values from above.
+		}
+
 		if ( $isEnabled && ( $percentage < 100 ) ) {
 			$key = $title->getNamespace() . ':' . $title->getDBkey();
 			$hash = hexdec( substr( md5( $key ), 0, 8 ) ) & 0x7fffffff;
