@@ -22,6 +22,10 @@
 			"value": true,
 			"description": "Whether to enable the ?useparsoid=1 query string for article views"
 		},
+		"ParserMigrationEnableParsoid": {
+			"value": null,
+			"description": "Whether to use Parsoid (and percentage enabled) indexed by desktop/mobile status and by namespace"
+		},
 		"ParserMigrationEnableParsoidTalkPages": {
 			"value": true,
 			"description": "Whether to use Parsoid by default on discussion tools pages"
