@@ -30,6 +30,8 @@
 	"parsermigration-reportbug-dialog-cancel-button-label": "ناگارل",
 	"parsermigration-reportbug-dialog-complete-message": "ستاسو غبرگون په [$2 $1] مخ کې خپور شوی دی.",
 	"parsermigration-reportbug-dialog-complete-title": "مننه",
+	"parsermigration-reportbug-dialog-desc": "دا مخ د [[mw:Special:MyLanguage/Parsoid|پارسويډ]] په مرسته رامنځته شوی، چې ښايي د ښکارېدنې د ځينو تېروتنو لامل وي.",
+	"parsermigration-reportbug-dialog-destination": "ستاسو غبرگون به ستاسو د کارن‌نوم سره يوځای [$2 $1] مخ ته ورگډ شي.",
 	"parsermigration-reportbug-dialog-done-button-label": "وشو",
 	"parsermigration-reportbug-dialog-error-label": "ستاسو راپور نشي سپارل کېدای.",
 	"parsermigration-reportbug-dialog-message-label": "خپرېدو نېټه: $1 ($2 بیاکتنه)",
