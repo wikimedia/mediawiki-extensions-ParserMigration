@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac"
+		]
+	},
+	"parsermigration-desc": "Parser migrációs eszköz",
+	"parsermigration-current": "Régi",
+	"parsermigration-new": "Új",
+	"parsermigration-pref-label": "Parser migrációs eszköz engedélyezése",
+	"parsermigration-parsoid-readviews-always": "Mindig (opt-in)",
+	"parsermigration-parsoid-readviews-default": "A wiki konfigurációja szerint (alapértelmezett)",
+	"parsermigration-parsoid-readviews-never": "Soha (opt-out)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Váltás a régi parser-megjelenítőre",
+	"parsermigration-use-parsoid-toolbox-label": "Váltás az új parser-megjelenítőre (Parsoid)",
+	"parsermigration-report-bug-toolbox-label": "Vizuális hiba jelentése",
+	"parsermigration-parsoid-chip-label": "Parsoiddal renderelve",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Mégse",
+	"parsermigration-reportbug-dialog-complete-message": "A visszajelzésed hozzá lett adva a(z) [$2 $1] oldalhoz.",
+	"parsermigration-reportbug-dialog-complete-title": "Köszönjük!",
+	"parsermigration-reportbug-dialog-desc": "Ez az oldal [[mw:Special:MyLanguage/Parsoid|Parsoid]]dal lett renderelve, ami okozhat bizonyos megjelenítési hibákat.",
+	"parsermigration-reportbug-dialog-done-button-label": "Kész",
+	"parsermigration-reportbug-dialog-error-label": "Nem sikerült elküldenünk a jelentésed.",
+	"parsermigration-reportbug-dialog-message-label": "Probléma a következő oldalon: $1 ($2. számú változtatás)",
+	"parsermigration-reportbug-dialog-placeholder": "Írd le a vizuális hibát, amit tapasztalsz",
+	"parsermigration-reportbug-dialog-progress": "Jelentésed beküldése",
+	"parsermigration-reportbug-dialog-retry-button-label": "Újra",
+	"parsermigration-reportbug-dialog-submit-button-label": "Küldés",
+	"parsermigration-reportbug-dialog-title": "Vizuális hiba jelentése",
+	"tag-parsermigration-visual-bug": "Vizuális hiba jelentése"
+}
