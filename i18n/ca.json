@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arnaugir"
+			"Arnaugir",
+			"Lluis Cat"
 		]
 	},
 	"parsermigration-pref-label": "Activar l'eina de migració de processador",
@@ -10,5 +11,9 @@
 	"parsermigration-parsoid-readviews-selector-help": "Quan s'utilitzi Parsoid apareixerà una barra lateral per tal de permetre seguir utilitzant el processador antic en cas que hi hagi problemes.",
 	"parsermigration-parsoid-readviews-always": "Sempre",
 	"parsermigration-parsoid-readviews-default": "Segons la configuració del wiki (per defecte)",
-	"parsermigration-parsoid-readviews-never": "Mai"
+	"parsermigration-parsoid-readviews-never": "Mai",
+	"parsermigration-use-legacy-parser-toolbox-label": "Canvia a analitzador sintàctic antic",
+	"parsermigration-report-bug-toolbox-label": "Informa d'un error visual",
+	"parsermigration-reportbug-dialog-title": "Informa d'un error visual",
+	"tag-parsermigration-visual-bug": "Informa d'un error visual"
 }
