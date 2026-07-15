@@ -15,5 +15,15 @@
 	"parsermigration-new": "Novo",
 	"parsermigration-pref-label": "Habilitar a ferramenta de migração de analisador",
 	"parsermigration-pref-help": "Isso adiciona uma ligação à barra lateral que dá acesso a [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration uma ferramenta] para migrar texto de página para novas versões do analisador de MediaWiki.",
-	"parsermigration-toolbox-label": "Editar com a ferramenta de migração"
+	"parsermigration-toolbox-label": "Editar com a ferramenta de migração",
+	"parsermigration-parsoid-readviews-selector-label": "Usar o novo analisador de wikitexto Parsoid:",
+	"parsermigration-parsoid-readviews-selector-help": "Quando o Parsoid é usado, será fornecida um link na barra lateral para permitir o uso do analisador antigo em caso de problemas.",
+	"parsermigration-parsoid-readviews-always": "Sempre",
+	"parsermigration-parsoid-readviews-default": "De acordo com a configuração da wiki (padrão)",
+	"parsermigration-parsoid-readviews-never": "Nunca",
+	"parsermigration-use-legacy-parser-toolbox-label": "Mudar para o analisador antigo",
+	"parsermigration-use-parsoid-toolbox-label": "Mudar para o novo analisador (Parsoid)",
+	"parsermigration-notice-title": "Recurso experimental",
+	"parsermigration-notice-body": "Está usando o novo analisador de wikitexto, o Parsoid, para exibir esta página. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Clique aqui para obter para mais informações sobre esta funcionalidade]",
+	"parsermigration-parsoid-chip-label": "Renderizado com Parsoid"
 }
