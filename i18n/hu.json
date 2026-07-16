@@ -14,6 +14,7 @@
 	"parsermigration-use-legacy-parser-toolbox-label": "Váltás a régi parser-megjelenítőre",
 	"parsermigration-use-parsoid-toolbox-label": "Váltás az új parser-megjelenítőre (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Vizuális hiba jelentése",
+	"parsermigration-notice-title": "Kísérleti funkció",
 	"parsermigration-parsoid-chip-label": "Parsoiddal renderelve",
 	"parsermigration-reportbug-dialog-cancel-button-label": "Mégse",
 	"parsermigration-reportbug-dialog-complete-message": "A visszajelzésed hozzá lett adva a(z) [$2 $1] oldalhoz.",

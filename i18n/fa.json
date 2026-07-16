@@ -5,7 +5,8 @@
 			"Jeeputer",
 			"Ommmmid",
 			"Reza1615",
-			"Huji"
+			"Huji",
+			"Mohammad ebz"
 		]
 	},
 	"parsermigration-desc": "ابزار مهاجرت تجزیه‌گر",
@@ -25,5 +26,20 @@
 	"parsermigration-report-bug-toolbox-label": "گزارش خطای ظاهری",
 	"parsermigration-notice-title": "ویژگی آزمایشی",
 	"parsermigration-notice-body": "شما در حال استفاده از تجزیه‌گر ویکی‌متن پارسوئید جدید برای نمایش این صفحه هستید. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration برای کسب اطلاعات بیشتر اینجا کلیک کنید]",
-	"parsermigration-reportbug-dialog-cancel-button-label": "لغو"
+	"parsermigration-parsoid-chip-label": "رندر شده با پارسوید",
+	"parsermigration-reportbug-dialog-cancel-button-label": "لغو",
+	"parsermigration-reportbug-dialog-complete-message": "بازخورد شما در صفحهٔ [$2 $1] منتشر شده است.",
+	"parsermigration-reportbug-dialog-complete-title": "سپاس از شما",
+	"parsermigration-reportbug-dialog-desc": "این صفحه با [[mw:Special:MyLanguage/Parsoid|پارسوید]] بازتاب شده است، که ممکن است دلیل برخی از خطاهای نمایش باشد",
+	"parsermigration-reportbug-dialog-destination": "بازخورد شما به همراه نام کاربری‌تان به صفحه‌ی [$2 $1] اضافه خواهد شد.",
+	"parsermigration-reportbug-dialog-done-button-label": "انجام شد",
+	"parsermigration-reportbug-dialog-error-label": "نتوانستم گزارش شما را ارسال کنم.",
+	"parsermigration-reportbug-dialog-message-label": "مشکل روی: $1 (نسخهٔ $2)",
+	"parsermigration-reportbug-dialog-placeholder": "خطای ظاهری که می‌بینید را شرح دهید",
+	"parsermigration-reportbug-dialog-progress": "ارسال گزارش شما",
+	"parsermigration-reportbug-dialog-retry-button-label": "تلاش دوباره",
+	"parsermigration-reportbug-dialog-submit-button-label": "ارسال",
+	"parsermigration-reportbug-dialog-title": "گزارش خطای ظاهری",
+	"tag-parsermigration-visual-bug": "گزارش خطای ظاهری",
+	"tag-parsermigration-visual-bug-description": "گزارشی از یک خطای ظاهری با استفاده از [[mw:Extension:ParserMigration|افزونهٔ ParserMigration]] ایجاد شد"
 }
