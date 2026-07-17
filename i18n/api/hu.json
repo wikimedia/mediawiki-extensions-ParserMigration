@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"apihelp-parser-migration-summary": "Lap feldolgozása két különböző parserkonfigurációval",
+	"apihelp-parser-migration-param-title": "A betöltendő és feldolgozandó lap címe.",
+	"apihelp-parser-migration-param-config": "A használandó parserkonfiguráció. Lehetséges értékei: „old”, „new” vagy „old|new”.",
+	"apihelp-parser-migration-param-redirect": "Az átirányításokat alapértelmezés szerint követi. Az átirányítások figyelmen kívül hagyásához használd a „no” értéket.",
+	"apihelp-parser-migration-paramvalue-config-new": "A lap feldolgozása az „new” konfigurációval; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "A lap feldolgozása a „old” konfigurációval; a MediaWiki régi parsere"
+}
