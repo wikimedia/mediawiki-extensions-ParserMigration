@@ -1,18 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bencemac"
+			"Bencemac",
+			"Dj"
 		]
 	},
 	"parsermigration-desc": "Parser migrációs eszköz",
+	"parsermigration-edit-subtitle": "parser migrációs eszközzel",
 	"parsermigration-current": "Régi",
 	"parsermigration-new": "Új",
 	"parsermigration-pref-label": "Parser migrációs eszköz engedélyezése",
-	"parsermigration-parsoid-readviews-always": "Mindig (opt-in)",
+	"parsermigration-pref-help": "Ez egy oldalsávbeli hivatkozást ad hozzá, amely hozzáférést biztosít [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration egy eszközhöz] a lapok szövegének a MediaWiki parserének újabb verzióira való migrálásához.",
+	"parsermigration-toolbox-label": "Szerkesztés a migrációs eszközzel",
+	"parsermigration-parsoid-readviews-selector-label": "Az új Parsoid wikiszöveg-parser használata:",
+	"parsermigration-parsoid-readviews-selector-help": "A Parsoid használatakor egy oldalsávbeli hivatkozás jelenik meg, amely probléma esetén lehetővé teszi a régi parser használatát.",
+	"parsermigration-parsoid-readviews-always": "Mindig (bekapcsolás)",
 	"parsermigration-parsoid-readviews-default": "A wiki konfigurációja szerint (alapértelmezett)",
-	"parsermigration-parsoid-readviews-never": "Soha (opt-out)",
+	"parsermigration-parsoid-readviews-never": "Soha (kikapcsolás)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Váltás a régi parser-megjelenítőre",
 	"parsermigration-use-parsoid-toolbox-label": "Váltás az új parser-megjelenítőre (Parsoid)",
 	"parsermigration-notice-title": "Kísérleti funkció",
+	"parsermigration-notice-body": "Ezt a lapot az új Parsoid wikiszöveg-parser jeleníti meg. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration További információ erről a funkcióról].",
 	"parsermigration-parsoid-chip-label": "Parsoiddal renderelve"
 }
