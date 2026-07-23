@@ -1,25 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bencemac"
+			"Bencemac",
+			"Dj"
 		]
 	},
 	"parsermigration-desc": "Parser migrációs eszköz",
+	"parsermigration-edit-subtitle": "parser migrációs eszközzel",
 	"parsermigration-current": "Régi",
 	"parsermigration-new": "Új",
 	"parsermigration-pref-label": "Parser migrációs eszköz engedélyezése",
-	"parsermigration-parsoid-readviews-always": "Mindig (opt-in)",
+	"parsermigration-pref-help": "Ez egy oldalsávbeli hivatkozást ad hozzá, amely hozzáférést biztosít [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration egy eszközhöz] a lapok szövegének a MediaWiki parserének újabb verzióira való migrálásához.",
+	"parsermigration-toolbox-label": "Szerkesztés a migrációs eszközzel",
+	"parsermigration-parsoid-readviews-selector-label": "Az új Parsoid wikiszöveg-parser használata:",
+	"parsermigration-parsoid-readviews-selector-help": "A Parsoid használatakor egy oldalsávbeli hivatkozás jelenik meg, amely probléma esetén lehetővé teszi a régi parser használatát.",
+	"parsermigration-parsoid-readviews-always": "Mindig (bekapcsolás)",
 	"parsermigration-parsoid-readviews-default": "A wiki konfigurációja szerint (alapértelmezett)",
-	"parsermigration-parsoid-readviews-never": "Soha (opt-out)",
+	"parsermigration-parsoid-readviews-never": "Soha (kikapcsolás)",
 	"parsermigration-use-legacy-parser-toolbox-label": "Váltás a régi parser-megjelenítőre",
 	"parsermigration-use-parsoid-toolbox-label": "Váltás az új parser-megjelenítőre (Parsoid)",
 	"parsermigration-report-bug-toolbox-label": "Vizuális hiba jelentése",
+	"parsermigration-report-bug-toolbox-title": "Ha megjelenítési hibákat tapasztalsz,\nazokat a Parsoid okozhatja.",
 	"parsermigration-notice-title": "Kísérleti funkció",
+	"parsermigration-notice-body": "Ezt a lapot az új Parsoid wikiszöveg-parser jeleníti meg. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration További információ erről a funkcióról].",
 	"parsermigration-parsoid-chip-label": "Parsoiddal renderelve",
 	"parsermigration-reportbug-dialog-cancel-button-label": "Mégse",
 	"parsermigration-reportbug-dialog-complete-message": "A visszajelzésed hozzá lett adva a(z) [$2 $1] oldalhoz.",
 	"parsermigration-reportbug-dialog-complete-title": "Köszönjük!",
 	"parsermigration-reportbug-dialog-desc": "Ez az oldal [[mw:Special:MyLanguage/Parsoid|Parsoid]]dal lett renderelve, ami okozhat bizonyos megjelenítési hibákat.",
+	"parsermigration-reportbug-dialog-destination": "A visszajelzésed a felhasználóneveddel együtt hozzá lesz adva a(z) [$2 $1] laphoz.",
 	"parsermigration-reportbug-dialog-done-button-label": "Kész",
 	"parsermigration-reportbug-dialog-error-label": "Nem sikerült elküldenünk a jelentésed.",
 	"parsermigration-reportbug-dialog-message-label": "Probléma a következő oldalon: $1 ($2. számú változtatás)",
@@ -28,5 +37,8 @@
 	"parsermigration-reportbug-dialog-retry-button-label": "Újra",
 	"parsermigration-reportbug-dialog-submit-button-label": "Küldés",
 	"parsermigration-reportbug-dialog-title": "Vizuális hiba jelentése",
-	"tag-parsermigration-visual-bug": "Vizuális hiba jelentése"
+	"parsermigration-feedback-error1": "Hiba: az API felismerhetetlen eredményt adott vissza",
+	"parsermigration-feedback-error4": "Hiba: nem sikerült közzétenni a megadott visszajelzési címen",
+	"tag-parsermigration-visual-bug": "Vizuális hiba jelentése",
+	"tag-parsermigration-visual-bug-description": "A [[mw:Extension:ParserMigration|ParserMigration kiterjesztéssel]] létrehozott vizuálishiba-jelentés"
 }
