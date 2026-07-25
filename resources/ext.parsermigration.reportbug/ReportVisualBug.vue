@@ -295,6 +295,7 @@ module.exports = defineComponent( {
 @media screen and ( max-width: 270px ) {
 	/* Hide progress message when the screen is very narrow. */
 	.parsermigration-reportbug-dialog-progress .cdx-label {
- display: none; }
+		display: none;
+	}
 }
 </style>
