@@ -259,9 +259,7 @@ class Hooks implements
 					)->text(),
 				], $skin->msg(
 						'parsermigration-report-bug-toolbox-label'
-				)->parse() . '&nbsp;' . Html::rawElement( 'span', [
-					'class' => "parsermigration-report-bug-icon",
-				] ) ),
+				)->parse() ),
 				'id' => 'parsermigration-report-bug',
 				// These properties are for the mobile skins
 				'text' => $skin->msg( 'parsermigration-report-bug-toolbox-label' ),
