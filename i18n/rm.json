@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albinfo"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Midar tar il \"parser da legacy\"",
+	"parsermigration-report-bug-toolbox-label": "Annunziar in sbagl visual",
+	"parsermigration-reportbug-dialog-title": "Annunziar in sbagl visual",
+	"tag-parsermigration-visual-bug": "Annunziar in sbagl visual"
+}
