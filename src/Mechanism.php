@@ -28,11 +28,11 @@ class Mechanism {
 		if ( $baseOptions->getUseParsoid() ) {
 			$parsoid = $baseOptions;
 			$legacy = clone $baseOptions;
-			$legacy->setOption( 'useParsoid', false );
+			$legacy->setUseParsoid( false );
 		} else {
 			$legacy = $baseOptions;
 			$parsoid = clone $baseOptions;
-			$parsoid->setUseParsoid();
+			$parsoid->setUseParsoid( true );
 		}
 
 		$outputs = [];

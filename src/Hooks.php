@@ -82,9 +82,9 @@ class Hooks implements
 		// T348257: Allow individual user to opt in to Parsoid read views as a
 		// user option in the ParserMigration section.
 		$context = $article->getContext();
-		if ( $this->oracle->shouldUseParsoid( $context->getUser(), $context->getRequest(), $article->getTitle() ) ) {
-			$popts->setUseParsoid();
-		}
+		$popts->setUseParsoid(
+			$this->oracle->shouldUseParsoid( $context->getUser(), $context->getRequest(), $article->getTitle() )
+		);
 		return true;
 	}
 
