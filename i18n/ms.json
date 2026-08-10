@@ -22,7 +22,7 @@
 	"parsermigration-report-bug-toolbox-title": "Jika anda terlihat ralat paparan,\nia mungkin disebabkan oleh Parsoid",
 	"parsermigration-notice-title": "Ciri-ciri percubaan",
 	"parsermigration-notice-body": "Anda sedang menggunakan penghurai teks wiki Parsoid baharu untuk memaparkan halaman ini. [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration Ketahui lebih lanjut tentang ciri ini].",
-	"parsermigration-parsoid-chip-label": "Dikemas menggunakan Parsoid",
+	"parsermigration-parsoid-chip-label": "Dengan kemasan Parsoid",
 	"parsermigration-reportbug-dialog-cancel-button-label": "Batalkan",
 	"parsermigration-reportbug-dialog-complete-message": "Maklum balas anda telah disiarkan pada laman [$2 $1].",
 	"parsermigration-reportbug-dialog-complete-title": "Terima kasih",
