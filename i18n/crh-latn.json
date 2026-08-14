@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Eski parserge keç",
+	"parsermigration-report-bug-toolbox-label": "Kösterilüv hatasını bildir",
+	"parsermigration-reportbug-dialog-title": "Kösterilüv hatasını bildir",
+	"tag-parsermigration-visual-bug": "Kösterilüv Hatasını Bildirüv"
+}
