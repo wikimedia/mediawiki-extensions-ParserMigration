@@ -98,7 +98,12 @@
 		"src/ServiceWiring.php"
 	],
 	"Actions": {
-		"parsermigration-edit": "MediaWiki\\Extension\\ParserMigration\\EditAction"
+		"parsermigration-edit": {
+			"class": "MediaWiki\\Extension\\ParserMigration\\EditAction",
+			"services": [
+				"ContentTransformer"
+			]
+		}
 	},
 	"APIModules": {
 		"parser-migration": {

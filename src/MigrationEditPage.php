@@ -3,19 +3,19 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Content\Content;
+use MediaWiki\Content\Transform\ContentTransformer;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\EditPage\EditPage;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\Article;
 use MediaWiki\Title\Title;
 
 class MigrationEditPage extends EditPage {
 
-	/**
-	 * @param IContextSource $context
-	 * @param Title $title
-	 */
-	public function __construct( IContextSource $context, Title $title ) {
+	public function __construct(
+		IContextSource $context,
+		Title $title,
+		private readonly ContentTransformer $contentTransformer,
+	) {
 		$article = Article::newFromTitle( $title, $context );
 		parent::__construct( $article );
 		$this->setContextTitle( $title );
@@ -49,8 +49,7 @@ class MigrationEditPage extends EditPage {
 		$user = $context->getUser();
 		$out = $context->getOutput();
 		$parserOptions = $this->getPreviewParserOptions();
-		$contentTransformer = MediaWikiServices::getInstance()->getService( 'ContentTransformer' );
-		$pstContent = $contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
+		$pstContent = $this->contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
 		$mechanism = new Mechanism();
 		$outputs = $mechanism->parse(
 			$pstContent,
