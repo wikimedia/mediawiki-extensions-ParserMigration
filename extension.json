@@ -228,6 +228,13 @@
 				"UserOptionsManager",
 				"ParserMigration.Oracle"
 			]
+		},
+		"ConfirmEdit": {
+			"class": "MediaWiki\\Extension\\ParserMigration\\HookHandler\\ConfirmEditHandler",
+			"services": [
+				"MainConfig",
+				"TitleParser"
+			]
 		}
 	},
 	"Hooks": {
@@ -239,7 +246,7 @@
 		"ListDefinedTags": "ParserMigrationHooks",
 		"ChangeTagsListActive": "ParserMigrationHooks",
 		"ChangeTagsAllowedAdd": "ParserMigrationHooks",
-		"ConfirmEditTriggersCaptcha": "MediaWiki\\Extension\\ParserMigration\\Hooks::onConfirmEditTriggersCaptcha",
+		"ConfirmEditTriggersCaptcha": "ConfirmEdit",
 		"QuickSurveysEnabled": "MediaWiki\\Extension\\ParserMigration\\Hooks::onQuickSurveysEnabled"
 	}
 }
