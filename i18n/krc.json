@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"parsermigration-desc": "Парсерни кёчюу адыры",
+	"parsermigration-edit-subtitle": "парсер кёчюу адыр бла",
+	"parsermigration-current": "Эски",
+	"parsermigration-new": "Джангы",
+	"parsermigration-pref-label": "Парсер кёчюу адырны джандыр",
+	"parsermigration-toolbox-label": "Кёчюу адыр бла тюзет",
+	"parsermigration-parsoid-readviews-selector-label": "Джангы Parsoid викитекст парсерни хайырландыр:",
+	"parsermigration-parsoid-readviews-always": "Хаманда (къабыл)",
+	"parsermigration-use-legacy-parser-toolbox-label": "Эски парсерге кёч",
+	"parsermigration-use-parsoid-toolbox-label": "Джангы парсерге кёч (Parsoid)",
+	"parsermigration-survey-question-2-answer-6": "Башха",
+	"parsermigration-survey-question-4-answer-1": "Хоу",
+	"parsermigration-survey-question-4-answer-2": "Огъай",
+	"parsermigration-survey-question-4-freeformtext": "Къыйн тюлсе, белгиле",
+	"tag-parsermigration-visual-bug": "Кёрюнюм Халат Билдирме"
+}
