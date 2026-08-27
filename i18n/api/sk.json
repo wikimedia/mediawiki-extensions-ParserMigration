@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-parser-migration-summary": "Spracovať stránku dvomi rôznymi konfiguráciami syntaktického analyzátora.",
+	"apihelp-parser-migration-param-title": "Názov stránky, ktorá sa má načítať a spracovať.",
+	"apihelp-parser-migration-param-config": "Konfigurácia syntaktického analyzátora, ktorá sa má použiť. Môže to byť „old“, „new“ alebo „old|new“.",
+	"apihelp-parser-migration-param-redirect": "Presmerovania sa predvolene nasledujú. Ak ich nasledovať nechcete, použite „no“.",
+	"apihelp-parser-migration-paramvalue-config-new": "Spracuje stránku pomocou „novej“ konfigurácie; Parsoid",
+	"apihelp-parser-migration-paramvalue-config-old": "Spracuje stránku pomocou „starej“ konfigurácie; pôvodný syntaktický analyzátor MediaWiky"
+}
