@@ -237,6 +237,7 @@ class Hooks implements
 			// title is handled by getLocalURL, no need to pass it twice from a index.php?title= url
 			unset( $queryParams[ 'title' ] );
 			$sidebar[ 'TOOLBOX' ][ 'parsermigration-switch' ] = [
+				'id' => $usingParsoid ? 'parsermigration-switch-to-legacy' : 'parsermigration-switch-to-parsoid',
 				'href' => $title->getLocalURL( $queryParams ),
 				'text' => $skin->msg(
 					$usingParsoid ?
