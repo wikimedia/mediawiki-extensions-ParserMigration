@@ -3,11 +3,14 @@
 		"authors": [
 			"David1010",
 			"MIKHEIL",
+			"Mehman97",
 			"Otogi"
 		]
 	},
 	"parsermigration-current": "ძველი",
 	"parsermigration-new": "ახალი",
 	"parsermigration-pref-label": "პარსერის ხელსაწყოს მიგრაციის ჩართვა",
-	"parsermigration-pref-help": "ამატებს ბმულს გვერდით ზოლზე, რომელიც იძლევა წვდომას [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ხელსაწყოზე] სტატიის ტექსტის გადატანისათვის მედიავიკის პარსერის ახალ ვერსიებში."
+	"parsermigration-pref-help": "ამატებს ბმულს გვერდით ზოლზე, რომელიც იძლევა წვდომას [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ხელსაწყოზე] სტატიის ტექსტის გადატანისათვის მედიავიკის პარსერის ახალ ვერსიებში.",
+	"parsermigration-use-legacy-parser-toolbox-label": "გადართვა ძველ პარსერზე",
+	"parsermigration-report-bug-toolbox-label": "შეატყობინეთ ვიზუალურ ხარვეზზე"
 }
