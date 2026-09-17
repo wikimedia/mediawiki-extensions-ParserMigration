@@ -4,6 +4,9 @@
 			"Kallmemel"
 		]
 	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Suich pa analista sintáktiko (parser) antiguo",
+	"parsermigration-use-parsoid-toolbox-label": "Suich pa analista sintáktiko nobo (Parasoid)",
 	"parsermigration-report-bug-toolbox-label": "Mèldu eror visual",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Kanselá",
 	"tag-parsermigration-visual-bug": "Mèldu eror visual"
 }
