@@ -3,5 +3,7 @@
 		"authors": [
 			"Kallmemel"
 		]
-	}
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Suich pa analista sintáktiko (parser) antiguo",
+	"parsermigration-use-parsoid-toolbox-label": "Suich pa analista sintáktiko nobo (Parasoid)"
 }
