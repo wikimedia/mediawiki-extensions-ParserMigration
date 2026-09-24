@@ -247,6 +247,6 @@
 		"ChangeTagsListActive": "ParserMigrationHooks",
 		"ChangeTagsAllowedAdd": "ParserMigrationHooks",
 		"ConfirmEditTriggersCaptcha": "ConfirmEdit",
-		"QuickSurveysEnabled": "MediaWiki\\Extension\\ParserMigration\\Hooks::onQuickSurveysEnabled"
+		"QuickSurveysEnabled": "ParserMigrationHooks"
 	}
 }

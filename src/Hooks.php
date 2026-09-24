@@ -7,7 +7,6 @@ use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\Config;
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\Article;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Parser\Hook\ParserOutputPostCacheTransformHook;
@@ -341,8 +340,8 @@ class Hooks implements
 	 *
 	 * @param array &$surveys
 	 */
-	public static function onQuickSurveysEnabled( &$surveys ) {
-		$enabled = MediaWikiServices::getInstance()->getMainConfig()->get( 'ParserMigrationEnableQuickSurvey' );
+	public function onQuickSurveysEnabled( &$surveys ) {
+		$enabled = $this->mainConfig->get( 'ParserMigrationEnableQuickSurvey' );
 		$surveys[] = [
 			"name" => "parsoid-migration-survey-2026",
 			"type" => "internal",
