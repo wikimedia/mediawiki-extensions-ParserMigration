@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nataev"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Eskirgan parserga oʻtish",
+	"parsermigration-use-parsoid-toolbox-label": "Yangi parserga oʻtish (Parsoid)"
+}
