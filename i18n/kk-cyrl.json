@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Casserium"
+		]
+	},
+	"parsermigration-current": "Ескі",
+	"parsermigration-new": "Жаңа",
+	"parsermigration-use-legacy-parser-toolbox-label": "Ескірген парсерге ауысу",
+	"parsermigration-use-parsoid-toolbox-label": "Жаңа парсерге (Parsoid) ауысу"
+}
