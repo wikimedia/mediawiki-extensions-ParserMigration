@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sumbukompor"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Lih menyang parser lawas",
+	"parsermigration-report-bug-toolbox-label": "Lapur tetuma visual",
+	"parsermigration-reportbug-dialog-title": "Lapur tetuma visual",
+	"tag-parsermigration-visual-bug": "Lapur Tetuma Visual"
+}

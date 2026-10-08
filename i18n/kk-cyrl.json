@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Casserium"
+		]
+	},
+	"parsermigration-current": "Ескі",
+	"parsermigration-new": "Жаңа",
+	"parsermigration-use-legacy-parser-toolbox-label": "Ескірген парсерге ауысу",
+	"parsermigration-use-parsoid-toolbox-label": "Жаңа парсерге (Parsoid) ауысу",
+	"parsermigration-report-bug-toolbox-label": "Визуалды қате туралы хабарлау",
+	"parsermigration-reportbug-dialog-cancel-button-label": "Болдырмау",
+	"parsermigration-reportbug-dialog-complete-title": "Рақмет",
+	"parsermigration-reportbug-dialog-desc": "Бұл бет [[mw:Special:MyLanguage/Parsoid|Parsoid]] арқылы көрсетілгендіктен кейбір дисплей қателерінің себебі болуы мүмкін",
+	"parsermigration-reportbug-dialog-destination": "Пікіріңіз қатысушы атыңызбен бірге [$2 $1] бетіне қосылады.",
+	"parsermigration-reportbug-dialog-done-button-label": "Дайын",
+	"parsermigration-reportbug-dialog-error-label": "Есепті жіберу мүмкін болмады.",
+	"parsermigration-reportbug-dialog-message-label": "Мәселе: $1 (нұсқа $2)",
+	"parsermigration-reportbug-dialog-submit-button-label": "Жіберу"
+}
