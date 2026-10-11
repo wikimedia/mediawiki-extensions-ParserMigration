@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Content\Content;
+use MediaWiki\Content\Renderer\ContentRenderer;
 use MediaWiki\Content\Transform\ContentTransformer;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\EditPage\EditPage;
@@ -14,6 +15,7 @@ class MigrationEditPage extends EditPage {
 	public function __construct(
 		IContextSource $context,
 		Title $title,
+		private readonly ContentRenderer $contentRenderer,
 		private readonly ContentTransformer $contentTransformer,
 	) {
 		$article = Article::newFromTitle( $title, $context );
@@ -50,7 +52,7 @@ class MigrationEditPage extends EditPage {
 		$out = $context->getOutput();
 		$parserOptions = $this->getPreviewParserOptions();
 		$pstContent = $this->contentTransformer->preSaveTransform( $content, $this->getTitle(), $user, $parserOptions );
-		$mechanism = new Mechanism();
+		$mechanism = new Mechanism( $this->contentRenderer );
 		$outputs = $mechanism->parse(
 			$pstContent,
 			$this->getTitle(),

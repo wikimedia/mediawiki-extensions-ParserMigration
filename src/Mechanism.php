@@ -3,14 +3,16 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Content\Content;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Content\Renderer\ContentRenderer;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 
 class Mechanism {
 
-	public function __construct() {
+	public function __construct(
+		private readonly ContentRenderer $contentRenderer,
+	) {
 	}
 
 	/**
@@ -24,7 +26,6 @@ class Mechanism {
 	public function parse( Content $content, Title $title,
 		ParserOptions $baseOptions, User $user, array $configIndexes
 	) {
-		$contentRenderer = MediaWikiServices::getInstance()->getContentRenderer();
 		if ( $baseOptions->getUseParsoid() ) {
 			$parsoid = $baseOptions;
 			$legacy = clone $baseOptions;
@@ -37,7 +38,9 @@ class Mechanism {
 
 		$outputs = [];
 		foreach ( $configIndexes as $i ) {
-			$outputs[$i] = $contentRenderer->getParserOutput( $content, $title, null, $i ? $parsoid : $legacy );
+			$outputs[$i] = $this->contentRenderer->getParserOutput(
+				$content, $title, null, $i ? $parsoid : $legacy
+			);
 		}
 		return $outputs;
 	}

@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiMain;
+use MediaWiki\Content\Renderer\ContentRenderer;
 use MediaWiki\Page\RedirectLookup;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Revision\RevisionLookup;
@@ -22,6 +23,7 @@ class ApiParserMigration extends ApiBase {
 	public function __construct(
 		ApiMain $main,
 		string $action,
+		private readonly ContentRenderer $contentRenderer,
 		private readonly RedirectLookup $redirectLookup,
 		private readonly RevisionLookup $revisionLookup,
 	) {
@@ -59,7 +61,7 @@ class ApiParserMigration extends ApiBase {
 			$configIndexes[] = $configIndexesByName[$configName];
 		}
 
-		$mechanism = new Mechanism();
+		$mechanism = new Mechanism( $this->contentRenderer );
 		$user = $this->getUser();
 		$options = ParserOptions::newFromContext( $this->getContext() );
 		$outputs = $mechanism->parse( $content, $title, $options, $user, $configIndexes );

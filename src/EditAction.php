@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\ParserMigration;
 
 use MediaWiki\Actions\FormlessAction;
+use MediaWiki\Content\Renderer\ContentRenderer;
 use MediaWiki\Content\Transform\ContentTransformer;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Page\Article;
@@ -11,6 +12,7 @@ class EditAction extends FormlessAction {
 	public function __construct(
 		Article $page,
 		IContextSource $context,
+		private readonly ContentRenderer $contentRenderer,
 		private readonly ContentTransformer $contentTransformer,
 	) {
 		parent::__construct( $page, $context );
@@ -34,7 +36,12 @@ class EditAction extends FormlessAction {
 	 * @return null
 	 */
 	public function onView() {
-		$page = new MigrationEditPage( $this->getContext(), $this->getTitle(), $this->contentTransformer );
+		$page = new MigrationEditPage(
+			$this->getContext(),
+			$this->getTitle(),
+			$this->contentRenderer,
+			$this->contentTransformer
+		);
 		$page->edit();
 		return null;
 	}

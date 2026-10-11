@@ -101,6 +101,7 @@
 		"parsermigration-edit": {
 			"class": "MediaWiki\\Extension\\ParserMigration\\EditAction",
 			"services": [
+				"ContentRenderer",
 				"ContentTransformer"
 			]
 		}
@@ -109,6 +110,7 @@
 		"parser-migration": {
 			"class": "MediaWiki\\Extension\\ParserMigration\\ApiParserMigration",
 			"services": [
+				"ContentRenderer",
 				"RedirectLookup",
 				"RevisionLookup"
 			]
