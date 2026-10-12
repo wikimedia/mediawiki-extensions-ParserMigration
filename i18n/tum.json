@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anthonymunthali44"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Sinthirani ku parser yakale",
+	"parsermigration-report-bug-toolbox-label": "phalani vya kawonekelo kakubuda",
+	"parsermigration-reportbug-dialog-title": "phalani vya kawonekelo kakubuda",
+	"tag-parsermigration-visual-bug": "phalani vya kawonekelo kakubuda"
+}
