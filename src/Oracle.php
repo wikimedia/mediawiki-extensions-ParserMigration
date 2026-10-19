@@ -18,12 +18,12 @@ class Oracle {
 	public const USERPREF_DEFAULT = 0;
 	public const USERPREF_NEVER = 2;
 
-	private Hook\HookRunner $hookRunner;
+	private readonly Hook\HookRunner $hookRunner;
 
 	public function __construct(
 		private readonly Config $mainConfig,
 		private readonly UserOptionsManager $userOptionsManager,
-		private HookContainer $hookContainer,
+		HookContainer $hookContainer,
 		private PageProps $pageProps,
 		private readonly ?MobileContext $mobileContext,
 	) {
