@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyn3tv"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Skakel oor na ouer ontleder",
+	"parsermigration-report-bug-toolbox-label": "Rapporteer visuele fout",
+	"parsermigration-reportbug-dialog-title": "Rapporteer visuele fout",
+	"tag-parsermigration-visual-bug": "Rapporteer Visuele Fout"
+}
