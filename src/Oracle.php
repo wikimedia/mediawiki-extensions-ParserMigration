@@ -5,7 +5,6 @@ namespace MediaWiki\Extension\ParserMigration;
 use MediaWiki\Config\Config;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\Page\PageProps;
-use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsManager;
@@ -40,11 +39,6 @@ class Oracle {
 	 * @return bool True if Parsoid should be used for this request
 	 */
 	public function shouldUseParsoid( User $user, WebRequest $request, Title $title ): bool {
-		// Check if the content model is allowed for parser migration
-		if ( !$this->isContentModelAllowed( $title ) ) {
-			return false;
-		}
-
 		// Find out if the user has opted in to Parsoid Read Views by default
 		$userPref = intval( $this->userOptionsManager->getOption(
 			$user,
@@ -167,31 +161,5 @@ class Oracle {
 	public function showingMobileView(): bool {
 		return $this->mobileContext &&
 			$this->mobileContext->shouldDisplayMobileView();
-	}
-
-	/**
-	 * Check if a content model is allowed for parser migration.
-	 * This includes wikitext and any content models registered by extensions
-	 * via the AllowedContentModels attribute.
-	 *
-	 * @param Title $title
-	 * @return bool
-	 */
-	private function isContentModelAllowed( Title $title ): bool {
-		// Always allow wikitext
-		if ( $title->hasContentModel( CONTENT_MODEL_WIKITEXT ) ) {
-			return true;
-		}
-
-		// Get content models registered by extensions
-		$extensionContentModels = ExtensionRegistry::getInstance()
-			->getAttribute( 'ParserMigrationAllowedContentModels' );
-
-		// Check if the title's content model is in the registered list
-		if ( in_array( $title->getContentModel(), $extensionContentModels, true ) ) {
-			return true;
-		}
-
-		return false;
 	}
 }
