@@ -14,8 +14,7 @@ use RuntimeException;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiParserMigration extends ApiBase {
-	/** @var string[] */
-	private static $configNames = [
+	private const CONFIG_NAMES = [
 		0 => 'old',
 		1 => 'new',
 	];
@@ -52,7 +51,7 @@ class ApiParserMigration extends ApiBase {
 			$this->dieWithError( [ 'apierror-missingcontent-pageid', $revisionRecord->getPageId() ] );
 		}
 
-		$configIndexesByName = array_flip( self::$configNames );
+		$configIndexesByName = array_flip( self::CONFIG_NAMES );
 		$configIndexes = [];
 		foreach ( $params['config'] as $configName ) {
 			if ( !isset( $configIndexesByName[$configName] ) ) {
@@ -68,7 +67,7 @@ class ApiParserMigration extends ApiBase {
 
 		$result = $this->getResult();
 		foreach ( $configIndexes as $index ) {
-			$result->addValue( null, self::$configNames[$index],
+			$result->addValue( null, self::CONFIG_NAMES[$index],
 				$outputs[$index]->runOutputPipeline( $options, [] )->getContentHolderText() );
 		}
 	}
@@ -86,7 +85,7 @@ class ApiParserMigration extends ApiBase {
 				ParamValidator::PARAM_REQUIRED => true,
 			],
 			'config' => [
-				ParamValidator::PARAM_TYPE => self::$configNames,
+				ParamValidator::PARAM_TYPE => self::CONFIG_NAMES,
 				ParamValidator::PARAM_DEFAULT => 'old|new',
 				ParamValidator::PARAM_ISMULTI => true,
 				ApiBase::PARAM_HELP_MSG_PER_VALUE => [],
