@@ -1,14 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"parsermigration-edit-subtitle": "تجزیہ کرݨ آلے اوزار دی مدد نال",
 	"parsermigration-toolbox-label": "منتقلی آلے آوزاراں نال تبدیلی کرو",
+	"parsermigration-parsoid-readviews-selector-label": "نیا Parsoid وکی متن پارشر ورتو:",
+	"parsermigration-parsoid-readviews-selector-help": "جݙاں Parsoid ورتیا ون٘ڄے، مسائل دی صورت وچ پرانے پارشر کوں ورتݨ دی اجازت ݙیوݨ کیتے ہک سائیڈبار لنک ݙتا ویسی۔",
+	"parsermigration-parsoid-readviews-always": "ہمیشہ (رضاکارانہ شامل تھیو)",
+	"parsermigration-parsoid-readviews-default": "وکی دی ترتیب دے مطابق (ڈیفالٹ)",
+	"parsermigration-parsoid-readviews-never": "کݙاہیں نہیں (رضاکارانہ ٻاہر نکلݨ)",
+	"parsermigration-use-parsoid-toolbox-label": "نویں پارشر (Parsoid) تے بدلو",
+	"parsermigration-report-bug-toolbox-title": "جے تساں ڈسپلے نقص ݙیکھو، تاں ایہ Parsoid دی وجہ توں تھی سڳدے",
+	"parsermigration-notice-body": "تساں ایں ورقے کوں ݙکھاوݨ کیتے نیا Parsoid وکی متن پارشر ورت رہے او۔ [https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid/Parser_Unification/Migration ایں فیچر بارے ٻیا ڄاݨو]۔",
+	"parsermigration-parsoid-chip-label": "Parsoid نال رینڈر کیتا ڳیا",
 	"parsermigration-reportbug-dialog-cancel-button-label": "منسوخ",
 	"parsermigration-reportbug-dialog-complete-title": "شکریہ",
+	"parsermigration-reportbug-dialog-desc": "ایں ورقے کوں [[mw:Special:MyLanguage/Parsoid|Parsoid]] نال رینڈر کیتا ڳیا ہے، جہڑا کجھ ڈسپلے نقصاں دی وجہ تھی سڳدے",
 	"parsermigration-reportbug-dialog-done-button-label": "تھی ڳیا",
+	"parsermigration-survey-privacy-policy": "سروے وکی میڈیا فاؤنڈیشن فراہم کریندی ہے۔ ساݙا [//foundation.wikimedia.org/wiki/Legal:Parsoid_Opt-Out_Survey_Privacy_Statement پرائیویسی بیان] پڑھو۔",
+	"parsermigration-survey-confirm-msg": "Parsoid بارے ساݙے نال اپݨی رائے ونڈݨ دا شکریہ! تساݙے ویلے دی اساں ٻہوں قدر کریندے ہئیں!",
+	"parsermigration-survey-question-1": "Parsoid نال تساݙا موجودہ تعلق کون سا سب توں ودھ بیان کریندے؟ (ہک چݨو)",
+	"parsermigration-survey-question-1-answer-1": "Parsoid کیا ہے؟",
+	"parsermigration-survey-question-2": "جے تساں ہݨ Parsoid نہیں ورت رہے، تاں ایندیاں اہم وجہاں کون ساریاں ہن؟ (لاڳو تھیوݨ آلیاں ساریاں چݨو)",
+	"parsermigration-survey-question-3": "Parsoid اپݨاوݨ وچ تساݙی کون ساریاں چیزاں مدد کریسِن؟ (لاڳو تھیوݨ آلیاں ساریاں چݨو)",
+	"parsermigration-survey-question-4": "کیا تساں کول Parsoid بارے کجھ ٻئے خیالات یا فکر ہن؟",
 	"parsermigration-survey-question-4-answer-1": "جیا",
 	"parsermigration-survey-question-4-answer-2": "کو"
 }
