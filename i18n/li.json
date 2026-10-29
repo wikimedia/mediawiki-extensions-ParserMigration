@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"parsermigration-use-legacy-parser-toolbox-label": "Gebroek d'n awwe parser",
+	"parsermigration-report-bug-toolbox-label": "Melj zichbare faelder",
+	"parsermigration-reportbug-dialog-title": "Melj zichbare faelder",
+	"tag-parsermigration-visual-bug": "Melj zichbare faelder",
+	"tag-parsermigration-visual-bug-description": "'n Meljing van de zichbare faelder is opgesjtèld mit behulp van de [[mw:Extension:ParserMigration|ParserMigration-oetbreijing]]"
+}
