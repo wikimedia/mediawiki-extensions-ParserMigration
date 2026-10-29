@@ -194,9 +194,6 @@ class Hooks implements
 		$queryStringEnabled = $this->mainConfig->get(
 			'ParserMigrationEnableQueryString'
 		);
-		$reportVisualBugEnabled = $this->mainConfig->get(
-			'ParserMigrationEnableReportVisualBug'
-		);
 
 		$editToolPref = $this->userOptionsManager->getOption(
 			$user, 'parsermigration'
@@ -283,6 +280,10 @@ class Hooks implements
 				'feedbackTitle' => $this->mainConfig->get( 'ParserMigrationFeedbackTitle' ),
 				'iwp' => WikiMap::getCurrentWikiId(),
 			];
+		} else {
+			// Return an empty object so that the config is still available
+			// to cached js when transitioning to disabling the reporting
+			$vars['wgParserMigrationConfig'] = new \stdClass;
 		}
 	}
 
