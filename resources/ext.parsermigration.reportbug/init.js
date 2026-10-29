@@ -13,6 +13,14 @@ function ensureLoaded() {
 
 function init() {
 	const config = mw.config.get( 'wgParserMigrationConfig' );
+	if ( !Object.keys( config || {} ).length ) {
+		// wgParserMigrationConfig is only set in Hooks.php if
+		// wgParserMigrationEnableReportVisualBug is true
+		// If the config isn't set, this is cached js intended
+		// to be disabled
+		return;
+	}
+
 	// Unnamed users get pointed to the feedback page but w/o launching the
 	// 'report visual bug' tool.
 	if ( config.onlyLoggedIn && !( mw.user && mw.user.isNamed() ) ) {
