@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\ParserMigration;
 use MediaWiki\Content\Content;
 use MediaWiki\Content\Renderer\ContentRenderer;
 use MediaWiki\Parser\ParserOptions;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 
@@ -20,8 +21,8 @@ class Mechanism {
 	 * @param Title $title
 	 * @param ParserOptions $baseOptions
 	 * @param User $user
-	 * @param array $configIndexes
-	 * @return array
+	 * @param int[] $configIndexes
+	 * @return array<int,ParserOutput>
 	 */
 	public function parse( Content $content, Title $title,
 		ParserOptions $baseOptions, User $user, array $configIndexes
