@@ -6,7 +6,8 @@
 			"Jeeputer",
 			"Ommmmid",
 			"Reza1615",
-			"Mohammad ebz"
+			"Mohammad ebz",
+			"LProfo"
 		]
 	},
 	"parsermigration-desc": "ابزار مهاجرت تجزیه‌گر",
@@ -42,7 +43,7 @@
 	"parsermigration-reportbug-dialog-title": "گزارش خطای ظاهری",
 	"parsermigration-survey-confirm-msg": "از اینکه نظرات خود را در مورد پارسوید با ما در میان گذاشتید متشکریم! ما واقعاً از وقتی که برای ما گذاشتید سپاسگزاریم!",
 	"parsermigration-survey-description": "همزمان با انتشار بهبودهای فنی در {{SITENAME}}، متوجه شدیم که شما از این بهبودهای فنی انصراف داده‌اید. لطفاً به ما در درک تجربه شما کمک کنید!",
-	"parsermigration-survey-question-1": "چه چیزی رابطه فعلی شما با پارسوید را به بهترین شکل توصیف می‌کند؟ (یکی را انتخاب کنید)",
+	"parsermigration-survey-question-1": "چه چیزی رابطهٔ کنونی شما با پارسوید را به بهترین شکل توصیف می‌کند؟ (یکی را انتخاب کنید)",
 	"parsermigration-survey-question-1-answer-1": "پارسوید چیست؟",
 	"parsermigration-survey-question-1-answer-2": "من از آن آگاه هستم و آن را می‌پسندم",
 	"parsermigration-survey-question-1-answer-3": "درباره‌اش شنیده‌ام اما امتحانش نکرده‌ام",
